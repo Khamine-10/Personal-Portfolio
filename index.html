@@ -20,11 +20,12 @@
       <a class="header-logo">Mohamed<span>.</span></a>
       <nav>
         <a class="nav-item" href="#accueil">Accueil</a>
+        <a class="nav-item" href="#apropos">À propos</a>
         <a class="nav-item" href="#projets">Projets</a>
         <a class="nav-item" href="#stages">Stages</a>
         <a class="nav-item" href="#veille">Veille informationnelle</a>
       </nav>
-      <button class="header-btn">Me contacter</button>
+      <button class="header-btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Me contacter</button>
     </header>
 
     <div class="content">
@@ -68,6 +69,82 @@
           </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- ========== SECTION À PROPOS ========== -->
+  <section id="apropos" class="section section-dark">
+    <div class="section-header">
+      <h2>À <span>Propos</span></h2>
+      <p class="section-sub">Qui je suis et ce que je sais faire</p>
+    </div>
+
+    <div class="apropos-grid">
+
+      <!-- Présentation -->
+      <div class="apropos-card">
+        <div class="apropos-card-title"><i class="fa-solid fa-user"></i> Présentation</div>
+        <p>Je m'appelle <strong>Loussaief Mohamed Amine</strong>, j'ai <strong>18 ans</strong> et j'habite à Villepinte (93). Je suis étudiant en <strong>BTS SIO option SISR</strong> au lycée Voillaume à Aulnay-sous-Bois depuis septembre 2025.</p>
+        <p style="margin-top:12px;">Passionné par les réseaux, la cybersécurité et l'administration systèmes, je cherche à développer mes compétences dans un environnement professionnel. Je suis disponible pour un stage du <strong>16 février au 10 avril 2026</strong>, en présentiel ou télétravail.</p>
+      </div>
+
+      <!-- Compétences techniques -->
+      <div class="apropos-card">
+        <div class="apropos-card-title"><i class="fa-solid fa-laptop-code"></i> Compétences techniques</div>
+        <div class="skills-list">
+          <div class="skill-item">
+            <span class="skill-label">Réseaux</span>
+            <span class="skill-detail">Configuration routeurs/switches, IP, DHCP, DNS</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-label">Sécurité</span>
+            <span class="skill-detail">Wireshark, SSL/TLS, notions Man-in-the-Middle</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-label">Systèmes</span>
+            <span class="skill-detail">Windows, Linux Ubuntu</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-label">Développement</span>
+            <span class="skill-detail">Python, PHP/SQL, C# (bases)</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-label">Outils</span>
+            <span class="skill-detail">Cisco Packet Tracer, VirtualBox, Kali Linux</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Langues -->
+      <div class="apropos-card">
+        <div class="apropos-card-title"><i class="fa-solid fa-earth-europe"></i> Langues</div>
+        <div class="langue-list">
+          <div class="langue-item">
+            <span>🇫🇷 Français</span>
+            <span class="langue-niveau langue-natif">Natif</span>
+          </div>
+          <div class="langue-item">
+            <span>🇬🇧 Anglais</span>
+            <span class="langue-niveau langue-b1">B1</span>
+          </div>
+          <div class="langue-item">
+            <span>🇪🇸 Espagnol</span>
+            <span class="langue-niveau langue-b1">B1</span>
+          </div>
+          <div class="langue-item">
+            <span>🇸🇦 Arabe</span>
+            <span class="langue-niveau langue-natif">Courant</span>
+          </div>
+        </div>
+
+        <div class="apropos-card-title" style="margin-top:24px;"><i class="fa-solid fa-heart"></i> Centres d'intérêt</div>
+        <div class="interets">
+          <span class="interet-tag"><i class="fa-solid fa-futbol"></i> Football</span>
+          <span class="interet-tag"><i class="fa-solid fa-dumbbell"></i> Musculation</span>
+          <span class="interet-tag"><i class="fa-solid fa-shield-halved"></i> Cybersécurité</span>
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -204,6 +281,50 @@
 
         </div>
       </div>
+
+    </div>
+  </section>
+
+  <!-- ========== SECTION CONTACT ========== -->
+  <section id="contact" class="section section-dark">
+    <div class="section-header">
+      <h2>Me <span>Contacter</span></h2>
+      <p class="section-sub">Disponible pour un stage ou toute opportunité</p>
+    </div>
+
+    <div class="contact-grid">
+
+      <a href="tel:0617829613" class="contact-card">
+        <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+        <div class="contact-info">
+          <span class="contact-label">Téléphone</span>
+          <span class="contact-value">06 17 82 96 13</span>
+        </div>
+      </a>
+
+      <a href="mailto:loussaief.mohamed.sio@gmail.com" class="contact-card">
+        <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+        <div class="contact-info">
+          <span class="contact-label">Email</span>
+          <span class="contact-value">loussaief.mohamed.sio@gmail.com</span>
+        </div>
+      </a>
+
+      <a href="https://linkedin.com/in/mohamed-amine-loussaief-69aa21353" target="_blank" class="contact-card">
+        <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+        <div class="contact-info">
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">Mohamed Amine Loussaief</span>
+        </div>
+      </a>
+
+      <a href="https://github.com/Khamine-10" target="_blank" class="contact-card">
+        <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+        <div class="contact-info">
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">Khamine-10</span>
+        </div>
+      </a>
 
     </div>
   </section>
