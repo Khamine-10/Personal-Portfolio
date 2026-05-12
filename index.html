@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Loussaief Mohamed Amine</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- FOND ANIMÉ CYBERSÉCURITÉ -->
+  <canvas id="matrix-canvas"></canvas>
+
+  <!-- ========== SECTION ACCUEIL ========== -->
+  <section id="accueil">
+    <header>
+      <a class="header-logo">Mohamed<span>.</span></a>
+      <nav>
+        <a class="nav-item" href="#accueil">Accueil</a>
+        <a class="nav-item" href="#projets">Projets</a>
+        <a class="nav-item" href="#stages">Stages</a>
+        <a class="nav-item" href="#veille">Veille informationnelle</a>
+      </nav>
+      <button class="header-btn">Me contacter</button>
+    </header>
+
+    <div class="content">
+      <div class="left">
+        <h3>Bonjour, je suis Loussaief Mohamed Amine</h3>
+        <h1>BTS SIO <span>SISR</span></h1>
+        <p>
+          Étudiant en 1ère année de BTS SIO option SISR, passionné par les réseaux,
+          la cybersécurité et l'administration systèmes. Ce portfolio présente mes projets,
+          mes apprentissages et ma veille informationnelle.
+        </p>
+        <div class="cta-section">
+          <button class="cta-1" onclick="document.getElementById('projets').scrollIntoView({behavior:'smooth'})">
+            Mes projets <i class="fa-solid fa-code"></i>
+          </button>
+          <a href="mon-cv.pdf" target="_blank" class="cta-2">
+            Mon CV <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+        <div class="social-section">
+          <a href="https://linkedin.com/in/mohamed-amine-loussaief-69aa21353" target="_blank" title="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/Khamine-10" target="_blank" title="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="mailto:loussaief.mohamed.sio@gmail.com" title="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="img-wrap">
+          <div class="cyber-avatar">
+            <div class="avatar-ring"></div>
+            <div class="avatar-ring ring2"></div>
+            <div class="avatar-icon">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SECTION PROJETS ========== -->
+  <section id="projets" class="section">
+    <div class="section-header">
+      <h2>Mes <span>Projets</span></h2>
+      <p class="section-sub">Travaux réalisés au cours de ma 1ère année de BTS SIO SISR</p>
+    </div>
+
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-icon"><i class="fa-solid fa-server"></i></div>
+        <h3>Virtualisation & Machines Virtuelles</h3>
+        <p>Mise en place et configuration de machines virtuelles. Apprentissage du clonage, des snapshots et de la gestion des environnements virtualisés avec VirtualBox.</p>
+        <div class="project-tags">
+          <span class="tag">VirtualBox</span>
+          <span class="tag">Linux</span>
+          <span class="tag">Virtualisation</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon"><i class="fa-solid fa-dragon"></i></div>
+        <h3>Kali Linux & Reverse Engineering</h3>
+        <p>Apprentissage de Kali Linux et présentation orale de <strong>Radare2</strong>, un outil de reverse engineering open source permettant l'analyse de binaires, le désassemblage et le débogage de programmes.</p>
+        <div class="project-tags">
+          <span class="tag">Kali Linux</span>
+          <span class="tag">Radare2</span>
+          <span class="tag">Reverse Engineering</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon"><i class="fa-solid fa-network-wired"></i></div>
+        <h3>Configuration Réseau LAN</h3>
+        <p>Conception et configuration de réseaux locaux LAN sur <strong>Cisco Packet Tracer</strong> : adressage IP, configuration de routeurs et commutateurs, et test de connectivité.</p>
+        <div class="project-tags">
+          <span class="tag">Cisco Packet Tracer</span>
+          <span class="tag">Réseau LAN</span>
+          <span class="tag">TCP/IP</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== SECTION STAGES ========== -->
+  <section id="stages" class="section section-dark">
+    <div class="section-header">
+      <h2>Mes <span>Stages</span></h2>
+      <p class="section-sub">Expériences professionnelles en entreprise</p>
+    </div>
+
+    <div class="stage-container">
+      <div class="stage-card">
+        <div class="stage-header">
+          <div class="stage-icon"><i class="fa-solid fa-building"></i></div>
+          <div>
+            <h3>Stagiaire en Informatique</h3>
+            <span class="stage-entreprise">Coup de Pouce Permis — Auto-École, Villepinte (93)</span>
+            <span class="stage-date"><i class="fa-regular fa-calendar"></i> Mars 2021 — Avril 2021 (1 mois)</span>
+          </div>
+        </div>
+        <ul class="stage-missions">
+          <li><i class="fa-solid fa-check"></i> Maintenance informatique et résolution de problèmes sur postes PC</li>
+          <li><i class="fa-solid fa-check"></i> Participation à la mise en place de mesures de sécurité</li>
+          <li><i class="fa-solid fa-check"></i> Installation de logiciels et mise à jour de systèmes</li>
+          <li><i class="fa-solid fa-check"></i> Support utilisateurs — aide aux employés sur les outils numériques</li>
+          <li><i class="fa-solid fa-check"></i> Nettoyage et suppression de virus</li>
+        </ul>
+        <div class="project-tags" style="margin-top:20px;">
+          <span class="tag">Maintenance PC</span>
+          <span class="tag">Support utilisateurs</span>
+          <span class="tag">Sécurité</span>
+          <span class="tag">Windows</span>
+        </div>
+      </div>
+
+      <div class="stage-empty" style="margin-top:30px;">
+        <i class="fa-solid fa-hourglass-half"></i>
+        <h3>Stage BTS SIO — Juin 2026</h3>
+        <p>Stage prévu du <strong>1er juin au 26 juin 2026</strong> dans le cadre de la formation BTS SIO SISR. Cette section sera complétée à l'issue du stage avec les missions réalisées et les compétences développées.</p>
+        <div class="stage-placeholder-tags">
+          <span class="tag-outline">Administration systèmes</span>
+          <span class="tag-outline">Support réseau</span>
+          <span class="tag-outline">Cybersécurité</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SECTION VEILLE ========== -->
+  <section id="veille" class="section">
+    <div class="section-header">
+      <h2>Veille <span>Informationnelle</span></h2>
+      <p class="section-sub">Sujets suivis en lien avec la cybersécurité et les réseaux</p>
+    </div>
+
+    <div class="veille-grid">
+
+      <div class="veille-card veille-card-full">
+        <div class="veille-icon"><i class="fa-solid fa-microchip"></i></div>
+        <div class="veille-content">
+          <span class="veille-date">2026 — En cours</span>
+          <h3>NVIDIA & les GPU au service de l'IA</h3>
+
+          <div class="veille-block">
+            <h4><i class="fa-solid fa-circle-question"></i> C'est quoi ?</h4>
+            <p>NVIDIA est une entreprise américaine fondée en 1993 par Jensen Huang, spécialisée à l'origine dans la fabrication de <strong>cartes graphiques (GPU)</strong> pour les jeux vidéo. Un GPU (Graphics Processing Unit) est un processeur conçu pour effectuer des millions de calculs en parallèle, ce qui le rend bien plus efficace qu'un processeur classique (CPU) pour les tâches lourdes comme l'intelligence artificielle. Ce que personne n'avait anticipé, c'est que cette capacité de calcul parallèle est exactement ce dont l'IA a besoin pour s'entraîner. NVIDIA a pivoté pour devenir le fournisseur numéro un des infrastructures IA mondiales, grâce à ses puces phares comme le <strong>H100</strong> et le <strong>A100</strong>, utilisées par OpenAI, Google, Meta et Microsoft.</p>
+          </div>
+
+          <div class="veille-block">
+            <h4><i class="fa-solid fa-triangle-exclamation"></i> Pourquoi c'est important ?</h4>
+            <p>Sans GPU NVIDIA, il serait impossible d'entraîner des modèles comme ChatGPT, Grok ou Gemini. Les entreprises se battent pour obtenir des puces H100, parfois avec des listes d'attente de plusieurs mois. NVIDIA contrôle environ <strong>80% du marché mondial des GPU pour l'IA</strong>. Leur plateforme logicielle <strong>CUDA</strong>, lancée en 2006, permet aux développeurs de programmer directement sur GPU, créant un écosystème que les concurrents peinent à reproduire. C'est un cas rare où une technologie initialement destinée aux jeux vidéo est devenue une <strong>infrastructure critique mondiale</strong>, au même titre que l'électricité ou internet.</p>
+          </div>
+
+          <div class="veille-block">
+            <h4><i class="fa-solid fa-chart-line"></i> Un exemple concret</h4>
+            <p>En 2024, Elon Musk a construit <strong>Colossus</strong>, un supercalculateur composé de <strong>100 000 GPU H100 de NVIDIA</strong>, pour entraîner son IA Grok — le plus grand cluster de GPU jamais assemblé en moins de 6 mois. De son côté, l'action NVIDIA est passée de <strong>150$ en 2022 à plus de 1 200$ en 2024</strong>, faisant de l'entreprise l'une des plus valorisées au monde avec plus de <strong>3 000 milliards de dollars</strong> de capitalisation boursière. En France, le gouvernement a annoncé en 2024 l'achat de milliers de GPU NVIDIA pour équiper des supercalculateurs dédiés à l'IA souveraine française.</p>
+          </div>
+
+          <div class="veille-block veille-sources">
+            <h4><i class="fa-solid fa-book"></i> Sources utilisées</h4>
+            <ul>
+              <li><a href="https://lemagnit.fr" target="_blank">LeMagIT</a> — Actualités infrastructure et GPU</li>
+              <li><a href="https://www.lemondeinformatique.fr" target="_blank">Le Monde Informatique</a> — Analyses marché NVIDIA</li>
+              <li><a href="https://blogs.nvidia.com" target="_blank">NVIDIA Blog officiel</a> — Annonces produits</li>
+              <li><a href="https://www.bfmtv.com/tech" target="_blank">BFM Tech</a> — Actualités grand public</li>
+              <li><a href="https://www.statista.com" target="_blank">Statista</a> — Chiffres et parts de marché</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <p>© 2026 Loussaief Mohamed Amine — BTS SIO SISR</p>
+    <div class="footer-links">
+      <a href="https://linkedin.com/in/mohamed-amine-loussaief-69aa21353" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://github.com/Khamine-10" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a href="mailto:loussaief.mohamed.sio@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
