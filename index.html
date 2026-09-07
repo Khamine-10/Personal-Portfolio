@@ -1,61 +1,139 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" data-theme="dark">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio - Loussaief Mohamed Amine</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta name="theme-color" content="#8528ff">
+
+  <!-- ========== SEO ========== -->
+  <title>Loussaief Mohamed Amine — Portfolio BTS SIO SISR | Réseaux &amp; Cybersécurité</title>
+  <meta name="description" content="Portfolio de Loussaief Mohamed Amine, étudiant en BTS SIO option SISR au lycée Voillaume. Réseaux, cybersécurité, administration systèmes. Projets, stages et veille informationnelle. Recherche de stage pour janvier 2027.">
+  <meta name="keywords" content="BTS SIO, SISR, portfolio, cybersécurité, réseaux, administration systèmes, stage informatique, Villepinte, Aulnay-sous-Bois, Loussaief Mohamed Amine">
+  <meta name="author" content="Loussaief Mohamed Amine">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://khamine-10.github.io/Personal-Portfolio/">
+
+  <!-- ========== OPEN GRAPH (aperçu lors d'un partage sur les réseaux) ========== -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Portfolio — Loussaief Mohamed Amine">
+  <meta property="og:title" content="Loussaief Mohamed Amine — Portfolio BTS SIO SISR">
+  <meta property="og:description" content="Étudiant en BTS SIO option SISR passionné de réseaux et de cybersécurité. Découvrez mes projets, mes stages et ma veille informationnelle.">
+  <meta property="og:url" content="https://khamine-10.github.io/Personal-Portfolio/">
+  <meta property="og:image" content="https://khamine-10.github.io/Personal-Portfolio/preview.png">
+
+  <!-- ========== TWITTER CARD ========== -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Loussaief Mohamed Amine — Portfolio BTS SIO SISR">
+  <meta name="twitter:description" content="Étudiant en BTS SIO option SISR : réseaux, cybersécurité et administration systèmes.">
+
+  <!-- ========== FAVICON (SVG bouclier violet intégré, aucun fichier externe) ========== -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230a0a12'/%3E%3Cpath d='M50 18l24 9v20c0 16-10 28-24 35-14-7-24-19-24-35V27z' fill='none' stroke='%238528ff' stroke-width='7' stroke-linejoin='round'/%3E%3Cpath d='M39 50l8 9 16-17' fill='none' stroke='%238528ff' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+
+  <!-- ========== STYLES ========== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
+
+  <!-- ========== DONNÉES STRUCTURÉES (référencement Google) ========== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Loussaief Mohamed Amine",
+    "jobTitle": "Étudiant BTS SIO option SISR",
+    "email": "loussaief.mohamed.sio@gmail.com",
+    "address": { "@type": "PostalAddress", "addressLocality": "Villepinte", "postalCode": "93420", "addressCountry": "FR" },
+    "sameAs": [
+      "https://linkedin.com/in/mohamed-amine-loussaief-69aa21353",
+      "https://github.com/Khamine-10"
+    ],
+    "knowsAbout": ["Réseaux", "Cybersécurité", "Administration systèmes", "Virtualisation", "Linux"]
+  }
+  </script>
 </head>
 
 <body>
 
+  <!-- Lien d'évitement pour l'accessibilité (visible uniquement au focus clavier) -->
+  <a href="#main" class="skip-link">Aller au contenu principal</a>
+
   <!-- FOND ANIMÉ CYBERSÉCURITÉ -->
-  <canvas id="matrix-canvas"></canvas>
+  <canvas id="matrix-canvas" aria-hidden="true"></canvas>
+
+  <!-- Barre de progression de lecture (en haut de page) -->
+  <div class="scroll-progress" id="scroll-progress" role="presentation"></div>
+
+  <!-- ========== NAVIGATION STICKY ========== -->
+  <header id="navbar" role="banner">
+    <a class="header-logo" href="#accueil" aria-label="Retour à l'accueil">Mohamed<span>.</span></a>
+
+    <nav id="nav-menu" aria-label="Navigation principale">
+      <a class="nav-item" href="#accueil">Accueil</a>
+      <a class="nav-item" href="#apropos">À propos</a>
+      <a class="nav-item" href="#parcours">Parcours</a>
+      <a class="nav-item" href="#competences">Compétences</a>
+      <a class="nav-item" href="#projets">Projets</a>
+      <a class="nav-item" href="#stages">Stages</a>
+      <a class="nav-item" href="#veille">Veille</a>
+      <a class="nav-item" href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <!-- Bouton de bascule thème clair / sombre -->
+      <button class="theme-toggle" id="theme-toggle" type="button"
+              aria-label="Basculer entre le mode clair et le mode sombre" title="Changer de thème">
+        <i class="fa-solid fa-moon" aria-hidden="true"></i>
+      </button>
+
+      <a class="header-btn" href="#contact">Me contacter</a>
+
+      <!-- Menu burger (affiché sur mobile et tablette) -->
+      <button class="burger" id="burger" type="button"
+              aria-label="Ouvrir le menu de navigation" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
 
   <!-- ========== SECTION ACCUEIL ========== -->
   <section id="accueil">
-    <header>
-      <a class="header-logo">Mohamed<span>.</span></a>
-      <nav>
-        <a class="nav-item" href="#accueil">Accueil</a>
-        <a class="nav-item" href="#apropos">À propos</a>
-        <a class="nav-item" href="#projets">Projets</a>
-        <a class="nav-item" href="#stages">Stages</a>
-        <a class="nav-item" href="#veille">Veille informationnelle</a>
-      </nav>
-      <button class="header-btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Me contacter</button>
-    </header>
-
     <div class="content">
       <div class="left">
-        <h3>Bonjour, je suis Loussaief Mohamed Amine</h3>
-        <h1>BTS SIO <span>SISR</span></h1>
-        <p>
-          Étudiant en 1ère année de BTS SIO option SISR, passionné par les réseaux,
+        <h3 class="hero-intro">Bonjour, je suis Loussaief Mohamed Amine</h3>
+        <h1 class="hero-title">
+          <span class="typewriter" id="typewriter" aria-hidden="true"></span><span class="caret" aria-hidden="true"></span>
+          <span class="sr-only">BTS SIO SISR — Réseaux et cybersécurité</span>
+        </h1>
+        <p class="hero-text">
+          Étudiant en 2<sup>e</sup> année de BTS SIO option SISR, passionné par les réseaux,
           la cybersécurité et l'administration systèmes. Ce portfolio présente mes projets,
           mes apprentissages et ma veille informationnelle.
         </p>
         <div class="cta-section">
-          <button class="cta-1" onclick="document.getElementById('projets').scrollIntoView({behavior:'smooth'})">
-            Mes projets <i class="fa-solid fa-code"></i>
-          </button>
-          <a href="mon-cv.pdf" target="_blank" class="cta-2">
-            Mon CV <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          <a class="cta-1" href="#projets">Mes projets <i class="fa-solid fa-code" aria-hidden="true"></i></a>
+          <a href="mon-cv.pdf" target="_blank" rel="noopener" class="cta-2">
+            Mon CV <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
           </a>
         </div>
         <div class="social-section">
-          <a href="https://linkedin.com/in/mohamed-amine-loussaief-69aa21353" target="_blank" title="LinkedIn">
-            <i class="fa-brands fa-linkedin-in"></i>
+          <a href="https://linkedin.com/in/mohamed-amine-loussaief-69aa21353" target="_blank" rel="noopener" aria-label="Mon profil LinkedIn (nouvel onglet)">
+            <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
           </a>
-          <a href="https://github.com/Khamine-10" target="_blank" title="GitHub">
-            <i class="fa-brands fa-github"></i>
+          <a href="https://github.com/Khamine-10" target="_blank" rel="noopener" aria-label="Mon profil GitHub (nouvel onglet)">
+            <i class="fa-brands fa-github" aria-hidden="true"></i>
           </a>
-          <a href="mailto:loussaief.mohamed.sio@gmail.com" title="Email">
-            <i class="fa-solid fa-envelope"></i>
+          <a href="mailto:loussaief.mohamed.sio@gmail.com" aria-label="M'envoyer un email">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
           </a>
         </div>
+
+        <!-- Badge de disponibilité (point clignotant) -->
+        <p class="availability"><span class="pulse-dot" aria-hidden="true"></span> Recherche un stage de 8 semaines du 18 janvier au 1<sup>er</sup> mars 2027</p>
       </div>
 
       <div class="right">
@@ -64,17 +142,48 @@
             <div class="avatar-ring"></div>
             <div class="avatar-ring ring2"></div>
             <div class="avatar-icon">
-              <i class="fa-solid fa-shield-halved"></i>
+              <i class="fa-solid fa-shield-halved" aria-hidden="true"></i>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- Indicateur de défilement -->
+    <a href="#stats" class="scroll-hint" aria-label="Faire défiler vers le bas">
+      <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+    </a>
+  </section>
+
+  <!-- ========== SECTION STATISTIQUES (compteurs animés) ========== -->
+  <section id="stats" class="section section-dark stats-section" aria-label="Chiffres clés">
+    <div class="stats-grid">
+      <div class="stat-card glass reveal">
+        <i class="fa-solid fa-diagram-project" aria-hidden="true"></i>
+        <span class="stat-number" data-target="3">0</span>
+        <span class="stat-label">Projets réalisés</span>
+      </div>
+      <div class="stat-card glass reveal" data-delay="100">
+        <i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i>
+        <span class="stat-number" data-target="12" data-suffix="+">0</span>
+        <span class="stat-label">Technologies utilisées</span>
+      </div>
+      <div class="stat-card glass reveal" data-delay="200">
+        <i class="fa-solid fa-briefcase" aria-hidden="true"></i>
+        <span class="stat-number" data-target="2">0</span>
+        <span class="stat-label">Stages effectués</span>
+      </div>
+      <div class="stat-card glass reveal" data-delay="300">
+        <i class="fa-solid fa-language" aria-hidden="true"></i>
+        <span class="stat-number" data-target="4">0</span>
+        <span class="stat-label">Langues parlées</span>
+      </div>
+    </div>
   </section>
 
   <!-- ========== SECTION À PROPOS ========== -->
-  <section id="apropos" class="section section-dark">
-    <div class="section-header">
+  <section id="apropos" class="section">
+    <div class="section-header reveal">
       <h2>À <span>Propos</span></h2>
       <p class="section-sub">Qui je suis et ce que je sais faire</p>
     </div>
@@ -82,42 +191,32 @@
     <div class="apropos-grid">
 
       <!-- Présentation -->
-      <div class="apropos-card">
-        <div class="apropos-card-title"><i class="fa-solid fa-user"></i> Présentation</div>
-        <p>Je m'appelle <strong>Loussaief Mohamed Amine</strong>, j'ai <strong>18 ans</strong> et j'habite à Villepinte (93). Je suis étudiant en <strong>BTS SIO option SISR</strong> au lycée Voillaume à Aulnay-sous-Bois depuis septembre 2025.</p>
-        <p style="margin-top:12px;">Passionné par les réseaux, la cybersécurité et l'administration systèmes, je cherche à développer mes compétences dans un environnement professionnel. Je suis disponible pour un stage du <strong>16 février au 10 avril 2026</strong>, en présentiel ou télétravail.</p>
-      </div>
+      <article class="apropos-card glass reveal">
+        <h3 class="apropos-card-title"><i class="fa-solid fa-user" aria-hidden="true"></i> Présentation</h3>
+        <p>Je m'appelle <strong>Loussaief Mohamed Amine</strong>, j'habite à Villepinte (93) et je suis actuellement en <strong>2<sup>e</sup> année de BTS SIO option SISR</strong> au lycée Voillaume à Aulnay-sous-Bois, où je suis entré en septembre 2025.</p>
+        <p class="mt-12">Passionné par les réseaux, la cybersécurité et l'administration systèmes, je cherche à développer mes compétences dans un environnement professionnel. Je recherche un stage de 8 semaines, du <strong>18 janvier au 1<sup>er</sup> mars 2027</strong>, en présentiel ou en télétravail.</p>
+        <ul class="info-list">
+          <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Villepinte (93), Île-de-France</li>
+          <li><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> Lycée Voillaume — Aulnay-sous-Bois</li>
+          <li><i class="fa-solid fa-train-subway" aria-hidden="true"></i> Mobile dans toute l'Île-de-France</li>
+        </ul>
+      </article>
 
-      <!-- Compétences techniques -->
-      <div class="apropos-card">
-        <div class="apropos-card-title"><i class="fa-solid fa-laptop-code"></i> Compétences techniques</div>
-        <div class="skills-list">
-          <div class="skill-item">
-            <span class="skill-label">Réseaux</span>
-            <span class="skill-detail">Configuration routeurs/switches, IP, DHCP, DNS</span>
-          </div>
-          <div class="skill-item">
-            <span class="skill-label">Sécurité</span>
-            <span class="skill-detail">Wireshark, SSL/TLS, notions Man-in-the-Middle</span>
-          </div>
-          <div class="skill-item">
-            <span class="skill-label">Systèmes</span>
-            <span class="skill-detail">Windows, Linux Ubuntu</span>
-          </div>
-          <div class="skill-item">
-            <span class="skill-label">Développement</span>
-            <span class="skill-detail">Python, PHP/SQL, C# (bases)</span>
-          </div>
-          <div class="skill-item">
-            <span class="skill-label">Outils</span>
-            <span class="skill-detail">Cisco Packet Tracer, VirtualBox, Kali Linux</span>
-          </div>
+      <!-- Objectif professionnel -->
+      <article class="apropos-card glass reveal" data-delay="100">
+        <h3 class="apropos-card-title"><i class="fa-solid fa-bullseye" aria-hidden="true"></i> Mon objectif</h3>
+        <p>Mon but est de devenir <strong>administrateur systèmes et réseaux</strong>, puis de me spécialiser en <strong>cybersécurité</strong>. Après mon BTS, je souhaite poursuivre en licence professionnelle ou en école d'ingénieur dans le domaine de la sécurité informatique.</p>
+        <p class="mt-12">Je recherche une entreprise qui me permettra de mettre en pratique mes acquis : administration de serveurs, supervision réseau, support utilisateurs et sécurisation d'infrastructure.</p>
+        <div class="interets">
+          <span class="interet-tag"><i class="fa-solid fa-server" aria-hidden="true"></i> Admin. systèmes</span>
+          <span class="interet-tag"><i class="fa-solid fa-network-wired" aria-hidden="true"></i> Réseaux</span>
+          <span class="interet-tag"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i> Cybersécurité</span>
         </div>
-      </div>
+      </article>
 
-      <!-- Langues -->
-      <div class="apropos-card">
-        <div class="apropos-card-title"><i class="fa-solid fa-earth-europe"></i> Langues</div>
+      <!-- Langues et centres d'intérêt -->
+      <article class="apropos-card glass reveal" data-delay="200">
+        <h3 class="apropos-card-title"><i class="fa-solid fa-earth-europe" aria-hidden="true"></i> Langues</h3>
         <div class="langue-list">
           <div class="langue-item">
             <span>🇫🇷 Français</span>
@@ -137,207 +236,561 @@
           </div>
         </div>
 
-        <div class="apropos-card-title" style="margin-top:24px;"><i class="fa-solid fa-heart"></i> Centres d'intérêt</div>
+        <h3 class="apropos-card-title mt-24"><i class="fa-solid fa-heart" aria-hidden="true"></i> Centres d'intérêt</h3>
         <div class="interets">
-          <span class="interet-tag"><i class="fa-solid fa-futbol"></i> Football</span>
-          <span class="interet-tag"><i class="fa-solid fa-dumbbell"></i> Musculation</span>
-          <span class="interet-tag"><i class="fa-solid fa-shield-halved"></i> Cybersécurité</span>
+          <span class="interet-tag"><i class="fa-solid fa-futbol" aria-hidden="true"></i> Football</span>
+          <span class="interet-tag"><i class="fa-solid fa-dumbbell" aria-hidden="true"></i> Musculation</span>
+          <span class="interet-tag"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i> Cybersécurité</span>
         </div>
-      </div>
+      </article>
 
     </div>
   </section>
 
+  <!-- ========== SECTION PARCOURS (timeline verticale) ========== -->
+  <section id="parcours" class="section section-dark">
+    <div class="section-header reveal">
+      <h2>Mon <span>Parcours</span></h2>
+      <p class="section-sub">Formation et expériences, du plus ancien au plus récent</p>
+    </div>
+
+    <ol class="timeline">
+
+      <!-- 1. Premier stage découverte (2021) -->
+      <li class="timeline-item reveal">
+        <span class="timeline-dot" aria-hidden="true"></span>
+        <div class="timeline-content glass">
+          <span class="timeline-date">Mars — Avril 2021</span>
+          <h3>Stage en informatique</h3>
+          <span class="timeline-place"><i class="fa-solid fa-building" aria-hidden="true"></i> Coup de Pouce Permis, Villepinte (93)</span>
+          <p>Premier contact avec le métier : maintenance des postes, installation de logiciels, suppression de virus et support aux utilisateurs.</p>
+          <span class="timeline-badge">1 mois</span>
+        </div>
+      </li>
+
+      <!-- 2. Baccalauréat -->
+      <li class="timeline-item reveal">
+        <span class="timeline-dot" aria-hidden="true"></span>
+        <div class="timeline-content glass">
+          <span class="timeline-date">Juin 2025</span>
+          <h3>Baccalauréat STI2D — option SIN</h3>
+          <span class="timeline-place"><i class="fa-solid fa-school" aria-hidden="true"></i> Sciences et Technologies de l'Industrie et du Développement Durable</span>
+          <p>Spécialité Systèmes d'Information et Numérique : programmation, réseaux, systèmes embarqués et gestion de projet technique. Une formation qui m'a naturellement orienté vers le BTS SIO.</p>
+          <span class="timeline-badge">Obtenu</span>
+        </div>
+      </li>
+
+      <!-- 3. BTS SIO SISR -->
+      <li class="timeline-item reveal">
+        <span class="timeline-dot" aria-hidden="true"></span>
+        <div class="timeline-content glass">
+          <span class="timeline-date">2025 — 2027</span>
+          <h3>BTS SIO — option SISR</h3>
+          <span class="timeline-place"><i class="fa-solid fa-school" aria-hidden="true"></i> Lycée Voillaume, Aulnay-sous-Bois (93)</span>
+          <p>Solutions d'Infrastructure, Systèmes et Réseaux. Administration Windows et Linux, virtualisation, configuration réseau, cybersécurité, support utilisateurs et gestion de projet.</p>
+          <span class="timeline-badge timeline-badge-live">2<sup>e</sup> année en cours</span>
+        </div>
+      </li>
+
+      <!-- 4. Stage de 1re année de BTS -->
+      <li class="timeline-item reveal">
+        <span class="timeline-dot" aria-hidden="true"></span>
+        <div class="timeline-content glass">
+          <span class="timeline-date">1<sup>er</sup> — 28 juin 2026</span>
+          <h3>Stage BTS SIO — 1<sup>re</sup> année</h3>
+          <span class="timeline-place"><i class="fa-solid fa-building" aria-hidden="true"></i> Coup de Pouce Permis, Villepinte (93)</span>
+          <p>Audit et correction du site WordPress de l'entreprise : repérage des mauvaises redirections et des informations erronées, sécurisation de l'accès à l'administration avec LWS Hide Login et traitement d'un rapport d'intégrité.</p>
+          <span class="timeline-badge">4 semaines</span>
+        </div>
+      </li>
+
+      <!-- 5. Stage de 2e année (recherche en cours) -->
+      <li class="timeline-item timeline-future reveal">
+        <span class="timeline-dot" aria-hidden="true"></span>
+        <div class="timeline-content glass">
+          <span class="timeline-date">18 janvier — 1<sup>er</sup> mars 2027</span>
+          <h3>Stage BTS SIO — 2<sup>e</sup> année</h3>
+          <span class="timeline-place"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i> Entreprise recherchée</span>
+          <p>Stage de 8 semaines à réaliser dans le cadre de la 2<sup>e</sup> année : administration systèmes et réseaux, support technique et cybersécurité. Je suis actuellement à la recherche de l'entreprise d'accueil.</p>
+          <span class="timeline-badge timeline-badge-soon">Recherche en cours</span>
+        </div>
+      </li>
+
+    </ol>
+  </section>
+
+  <!-- ========== SECTION COMPÉTENCES (barres de progression + certifications) ========== -->
+  <section id="competences" class="section">
+    <div class="section-header reveal">
+      <h2>Mes <span>Compétences</span></h2>
+      <p class="section-sub">Niveau atteint en 2<sup>e</sup> année de BTS SIO SISR</p>
+    </div>
+
+    <div class="skills-columns">
+
+      <!-- Colonne 1 : compétences techniques -->
+      <div class="skills-block glass reveal">
+        <h3 class="apropos-card-title"><i class="fa-solid fa-network-wired" aria-hidden="true"></i> Réseaux &amp; Systèmes</h3>
+
+        <div class="skill-bar-item">
+          <div class="skill-bar-head">
+            <span class="skill-bar-name">Réseaux (IP, DHCP, DNS, VLAN)</span>
+            <span class="skill-bar-value">75%</span>
+          </div>
+          <div class="skill-bar-track" role="progressbar" aria-label="Réseaux" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="skill-bar-fill" data-percent="75"></div>
+          </div>
+        </div>
+
+        <div class="skill-bar-item">
+          <div class="skill-bar-head">
+            <span class="skill-bar-name">Windows (poste &amp; serveur)</span>
+            <span class="skill-bar-value">70%</span>
+          </div>
+          <div class="skill-bar-track" role="progressbar" aria-label="Windows" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+            <div class="skill-bar-fill" data-percent="70"></div>
+          </div>
+        </div>
+
+        <div class="skill-bar-item">
+          <div class="skill-bar-head">
+            <span class="skill-bar-name">Linux (Ubuntu, Debian, Kali)</span>
+            <span class="skill-bar-value">65%</span>
+          </div>
+          <div class="skill-bar-track" role="progressbar" aria-label="Linux" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+            <div class="skill-bar-fill" data-percent="65"></div>
+          </div>
+        </div>
+
+        <div class="skill-bar-item">
+          <div class="skill-bar-head">
+            <span class="skill-bar-name">Virtualisation (VirtualBox)</span>
+            <span class="skill-bar-value">80%</span>
+          </div>
+          <div class="skill-bar-track" role="progressbar" aria-label="Virtualisation" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+            <div class="skill-bar-fill" data-percent="80"></div>
+          </div>
+        </div>
+
+        <div class="skill-bar-item">
+          <div class="skill-bar-head">
+            <span class="skill-bar-name">Support &amp; maintenance</span>
+            <span class="skill-bar-value">85%</span>
+          </div>
+          <div class="skill-bar-track" role="progressbar" aria-label="Support et maintenance" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+            <div class="skill-bar-fill" data-percent="85"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Colonne 2 : sécurité et développement -->
+      <div class="skills-block glass reveal" data-delay="100">
+        <h3 class="apropos-card-title"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i> Sécurité &amp; Développement</h3>
+
+        <div class="skill-bar-item">
+          <div class="skill-bar-head">
+            <span class="skill-bar-name">Cybersécurité (bases)</span>
+            <span class="skill-bar-value">65%</span>
+          </div>
+          <div class="skill-bar-track" role="progressbar" aria-label="Cybersécurité" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+            <div class="skill-bar-fill" data-percent="65"></div>
+          </div>
+        </div>
+
+        <div class="skill-bar-item">
+          <div class="skill-bar-head">
+            <span class="skill-bar-name">Analyse réseau (Wireshark)</span>
+            <span class="skill-bar-value">60%</span>
+          </div>
+          <div class="skill-bar-track" role="progressbar" aria-label="Wireshark" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+            <div class="skill-bar-fill" data-percent="60"></div>
+          </div>
+        </div>
+
+        <div class="skill-bar-item">
+          <div class="skill-bar-head">
+            <span class="skill-bar-name">Cisco Packet Tracer</span>
+            <span class="skill-bar-value">70%</span>
+          </div>
+          <div class="skill-bar-track" role="progressbar" aria-label="Cisco Packet Tracer" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+            <div class="skill-bar-fill" data-percent="70"></div>
+          </div>
+        </div>
+
+        <div class="skill-bar-item">
+          <div class="skill-bar-head">
+            <span class="skill-bar-name">Python</span>
+            <span class="skill-bar-value">55%</span>
+          </div>
+          <div class="skill-bar-track" role="progressbar" aria-label="Python" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+            <div class="skill-bar-fill" data-percent="55"></div>
+          </div>
+        </div>
+
+        <div class="skill-bar-item">
+          <div class="skill-bar-head">
+            <span class="skill-bar-name">HTML / CSS / SQL</span>
+            <span class="skill-bar-value">60%</span>
+          </div>
+          <div class="skill-bar-track" role="progressbar" aria-label="HTML CSS SQL" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+            <div class="skill-bar-fill" data-percent="60"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Outils maîtrisés -->
+    <div class="tools-wrap reveal">
+      <h3 class="tools-title">Environnement technique</h3>
+      <div class="tools-grid">
+        <span class="tool-chip"><i class="fa-brands fa-windows" aria-hidden="true"></i> Windows</span>
+        <span class="tool-chip"><i class="fa-brands fa-linux" aria-hidden="true"></i> Linux</span>
+        <span class="tool-chip"><i class="fa-brands fa-ubuntu" aria-hidden="true"></i> Ubuntu</span>
+        <span class="tool-chip"><i class="fa-solid fa-dragon" aria-hidden="true"></i> Kali Linux</span>
+        <span class="tool-chip"><i class="fa-solid fa-box" aria-hidden="true"></i> VirtualBox</span>
+        <span class="tool-chip"><i class="fa-solid fa-network-wired" aria-hidden="true"></i> Packet Tracer</span>
+        <span class="tool-chip"><i class="fa-solid fa-wifi" aria-hidden="true"></i> Wireshark</span>
+        <span class="tool-chip"><i class="fa-brands fa-python" aria-hidden="true"></i> Python</span>
+        <span class="tool-chip"><i class="fa-brands fa-html5" aria-hidden="true"></i> HTML / CSS</span>
+        <span class="tool-chip"><i class="fa-solid fa-database" aria-hidden="true"></i> SQL</span>
+        <span class="tool-chip"><i class="fa-brands fa-git-alt" aria-hidden="true"></i> Git</span>
+        <span class="tool-chip"><i class="fa-solid fa-terminal" aria-hidden="true"></i> Radare2</span>
+      </div>
+    </div>
+
+    <!-- Certifications -->
+    <div class="certif-wrap">
+      <h3 class="tools-title reveal">Certifications</h3>
+      <div class="certif-grid">
+
+        <article class="certif-card glass reveal">
+          <div class="certif-logo pix">PIX</div>
+          <div class="certif-body">
+            <h4>Certification PIX</h4>
+            <p>Certification officielle des compétences numériques (information et données, communication, création de contenu, protection et sécurité, environnement numérique).</p>
+            <div class="project-tags">
+              <span class="tag">Compétences numériques</span>
+              <span class="tag">Sécurité</span>
+            </div>
+          </div>
+          <span class="certif-status certif-ok"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Obtenue</span>
+        </article>
+
+        <article class="certif-card glass reveal" data-delay="100">
+          <div class="certif-logo ans"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i></div>
+          <div class="certif-body">
+            <h4>SecNumEdu-FOC (ANSSI)</h4>
+            <p>MOOC de sensibilisation à la cybersécurité proposé par l'ANSSI : panorama des menaces, sécurité de l'authentification, sécurité sur internet et du poste de travail.</p>
+            <div class="project-tags">
+              <span class="tag">Cybersécurité</span>
+              <span class="tag">ANSSI</span>
+            </div>
+          </div>
+          <span class="certif-status certif-progress"><i class="fa-solid fa-spinner" aria-hidden="true"></i> En cours</span>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
   <!-- ========== SECTION PROJETS ========== -->
-  <section id="projets" class="section">
-    <div class="section-header">
+  <section id="projets" class="section section-dark">
+    <div class="section-header reveal">
       <h2>Mes <span>Projets</span></h2>
-      <p class="section-sub">Travaux réalisés au cours de ma 1ère année de BTS SIO SISR</p>
+      <p class="section-sub">Travaux réalisés au cours de ma formation BTS SIO SISR</p>
     </div>
 
     <div class="projects-grid">
 
-      <div class="project-card">
-        <div class="project-icon"><i class="fa-solid fa-server"></i></div>
-        <h3>Virtualisation & Machines Virtuelles</h3>
+      <article class="project-card glass reveal">
+        <div class="project-icon"><i class="fa-solid fa-server" aria-hidden="true"></i></div>
+        <h3>Virtualisation &amp; Machines Virtuelles</h3>
         <p>Mise en place et configuration de machines virtuelles. Apprentissage du clonage, des snapshots et de la gestion des environnements virtualisés avec VirtualBox.</p>
+        <ul class="project-points">
+          <li><i class="fa-solid fa-angle-right" aria-hidden="true"></i> Installation de Windows et Linux en machine virtuelle</li>
+          <li><i class="fa-solid fa-angle-right" aria-hidden="true"></i> Clonage, snapshots et restauration</li>
+          <li><i class="fa-solid fa-angle-right" aria-hidden="true"></i> Configuration des cartes réseau (NAT, pont, réseau interne)</li>
+        </ul>
         <div class="project-tags">
           <span class="tag">VirtualBox</span>
           <span class="tag">Linux</span>
           <span class="tag">Virtualisation</span>
         </div>
-      </div>
+      </article>
 
-      <div class="project-card">
-        <div class="project-icon"><i class="fa-solid fa-dragon"></i></div>
-        <h3>Kali Linux & Reverse Engineering</h3>
+      <article class="project-card glass reveal" data-delay="100">
+        <div class="project-icon"><i class="fa-solid fa-dragon" aria-hidden="true"></i></div>
+        <h3>Kali Linux &amp; Reverse Engineering</h3>
         <p>Apprentissage de Kali Linux et présentation orale de <strong>Radare2</strong>, un outil de reverse engineering open source permettant l'analyse de binaires, le désassemblage et le débogage de programmes.</p>
+        <ul class="project-points">
+          <li><i class="fa-solid fa-angle-right" aria-hidden="true"></i> Prise en main de la distribution Kali Linux</li>
+          <li><i class="fa-solid fa-angle-right" aria-hidden="true"></i> Analyse et désassemblage de binaires</li>
+          <li><i class="fa-solid fa-angle-right" aria-hidden="true"></i> Présentation orale technique devant la classe</li>
+        </ul>
         <div class="project-tags">
           <span class="tag">Kali Linux</span>
           <span class="tag">Radare2</span>
           <span class="tag">Reverse Engineering</span>
         </div>
-      </div>
+      </article>
 
-      <div class="project-card">
-        <div class="project-icon"><i class="fa-solid fa-network-wired"></i></div>
+      <article class="project-card glass reveal" data-delay="200">
+        <div class="project-icon"><i class="fa-solid fa-network-wired" aria-hidden="true"></i></div>
         <h3>Configuration Réseau LAN</h3>
-        <p>Conception et configuration de réseaux locaux LAN sur <strong>Cisco Packet Tracer</strong> : adressage IP, configuration de routeurs et commutateurs, et test de connectivité.</p>
+        <p>Conception et configuration de réseaux locaux LAN sur <strong>Cisco Packet Tracer</strong> : adressage IP, configuration de routeurs et commutateurs, et tests de connectivité.</p>
+        <ul class="project-points">
+          <li><i class="fa-solid fa-angle-right" aria-hidden="true"></i> Plan d'adressage IPv4 et découpage en sous-réseaux</li>
+          <li><i class="fa-solid fa-angle-right" aria-hidden="true"></i> Configuration de routeurs et de switches Cisco</li>
+          <li><i class="fa-solid fa-angle-right" aria-hidden="true"></i> Tests de connectivité (ping, traceroute)</li>
+        </ul>
         <div class="project-tags">
           <span class="tag">Cisco Packet Tracer</span>
           <span class="tag">Réseau LAN</span>
           <span class="tag">TCP/IP</span>
         </div>
-      </div>
+      </article>
 
     </div>
   </section>
 
   <!-- ========== SECTION STAGES ========== -->
-  <section id="stages" class="section section-dark">
-    <div class="section-header">
+  <section id="stages" class="section">
+    <div class="section-header reveal">
       <h2>Mes <span>Stages</span></h2>
-      <p class="section-sub">Expériences professionnelles en entreprise</p>
+      <p class="section-sub">Les deux périodes de stage de la formation BTS SIO SISR</p>
     </div>
 
     <div class="stage-container">
-      <div class="stage-card">
+
+      <!-- Stage de 1re année (réalisé) -->
+      <article class="stage-card glass reveal">
         <div class="stage-header">
-          <div class="stage-icon"><i class="fa-solid fa-building"></i></div>
+          <div class="stage-icon"><i class="fa-solid fa-building" aria-hidden="true"></i></div>
           <div>
-            <h3>Stagiaire en Informatique</h3>
+            <span class="stage-annee">Stage de 1<sup>re</sup> année</span>
+            <h3>Stagiaire en Informatique — Web &amp; Sécurité</h3>
             <span class="stage-entreprise">Coup de Pouce Permis — Auto-École, Villepinte (93)</span>
-            <span class="stage-date"><i class="fa-regular fa-calendar"></i> Mars 2021 — Avril 2021 (1 mois)</span>
+            <span class="stage-date"><i class="fa-regular fa-calendar" aria-hidden="true"></i> Du 1<sup>er</sup> au 28 juin 2026 (4 semaines)</span>
           </div>
         </div>
-        <ul class="stage-missions">
-          <li><i class="fa-solid fa-check"></i> Maintenance informatique et résolution de problèmes sur postes PC</li>
-          <li><i class="fa-solid fa-check"></i> Participation à la mise en place de mesures de sécurité</li>
-          <li><i class="fa-solid fa-check"></i> Installation de logiciels et mise à jour de systèmes</li>
-          <li><i class="fa-solid fa-check"></i> Support utilisateurs — aide aux employés sur les outils numériques</li>
-          <li><i class="fa-solid fa-check"></i> Nettoyage et suppression de virus</li>
-        </ul>
-        <div class="project-tags" style="margin-top:20px;">
-          <span class="tag">Maintenance PC</span>
-          <span class="tag">Support utilisateurs</span>
-          <span class="tag">Sécurité</span>
-          <span class="tag">Windows</span>
-        </div>
-      </div>
 
-      <div class="stage-empty" style="margin-top:30px;">
-        <i class="fa-solid fa-hourglass-half"></i>
-        <h3>Stage BTS SIO — Juin 2026</h3>
-        <p>Stage prévu du <strong>1er juin au 26 juin 2026</strong> dans le cadre de la formation BTS SIO SISR. Cette section sera complétée à l'issue du stage avec les missions réalisées et les compétences développées.</p>
+        <p class="stage-contexte"><strong>Contexte :</strong> repérer les dysfonctionnements du site WordPress de l'entreprise, les corriger et renforcer la sécurité de l'accès à l'administration.</p>
+
+        <h4 class="stage-soustitre"><i class="fa-solid fa-list-check" aria-hidden="true"></i> Missions réalisées</h4>
+        <ul class="stage-missions">
+          <li><i class="fa-solid fa-check" aria-hidden="true"></i> Audit du site : détection des <strong>mauvaises redirections</strong> entre les pages</li>
+          <li><i class="fa-solid fa-check" aria-hidden="true"></i> Repérage des <strong>informations erronées</strong> affichées sur les pages</li>
+          <li><i class="fa-solid fa-check" aria-hidden="true"></i> Correction des anomalies directement depuis l'interface <strong>WordPress</strong></li>
+          <li><i class="fa-solid fa-check" aria-hidden="true"></i> Sécurisation du site avec <strong>LWS Hide Login</strong> : modification de l'adresse de connexion à l'administration WordPress pour limiter les tentatives d'intrusion</li>
+          <li><i class="fa-solid fa-check" aria-hidden="true"></i> Traitement du <strong>rapport d'intégrité</strong> transmis par l'entreprise et résolution des points signalés</li>
+        </ul>
+
+        <h4 class="stage-soustitre"><i class="fa-solid fa-cubes" aria-hidden="true"></i> Compétences mobilisées</h4>
+        <div class="project-tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">LWS Hide Login</span>
+          <span class="tag">Sécurisation web</span>
+          <span class="tag">Audit de site</span>
+          <span class="tag">Rapport d'intégrité</span>
+        </div>
+      </article>
+
+      <!-- Stage de 2e année (en recherche) -->
+      <article class="stage-empty reveal" data-delay="100">
+        <i class="fa-solid fa-hourglass-half" aria-hidden="true"></i>
+        <span class="stage-annee">Stage de 2<sup>e</sup> année</span>
+        <h3>Stage BTS SIO — 2027</h3>
+        <p>Stage de <strong>8 semaines</strong>, du <strong>18 janvier au 1<sup>er</sup> mars 2027</strong>, dans le cadre de la 2<sup>e</sup> année de BTS SIO SISR. <strong>Je recherche actuellement mon entreprise d'accueil</strong> : cette section sera complétée à l'issue du stage avec les missions réalisées et les compétences développées.</p>
         <div class="stage-placeholder-tags">
           <span class="tag-outline">Administration systèmes</span>
           <span class="tag-outline">Support réseau</span>
           <span class="tag-outline">Cybersécurité</span>
         </div>
-      </div>
+        <a class="cta-1 cta-inline" href="#contact">Proposer un stage <i class="fa-solid fa-paper-plane" aria-hidden="true"></i></a>
+      </article>
     </div>
   </section>
 
   <!-- ========== SECTION VEILLE ========== -->
-  <section id="veille" class="section">
-    <div class="section-header">
+  <section id="veille" class="section section-dark">
+    <div class="section-header reveal">
       <h2>Veille <span>Informationnelle</span></h2>
       <p class="section-sub">Sujets suivis en lien avec la cybersécurité et les réseaux</p>
     </div>
 
     <div class="veille-grid">
 
-      <div class="veille-card veille-card-full">
-        <div class="veille-icon"><i class="fa-solid fa-microchip"></i></div>
+      <article class="veille-card veille-card-full glass reveal">
+        <div class="veille-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
         <div class="veille-content">
           <span class="veille-date">2026 — En cours</span>
-          <h3>NVIDIA & les GPU au service de l'IA</h3>
+          <h3>NVIDIA &amp; les GPU au service de l'IA</h3>
 
           <div class="veille-block">
-            <h4><i class="fa-solid fa-circle-question"></i> C'est quoi ?</h4>
+            <h4><i class="fa-solid fa-circle-question" aria-hidden="true"></i> C'est quoi ?</h4>
             <p>NVIDIA est une entreprise américaine fondée en 1993 par Jensen Huang, spécialisée à l'origine dans la fabrication de <strong>cartes graphiques (GPU)</strong> pour les jeux vidéo. Un GPU (Graphics Processing Unit) est un processeur conçu pour effectuer des millions de calculs en parallèle, ce qui le rend bien plus efficace qu'un processeur classique (CPU) pour les tâches lourdes comme l'intelligence artificielle. Ce que personne n'avait anticipé, c'est que cette capacité de calcul parallèle est exactement ce dont l'IA a besoin pour s'entraîner. NVIDIA a pivoté pour devenir le fournisseur numéro un des infrastructures IA mondiales, grâce à ses puces phares comme le <strong>H100</strong> et le <strong>A100</strong>, utilisées par OpenAI, Google, Meta et Microsoft.</p>
           </div>
 
           <div class="veille-block">
-            <h4><i class="fa-solid fa-triangle-exclamation"></i> Pourquoi c'est important ?</h4>
+            <h4><i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i> Pourquoi c'est important ?</h4>
             <p>Sans GPU NVIDIA, il serait impossible d'entraîner des modèles comme ChatGPT, Grok ou Gemini. Les entreprises se battent pour obtenir des puces H100, parfois avec des listes d'attente de plusieurs mois. NVIDIA contrôle environ <strong>80% du marché mondial des GPU pour l'IA</strong>. Leur plateforme logicielle <strong>CUDA</strong>, lancée en 2006, permet aux développeurs de programmer directement sur GPU, créant un écosystème que les concurrents peinent à reproduire. C'est un cas rare où une technologie initialement destinée aux jeux vidéo est devenue une <strong>infrastructure critique mondiale</strong>, au même titre que l'électricité ou internet.</p>
           </div>
 
           <div class="veille-block">
-            <h4><i class="fa-solid fa-chart-line"></i> Un exemple concret</h4>
+            <h4><i class="fa-solid fa-chart-line" aria-hidden="true"></i> Un exemple concret</h4>
             <p>En 2024, Elon Musk a construit <strong>Colossus</strong>, un supercalculateur composé de <strong>100 000 GPU H100 de NVIDIA</strong>, pour entraîner son IA Grok — le plus grand cluster de GPU jamais assemblé en moins de 6 mois. De son côté, l'action NVIDIA est passée de <strong>150$ en 2022 à plus de 1 200$ en 2024</strong>, faisant de l'entreprise l'une des plus valorisées au monde avec plus de <strong>3 000 milliards de dollars</strong> de capitalisation boursière. En France, le gouvernement a annoncé en 2024 l'achat de milliers de GPU NVIDIA pour équiper des supercalculateurs dédiés à l'IA souveraine française.</p>
           </div>
 
           <div class="veille-block veille-sources">
-            <h4><i class="fa-solid fa-book"></i> Sources utilisées</h4>
+            <h4><i class="fa-solid fa-book" aria-hidden="true"></i> Sources utilisées</h4>
             <ul>
-              <li><a href="https://lemagnit.fr" target="_blank">LeMagIT</a> — Actualités infrastructure et GPU</li>
-              <li><a href="https://www.lemondeinformatique.fr" target="_blank">Le Monde Informatique</a> — Analyses marché NVIDIA</li>
-              <li><a href="https://blogs.nvidia.com" target="_blank">NVIDIA Blog officiel</a> — Annonces produits</li>
-              <li><a href="https://www.bfmtv.com/tech" target="_blank">BFM Tech</a> — Actualités grand public</li>
-              <li><a href="https://www.statista.com" target="_blank">Statista</a> — Chiffres et parts de marché</li>
+              <li><a href="https://www.lemagit.fr" target="_blank" rel="noopener">LeMagIT</a> — Actualités infrastructure et GPU</li>
+              <li><a href="https://www.lemondeinformatique.fr" target="_blank" rel="noopener">Le Monde Informatique</a> — Analyses marché NVIDIA</li>
+              <li><a href="https://blogs.nvidia.com" target="_blank" rel="noopener">NVIDIA Blog officiel</a> — Annonces produits</li>
+              <li><a href="https://www.bfmtv.com/tech" target="_blank" rel="noopener">BFM Tech</a> — Actualités grand public</li>
+              <li><a href="https://www.statista.com" target="_blank" rel="noopener">Statista</a> — Chiffres et parts de marché</li>
             </ul>
           </div>
 
         </div>
-      </div>
+      </article>
+
+      <!-- Méthode de veille -->
+      <article class="veille-card glass reveal" data-delay="100">
+        <div class="veille-icon"><i class="fa-solid fa-rss" aria-hidden="true"></i></div>
+        <div class="veille-content">
+          <span class="veille-date">Méthodologie</span>
+          <h3>Comment j'organise ma veille</h3>
+          <p>Je consulte chaque semaine des sources spécialisées et je classe les informations retenues par thème (menaces, réseaux, systèmes). Les alertes de sécurité proviennent principalement du <strong>CERT-FR</strong> et de l'<strong>ANSSI</strong>, les actualités techniques du <strong>MagIT</strong> et de <strong>ZDNet</strong>.</p>
+          <div class="project-tags">
+            <span class="tag">CERT-FR</span>
+            <span class="tag">ANSSI</span>
+            <span class="tag">Flux RSS</span>
+            <span class="tag">Hebdomadaire</span>
+          </div>
+        </div>
+      </article>
 
     </div>
   </section>
 
   <!-- ========== SECTION CONTACT ========== -->
-  <section id="contact" class="section section-dark">
-    <div class="section-header">
+  <section id="contact" class="section">
+    <div class="section-header reveal">
       <h2>Me <span>Contacter</span></h2>
       <p class="section-sub">Disponible pour un stage ou toute opportunité</p>
     </div>
 
-    <div class="contact-grid">
+    <div class="contact-layout">
 
-      <a href="tel:0617829613" class="contact-card">
-        <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
-        <div class="contact-info">
-          <span class="contact-label">Téléphone</span>
-          <span class="contact-value">06 17 82 96 13</span>
-        </div>
-      </a>
+      <!-- Coordonnées -->
+      <div class="contact-grid">
 
-      <a href="mailto:loussaief.mohamed.sio@gmail.com" class="contact-card">
-        <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
-        <div class="contact-info">
-          <span class="contact-label">Email</span>
-          <span class="contact-value">loussaief.mohamed.sio@gmail.com</span>
-        </div>
-      </a>
+        <a href="tel:+33617829613" class="contact-card glass reveal">
+          <div class="contact-icon"><i class="fa-solid fa-phone" aria-hidden="true"></i></div>
+          <div class="contact-info">
+            <span class="contact-label">Téléphone</span>
+            <span class="contact-value">06 17 82 96 13</span>
+          </div>
+        </a>
 
-      <a href="https://linkedin.com/in/mohamed-amine-loussaief-69aa21353" target="_blank" class="contact-card">
-        <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
-        <div class="contact-info">
-          <span class="contact-label">LinkedIn</span>
-          <span class="contact-value">Mohamed Amine Loussaief</span>
-        </div>
-      </a>
+        <a href="mailto:loussaief.mohamed.sio@gmail.com" class="contact-card glass reveal" data-delay="100">
+          <div class="contact-icon"><i class="fa-solid fa-envelope" aria-hidden="true"></i></div>
+          <div class="contact-info">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">loussaief.mohamed.sio@gmail.com</span>
+          </div>
+        </a>
 
-      <a href="https://github.com/Khamine-10" target="_blank" class="contact-card">
-        <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
-        <div class="contact-info">
-          <span class="contact-label">GitHub</span>
-          <span class="contact-value">Khamine-10</span>
+        <a href="https://linkedin.com/in/mohamed-amine-loussaief-69aa21353" target="_blank" rel="noopener" class="contact-card glass reveal" data-delay="200">
+          <div class="contact-icon"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></div>
+          <div class="contact-info">
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">Mohamed Amine Loussaief</span>
+          </div>
+        </a>
+
+        <a href="https://github.com/Khamine-10" target="_blank" rel="noopener" class="contact-card glass reveal" data-delay="300">
+          <div class="contact-icon"><i class="fa-brands fa-github" aria-hidden="true"></i></div>
+          <div class="contact-info">
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">Khamine-10</span>
+          </div>
+        </a>
+
+      </div>
+
+      <!-- Formulaire de contact avec validation JavaScript -->
+      <form class="contact-form glass reveal" id="contact-form" novalidate>
+        <h3 class="apropos-card-title"><i class="fa-solid fa-paper-plane" aria-hidden="true"></i> Envoyer un message</h3>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nom">Nom complet <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="nom" name="nom" placeholder="Jean Dupont" autocomplete="name"
+                   aria-required="true" aria-describedby="err-nom">
+            <span class="form-error" id="err-nom" role="alert"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email <span class="req" aria-hidden="true">*</span></label>
+            <input type="email" id="email" name="email" placeholder="jean.dupont@entreprise.fr" autocomplete="email"
+                   aria-required="true" aria-describedby="err-email">
+            <span class="form-error" id="err-email" role="alert"></span>
+          </div>
         </div>
-      </a>
+
+        <div class="form-group">
+          <label for="sujet">Sujet <span class="req" aria-hidden="true">*</span></label>
+          <select id="sujet" name="sujet" aria-required="true" aria-describedby="err-sujet">
+            <option value="">— Choisir un sujet —</option>
+            <option value="Proposition de stage">Proposition de stage</option>
+            <option value="Proposition d'alternance">Proposition d'alternance</option>
+            <option value="Demande d'information">Demande d'information</option>
+            <option value="Autre">Autre</option>
+          </select>
+          <span class="form-error" id="err-sujet" role="alert"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message <span class="req" aria-hidden="true">*</span></label>
+          <textarea id="message" name="message" rows="5" placeholder="Bonjour, je vous contacte au sujet de..."
+                    aria-required="true" aria-describedby="err-message"></textarea>
+          <div class="form-meta">
+            <span class="form-error" id="err-message" role="alert"></span>
+            <span class="char-count" id="char-count">0 / 1000</span>
+          </div>
+        </div>
+
+        <button type="submit" class="form-submit" id="form-submit">
+          Envoyer le message <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+        </button>
+
+        <!-- Message de retour après envoi (annoncé aux lecteurs d'écran) -->
+        <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+        <p class="form-note">Le formulaire ouvre votre logiciel de messagerie avec le message pré-rempli.</p>
+      </form>
 
     </div>
   </section>
 
+  </main>
+
   <!-- ========== FOOTER ========== -->
   <footer>
-    <p>© 2026 Loussaief Mohamed Amine — BTS SIO SISR</p>
+    <p>© <span id="year">2026</span> Loussaief Mohamed Amine — BTS SIO SISR</p>
     <div class="footer-links">
-      <a href="https://linkedin.com/in/mohamed-amine-loussaief-69aa21353" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-      <a href="https://github.com/Khamine-10" target="_blank"><i class="fa-brands fa-github"></i></a>
-      <a href="mailto:loussaief.mohamed.sio@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://linkedin.com/in/mohamed-amine-loussaief-69aa21353" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+      <a href="https://github.com/Khamine-10" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+      <a href="mailto:loussaief.mohamed.sio@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
     </div>
   </footer>
+
+  <!-- Bouton retour en haut -->
+  <button class="back-to-top" id="back-to-top" type="button" aria-label="Revenir en haut de la page">
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+  </button>
 
   <script src="script.js"></script>
 </body>

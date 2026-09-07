@@ -1,0 +1,11 @@
+# Sauvegardes locales des anciennes versions
+*.bak
+
+# Fichiers systeme
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Dossiers d'editeurs
+.vscode/
+.idea/
