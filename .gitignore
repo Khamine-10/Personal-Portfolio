@@ -9,3 +9,5 @@ desktop.ini
 # Dossiers d'editeurs
 .vscode/
 .idea/
+
+__pycache__/
