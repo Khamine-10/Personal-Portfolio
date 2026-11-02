@@ -28,6 +28,7 @@ SOURCES = [
     {"id": "zataz",    "nom": "ZATAZ",                 "theme": "cyber",  "site": "https://www.zataz.com",              "url": "https://www.zataz.com/feed/"},
     {"id": "itconnect","nom": "IT-Connect",            "theme": "infra",  "site": "https://www.it-connect.fr",          "url": "https://www.it-connect.fr/feed/"},
     {"id": "lmi",      "nom": "Le Monde Informatique", "theme": "actu",   "site": "https://www.lemondeinformatique.fr", "url": "https://www.lemondeinformatique.fr/flux-rss/thematique/toutes-les-actualites/rss.xml"},
+    {"id": "next",     "nom": "Next",                  "theme": "actu",   "site": "https://next.ink",                   "url": "https://next.ink/feed/"},
     {"id": "korben",   "nom": "Korben",                "theme": "actu",   "site": "https://korben.info",                "url": "https://korben.info/feed"},
 ]
 
@@ -39,6 +40,8 @@ LONGUEUR_RESUME = 220
 FICHIER_SORTIE = Path(__file__).resolve().parent.parent / "data" / "veille.json"
 
 ATOM = "{http://www.w3.org/2005/Atom}"
+RSS1 = "{http://purl.org/rss/1.0/}"
+DC = "{http://purl.org/dc/elements/1.1/}"
 
 
 def telecharger(url):
@@ -50,11 +53,16 @@ def telecharger(url):
         return reponse.read()
 
 
+# Phrase ajoutée automatiquement par WordPress à la fin des résumés
+PIED_WORDPRESS = re.compile(r"\s*(The post|Le post|L[’']article|Cet article)\s.*?(appeared first|est apparu en premier|a été publié|first appeared).*$", re.I | re.S)
+
+
 def nettoyer(texte, longueur_max=None):
-    """Retire les balises HTML et les espaces en trop."""
+    """Retire les balises HTML, la mention WordPress et les espaces en trop."""
     texte = re.sub(r"<[^>]+>", " ", texte or "")
     texte = html.unescape(texte)
     texte = re.sub(r"\s+", " ", texte).strip()
+    texte = PIED_WORDPRESS.sub("", texte)
     if longueur_max and len(texte) > longueur_max:
         texte = texte[:longueur_max].rsplit(" ", 1)[0] + "…"
     return texte
@@ -98,6 +106,17 @@ def analyser(contenu, source):
             "date": lire_date(texte_de(item, "pubDate", "{http://purl.org/dc/elements/1.1/}date")),
             "resume": nettoyer(texte_de(item, "description", "{http://purl.org/rss/1.0/modules/content/}encoded"), LONGUEUR_RESUME),
         })
+
+    # RSS 1.0 (RDF) : éléments dans un espace de noms
+    if not items:
+        items = racine.findall(f"{RSS1}item")
+        for item in items:
+            articles.append({
+                "titre": nettoyer(texte_de(item, f"{RSS1}title")),
+                "lien": texte_de(item, f"{RSS1}link").strip(),
+                "date": lire_date(texte_de(item, f"{DC}date")),
+                "resume": nettoyer(texte_de(item, f"{RSS1}description"), LONGUEUR_RESUME),
+            })
 
     # Atom : <feed><entry>
     if not items:

@@ -577,113 +577,254 @@ if (anneeCourante) anneeCourante.textContent = new Date().getFullYear();
 // Première mise à jour au chargement (section active, barre de progression…)
 auScroll();
 
-
 /* ============================================================
-   13. FLUX RSS DE VEILLE
-   Pour ajouter une source, il suffit d'ajouter une ligne dans
-   FLUX_RSS. Les flux sont convertis en JSON par le service
-   gratuit rss2json, car un navigateur ne peut pas lire
-   directement un flux RSS d'un autre site (règle CORS).
+   13. FLUX RSS DE VEILLE (avec recherche, filtres et tri)
+   Les articles sont récupérés toutes les 6 heures par GitHub
+   Actions (scripts/fetch_feeds.py) et enregistrés dans
+   data/veille.json. Le site lit ce fichier, puis permet de
+   rechercher, filtrer par thème ou par source et trier.
    ============================================================ */
-const FLUX_RSS = [
-  { nom: 'NVIDIA Blog',           site: 'https://blogs.nvidia.com',           url: 'https://blogs.nvidia.com/feed/' },
-  { nom: 'CERT-FR (ANSSI)',       site: 'https://www.cert.ssi.gouv.fr',       url: 'https://www.cert.ssi.gouv.fr/feed/' },
-  { nom: 'Le Monde Informatique', site: 'https://www.lemondeinformatique.fr', url: 'https://www.lemondeinformatique.fr/flux-rss/thematique/toutes-les-actualites/rss.xml' },
-  { nom: 'Korben',                site: 'https://korben.info',                url: 'https://korben.info/feed' },
-  { nom: 'ZATAZ',                 site: 'https://www.zataz.com',              url: 'https://www.zataz.com/feed/' }
+const RSS_SOURCES_JSON = [
+  // Fichier du dépôt (mis à jour même si le site n'est pas republié)
+  'https://raw.githubusercontent.com/Khamine-10/Personal-Portfolio/main/data/veille.json',
+  // Copie publiée avec le site
+  'data/veille.json'
+];
+const RSS_PAR_PAGE = 8;
+
+const RSS_THEMES = [
+  { id: 'tous',  nom: 'Tous' },
+  { id: 'sujet', nom: 'Mon sujet : NVIDIA & GPU', icone: 'fa-microchip' },
+  { id: 'cyber', nom: 'Cybersécurité',            icone: 'fa-shield-halved' },
+  { id: 'infra', nom: 'Systèmes & réseaux',       icone: 'fa-network-wired' },
+  { id: 'ia',    nom: 'IA & matériel',            icone: 'fa-brain' },
+  { id: 'actu',  nom: 'Actu tech',                icone: 'fa-newspaper' }
 ];
 
-const RSS_CONVERTISSEUR = 'https://api.rss2json.com/v1/api.json?rss_url=';
-const RSS_NB_ARTICLES = 5;
-const rssCache = {};
-const rssOnglets = document.getElementById('rss-tabs');
-const rssListe = document.getElementById('rss-list');
+const rssBloc = document.getElementById('flux-rss');
 
-// Retire les balises HTML d'un texte et le raccourcit
-function rssNettoyer(html, longueurMax) {
-  const temp = document.createElement('div');
-  temp.innerHTML = html || '';
-  const texte = (temp.textContent || '').replace(/\s+/g, ' ').trim();
-  return texte.length > longueurMax ? texte.slice(0, longueurMax) + '…' : texte;
-}
+if (rssBloc) {
+  const zoneListe   = document.getElementById('rss-list');
+  const zoneThemes  = document.getElementById('rss-themes');
+  const zoneSources = document.getElementById('rss-sources');
+  const champRecherche = document.getElementById('rss-search');
+  const choixTri    = document.getElementById('rss-sort');
+  const boutonPlus  = document.getElementById('rss-more');
+  const compteur    = document.getElementById('rss-count');
+  const info        = document.getElementById('rss-info');
 
-// Date au format français (ex : 2 nov. 2026)
-function rssDate(dateTexte) {
-  const date = new Date(String(dateTexte).replace(' ', 'T'));
-  return isNaN(date) ? '' : date.toLocaleDateString('fr-FR', { day: 'numeric', month: 'short', year: 'numeric' });
-}
+  // État du tri : tout ce que l'utilisateur a choisi
+  const etat = { theme: 'tous', sourcesExclues: new Set(), recherche: '', tri: 'recent', affiches: RSS_PAR_PAGE };
+  let articles = [];
+  let sources = {};
 
-// Affiche les articles, créés élément par élément (aucun HTML externe injecté)
-function rssAfficher(flux, articles) {
-  rssListe.innerHTML = '';
-  articles.slice(0, RSS_NB_ARTICLES).forEach((article) => {
-    const lien = document.createElement('a');
-    lien.className = 'rss-item';
-    lien.href = article.link;
-    lien.target = '_blank';
-    lien.rel = 'noopener';
+  // Met les mots en minuscules et sans accents pour une recherche tolérante
+  const normaliser = (texte) => (texte || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
 
-    const meta = document.createElement('span');
-    meta.className = 'rss-meta';
-    meta.textContent = flux.nom + ' · ' + rssDate(article.pubDate);
+  const formatDate = (iso) => {
+    const d = new Date(iso);
+    return isNaN(d) ? '' : d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'short', year: 'numeric' });
+  };
 
-    const titre = document.createElement('h4');
-    titre.textContent = rssNettoyer(article.title, 140);
-
-    const resume = document.createElement('p');
-    resume.textContent = rssNettoyer(article.description, 180);
-
-    lien.append(meta, titre, resume);
-    rssListe.appendChild(lien);
-  });
-}
-
-// Si un flux ne répond pas : lien direct vers le site de la source
-function rssErreur(flux) {
-  rssListe.innerHTML = '';
-  const message = document.createElement('p');
-  message.className = 'rss-loading';
-  message.textContent = 'Impossible de charger ce flux pour le moment. ';
-  const lien = document.createElement('a');
-  lien.href = flux.site;
-  lien.target = '_blank';
-  lien.rel = 'noopener';
-  lien.textContent = 'Voir le site ' + flux.nom + ' →';
-  message.appendChild(lien);
-  rssListe.appendChild(message);
-}
-
-// Charge un flux (ou le reprend du cache s'il a déjà été chargé)
-async function rssCharger(index) {
-  const flux = FLUX_RSS[index];
-  rssOnglets.querySelectorAll('.rss-tab').forEach((bouton, i) => {
-    bouton.classList.toggle('active', i === index);
-    bouton.setAttribute('aria-selected', i === index ? 'true' : 'false');
-  });
-
-  if (rssCache[flux.url]) { rssAfficher(flux, rssCache[flux.url]); return; }
-
-  rssListe.innerHTML = '<p class="rss-loading"><i class="fa-solid fa-spinner fa-spin" aria-hidden="true"></i> Chargement des articles…</p>';
-  try {
-    const reponse = await fetch(RSS_CONVERTISSEUR + encodeURIComponent(flux.url));
-    const donnees = await reponse.json();
-    if (donnees.status !== 'ok' || !donnees.items || !donnees.items.length) throw new Error('Flux vide');
-    rssCache[flux.url] = donnees.items;
-    rssAfficher(flux, donnees.items);
-  } catch (erreur) {
-    rssErreur(flux);
+  // Ajoute le texte dans l'élément en surlignant les mots recherchés (sans injecter de HTML)
+  function ecrireAvecSurlignage(element, texte, mots) {
+    if (!mots.length) { element.textContent = texte; return; }
+    const texteNorm = normaliser(texte);
+    const zones = [];
+    mots.forEach((mot) => {
+      let pos = texteNorm.indexOf(mot);
+      while (pos !== -1) { zones.push([pos, pos + mot.length]); pos = texteNorm.indexOf(mot, pos + mot.length); }
+    });
+    zones.sort((a, b) => a[0] - b[0]);
+    let curseur = 0;
+    zones.forEach(([debut, fin]) => {
+      if (debut < curseur) return;
+      element.append(texte.slice(curseur, debut));
+      const marque = document.createElement('mark');
+      marque.textContent = texte.slice(debut, fin);
+      element.append(marque);
+      curseur = fin;
+    });
+    element.append(texte.slice(curseur));
   }
-}
 
-if (rssOnglets && rssListe) {
-  FLUX_RSS.forEach((flux, index) => {
+  // Applique la recherche, les filtres et le tri
+  function articlesFiltres() {
+    const mots = normaliser(etat.recherche).split(/\s+/).filter(Boolean);
+    let liste = articles.filter((a) => {
+      if (etat.sourcesExclues.has(a.source)) return false;
+      if (etat.theme === 'sujet' && !a.sujet) return false;
+      if (!['tous', 'sujet'].includes(etat.theme) && sources[a.source]?.theme !== etat.theme) return false;
+      if (mots.length) {
+        const texte = normaliser(a.titre + ' ' + a.resume + ' ' + (sources[a.source]?.nom || ''));
+        if (!mots.every((m) => texte.includes(m))) return false;
+      }
+      return true;
+    });
+
+    if (etat.tri === 'recent') liste.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+    if (etat.tri === 'ancien') liste.sort((a, b) => (a.date || '').localeCompare(b.date || ''));
+    if (etat.tri === 'source') liste.sort((a, b) =>
+      (sources[a.source]?.nom || '').localeCompare(sources[b.source]?.nom || '', 'fr') || (b.date || '').localeCompare(a.date || ''));
+    return { liste, mots };
+  }
+
+  // Nombre d'articles par thème et par source (affiché sur les puces)
+  function compter(cle) {
+    const total = {};
+    articles.forEach((a) => {
+      if (etat.sourcesExclues.has(a.source) && cle === 'theme') return;
+      const valeurs = cle === 'theme' ? ['tous', sources[a.source]?.theme, a.sujet ? 'sujet' : null] : [a.source];
+      valeurs.filter(Boolean).forEach((v) => { total[v] = (total[v] || 0) + 1; });
+    });
+    return total;
+  }
+
+  function creerPuce(texte, actif, nombre, icone) {
     const bouton = document.createElement('button');
     bouton.type = 'button';
-    bouton.className = 'rss-tab';
-    bouton.setAttribute('role', 'tab');
-    bouton.textContent = flux.nom;
-    bouton.addEventListener('click', () => rssCharger(index));
-    rssOnglets.appendChild(bouton);
+    bouton.className = 'rss-chip';
+    bouton.setAttribute('aria-pressed', actif ? 'true' : 'false');
+    if (icone) {
+      const i = document.createElement('i');
+      i.className = 'fa-solid ' + icone;
+      i.setAttribute('aria-hidden', 'true');
+      bouton.append(i);
+    }
+    bouton.append(texte);
+    if (nombre !== undefined) {
+      const n = document.createElement('span');
+      n.className = 'rss-chip-n';
+      n.textContent = '(' + nombre + ')';
+      bouton.append(n);
+    }
+    return bouton;
+  }
+
+  function afficherFiltres() {
+    const parTheme = compter('theme');
+    zoneThemes.innerHTML = '';
+    RSS_THEMES.forEach((t) => {
+      if (t.id !== 'tous' && !parTheme[t.id]) return;      // thème sans article : masqué
+      const puce = creerPuce(t.nom, etat.theme === t.id, parTheme[t.id] || 0, t.icone);
+      puce.addEventListener('click', () => { etat.theme = t.id; etat.affiches = RSS_PAR_PAGE; rafraichir(); });
+      zoneThemes.append(puce);
+    });
+
+    const parSource = compter('source');
+    zoneSources.innerHTML = '';
+    Object.values(sources).forEach((s) => {
+      if (!parSource[s.id]) return;
+      const active = !etat.sourcesExclues.has(s.id);
+      const puce = creerPuce(s.nom, active, parSource[s.id]);
+      puce.title = active ? 'Masquer ' + s.nom : 'Afficher ' + s.nom;
+      if (!active) puce.classList.add('is-off');
+      puce.addEventListener('click', () => {
+        if (active) etat.sourcesExclues.add(s.id); else etat.sourcesExclues.delete(s.id);
+        etat.affiches = RSS_PAR_PAGE;
+        rafraichir();
+      });
+      zoneSources.append(puce);
+    });
+  }
+
+  function afficherArticles() {
+    const { liste, mots } = articlesFiltres();
+    zoneListe.innerHTML = '';
+    compteur.textContent = liste.length + (liste.length > 1 ? ' articles' : ' article');
+
+    if (!liste.length) {
+      const vide = document.createElement('p');
+      vide.className = 'rss-empty';
+      vide.textContent = 'Aucun article ne correspond à ces filtres. ';
+      const reset = document.createElement('button');
+      reset.type = 'button';
+      reset.textContent = 'Réinitialiser les filtres';
+      reset.addEventListener('click', () => {
+        Object.assign(etat, { theme: 'tous', recherche: '', tri: 'recent', affiches: RSS_PAR_PAGE });
+        etat.sourcesExclues.clear();
+        champRecherche.value = '';
+        choixTri.value = 'recent';
+        rafraichir();
+      });
+      vide.append(reset);
+      zoneListe.append(vide);
+      boutonPlus.hidden = true;
+      return;
+    }
+
+    liste.slice(0, etat.affiches).forEach((a) => {
+      const lien = document.createElement('a');
+      lien.className = 'rss-item' + (a.sujet ? ' is-sujet' : '');
+      lien.href = a.lien;
+      lien.target = '_blank';
+      lien.rel = 'noopener';
+
+      const meta = document.createElement('div');
+      meta.className = 'rss-meta';
+      const nomSource = document.createElement('span');
+      nomSource.textContent = sources[a.source]?.nom || a.source;
+      const date = document.createElement('time');
+      date.dateTime = a.date || '';
+      date.textContent = formatDate(a.date);
+      meta.append(nomSource, date);
+      if (a.sujet) {
+        const badge = document.createElement('span');
+        badge.className = 'rss-badge';
+        badge.textContent = 'Sujet de veille';
+        meta.append(badge);
+      }
+
+      const titre = document.createElement('h4');
+      ecrireAvecSurlignage(titre, a.titre, mots);
+      const resume = document.createElement('p');
+      ecrireAvecSurlignage(resume, a.resume, mots);
+
+      lien.append(meta, titre, resume);
+      zoneListe.append(lien);
+    });
+
+    const reste = liste.length - etat.affiches;
+    boutonPlus.hidden = reste <= 0;
+    if (reste > 0) boutonPlus.firstChild.textContent = 'Afficher plus d\'articles (' + reste + ') ';
+  }
+
+  function rafraichir() {
+    afficherFiltres();
+    afficherArticles();
+  }
+
+  // Interactions
+  let minuterie;
+  champRecherche.addEventListener('input', () => {
+    clearTimeout(minuterie);
+    minuterie = setTimeout(() => { etat.recherche = champRecherche.value; etat.affiches = RSS_PAR_PAGE; afficherArticles(); }, 200);
   });
-  rssCharger(0);
+  choixTri.addEventListener('change', () => { etat.tri = choixTri.value; afficherArticles(); });
+  boutonPlus.addEventListener('click', () => { etat.affiches += RSS_PAR_PAGE; afficherArticles(); });
+
+  // Chargement du fichier de veille (essaie chaque adresse jusqu'à ce qu'une réponde)
+  (async () => {
+    for (const adresse of RSS_SOURCES_JSON) {
+      try {
+        const reponse = await fetch(adresse, { cache: 'no-cache' });
+        if (!reponse.ok) continue;
+        const donnees = await reponse.json();
+        if (!donnees.articles || !donnees.articles.length) continue;
+
+        articles = donnees.articles.filter((a) => /^https?:\/\//.test(a.lien));
+        donnees.sources.forEach((s) => { sources[s.id] = s; });
+        info.textContent = 'Articles récupérés automatiquement depuis ' + donnees.sources.length +
+          ' sources · mis à jour le ' + new Date(donnees.miseAJour).toLocaleString('fr-FR', { dateStyle: 'long', timeStyle: 'short' }) + '.';
+        rafraichir();
+        return;
+      } catch (erreur) { /* adresse suivante */ }
+    }
+    zoneListe.innerHTML = '';
+    const message = document.createElement('p');
+    message.className = 'rss-empty';
+    message.textContent = 'Les articles ne peuvent pas être chargés pour le moment. Réessayez dans quelques minutes.';
+    zoneListe.append(message);
+    compteur.textContent = '';
+  })();
 }

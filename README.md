@@ -35,6 +35,7 @@ Ce portfolio présente mon parcours, mes projets, mes stages et ma veille inform
 ### Fonctionnalités
 
 - Fond animé « matrix » en `<canvas>`
+- Veille RSS automatique : GitHub Actions récupère 7 flux toutes les 6 heures (`scripts/fetch_feeds.py` → `data/veille.json`), affichés avec recherche, filtres par thème et par source, et tri par date
 - Navigation collante avec fond flouté et indicateur de section active
 - Menu burger sur mobile
 - Effet machine à écrire sur le titre principal

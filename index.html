@@ -674,15 +674,43 @@
 
     </div>
 
-    <!-- Flux RSS en direct : les articles sont chargés par script.js (section 13) -->
-    <div class="rss-wrapper glass reveal">
+    <!-- Flux RSS en direct : articles récupérés toutes les 6 h par GitHub Actions
+         (scripts/fetch_feeds.py → data/veille.json), affichés et triés par script.js (section 13) -->
+    <div class="rss-wrapper glass reveal" id="flux-rss">
       <div class="rss-header">
-        <h3><i class="fa-solid fa-rss" aria-hidden="true"></i> Mes flux RSS en direct</h3>
-        <p>Les derniers articles de mes sources de veille, mis à jour automatiquement à chaque visite.</p>
+        <div>
+          <h3><i class="fa-solid fa-rss" aria-hidden="true"></i> Mes flux RSS en direct</h3>
+          <p id="rss-info">Les derniers articles de mes sources de veille, mis à jour automatiquement.</p>
+        </div>
+        <span class="rss-count" id="rss-count" aria-live="polite"></span>
       </div>
-      <div class="rss-tabs" id="rss-tabs" role="tablist" aria-label="Sources de veille"></div>
+
+      <!-- Barre de tri -->
+      <div class="rss-toolbar">
+        <label class="rss-search">
+          <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+          <span class="sr-only">Rechercher un article</span>
+          <input type="search" id="rss-search" placeholder="Rechercher (ex : ransomware, GPU, Windows…)" autocomplete="off">
+        </label>
+        <label class="rss-sort">
+          <span>Trier par</span>
+          <select id="rss-sort">
+            <option value="recent">Plus récents</option>
+            <option value="ancien">Plus anciens</option>
+            <option value="source">Source (A → Z)</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="rss-filters" role="group" aria-label="Filtrer par thème" id="rss-themes"></div>
+      <div class="rss-filters rss-sources" role="group" aria-label="Filtrer par source" id="rss-sources"></div>
+
       <div class="rss-list" id="rss-list" aria-live="polite">
-        <p class="rss-loading"><i class="fa-solid fa-spinner fa-spin" aria-hidden="true"></i> Chargement des articles…</p>
+        <p class="rss-empty"><i class="fa-solid fa-spinner fa-spin" aria-hidden="true"></i> Chargement des articles…</p>
+      </div>
+
+      <div class="rss-footer">
+        <button type="button" class="rss-more" id="rss-more" hidden>Afficher plus d'articles <i class="fa-solid fa-chevron-down" aria-hidden="true"></i></button>
       </div>
     </div>
   </section>
