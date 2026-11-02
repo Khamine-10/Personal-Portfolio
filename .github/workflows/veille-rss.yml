@@ -1,0 +1,43 @@
+# Met à jour automatiquement les articles de veille affichés sur le portfolio.
+# Toutes les 6 heures, GitHub lance scripts/fetch_feeds.py, qui récupère les
+# flux RSS et enregistre le résultat dans data/veille.json.
+name: Mise à jour de la veille RSS
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # toutes les 6 heures
+  workflow_dispatch:          # bouton « Run workflow » dans l'onglet Actions
+  push:
+    branches: [main]
+    paths:
+      - "scripts/fetch_feeds.py"
+      - ".github/workflows/veille-rss.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: veille-rss
+  cancel-in-progress: false
+
+jobs:
+  maj-veille:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Récupérer les flux RSS
+        run: python3 scripts/fetch_feeds.py
+
+      - name: Enregistrer les nouveaux articles
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/veille.json
+          if git diff --cached --quiet; then
+            echo "Aucun nouvel article."
+          else
+            git commit -m "Veille : mise à jour automatique des flux RSS"
+            git pull --rebase origin main
+            git push
+          fi
