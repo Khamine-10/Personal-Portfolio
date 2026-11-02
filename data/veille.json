@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-02T08:38:40+00:00",
+ "miseAJour": "2026-11-02T08:41:44+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -32,6 +32,12 @@
    "site": "https://www.lemondeinformatique.fr"
   },
   {
+   "id": "next",
+   "nom": "Next",
+   "theme": "actu",
+   "site": "https://next.ink"
+  },
+  {
    "id": "korben",
    "nom": "Korben",
    "theme": "actu",
@@ -61,8 +67,13 @@
   },
   {
    "id": "lmi",
-   "ok": false,
-   "nombre": 0
+   "ok": true,
+   "nombre": 15
+  },
+  {
+   "id": "next",
+   "ok": true,
+   "nombre": 15
   },
   {
    "id": "korben",
@@ -75,7 +86,7 @@
    "titre": "CVE-2026-98432 : la faille critique du noyau Linux qui peut offrir un accès root à distance",
    "lien": "https://www.it-connect.fr/cve-2026-98432-faille-noyau-linux-tcp-root-distance/",
    "date": "2026-11-02T08:29:17+00:00",
-   "resume": "Une nouvelle faille critique dans le noyau Linux (CVE-2026-98432) : RHEL, Debian, SUSE et Proxmox sont patchés, pas Ubuntu. Quel noyau installer ? Le post CVE-2026-98432 : la faille critique du noyau Linux qui peut…",
+   "resume": "Une nouvelle faille critique dans le noyau Linux (CVE-2026-98432) : RHEL, Debian, SUSE et Proxmox sont patchés, pas Ubuntu. Quel noyau installer ?",
    "source": "itconnect",
    "sujet": false
   },
@@ -83,8 +94,16 @@
    "titre": "Steam : des failles permettaient d’exécuter du code à distance sur un PC, sans aucun clic",
    "lien": "https://www.it-connect.fr/steam-rce-zero-click-elevation-privileges-atredis/",
    "date": "2026-11-02T08:02:40+00:00",
-   "resume": "Un chercheur a découvert dans Steam une faille RCE zero-click entre PC liés au même compte, et quatre élévations de privilèges SYSTEM sous Windows. Le post Steam : des failles permettaient d’exécuter du code à distance…",
+   "resume": "Un chercheur a découvert dans Steam une faille RCE zero-click entre PC liés au même compte, et quatre élévations de privilèges SYSTEM sous Windows.",
    "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Les bandes magnétiques ont encore de beaux jours devant elles, notamment grâce à l’IA",
+   "lien": "https://next.ink/265047/les-bandes-magnetiques-ont-encore-de-beaux-jours-devant-elles-notamment-grace-a-lia/",
+   "date": "2026-11-02T07:42:00+00:00",
+   "resume": "Les bonnes vieilles bandes magnétiques sont toujours dans la course, et on peut remercier l’IA pour ça. À tel point que Fujifilm a annoncé des investissements significatifs pour en produire davantage. Il fut un temps…",
+   "source": "next",
    "sujet": false
   },
   {
@@ -96,10 +115,18 @@
    "sujet": false
   },
   {
+   "titre": "KIDS Act : Bruxelles veut imposer un calendrier commun aux États",
+   "lien": "https://next.ink/265045/kids-act-bruxelles-veut-imposer-un-calendrier-commun-aux-etats/",
+   "date": "2026-11-02T07:09:32+00:00",
+   "resume": "Sur la question de la protection des enfants, pas question de présenter un front européen fragmenté et désuni. Pour Bruxelles, tous les États membres doivent se ranger sous la bannière du KIDS Act présenté en septembre.…",
+   "source": "next",
+   "sujet": false
+  },
+  {
    "titre": "Netflix, jeux vidéo, cloud : la taxe au gigaoctet votée par 11 députés fait débat",
    "lien": "https://www.it-connect.fr/taxe-gigaoctet-producteurs-donnees-numeriques/",
    "date": "2026-11-02T06:10:26+00:00",
-   "resume": "Votée à une voix près, la taxe de 0,055 € par Go est vivement critiquée et elle a fait réagir VideoLAN, Free et OVHcloud. Qu'en est-il réellement ? Le post Netflix, jeux vidéo, cloud : la taxe au gigaoctet votée par 11…",
+   "resume": "Votée à une voix près, la taxe de 0,055 € par Go est vivement critiquée et elle a fait réagir VideoLAN, Free et OVHcloud. Qu'en est-il réellement ?",
    "source": "itconnect",
    "sujet": false
   },
@@ -107,15 +134,23 @@
    "titre": "Proton s’excuse et tente de s’expliquer : ses outils IA internes bientôt en open source",
    "lien": "https://www.it-connect.fr/proton-excuses-ia-open-source-lumo/",
    "date": "2026-11-02T06:08:21+00:00",
-   "resume": "Après l'enquête de 404 Media, Proton sort du silence : démentis, excuses et promesse d'ouvrir les coulisses de son usage de l'IA. Voici ce qu'il faut retenir. Le post Proton s’excuse et tente de s’expliquer : ses outils…",
+   "resume": "Après l'enquête de 404 Media, Proton sort du silence : démentis, excuses et promesse d'ouvrir les coulisses de son usage de l'IA. Voici ce qu'il faut retenir.",
    "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Quand la cyberviolence produit des effets politiques concrets",
+   "lien": "https://next.ink/264578/quand-la-cyberviolence-produit-des-effets-politiques-concrets/",
+   "date": "2026-11-02T06:07:00+00:00",
+   "resume": "Les cyberviolences « affectent les conditions de participation à l’espace public et produisent, à ce titre, des effets politiques », constate Féministes contre le cyberharcèlement dans un nouveau rapport. L’association…",
+   "source": "next",
    "sujet": false
   },
   {
    "titre": "Création, connexion, session, récupération : où sont les failles de votre gestion des identités ?",
    "lien": "https://www.it-connect.fr/creation-connexion-session-recuperation-ou-sont-les-failles-de-votre-gestion-des-identites/",
    "date": "2026-11-02T06:00:00+00:00",
-   "resume": "Création, connexion, session, récupération : les 4 moments clés où une identité se fait compromettre, avec des cas réels et les réponses possibles. Le post Création, connexion, session, récupération : où sont les…",
+   "resume": "Création, connexion, session, récupération : les 4 moments clés où une identité se fait compromettre, avec des cas réels et les réponses possibles.",
    "source": "itconnect",
    "sujet": false
   },
@@ -123,15 +158,47 @@
    "titre": "Reddit va réserver ses contenus aux utilisateurs connectés pour freiner le scraping (et l’IA)",
    "lien": "https://www.it-connect.fr/reddit-connexion-obligatoire-scraping/",
    "date": "2026-11-02T05:49:21+00:00",
-   "resume": "Reddit va progressivement réserver ses contenus aux utilisateurs connectés, avec des tests hors des États-Unis. Scraping, publicité : voici ce que l'on sait. Le post Reddit va réserver ses contenus aux utilisateurs…",
+   "resume": "Reddit va progressivement réserver ses contenus aux utilisateurs connectés, avec des tests hors des États-Unis. Scraping, publicité : voici ce que l'on sait.",
    "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Cohere lève jusqu'à 7 Md$ canadien pour accélérer dans l'IA souveraine",
+   "lien": "https://www.lemondeinformatique.fr/actualites/lire-cohere-leve-jusqu-a-7-md$-canadien-pour-accelerer-dans-l-ia-souveraine-100894.html",
+   "date": "2026-11-01T12:20:14+00:00",
+   "resume": "Cohere franchit une étape dans son développement. L'entreprise canadienne, spécialisée dans les solutions IA pour les entreprises (...)",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Apple fait évoluer ses MacBook Pro, iMac et iPad mini",
+   "lien": "https://www.lemondeinformatique.fr/actualites/lire-apple-fait-evoluer-ses-macbook-pro-imac-et-ipad-mini-100891.html",
+   "date": "2026-11-01T11:57:20+00:00",
+   "resume": "Apple a multiplié les annonces en cette fin octobre. En trois jours, le constructeur a présenté quatre appareils : un MacBook Pro (...)",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Mistral AI ouvre à Orange Cyberdefense l'accès anticipé à une version spécialisée de Large 4",
+   "lien": "https://www.lemondeinformatique.fr/actualites/lire-mistral-ai-ouvre-a-orange-cyberdefense-l-acces-anticipe-a-une-version-specialisee-de-large-4-100890.html",
+   "date": "2026-11-01T11:21:52+00:00",
+   "resume": "Alors que Mistral vient d’ouvrir les poids de son modèle Large 4, le fournisseur français s'associe à Orange Cyberdefense premier (...)",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Flock : Parcours SAW",
+   "lien": "https://next.ink/265059/flock-parcours-saw/",
+   "date": "2026-10-31T12:37:00+00:00",
+   "resume": "Paraît-il que Parcours Sup est une horreur. Une révision est en cours. Les élèves, eux, n’y sont pas. Pour faire quoi, pour bosser où ? Pour un slop job ? Quel avenir leur sert-on, à part celui de payer les pots cassés…",
+   "source": "next",
    "sujet": false
   },
   {
    "titre": "VFS365 : cet outil open source affiche SharePoint et OneDrive comme un lecteur réseau dans Windows",
    "lien": "https://www.it-connect.fr/vfs365-sharepoint-onedrive-lecteur-reseau/",
    "date": "2026-10-31T09:45:00+00:00",
-   "resume": "VFS365 affiche OneDrive, SharePoint et Teams comme un lecteur réseau sous Windows, sans synchronisation. Fonctionnement, limites et risques à connaître. Le post VFS365 : cet outil open source affiche SharePoint et…",
+   "resume": "VFS365 affiche OneDrive, SharePoint et Teams comme un lecteur réseau sous Windows, sans synchronisation. Fonctionnement, limites et risques à connaître.",
    "source": "itconnect",
    "sujet": false
   },
@@ -139,7 +206,7 @@
    "titre": "Claude Code : une version piégée de l’extension a ouvert une porte dérobée SSH chez des utilisateurs de Cursor",
    "lien": "https://www.it-connect.fr/claude-code-extension-cursor-porte-derobee-ssh/",
    "date": "2026-10-30T16:43:42+00:00",
-   "resume": "Diffusée via Cursor, la version 2.1.313 de Claude Code installait la clé SSH d’un attaquant et un tunnel persistant. Voici comment vérifier si vous êtes touché. Le post Claude Code : une version piégée de l’extension a…",
+   "resume": "Diffusée via Cursor, la version 2.1.313 de Claude Code installait la clé SSH d’un attaquant et un tunnel persistant. Voici comment vérifier si vous êtes touché.",
    "source": "itconnect",
    "sujet": false
   },
@@ -147,24 +214,64 @@
    "titre": "Windows 11 KB5127936 : beaucoup de changements et le menu contextuel devient personnalisable",
    "lien": "https://www.it-connect.fr/windows-11-kb5127936-menu-contextuel-personnalisable/",
    "date": "2026-10-30T16:25:00+00:00",
-   "resume": "KB5127936 : menu contextuel personnalisable, Cloud rebuild, CLAT pour IPv6 et correctif Always On VPN. Voici l'essentiel de la mise à jour Windows 11 d'octobre. Le post Windows 11 KB5127936 : beaucoup de changements et…",
+   "resume": "KB5127936 : menu contextuel personnalisable, Cloud rebuild, CLAT pour IPv6 et correctif Always On VPN. Voici l'essentiel de la mise à jour Windows 11 d'octobre.",
    "source": "itconnect",
    "sujet": false
+  },
+  {
+   "titre": "Data centers : la souveraineté européenne grâce à des travailleurs immigrés surexploités",
+   "lien": "https://next.ink/264947/data-centers-la-souverainete-europeenne-grace-a-des-travailleurs-immigres-surexploites/",
+   "date": "2026-10-30T16:25:00+00:00",
+   "resume": "La course à l’IA pousse certains sous-traitants, principalement irlandais, à s’inspirer des méthodes managériales états-uniennes et à exploiter les travailleurs venus d’Europe de l’Est notamment, qui maîtrisent mal…",
+   "source": "next",
+   "sujet": true
   },
   {
    "titre": "EnterpriseEnrollment : ce qui change pour l’inscription des postes Windows dans Intune",
    "lien": "https://www.it-connect.fr/enterpriseenrollment-ce-qui-change-pour-linscription-des-postes-windows-dans-intune/",
    "date": "2026-10-30T16:20:00+00:00",
-   "resume": "Dès le 15 janvier 2027, Intune n’utilisera plus le CNAME EnterpriseEnrollment pour l’inscription Windows MDM-only. Qui est concerné et comment s’y préparer ? Le post EnterpriseEnrollment : ce qui change pour…",
+   "resume": "Dès le 15 janvier 2027, Intune n’utilisera plus le CNAME EnterpriseEnrollment pour l’inscription Windows MDM-only. Qui est concerné et comment s’y préparer ?",
    "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "☕️ Windows 11 a son nouveau menu contextuel et oui, il est « rapide »",
+   "lien": "https://next.ink/brief-article/windows-11-a-son-nouveau-menu-contextuel-et-oui-il-est-rapide/",
+   "date": "2026-10-30T16:20:00+00:00",
+   "resume": "Microsoft avait promis de remanier le menu contextuel de Windows 11 sur les fichiers. C’est désormais chose faite, avec la mise à jour KB5127936 disponible depuis peu en option. Ce qui signifie qu’elle n’apparaitra que…",
+   "source": "next",
    "sujet": false
   },
   {
    "titre": "Le PAM face au défi des identités non humaines",
    "lien": "https://www.it-connect.fr/le-pam-face-au-defi-des-identites-non-humaines/",
    "date": "2026-10-30T16:15:00+00:00",
-   "resume": "Le PAM face aux identités non humaines : comment limiter les droits des agents IA et des comptes de service, et tracer leurs actions. Le post Le PAM face au défi des identités non humaines a été publié sur IT-Connect .",
+   "resume": "Le PAM face aux identités non humaines : comment limiter les droits des agents IA et des comptes de service, et tracer leurs actions.",
    "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Intel, Amazon, Google : Wall Street fait les comptes de l’IA, et ils ne sont pas bons",
+   "lien": "https://next.ink/265027/intel-amazon-google-wall-street-fait-les-comptes-de-lia-et-ils-ne-sont-pas-bons/",
+   "date": "2026-10-30T16:03:00+00:00",
+   "resume": "Intel, Amazon, Google : les trois entreprises souffrent en Bourse avec des reculs prononcés. L’action d’Intel en particulier dévisse de quasiment 30 % à Wall Street. Coup de semonce passager ou explosion de la bulle ?…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Danger autour d’une extension Claude Code vérolée dans la boutique de Cursor",
+   "lien": "https://next.ink/265006/danger-autour-dune-extension-claude-code-verolee-dans-la-boutique-de-cursor/",
+   "date": "2026-10-30T15:45:07+00:00",
+   "resume": "Une version piégée de l’extension Claude Code pour Visual Studio Code a été distribuée le 29 octobre dans la boutique Cursor. Elle installait une porte dérobée SSH persistante. Même si le problème a été résolu,…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Le Parti socialiste a fait passer sa taxe au gigaoctet à l’Assemblée nationale",
+   "lien": "https://next.ink/264997/le-parti-socialiste-a-fait-passer-sa-taxe-au-gigaoctet-a-lassemblee-nationale/",
+   "date": "2026-10-30T15:26:07+00:00",
+   "resume": "Alors que la loi de finances 2027 est en discussion à l’Assemblée nationale mais que peu de députés sont présents dans l’hémicycle, le Parti socialiste a réussi à faire passer sa « taxe au gigaoctet » censée faire…",
+   "source": "next",
    "sujet": false
   },
   {
@@ -176,6 +283,30 @@
    "sujet": false
   },
   {
+   "titre": "Binance : 6,3 milliards de dollars dérobés dans un casse crypto record",
+   "lien": "https://next.ink/264981/binance-63-milliards-de-dollars-derobes-dans-un-casse-crypto-record/",
+   "date": "2026-10-30T14:28:14+00:00",
+   "resume": "Le casse crypto du siècle. La plateforme Binance a suspendu une partie des transactions après qu’elle a été victime d’un piratage de grande ampleur. 6,3 milliards de dollars en cryptomonnaies ont été dérobés. Binance a…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Mistral AI ouvre les poids de son modèle Large 4",
+   "lien": "https://www.lemondeinformatique.fr/actualites/lire-mistral-ai-ouvre-les-poids-de-son-modele-large-4-100889.html",
+   "date": "2026-10-30T11:14:52+00:00",
+   "resume": "Mistral AI poursuit le développement de son offre de modèles ouverts. L’entreprise annonce la mise à disposition sur Hugging (...)",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "[MàJ] Chez Proton, le rouleau compresseur de l’IA écrase tout",
+   "lien": "https://next.ink/264941/chez-proton-le-rouleau-compresseur-de-lia-ecrase-tout/",
+   "date": "2026-10-30T11:02:22+00:00",
+   "resume": "L’ambiance chez Proton est particulièrement difficile autour de l’usage de l’IA et de l’attitude du patron de l’entreprise, Andy Yen. C’est ce qu’affirme 404 Media dans un article. La société suisse a désormais un…",
+   "source": "next",
+   "sujet": false
+  },
+  {
    "titre": "Test d'un chargeur UGREEN 160W qui cache un câble rétractable et un écran",
    "lien": "https://korben.info/test-dun-chargeur-ugreen-160w-qui-cache-un-cable-retractable-et-un-ecran.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
    "date": "2026-10-30T10:51:04+00:00",
@@ -184,26 +315,58 @@
    "sujet": false
   },
   {
+   "titre": "Polymarket piratée : les comptes de certains utilisateurs ont pu être vidés",
+   "lien": "https://next.ink/264905/polymarket-piratee-les-comptes-de-certains-utilisateurs-ont-pu-etre-vides/",
+   "date": "2026-10-30T09:53:06+00:00",
+   "resume": "L’entreprise de paris en ligne a dû suspendre l’accès à sa plateforme pendant un peu moins d’une heure : des pirates ont pu accéder aux comptes de certains de ses utilisateurs et récupérer les sommes accumulées.…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "LFI s’inspire de la campagne numérique de Lula, au risque de dépendre de Meta",
+   "lien": "https://next.ink/264781/lfi-sinspire-de-la-campagne-numerique-de-lula-au-risque-de-dependre-de-meta/",
+   "date": "2026-10-30T09:10:00+00:00",
+   "resume": "Après la réélection de Lula au Brésil, les têtes se sont tournées vers son équipe de campagne et notamment vers son organisation sur les réseaux sociaux. Sautant sur l’opportunité, La France Insoumise revendique s’en…",
+   "source": "next",
+   "sujet": false
+  },
+  {
    "titre": "Claude Code : à quoi sert la commande /compact et quand l’utiliser à la main",
    "lien": "https://www.it-connect.fr/claude-code-a-quoi-sert-la-commande-compact-et-quand-lutiliser-a-la-main/",
    "date": "2026-10-30T09:01:42+00:00",
-   "resume": "Découvrez comment /compact dépoussière les sessions Claude Code quand la fenêtre de contexte est saturée : mode automatique ou action manuelle, que choisir ? Le post Claude Code : à quoi sert la commande /compact et…",
+   "resume": "Découvrez comment /compact dépoussière les sessions Claude Code quand la fenêtre de contexte est saturée : mode automatique ou action manuelle, que choisir ?",
    "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "☕️ Tor Browser 16 se dote de noms de fenêtres génériques",
+   "lien": "https://next.ink/brief-article/tor-browser-16-se-dote-de-noms-de-fenetres-generiques/",
+   "date": "2026-10-30T08:46:51+00:00",
+   "resume": "Nouvelle mouture majeure pour Tor Browser, dont la version 16 se fonde désormais sur Firefox 153 ESR, avec à la clé un an de changements techniques sous le capot. Dans son billet, l’équipe de Tor Browser indique que son…",
+   "source": "next",
    "sujet": false
   },
   {
    "titre": "Test Geekom A5 2027 Edition : ce mini PC passe au Ryzen 7 7730U",
    "lien": "https://www.it-connect.fr/test-geekom-a5-2027-edition/",
    "date": "2026-10-30T08:00:00+00:00",
-   "resume": "Test complet du Geekom A5 2027 Edition (Ryzen 7 7730U, 16 Go, SSD 512 Go) : design, évolutivité, performances et comparatif avec l'A5 2025. Le post Test Geekom A5 2027 Edition : ce mini PC passe au Ryzen 7 7730U a été…",
+   "resume": "Test complet du Geekom A5 2027 Edition (Ryzen 7 7730U, 16 Go, SSD 512 Go) : design, évolutivité, performances et comparatif avec l'A5 2025.",
    "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Reddit veut imposer la connexion pour protéger ses données et ses revenus",
+   "lien": "https://next.ink/264889/reddit-veut-imposer-la-connexion-pour-proteger-ses-donnees-et-ses-revenus/",
+   "date": "2026-10-30T07:58:00+00:00",
+   "resume": "Reddit prépare un tournant majeur : imposer aux utilisateurs la connexion à un compte pour consulter les contenus. La plateforme veut protéger ses données des moissonneurs IA et mieux cibler ses publicités. Sous la…",
+   "source": "next",
    "sujet": false
   },
   {
    "titre": "Tor Browser 16.0 passe à Firefox ESR 153, arrive sur Linux ARM64 et peut masquer les titres des fenêtres",
    "lien": "https://www.it-connect.fr/tor-browser-16-nouveautes-linux-arm64-firefox-esr-153/",
    "date": "2026-10-30T07:37:45+00:00",
-   "resume": "Vous utilisez Tor Browser ? La version 16.0 passe à Firefox ESR 153, arrive sur Linux ARM64 et peut masquer vos titres de fenêtres. Voici les nouveautés. Le post Tor Browser 16.0 passe à Firefox ESR 153, arrive sur…",
+   "resume": "Vous utilisez Tor Browser ? La version 16.0 passe à Firefox ESR 153, arrive sur Linux ARM64 et peut masquer vos titres de fenêtres. Voici les nouveautés.",
    "source": "itconnect",
    "sujet": false
   },
@@ -211,7 +374,7 @@
    "titre": "Proton : 90 % du code écrit par l’IA, et pour le CEO, vouloir tester la sécurité est une mentalité de losers",
    "lien": "https://www.it-connect.fr/proton-andy-yen-ia-code/",
    "date": "2026-10-30T06:47:34+00:00",
-   "resume": "90 % du code de Proton serait écrit par l’IA, et son CEO, Andy Yen, balaie une demande de tests de sécurité en parlant d'une mentalité de losers. Le post Proton : 90 % du code écrit par l’IA, et pour le CEO, vouloir…",
+   "resume": "90 % du code de Proton serait écrit par l’IA, et son CEO, Andy Yen, balaie une demande de tests de sécurité en parlant d'une mentalité de losers.",
    "source": "itconnect",
    "sujet": false
   },
@@ -328,11 +491,51 @@
    "sujet": true
   },
   {
+   "titre": "Une cyberattaque expose les données personnelles de clients d'Engie",
+   "lien": "https://www.lemondeinformatique.fr/actualites/lire-une-cyberattaque-expose-les-donnees-personnelles-de-clients-d-engie-100888.html",
+   "date": "2026-10-29T14:53:54+00:00",
+   "resume": "Engie a alerté certains de ses clients français après avoir détecté des accès non autorisés à un (...)",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "EQS Group lance Q, une couche d'IA pour la conformité, et annonce des agents",
+   "lien": "https://www.lemondeinformatique.fr/actualites/lire-eqs-group-lance-q-une-couche-d-ia-pour-la-conformite-et-annonce-des-agents-100886.html",
+   "date": "2026-10-29T14:53:00+00:00",
+   "resume": "Avec Q by EQS, présenté le 28 octobre 2026, EQS Group entend dépasser le stade de l’assistant conversationnel pour intervenir (...)",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "La Mutuelle Communale victime d'une fuite de données",
+   "lien": "https://www.lemondeinformatique.fr/actualites/lire-la-mutuelle-communale-victime-d-une-fuite-de-donnees-100887.html",
+   "date": "2026-10-29T13:23:40+00:00",
+   "resume": "Les adhérents de La Mutuelle Communale, la complémentaire santé que des communes proposent à leurs habitants, pourraient être (...)",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
    "titre": "Slice Into GFN Thursday: ‘Phantom Blade Zero’ Launches on GeForce NOW",
    "lien": "https://blogs.nvidia.com/blog/geforce-now-thursday-phantom-blade-zero/",
    "date": "2026-10-29T13:00:16+00:00",
    "resume": "This Halloween week, GFN Thursday is delivering a fresh batch of gaming treats. Something wicked this blade comes. S-GAME’s Phantom Blade Zero launches on GeForce NOW today, bringing a scarily good blend of martial arts…",
    "source": "nvidia",
+   "sujet": false
+  },
+  {
+   "titre": "Supply chain : l'IA pourrait réduire les commandes urgentes de 59 %",
+   "lien": "https://www.lemondeinformatique.fr/actualites/lire-supply-chain-l-ia-pourrait-reduire-les-commandes-urgentes-de-59-100883.html",
+   "date": "2026-10-29T12:16:32+00:00",
+   "resume": "L’IA dans la supply chain entre dans une nouvelle phase, après les premiers projets consacrés à l’automatisation de tâches (...)",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Google Genie 4 : un modèle d'IA pour explorer des mondes interactifs en temps réel",
+   "lien": "https://www.lemondeinformatique.fr/actualites/lire-google-genie-4-un-modele-d-ia-pour-explorer-des-mondes-interactifs-en-temps-reel-100885.html",
+   "date": "2026-10-29T11:56:18+00:00",
+   "resume": "Après la génération de textes, d’images et de vidéos, les acteurs de l’IA s’intéressent à une (...)",
+   "source": "lmi",
    "sujet": false
   },
   {
@@ -352,12 +555,60 @@
    "sujet": false
   },
   {
+   "titre": "IoT : les vulnérabilités persistent sur les équipements connectés",
+   "lien": "https://www.lemondeinformatique.fr/actualites/lire-iot-les-vulnerabilites-persistent-sur-les-equipements-connectes-100884.html",
+   "date": "2026-10-28T22:37:24+00:00",
+   "resume": "Les objets connectés ne sont plus seulement des cibles potentielles pour les cybercriminels. Ils peuvent aussi servir de relais à des trafics (...)",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
    "titre": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
    "lien": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
    "date": "2026-10-28T15:00:46+00:00",
    "resume": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems…",
    "source": "nvidia",
    "sujet": true
+  },
+  {
+   "titre": "Nvidia va investir 3 Md$ dans Meta",
+   "lien": "https://www.lemondeinformatique.fr/actualites/lire-nvidia-va-investir-3-md$-dans-meta-100882.html",
+   "date": "2026-10-28T14:04:43+00:00",
+   "resume": "Nvidia renforce ses liens avec Meta. Le fabricant américain de semi-conducteurs prévoit d’investir 3 Md$ dans une émission d’actions (...)",
+   "source": "lmi",
+   "sujet": true
+  },
+  {
+   "titre": "Un pirate revendique des fuites de données chez trois partis politiques français",
+   "lien": "https://www.lemondeinformatique.fr/actualites/lire-un-pirate-revendique-des-fuites-de-donnees-chez-trois-partis-politiques-francais-100879.html",
+   "date": "2026-10-28T11:59:22+00:00",
+   "resume": "Deux semaines après la cyberattaque visant la plateforme de vote de la primaire de la gauche, les organisations politiques françaises sont (...)",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Recrutement : 62 % des candidats doutent qu'un humain lise encore leur CV",
+   "lien": "https://www.lemondeinformatique.fr/actualites/lire-recrutement-62-des-candidats-doutent-qu-un-humain-lise-encore-leur-cv-100880.html",
+   "date": "2026-10-28T11:55:38+00:00",
+   "resume": "D’après la récente enquête de Hellowork, 61,8 % des candidats pensent que leur CV n’est pas réellement lu par (...)",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Anthropic révèle que Mythos 5 a tenté de soumettre du code malveillant à un projet open source",
+   "lien": "https://www.lemondeinformatique.fr/actualites/lire-anthropic-revele-que-mythos-5-a-tente-de-soumettre-du-code-malveillant-a-un-projet-open-source-100874.html",
+   "date": "2026-10-28T11:52:05+00:00",
+   "resume": "En juillet dernier, Mythos 5 d’Anthropic a cherché à introduire du code malveillant dans un projet open source hébergé (...)",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Microsoft propose des départs volontaires à 60 000 salariés",
+   "lien": "https://www.lemondeinformatique.fr/actualites/lire-microsoft-propose-des-departs-volontaires-a-60-000-salaries-100878.html",
+   "date": "2026-10-28T11:47:53+00:00",
+   "resume": "Microsoft poursuit la réorganisation de ses effectifs. Après plusieurs vagues de suppressions de postes cette année, le groupe lance (...)",
+   "source": "lmi",
+   "sujet": false
   },
   {
    "titre": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
