@@ -1,0 +1,531 @@
+{
+ "miseAJour": "2026-11-02T08:38:40+00:00",
+ "sources": [
+  {
+   "id": "nvidia",
+   "nom": "NVIDIA Blog",
+   "theme": "ia",
+   "site": "https://blogs.nvidia.com"
+  },
+  {
+   "id": "certfr",
+   "nom": "CERT-FR (ANSSI)",
+   "theme": "cyber",
+   "site": "https://www.cert.ssi.gouv.fr"
+  },
+  {
+   "id": "zataz",
+   "nom": "ZATAZ",
+   "theme": "cyber",
+   "site": "https://www.zataz.com"
+  },
+  {
+   "id": "itconnect",
+   "nom": "IT-Connect",
+   "theme": "infra",
+   "site": "https://www.it-connect.fr"
+  },
+  {
+   "id": "lmi",
+   "nom": "Le Monde Informatique",
+   "theme": "actu",
+   "site": "https://www.lemondeinformatique.fr"
+  },
+  {
+   "id": "korben",
+   "nom": "Korben",
+   "theme": "actu",
+   "site": "https://korben.info"
+  }
+ ],
+ "etat": [
+  {
+   "id": "nvidia",
+   "ok": true,
+   "nombre": 15
+  },
+  {
+   "id": "certfr",
+   "ok": true,
+   "nombre": 15
+  },
+  {
+   "id": "zataz",
+   "ok": true,
+   "nombre": 10
+  },
+  {
+   "id": "itconnect",
+   "ok": true,
+   "nombre": 15
+  },
+  {
+   "id": "lmi",
+   "ok": false,
+   "nombre": 0
+  },
+  {
+   "id": "korben",
+   "ok": true,
+   "nombre": 2
+  }
+ ],
+ "articles": [
+  {
+   "titre": "CVE-2026-98432 : la faille critique du noyau Linux qui peut offrir un accès root à distance",
+   "lien": "https://www.it-connect.fr/cve-2026-98432-faille-noyau-linux-tcp-root-distance/",
+   "date": "2026-11-02T08:29:17+00:00",
+   "resume": "Une nouvelle faille critique dans le noyau Linux (CVE-2026-98432) : RHEL, Debian, SUSE et Proxmox sont patchés, pas Ubuntu. Quel noyau installer ? Le post CVE-2026-98432 : la faille critique du noyau Linux qui peut…",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Steam : des failles permettaient d’exécuter du code à distance sur un PC, sans aucun clic",
+   "lien": "https://www.it-connect.fr/steam-rce-zero-click-elevation-privileges-atredis/",
+   "date": "2026-11-02T08:02:40+00:00",
+   "resume": "Un chercheur a découvert dans Steam une faille RCE zero-click entre PC liés au même compte, et quatre élévations de privilèges SYSTEM sous Windows. Le post Steam : des failles permettaient d’exécuter du code à distance…",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Arnaques dopées à l'IA - Comment ne pas tomber dans le panneau #sponso",
+   "lien": "https://korben.info/arnaques-dopees-ia-comment-se-proteger.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-02T07:20:47+00:00",
+   "resume": "Une commande à coller, un lien, du code, un agent : des pièges où l'IA sert de décor de confiance, avec le réflexe gratuit pour chacun et ce que l'analyse des conversations d'ESET couvre ou pas.",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "Netflix, jeux vidéo, cloud : la taxe au gigaoctet votée par 11 députés fait débat",
+   "lien": "https://www.it-connect.fr/taxe-gigaoctet-producteurs-donnees-numeriques/",
+   "date": "2026-11-02T06:10:26+00:00",
+   "resume": "Votée à une voix près, la taxe de 0,055 € par Go est vivement critiquée et elle a fait réagir VideoLAN, Free et OVHcloud. Qu'en est-il réellement ? Le post Netflix, jeux vidéo, cloud : la taxe au gigaoctet votée par 11…",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Proton s’excuse et tente de s’expliquer : ses outils IA internes bientôt en open source",
+   "lien": "https://www.it-connect.fr/proton-excuses-ia-open-source-lumo/",
+   "date": "2026-11-02T06:08:21+00:00",
+   "resume": "Après l'enquête de 404 Media, Proton sort du silence : démentis, excuses et promesse d'ouvrir les coulisses de son usage de l'IA. Voici ce qu'il faut retenir. Le post Proton s’excuse et tente de s’expliquer : ses outils…",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Création, connexion, session, récupération : où sont les failles de votre gestion des identités ?",
+   "lien": "https://www.it-connect.fr/creation-connexion-session-recuperation-ou-sont-les-failles-de-votre-gestion-des-identites/",
+   "date": "2026-11-02T06:00:00+00:00",
+   "resume": "Création, connexion, session, récupération : les 4 moments clés où une identité se fait compromettre, avec des cas réels et les réponses possibles. Le post Création, connexion, session, récupération : où sont les…",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Reddit va réserver ses contenus aux utilisateurs connectés pour freiner le scraping (et l’IA)",
+   "lien": "https://www.it-connect.fr/reddit-connexion-obligatoire-scraping/",
+   "date": "2026-11-02T05:49:21+00:00",
+   "resume": "Reddit va progressivement réserver ses contenus aux utilisateurs connectés, avec des tests hors des États-Unis. Scraping, publicité : voici ce que l'on sait. Le post Reddit va réserver ses contenus aux utilisateurs…",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "VFS365 : cet outil open source affiche SharePoint et OneDrive comme un lecteur réseau dans Windows",
+   "lien": "https://www.it-connect.fr/vfs365-sharepoint-onedrive-lecteur-reseau/",
+   "date": "2026-10-31T09:45:00+00:00",
+   "resume": "VFS365 affiche OneDrive, SharePoint et Teams comme un lecteur réseau sous Windows, sans synchronisation. Fonctionnement, limites et risques à connaître. Le post VFS365 : cet outil open source affiche SharePoint et…",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Claude Code : une version piégée de l’extension a ouvert une porte dérobée SSH chez des utilisateurs de Cursor",
+   "lien": "https://www.it-connect.fr/claude-code-extension-cursor-porte-derobee-ssh/",
+   "date": "2026-10-30T16:43:42+00:00",
+   "resume": "Diffusée via Cursor, la version 2.1.313 de Claude Code installait la clé SSH d’un attaquant et un tunnel persistant. Voici comment vérifier si vous êtes touché. Le post Claude Code : une version piégée de l’extension a…",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Windows 11 KB5127936 : beaucoup de changements et le menu contextuel devient personnalisable",
+   "lien": "https://www.it-connect.fr/windows-11-kb5127936-menu-contextuel-personnalisable/",
+   "date": "2026-10-30T16:25:00+00:00",
+   "resume": "KB5127936 : menu contextuel personnalisable, Cloud rebuild, CLAT pour IPv6 et correctif Always On VPN. Voici l'essentiel de la mise à jour Windows 11 d'octobre. Le post Windows 11 KB5127936 : beaucoup de changements et…",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "EnterpriseEnrollment : ce qui change pour l’inscription des postes Windows dans Intune",
+   "lien": "https://www.it-connect.fr/enterpriseenrollment-ce-qui-change-pour-linscription-des-postes-windows-dans-intune/",
+   "date": "2026-10-30T16:20:00+00:00",
+   "resume": "Dès le 15 janvier 2027, Intune n’utilisera plus le CNAME EnterpriseEnrollment pour l’inscription Windows MDM-only. Qui est concerné et comment s’y préparer ? Le post EnterpriseEnrollment : ce qui change pour…",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Le PAM face au défi des identités non humaines",
+   "lien": "https://www.it-connect.fr/le-pam-face-au-defi-des-identites-non-humaines/",
+   "date": "2026-10-30T16:15:00+00:00",
+   "resume": "Le PAM face aux identités non humaines : comment limiter les droits des agents IA et des comptes de service, et tracer leurs actions. Le post Le PAM face au défi des identités non humaines a été publié sur IT-Connect .",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+   "lien": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
+   "date": "2026-10-30T15:00:10+00:00",
+   "resume": "While science fiction lore tells us that humans will meet extraterrestrial life in the form of little green men, the detail that should raise hairs this Halloween is this: the search for extraterrestrial intelligence…",
+   "source": "nvidia",
+   "sujet": false
+  },
+  {
+   "titre": "Test d'un chargeur UGREEN 160W qui cache un câble rétractable et un écran",
+   "lien": "https://korben.info/test-dun-chargeur-ugreen-160w-qui-cache-un-cable-retractable-et-un-ecran.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-10-30T10:51:04+00:00",
+   "resume": "UGREEN propose le Nexode Pro 160W, un chargeur au nitrure de gallium doté d'un câble USB-C rétractable de 70 cm (jusqu'à 140 W) et d'un écran couleur affichant puissance, tension et température par port. Lancé à 130…",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "Claude Code : à quoi sert la commande /compact et quand l’utiliser à la main",
+   "lien": "https://www.it-connect.fr/claude-code-a-quoi-sert-la-commande-compact-et-quand-lutiliser-a-la-main/",
+   "date": "2026-10-30T09:01:42+00:00",
+   "resume": "Découvrez comment /compact dépoussière les sessions Claude Code quand la fenêtre de contexte est saturée : mode automatique ou action manuelle, que choisir ? Le post Claude Code : à quoi sert la commande /compact et…",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Test Geekom A5 2027 Edition : ce mini PC passe au Ryzen 7 7730U",
+   "lien": "https://www.it-connect.fr/test-geekom-a5-2027-edition/",
+   "date": "2026-10-30T08:00:00+00:00",
+   "resume": "Test complet du Geekom A5 2027 Edition (Ryzen 7 7730U, 16 Go, SSD 512 Go) : design, évolutivité, performances et comparatif avec l'A5 2025. Le post Test Geekom A5 2027 Edition : ce mini PC passe au Ryzen 7 7730U a été…",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Tor Browser 16.0 passe à Firefox ESR 153, arrive sur Linux ARM64 et peut masquer les titres des fenêtres",
+   "lien": "https://www.it-connect.fr/tor-browser-16-nouveautes-linux-arm64-firefox-esr-153/",
+   "date": "2026-10-30T07:37:45+00:00",
+   "resume": "Vous utilisez Tor Browser ? La version 16.0 passe à Firefox ESR 153, arrive sur Linux ARM64 et peut masquer vos titres de fenêtres. Voici les nouveautés. Le post Tor Browser 16.0 passe à Firefox ESR 153, arrive sur…",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Proton : 90 % du code écrit par l’IA, et pour le CEO, vouloir tester la sécurité est une mentalité de losers",
+   "lien": "https://www.it-connect.fr/proton-andy-yen-ia-code/",
+   "date": "2026-10-30T06:47:34+00:00",
+   "resume": "90 % du code de Proton serait écrit par l’IA, et son CEO, Andy Yen, balaie une demande de tests de sécurité en parlant d'une mentalité de losers. Le post Proton : 90 % du code écrit par l’IA, et pour le CEO, vouloir…",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Multiples vulnérabilités dans les produits IBM (30 octobre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1433/",
+   "date": "2026-10-30T00:00:00+00:00",
+   "resume": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une…",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
+   "titre": "Multiples vulnérabilités dans les produits Apple (30 octobre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1421/",
+   "date": "2026-10-30T00:00:00+00:00",
+   "resume": "De multiples vulnérabilités ont été découvertes dans les produits Apple. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données.",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
+   "titre": "Vulnérabilité dans Stormshield Management Center (30 octobre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1429/",
+   "date": "2026-10-30T00:00:00+00:00",
+   "resume": "Une vulnérabilité a été découverte dans Stormshield Management Center. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
+   "titre": "Multiples vulnérabilités dans Google Chrome (30 octobre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1422/",
+   "date": "2026-10-30T00:00:00+00:00",
+   "resume": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
+   "titre": "Vulnérabilité dans CPython (30 octobre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1423/",
+   "date": "2026-10-30T00:00:00+00:00",
+   "resume": "Une vulnérabilité a été découverte dans CPython. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
+   "titre": "Multiples vulnérabilités dans le noyau Linux de SUSE (30 octobre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1432/",
+   "date": "2026-10-30T00:00:00+00:00",
+   "resume": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, un contournement de la politique…",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
+   "titre": "Vulnérabilité dans Tenable Nessus Plugin (30 octobre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1425/",
+   "date": "2026-10-30T00:00:00+00:00",
+   "resume": "Une vulnérabilité a été découverte dans Tenable Nessus Plugin. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données.",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
+   "titre": "Multiples vulnérabilités dans le noyau Linux de Red Hat (30 octobre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1431/",
+   "date": "2026-10-30T00:00:00+00:00",
+   "resume": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et…",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
+   "titre": "Multiples vulnérabilités dans les produits MongoDB (30 octobre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1430/",
+   "date": "2026-10-30T00:00:00+00:00",
+   "resume": "De multiples vulnérabilités ont été découvertes dans les produits MongoDB. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à l'intégrité des données, une injection SQL (SQLi) et un…",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
+   "titre": "Multiples vulnérabilités dans Suricata (30 octobre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1428/",
+   "date": "2026-10-30T00:00:00+00:00",
+   "resume": "De multiples vulnérabilités ont été découvertes dans Suricata. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
+   "titre": "Multiples vulnérabilités dans Veeam Management Pack (30 octobre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1426/",
+   "date": "2026-10-30T00:00:00+00:00",
+   "resume": "De multiples vulnérabilités ont été découvertes dans Veeam Management Pack. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
+   "titre": "Vulnérabilité dans GitLab (30 octobre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1427/",
+   "date": "2026-10-30T00:00:00+00:00",
+   "resume": "Une vulnérabilité a été découverte dans les produits GitLab. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
+   "titre": "Vulnérabilité dans Ruby on Rails trilogy (30 octobre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1424/",
+   "date": "2026-10-30T00:00:00+00:00",
+   "resume": "Une vulnérabilité a été découverte dans Ruby on Rails trilogy. Elle permet à un attaquant de provoquer une injection SQL (SQLi).",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
+   "titre": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+   "lien": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+   "date": "2026-10-29T16:00:35+00:00",
+   "resume": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA…",
+   "source": "nvidia",
+   "sujet": true
+  },
+  {
+   "titre": "Slice Into GFN Thursday: ‘Phantom Blade Zero’ Launches on GeForce NOW",
+   "lien": "https://blogs.nvidia.com/blog/geforce-now-thursday-phantom-blade-zero/",
+   "date": "2026-10-29T13:00:16+00:00",
+   "resume": "This Halloween week, GFN Thursday is delivering a fresh batch of gaming treats. Something wicked this blade comes. S-GAME’s Phantom Blade Zero launches on GeForce NOW today, bringing a scarily good blend of martial arts…",
+   "source": "nvidia",
+   "sujet": false
+  },
+  {
+   "titre": "Vulnérabilité dans les produits Cisco (29 octobre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1412/",
+   "date": "2026-10-29T00:00:00+00:00",
+   "resume": "Une vulnérabilité a été découverte dans les produits Cisco. Elle permet à un attaquant de provoquer un déni de service à distance. Cisco indique que la vulnérabilité CVE-2026-76418 est activement exploitée.",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
+   "titre": "Vulnérabilité dans les produits NetApp (29 octobre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1410/",
+   "date": "2026-10-29T00:00:00+00:00",
+   "resume": "Une vulnérabilité a été découverte dans les produits NetApp. Elle permet à un attaquant de provoquer une élévation de privilèges.",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
+   "titre": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+   "lien": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
+   "date": "2026-10-28T15:00:46+00:00",
+   "resume": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems…",
+   "source": "nvidia",
+   "sujet": true
+  },
+  {
+   "titre": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
+   "lien": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia/",
+   "date": "2026-10-27T15:00:20+00:00",
+   "resume": "There are 57 million people worldwide living with dementia today. For the researchers working to help them, the obstacle isn’t a lack of effort — it’s too much data, too few experts to synthesize it and a pace of…",
+   "source": "nvidia",
+   "sujet": false
+  },
+  {
+   "titre": "Chimeraz revendique des fuites visant trois partis français, dont celui du groupe présidentiel",
+   "lien": "https://www.zataz.com/chimeraz-revendique-des-fuites-visant-trois-partis-francais/",
+   "date": "2026-10-24T23:00:29+00:00",
+   "resume": "Chimeraz revendique des données annoncées comme volées aux partis politiques de Renaissance, LFI et du PCF.",
+   "source": "zataz",
+   "sujet": false
+  },
+  {
+   "titre": "DeepSeek banni des agences fédérales US",
+   "lien": "https://www.zataz.com/deepseek-banni-des-agences-federales-civiles-americaines/",
+   "date": "2026-10-24T10:46:39+00:00",
+   "resume": "DeepSeek banni des agences fédérales civiles américaines : portée, calendrier et risques pour les données.",
+   "source": "zataz",
+   "sujet": false
+  },
+  {
+   "titre": "Point Vision : des données de patients dérobées",
+   "lien": "https://www.zataz.com/point-vision-des-donnees-de-patients-derobees/",
+   "date": "2026-10-24T09:29:23+00:00",
+   "resume": "Cyberattaque chez Point Vision : données de patients volées, exposition possible des motifs de rendez-vous.",
+   "source": "zataz",
+   "sujet": false
+  },
+  {
+   "titre": "Technostress : une faille pour l’ingénierie sociale",
+   "lien": "https://www.zataz.com/technostress-une-faille-pour-lingenierie-sociale/",
+   "date": "2026-10-23T12:56:16+00:00",
+   "resume": "Technostress et ingénierie sociale : comment la surcharge numérique peut fragiliser la vigilance face aux manipulations.",
+   "source": "zataz",
+   "sujet": false
+  },
+  {
+   "titre": "Piratage de la FFTir : la Fédération confirme le vol",
+   "lien": "https://www.zataz.com/piratage-de-la-fftir-la-federation-confirme-le-vol/",
+   "date": "2026-10-23T10:41:26+00:00",
+   "resume": "FFTir : la Fédération confirme une cyberattaque, le vol de 64 000 photos et de milliers de documents personnels.",
+   "source": "zataz",
+   "sujet": false
+  },
+  {
+   "titre": "Fraude bancaire : deux mails pour installer la peur",
+   "lien": "https://www.zataz.com/fraude-bancaire-deux-mails-pour-installer-la-peur/",
+   "date": "2026-10-23T10:27:14+00:00",
+   "resume": "Alerte ZATAZ : deux faux mails bancaires, des milliers d'euros en jeu et une fraude téléphonique décryptée.",
+   "source": "zataz",
+   "sujet": false
+  },
+  {
+   "titre": "Kazakhstan Expands Compute for Its AI Future",
+   "lien": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
+   "date": "2026-10-23T02:00:13+00:00",
+   "resume": "Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment. The shift is visible across the full AI stack — from infrastructure to models to applications. The announcements below — coinciding with a…",
+   "source": "nvidia",
+   "sujet": false
+  },
+  {
+   "titre": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+   "lien": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+   "date": "2026-10-22T15:00:02+00:00",
+   "resume": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies…",
+   "source": "nvidia",
+   "sujet": true
+  },
+  {
+   "titre": "Cloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW",
+   "lien": "https://blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4/",
+   "date": "2026-10-22T13:00:20+00:00",
+   "resume": "Lock in and load out this GFN Thursday. Call of Duty: Modern Warfare 4 arrives on GeForce NOW at launch, bringing a new campaign, multiplayer action and DMZ, high-stakes extraction mode to supported devices. The…",
+   "source": "nvidia",
+   "sujet": false
+  },
+  {
+   "titre": "Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
+   "lien": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/",
+   "date": "2026-10-22T05:00:56+00:00",
+   "resume": "At GTC Berlin, banks, payment companies and financial data providers are showing what production-scale intelligence looks like — built on NVIDIA accelerated computing, powered by open weight models and running on their…",
+   "source": "nvidia",
+   "sujet": true
+  },
+  {
+   "titre": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+   "lien": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+   "date": "2026-10-22T05:00:27+00:00",
+   "resume": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos…",
+   "source": "nvidia",
+   "sujet": true
+  },
+  {
+   "titre": "How Companies Are Using NVIDIA DSX to Break the Power Bottleneck",
+   "lien": "https://blogs.nvidia.com/blog/dsx-power/",
+   "date": "2026-10-22T05:00:25+00:00",
+   "resume": "Companies around the world are building on the NVIDIA DSX AI Factory Platform to plan, simulate and run the grid and the AI factory as one system, from the substation to the rack. Their adoption of the platform responds…",
+   "source": "nvidia",
+   "sujet": true
+  },
+  {
+   "titre": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
+   "lien": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
+   "date": "2026-10-22T05:00:23+00:00",
+   "resume": "European retailers are using open models and physical intelligence across use cases — from a commerce platform cutting inference costs by 90% to to a fulfillment center where collaboration of different robotic fleets is…",
+   "source": "nvidia",
+   "sujet": true
+  },
+  {
+   "titre": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
+   "lien": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
+   "date": "2026-10-22T05:00:19+00:00",
+   "resume": "Weather forecasts shape more than daily plans; timely weather information is crucial for energy producers, insurers and transport operators to plan around changing conditions. A global forecast can show a storm taking…",
+   "source": "nvidia",
+   "sujet": true
+  },
+  {
+   "titre": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
+   "lien": "https://blogs.nvidia.com/blog/european-public-sector-open-models/",
+   "date": "2026-10-22T05:00:02+00:00",
+   "resume": "Governments need modern solutions to serve the public while keeping sensitive information under their control. Open models provide a path forward, letting governments evaluate them, adapt them to local languages and…",
+   "source": "nvidia",
+   "sujet": true
+  },
+  {
+   "titre": "Arrêtée pour avoir bloqué un robot de livraison Uber",
+   "lien": "https://www.zataz.com/arretee-pour-avoir-bloque-un-robot-de-livraison-uber/",
+   "date": "2026-10-21T18:04:11+00:00",
+   "resume": "Une manifestante arrêtée pour avoir bloqué un robot Uber et dénoncé l'automatisation des emplois.",
+   "source": "zataz",
+   "sujet": false
+  },
+  {
+   "titre": "Panne chez Orange et Sosh !",
+   "lien": "https://www.zataz.com/panne-chez-orange-et-sosh/",
+   "date": "2026-10-21T15:21:36+00:00",
+   "resume": "Ce mercredi 21 octobre 2026, une importante panne perturbe le réseau mobile d'Orange et de sa marque low cost Sosh.",
+   "source": "zataz",
+   "sujet": false
+  },
+  {
+   "titre": "Musique IA et faux streams : 18 mois de prison",
+   "lien": "https://www.zataz.com/musique-ia-et-faux-streams-18-mois-de-prison/",
+   "date": "2026-10-21T14:42:22+00:00",
+   "resume": "Musique IA, faux comptes et royalties détournées : 18 mois de prison pour un fraudeur.",
+   "source": "zataz",
+   "sujet": false
+  },
+  {
+   "titre": "LibreOffice et OpenOffice piégés par des tableurs",
+   "lien": "https://www.zataz.com/libreoffice-et-openoffice-pieges-par-des-tableurs/",
+   "date": "2026-10-21T14:28:13+00:00",
+   "resume": "LibreOffice et OpenOffice : des tableurs piégés exécutent du code Java. Correctifs et protections à connaître.",
+   "source": "zataz",
+   "sujet": false
+  },
+  {
+   "titre": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
+   "lien": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
+   "date": "2026-10-21T10:50:37+00:00",
+   "resume": "At GTC Berlin, NVIDIA is showcasing its full lineup of local AI hardware. RTX Spark, which launched last week, powers personal agents on Windows PCs; DGX Spark supports developers building and scaling applications on…",
+   "source": "nvidia",
+   "sujet": true
+  }
+ ]
+}
