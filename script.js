@@ -576,3 +576,114 @@ if (anneeCourante) anneeCourante.textContent = new Date().getFullYear();
 
 // Première mise à jour au chargement (section active, barre de progression…)
 auScroll();
+
+
+/* ============================================================
+   13. FLUX RSS DE VEILLE
+   Pour ajouter une source, il suffit d'ajouter une ligne dans
+   FLUX_RSS. Les flux sont convertis en JSON par le service
+   gratuit rss2json, car un navigateur ne peut pas lire
+   directement un flux RSS d'un autre site (règle CORS).
+   ============================================================ */
+const FLUX_RSS = [
+  { nom: 'NVIDIA Blog',           site: 'https://blogs.nvidia.com',           url: 'https://blogs.nvidia.com/feed/' },
+  { nom: 'CERT-FR (ANSSI)',       site: 'https://www.cert.ssi.gouv.fr',       url: 'https://www.cert.ssi.gouv.fr/feed/' },
+  { nom: 'Le Monde Informatique', site: 'https://www.lemondeinformatique.fr', url: 'https://www.lemondeinformatique.fr/flux-rss/thematique/toutes-les-actualites/rss.xml' },
+  { nom: 'Korben',                site: 'https://korben.info',                url: 'https://korben.info/feed' },
+  { nom: 'ZATAZ',                 site: 'https://www.zataz.com',              url: 'https://www.zataz.com/feed/' }
+];
+
+const RSS_CONVERTISSEUR = 'https://api.rss2json.com/v1/api.json?rss_url=';
+const RSS_NB_ARTICLES = 5;
+const rssCache = {};
+const rssOnglets = document.getElementById('rss-tabs');
+const rssListe = document.getElementById('rss-list');
+
+// Retire les balises HTML d'un texte et le raccourcit
+function rssNettoyer(html, longueurMax) {
+  const temp = document.createElement('div');
+  temp.innerHTML = html || '';
+  const texte = (temp.textContent || '').replace(/\s+/g, ' ').trim();
+  return texte.length > longueurMax ? texte.slice(0, longueurMax) + '…' : texte;
+}
+
+// Date au format français (ex : 2 nov. 2026)
+function rssDate(dateTexte) {
+  const date = new Date(String(dateTexte).replace(' ', 'T'));
+  return isNaN(date) ? '' : date.toLocaleDateString('fr-FR', { day: 'numeric', month: 'short', year: 'numeric' });
+}
+
+// Affiche les articles, créés élément par élément (aucun HTML externe injecté)
+function rssAfficher(flux, articles) {
+  rssListe.innerHTML = '';
+  articles.slice(0, RSS_NB_ARTICLES).forEach((article) => {
+    const lien = document.createElement('a');
+    lien.className = 'rss-item';
+    lien.href = article.link;
+    lien.target = '_blank';
+    lien.rel = 'noopener';
+
+    const meta = document.createElement('span');
+    meta.className = 'rss-meta';
+    meta.textContent = flux.nom + ' · ' + rssDate(article.pubDate);
+
+    const titre = document.createElement('h4');
+    titre.textContent = rssNettoyer(article.title, 140);
+
+    const resume = document.createElement('p');
+    resume.textContent = rssNettoyer(article.description, 180);
+
+    lien.append(meta, titre, resume);
+    rssListe.appendChild(lien);
+  });
+}
+
+// Si un flux ne répond pas : lien direct vers le site de la source
+function rssErreur(flux) {
+  rssListe.innerHTML = '';
+  const message = document.createElement('p');
+  message.className = 'rss-loading';
+  message.textContent = 'Impossible de charger ce flux pour le moment. ';
+  const lien = document.createElement('a');
+  lien.href = flux.site;
+  lien.target = '_blank';
+  lien.rel = 'noopener';
+  lien.textContent = 'Voir le site ' + flux.nom + ' →';
+  message.appendChild(lien);
+  rssListe.appendChild(message);
+}
+
+// Charge un flux (ou le reprend du cache s'il a déjà été chargé)
+async function rssCharger(index) {
+  const flux = FLUX_RSS[index];
+  rssOnglets.querySelectorAll('.rss-tab').forEach((bouton, i) => {
+    bouton.classList.toggle('active', i === index);
+    bouton.setAttribute('aria-selected', i === index ? 'true' : 'false');
+  });
+
+  if (rssCache[flux.url]) { rssAfficher(flux, rssCache[flux.url]); return; }
+
+  rssListe.innerHTML = '<p class="rss-loading"><i class="fa-solid fa-spinner fa-spin" aria-hidden="true"></i> Chargement des articles…</p>';
+  try {
+    const reponse = await fetch(RSS_CONVERTISSEUR + encodeURIComponent(flux.url));
+    const donnees = await reponse.json();
+    if (donnees.status !== 'ok' || !donnees.items || !donnees.items.length) throw new Error('Flux vide');
+    rssCache[flux.url] = donnees.items;
+    rssAfficher(flux, donnees.items);
+  } catch (erreur) {
+    rssErreur(flux);
+  }
+}
+
+if (rssOnglets && rssListe) {
+  FLUX_RSS.forEach((flux, index) => {
+    const bouton = document.createElement('button');
+    bouton.type = 'button';
+    bouton.className = 'rss-tab';
+    bouton.setAttribute('role', 'tab');
+    bouton.textContent = flux.nom;
+    bouton.addEventListener('click', () => rssCharger(index));
+    rssOnglets.appendChild(bouton);
+  });
+  rssCharger(0);
+}

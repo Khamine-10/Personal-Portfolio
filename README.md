@@ -11,7 +11,7 @@ Portfolio personnel réalisé dans le cadre du **BTS SIO option SISR** (Solution
 Étudiant en 2ᵉ année de BTS SIO SISR, passionné par les réseaux, la cybersécurité et l'administration systèmes.
 Ce portfolio présente mon parcours, mes projets, mes stages et ma veille informationnelle.
 
-**Recherche un stage de 8 semaines, du 18 janvier au 1ᵉʳ mars 2027.**
+**Recherche un stage de 8 semaines, du 18 janvier au 13 mars 2027.**
 
 ## Contenu du site
 
@@ -23,7 +23,7 @@ Ce portfolio présente mon parcours, mes projets, mes stages et ma veille inform
 | Compétences | Niveaux par domaine, environnement technique et certifications |
 | Projets | Virtualisation, Kali Linux / Radare2, réseaux LAN sous Packet Tracer |
 | Stages | Stage de 1ʳᵉ année (WordPress / sécurisation) et stage de 2ᵉ année |
-| Veille | Veille informationnelle sur NVIDIA et les GPU au service de l'IA |
+| Veille | Veille informationnelle sur NVIDIA et les GPU au service de l'IA, avec flux RSS en direct |
 | Contact | Coordonnées et formulaire de contact |
 
 ## Technologies
