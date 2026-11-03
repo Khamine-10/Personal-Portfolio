@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-02T21:44:44+00:00",
+ "miseAJour": "2026-11-03T06:55:25+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -82,6 +82,30 @@
   }
  ],
  "articles": [
+  {
+   "titre": "Après la France, des pirates font chauffer les frigos de supermarchés en Belgique et en Suède",
+   "lien": "https://www.it-connect.fr/cyberattaque-frigos-supermarches-belgique-suede/",
+   "date": "2026-11-03T06:35:10+00:00",
+   "resume": "Delhaize, Carrefour, ICA, Coop : des pirates ont activé à distance le dégivrage des frigos de supermarchés en Belgique et en Suède. Voici ce que l'on sait.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "☕️ SUSE va supprimer 10 % de ses effectifs",
+   "lien": "https://next.ink/brief-article/suse-va-supprimer-10-de-ses-effectifs/",
+   "date": "2026-11-03T06:32:00+00:00",
+   "resume": "« Décision douloureuse » mais « nécessaire » pour s’adapter et « construire une entreprise pérenne et résiliente sur le long terme » : Dirk-Peter van Leeuwen, le directeur général de SUSE, a sorti tous les poncifs du…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "SMS of Death : un SMS invisible coupe les appels téléphoniques sur Android",
+   "lien": "https://www.it-connect.fr/sms-of-death-android-faille-appels/",
+   "date": "2026-11-03T06:03:31+00:00",
+   "resume": "Un SMS invisible suffit à faire planter la téléphonie d'Android et à couper les appels, même les appels d'urgence. Voici la faille SMS of Death.",
+   "source": "itconnect",
+   "sujet": false
+  },
   {
    "titre": "☕️ Les serveurs de Netatmo en panne, pour la deuxième fois en quelques jours",
    "lien": "https://next.ink/brief-article/les-serveurs-de-netatmo-en-panne-pour-la-deuxieme-fois-en-quelques-jours/",
@@ -443,14 +467,6 @@
    "sujet": false
   },
   {
-   "titre": "☕️ Windows 11 a son nouveau menu contextuel et oui, il est « rapide »",
-   "lien": "https://next.ink/brief-article/windows-11-a-son-nouveau-menu-contextuel-et-oui-il-est-rapide/",
-   "date": "2026-10-30T16:20:00+00:00",
-   "resume": "Microsoft avait promis de remanier le menu contextuel de Windows 11 sur les fichiers. C’est désormais chose faite, avec la mise à jour KB5127936 disponible depuis peu en option. Ce qui signifie qu’elle n’apparaitra que…",
-   "source": "next",
-   "sujet": false
-  },
-  {
    "titre": "Le PAM face au défi des identités non humaines",
    "lien": "https://www.it-connect.fr/le-pam-face-au-defi-des-identites-non-humaines/",
    "date": "2026-10-30T16:15:00+00:00",
@@ -480,22 +496,6 @@
    "date": "2026-10-30T10:51:04+00:00",
    "resume": "UGREEN propose le Nexode Pro 160W, un chargeur au nitrure de gallium doté d'un câble USB-C rétractable de 70 cm (jusqu'à 140 W) et d'un écran couleur affichant puissance, tension et température par port. Lancé à 130…",
    "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "Claude Code : à quoi sert la commande /compact et quand l’utiliser à la main",
-   "lien": "https://www.it-connect.fr/claude-code-a-quoi-sert-la-commande-compact-et-quand-lutiliser-a-la-main/",
-   "date": "2026-10-30T09:01:42+00:00",
-   "resume": "Découvrez comment /compact dépoussière les sessions Claude Code quand la fenêtre de contexte est saturée : mode automatique ou action manuelle, que choisir ?",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "Test Geekom A5 2027 Edition : ce mini PC passe au Ryzen 7 7730U",
-   "lien": "https://www.it-connect.fr/test-geekom-a5-2027-edition/",
-   "date": "2026-10-30T08:00:00+00:00",
-   "resume": "Test complet du Geekom A5 2027 Edition (Ryzen 7 7730U, 16 Go, SSD 512 Go) : design, évolutivité, performances et comparatif avec l'A5 2025.",
-   "source": "itconnect",
    "sujet": false
   },
   {
