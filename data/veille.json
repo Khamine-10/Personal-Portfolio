@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-03T19:32:25+00:00",
+ "miseAJour": "2026-11-04T06:33:55+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -83,6 +83,22 @@
  ],
  "articles": [
   {
+   "titre": "Astra a retouché les poids de Qwen pour qu'il puisse aller jusqu'au bout de sa réflexion",
+   "lien": "https://korben.info/gpt-6-astra-poids-qwen.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-04T04:44:37+00:00",
+   "resume": "GPT-6 Astra a modifié 0,016 % des poids de Qwen3.5-0.8B et fait passer MATH-500 de 7,9 % à 48,1 %. Sauf que la retouche répare surtout des boucles de réflexion : réflexion coupée, son réglage par défaut, le modèle…",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "DiscImageStudio - Un dessin gravé dans les données du disque",
+   "lien": "https://korben.info/discimagestudio-graver-image-cd-dvd-blu-ray.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-04T04:25:15+00:00",
+   "resume": "DiscImageStudio convertit une image en données qui, une fois gravées sur un CD, un DVD ou un BD-R, font apparaître ce dessin à la surface du disque. Héritier de CDImage, il calibre les disques par photo sous Windows, et…",
+   "source": "korben",
+   "sujet": false
+  },
+  {
    "titre": "BlackLine se déploie sur S3NS",
    "lien": "https://www.lemondeinformatique.fr/actualites/lire-blackline-se-deploie-sur-s3ns-100897.html",
    "date": "2026-11-03T17:10:25+00:00",
@@ -91,7 +107,7 @@
    "sujet": false
   },
   {
-   "titre": "Midterms : l’agence US chargée de la cybersécurité n’en a plus rien à carrer des élections",
+   "titre": "Midterms: l’agence chargée de la cybersécurité n’en a plus rien à carrer des élections",
    "lien": "https://next.ink/265398/midterms-lagence-us-chargee-de-la-cybersecurite-nen-a-plus-rien-a-carrer-des-elections/",
    "date": "2026-11-03T17:04:50+00:00",
    "resume": "L’administration Trump a licencié un tiers des employés de l’agence fédérale chargée de la cybersécurité, et systématiquement démantelé l’expertise accumulée notamment en matière de sécurité électorale. La CISA ne…",
@@ -823,22 +839,6 @@
    "lien": "https://korben.info/faille-wps-broadcom-routeurs-wifi.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
    "date": "2026-10-20T07:51:56+00:00",
    "resume": "Quentin Kaiser a divulgué une faille d'au moins 16 ans dans le code WPS de Broadcom : à portée de Wi-Fi, sans la clé du réseau, on peut faire exécuter son code à une box. Broadcom dit l'avoir remplacé en 2018 mais…",
-   "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "La Disquette - Un vieux jeu PC par semaine, sans rien installer",
-   "lien": "https://korben.info/la-disquette-jeu-pc-de-la-semaine-navigateur.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-10-20T05:14:23+00:00",
-   "resume": "La Disquette fait tourner chaque semaine un ancien jeu PC Windows sur ses serveurs et l'affiche dans votre navigateur, gratuitement, dans un faux bureau XP. GTA 2 jusqu'au 26 octobre, sans compte ni installation. Le…",
-   "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "Korben Remote Desktop - Contrôlez votre Mac à distance gratuitement",
-   "lien": "https://korben.info/korben-remote-desktop.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-10-19T10:04:36+00:00",
-   "resume": "J'en avais marre du Partage d'écran d'Apple qui lag et de VNC, alors je me suis codé ma propre app de prise de contrôle à distance pour Mac. Image HEVC fluide, son, fichiers, fenêtres d'apps déportées, accès web, le…",
    "source": "korben",
    "sujet": false
   }
