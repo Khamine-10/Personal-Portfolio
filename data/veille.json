@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-04T19:49:57+00:00",
+ "miseAJour": "2026-11-05T06:55:17+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -78,10 +78,34 @@
   {
    "id": "korben",
    "ok": true,
-   "nombre": 10
+   "nombre": 11
   }
  ],
  "articles": [
+  {
+   "titre": "SpaceX s’allie à Qualcomm pour bâtir le réseau 5G terrestre de Starlink Mobile",
+   "lien": "https://next.ink/265775/spacex-sallie-a-qualcomm-pour-batir-le-reseau-5g-terrestre-de-starlink-mobile/",
+   "date": "2026-11-05T06:27:00+00:00",
+   "resume": "SpaceX assemble petit à petit les différents éléments qui permettront à Starlink de concurrencer réellement les opérateurs de téléphonie. L’entreprise a signé un partenariat avec Qualcomm pour équiper son futur réseau…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "HatchZip - Décompresser une archive énorme sur un disque plein",
+   "lien": "https://korben.info/hatchzip.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-05T06:24:56+00:00",
+   "resume": "HatchZip extrait une archive ZIP, 7z, RAR ou tar en la coupant par la fin au fur et à mesure : un jeu de 180 Go qui en fait 200 ne demande plus 380 Go de disque. Gratuit et open source, il vérifie la place avant de…",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "☕️ Apple va contrôler les contenus partagés publiquement sur iCloud",
+   "lien": "https://next.ink/brief-article/apple-va-controler-les-contenus-partages-publiquement-sur-icloud/",
+   "date": "2026-11-05T05:56:09+00:00",
+   "resume": "Dans les prochaines versions 27.3 de ses systèmes d’exploitation, Apple vérifiera le contenu des liens partagés via iCloud quand l’option « Toute personne disposant du lien » est sélectionnée. Les partages limités à des…",
+   "source": "next",
+   "sujet": false
+  },
   {
    "titre": "CTF Social Engineering : trois jours pour piéger l’humain",
    "lien": "https://www.zataz.com/ctf-social-engineering-trois-jours-pour-pieger-lhumain/",
@@ -499,14 +523,6 @@
    "sujet": false
   },
   {
-   "titre": "Midterms: l’agence chargée de la cybersécurité n’en a plus rien à carrer des élections",
-   "lien": "https://next.ink/265398/midterms-lagence-us-chargee-de-la-cybersecurite-nen-a-plus-rien-a-carrer-des-elections/",
-   "date": "2026-11-03T17:04:50+00:00",
-   "resume": "L’administration Trump a licencié un tiers des employés de l’agence fédérale chargée de la cybersécurité, et systématiquement démantelé l’expertise accumulée notamment en matière de sécurité électorale. La CISA ne…",
-   "source": "next",
-   "sujet": false
-  },
-  {
    "titre": "Avant son entrée en bourse, Anthropic dévoile ses résultats trimestriels",
    "lien": "https://www.lemondeinformatique.fr/actualites/lire-avant-son-entree-en-bourse-anthropic-devoile-ses-resultats-trimestriels-100902.html",
    "date": "2026-11-03T17:01:15+00:00",
@@ -520,14 +536,6 @@
    "date": "2026-11-03T16:53:40+00:00",
    "resume": "Lundi 2 novembre, les installations frigorifiques de plusieurs supermarchés européens ont été manipulées à distance, (...)",
    "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "Ça devient ridicule : le Raspberry Pi 5 avec 16 Go de mémoire passe à 500 euros",
-   "lien": "https://next.ink/265399/ca-devient-ridicule-le-raspberry-pi-5-avec-16-go-de-memoire-passe-a-500-euros/",
-   "date": "2026-11-03T16:26:45+00:00",
-   "resume": "500 euros pour un Raspberry Pi 5 avec 16 Go de mémoire ? C’est le prix annoncé par LDLC, un revendeur officiel. C’est 3,5x plus qu’à son lancement, mais surtout plus cher qu’un mini-PC x86 complet avec CPU AMD, mémoire…",
-   "source": "next",
    "sujet": false
   },
   {
