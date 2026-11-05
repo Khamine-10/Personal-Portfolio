@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-05T06:55:17+00:00",
+ "miseAJour": "2026-11-05T20:00:45+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -78,10 +78,250 @@
   {
    "id": "korben",
    "ok": true,
-   "nombre": 11
+   "nombre": 14
   }
  ],
  "articles": [
+  {
+   "titre": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+   "lien": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+   "date": "2026-11-05T17:00:35+00:00",
+   "resume": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA…",
+   "source": "nvidia",
+   "sujet": true
+  },
+  {
+   "titre": "CleanYourTV : comment nettoyer une box Android TV avec l’IA (sans root)",
+   "lien": "https://www.it-connect.fr/cleanyourtv-nettoyer-box-android-tv/",
+   "date": "2026-11-05T17:00:00+00:00",
+   "resume": "Supprimez les pubs de l'accueil de votre box Android TV avec CleanYourTV et Claude Code, ou une app gratuite : ADB, prérequis, thèmes et précautions.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Microsoft propose deux améliorations significatives du ray tracing pour les jeux",
+   "lien": "https://next.ink/265956/microsoft-propose-deux-ameliorations-significatives-du-ray-tracing-pour-les-jeux/",
+   "date": "2026-11-05T16:42:00+00:00",
+   "resume": "Microsoft a publié les préversions de deux nouvelles technologies liées au ray tracing : Clustered Geometry et PTLAS. Elles promettent l’allègement des calculs liés à la lumière dans bon nombre de scénarios, avec des…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Cyberattaque contre les frigos de l’EFS : le plasma visé",
+   "lien": "https://www.zataz.com/cyberattaque-contre-les-frigos-de-lefs-le-plasma-vise/",
+   "date": "2026-11-05T16:36:51+00:00",
+   "resume": "Cyberattaque EFS : trois sites touchés, du plasma menacé. ZATAZ revient sur les précédents et les risques industriels.",
+   "source": "zataz",
+   "sujet": false
+  },
+  {
+   "titre": "Pangram étend sa technologie de détection de l'IA aux images et aux vidéos",
+   "lien": "https://www.lemondeinformatique.fr/actualites/lire-pangram-etend-sa-technologie-de-detection-de-l-ia-aux-images-et-aux-videos-100918.html",
+   "date": "2026-11-05T16:18:41+00:00",
+   "resume": "Pangram a annoncé le 4 novembre 2026 le lancement de deux nouveaux modèles de détection, Pangram Image 1.0 et Pangram Image Flash (...)",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Google précise les contours de son datacenter à 10 milliards de dollars dans l’Indre",
+   "lien": "https://next.ink/265780/google-precise-les-contours-de-son-datacenter-a-10-milliards-de-dollars-dans-lindre/",
+   "date": "2026-11-05T16:15:13+00:00",
+   "resume": "Google et RTE ont ouvert la phase de concertation relative au projet de datacenter prévu sur la ZAC d’Ozans à Étrechet (Indre). Le dossier associé révèle les contours, le calendrier et les zones d’ombre de cette…",
+   "source": "next",
+   "sujet": true
+  },
+  {
+   "titre": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
+   "lien": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
+   "date": "2026-11-05T16:00:05+00:00",
+   "resume": "Chris Alexiuk has a simple rule about open source AI: If you believe in it, be loud about it. “We should be shouting about this technology from the rooftops,” said Alexiuk, a Toronto-based senior product research…",
+   "source": "nvidia",
+   "sujet": false
+  },
+  {
+   "titre": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+   "lien": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
+   "date": "2026-11-05T16:00:00+00:00",
+   "resume": "Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works closely with memory…",
+   "source": "nvidia",
+   "sujet": true
+  },
+  {
+   "titre": "Nintendo, Sony, Xbox : les consoles ralentissent, les fortunes divergent",
+   "lien": "https://next.ink/265960/nintendo-sony-xbox-les-consoles-ralentissent-les-fortunes-divergent/",
+   "date": "2026-11-05T15:43:25+00:00",
+   "resume": "Les fortunes sont diverses pour les constructeurs de consoles. Les ventes de machines ralentissent, mais les jeux et les services permettent à Nintendo et Sony d’engranger de juteux bénéfices. Xbox est toujours à la…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "AMD pourrait dépasser Intel pour la première fois avec 17 milliards de dollars de revenus attendus",
+   "lien": "https://www.lemondeinformatique.fr/actualites/lire-amd-pourrait-depasser-intel-pour-la-premiere-fois-avec-17-milliards-de-dollars-de-revenus-attendus-100916.html",
+   "date": "2026-11-05T15:20:33+00:00",
+   "resume": "AMD a annoncé le 3 novembre un chiffre d’affaires record de 13,4 milliards de dollars pour le troisième trimestre 2026, en hausse de (...)",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Le Parlement européen met en garde contre les dérives de l'IA",
+   "lien": "https://www.lemondeinformatique.fr/actualites/lire-le-parlement-europeen-met-en-garde-contre-les-derives-de-l-ia-100915.html",
+   "date": "2026-11-05T14:38:32+00:00",
+   "resume": "La présidente du Parlement européen, Roberta Metsola, a mis en garde ce mercredi les eurodéputés contre un recours excessif (...)",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Compression lz4 1.11 : nous avons testé les performances de cette version « majeure »",
+   "lien": "https://next.ink/265850/compression-lz4-1-11-nous-avons-teste-les-performances-de-cette-version-majeure/",
+   "date": "2026-11-05T14:03:39+00:00",
+   "resume": "lz4 1.11 permet de paralléliser le traitement des données pour augmenter les performances. La 1.10 le permettait déjà, dans certains cas. Quels gains ? Quelles différences entre les deux versions ? Next vous explique…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "‘Hogwarts Legacy’ Gets a Magical NVIDIA DLSS 5 Upgrade on GeForce NOW",
+   "lien": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/",
+   "date": "2026-11-05T14:00:34+00:00",
+   "resume": "Hogwarts Legacy receives an NVIDIA DLSS 5 upgrade with 3D-Guided Neural Rendering today, bringing lifelike lighting and materials to the wizarding world on GeForce NOW. Blizzard Entertainment’s World of Warcraft:…",
+   "source": "nvidia",
+   "sujet": true
+  },
+  {
+   "titre": "Les éditeurs français accélèrent l'adoption de l'IA",
+   "lien": "https://www.lemondeinformatique.fr/actualites/lire-les-editeurs-francais-accelerent-l-adoption-de-l-ia-100914.html",
+   "date": "2026-11-05T12:19:06+00:00",
+   "resume": "L’IA n’est plus un simple sujet d’expérimentation pour les éditeurs français de logiciels. Elle s’impose désormais (...)",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Les Big Tech’ sacrifient leurs employés humains pour investir dans les infrastructures IA",
+   "lien": "https://next.ink/265455/les-big-tech-sacrifient-leurs-employes-humains-pour-investir-dans-les-infrastructures-ia/",
+   "date": "2026-11-05T10:59:00+00:00",
+   "resume": "Les entreprises états-uniennes de la tech’ ont licencié plus de 230 000 personnes en 10 mois, contre un peu plus de 200 000 pour tout 2025. Nombre d’entre elles ne le sont pas tant parce qu’elles seraient remplaçables…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Google victime de sa propre IA : quand les résumés intelligents fragilisent le modèle publicitaire du géant",
+   "lien": "https://www.lemondeinformatique.fr/actualites/lire-google-victime-de-sa-propre-ia-quand-les-resumes-intelligents-fragilisent-le-modele-publicitaire-du-geant-100909.html",
+   "date": "2026-11-05T10:45:46+00:00",
+   "resume": "Google se retrouve face à un défi qu’il a lui-même créé. Depuis plusieurs années, le groupe accélère (...)",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "☕️ Discord travaille sur des clients natifs pour les ordinateurs",
+   "lien": "https://next.ink/brief-article/discord-travaille-sur-des-clients-natifs-pour-les-ordinateurs/",
+   "date": "2026-11-05T10:15:00+00:00",
+   "resume": "Discord travaille à se débarrasser d’Electron pour son client « desktop », à destination de Windows, macOS et Linux. La rumeur courait depuis un moment, mais Stanislav Vishnevskiy en personne, cofondateur et directeur…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Microsoft veut décidément convaincre sur les performances de Windows 11",
+   "lien": "https://next.ink/265831/microsoft-veut-decidement-convaincre-sur-les-performances-de-windows-11/",
+   "date": "2026-11-05T09:50:35+00:00",
+   "resume": "Microsoft l’assure encore : Windows 11 consomme moins de mémoire vive. Ce serait surtout le cas pour les machines dotées de 8 Go de RAM, dans un contexte toujours plus tendu de pénurie et d’explosion des prix. Bien que…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Apple réduit les budgets consacrés à l'IA de ses salariés pour limiter ses dépenses",
+   "lien": "https://www.lemondeinformatique.fr/actualites/lire-apple-reduit-les-budgets-consacres-a-l-ia-de-ses-salaries-pour-limiter-ses-depenses-100913.html",
+   "date": "2026-11-05T09:35:22+00:00",
+   "resume": "Apple a discrètement abaissé en octobre le plafond de dépenses quotidiennes de certains ingénieurs utilisant des modèles (...)",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Sync-in 2.4 à 2.6 : Euro-Office, favoris, draw.io et un serveur plus robuste",
+   "lien": "https://www.it-connect.fr/sync-in-nouveautes-euro-office-favoris-draw-io/",
+   "date": "2026-11-05T08:45:00+00:00",
+   "resume": "Euro-Office, favoris, draw.io et 16 failles corrigées : voici les nouveautés de Sync-in 2.4, 2.5 et 2.6, et ce qu'il faut vérifier avant de mettre à jour.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Windows 11 : Microsoft dévoile ses optimisations pour les PC équipés de 8 Go de RAM",
+   "lien": "https://www.it-connect.fr/windows-11-8-go-ram-optimisations-microsoft/",
+   "date": "2026-11-05T08:43:39+00:00",
+   "resume": "Votre PC n'a que 8 Go de RAM ? Microsoft assure que Windows 11 y est désormais jusqu'à 20 % plus réactif. Voici ce qui a changé et comment en profiter.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "J'ai testé CottageCore, le jeu cosy d'une vieille connaissance",
+   "lien": "https://korben.info/cottagecore-village-david.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-05T08:27:13+00:00",
+   "resume": "David Catuhe, le créateur de Babylon.js, sort CottageCore, un jeu de construction de village tout doux. J'y ai joué en bêta : c'est très chill, joli et ultra personnalisable, avec quelques accrocs à corriger avant la…",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "GTA VI peut-il casser Internet ?",
+   "lien": "https://next.ink/265265/gta-vi-peut-il-casser-internet/",
+   "date": "2026-11-05T08:25:04+00:00",
+   "resume": "La question parait certainement saugrenue aux spécialistes, mais elle se pose néanmoins pour le grand public. Réponse courte et directe : non. Par contre, du côté de Microsoft et de Sony, de grandes manœuvres sont…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "SonicWall GMS : deux failles, dont une critique, ne seront jamais corrigées",
+   "lien": "https://www.it-connect.fr/sonicwall-gms-fin-de-vie-failles-non-corrigees/",
+   "date": "2026-11-05T08:17:38+00:00",
+   "resume": "Vous gérez vos firewalls SonicWall avec GMS ? Deux failles, dont une critique exploitable sans authentification, ne seront jamais corrigées. Voici pourquoi.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Pourquoi utiliser un VPN avec Starlink #sponso",
+   "lien": "https://korben.info/pourquoi-utiliser-un-vpn-avec-starlink.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-05T08:05:01+00:00",
+   "resume": "Starlink fournit environ 150 Mbps, mais reste un FAI américain qui voit votre navigation, utilise du CGNAT (IP partagée, CAPTCHAs, blocages) et ne gère pas le VPN sur son routeur. Selon l'article, sponsorisé par…",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "Élections américaines de 2026 : la victoire démocrate bouscule la tech et ses ambitions dans l'IA",
+   "lien": "https://www.lemondeinformatique.fr/actualites/lire-elections-americaines-de-2026-la-victoire-democrate-bouscule-la-tech-et-ses-ambitions-dans-l-ia-100911.html",
+   "date": "2026-11-05T07:59:51+00:00",
+   "resume": "Les élections américaines de mi-mandat du 3 novembre 2026 ont modifié l’équilibre politique à Washington. En remportant (...)",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "1 poste junior sur 5 exige désormais des compétences en IA",
+   "lien": "https://www.lemondeinformatique.fr/actualites/lire-1-poste-junior-sur-5-exige-desormais-des-competences-en-ia-100906.html",
+   "date": "2026-11-05T07:59:47+00:00",
+   "resume": "L'IA prend une place croissante dans les recrutements de jeunes diplômés. En quatre ans, la proportion d'offres d'emploi juniors mentionnant (...)",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Wing Commander - Volez en coop dans votre navigateur",
+   "lien": "https://korben.info/wing-commander-coop-navigateur.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-05T07:33:13+00:00",
+   "resume": "Deux frères ont greffé une vraie coop sur le premier Wing Commander sous DOS à coups de dumps mémoire et de code détourné. Le projet a dormi six ans, et il se joue maintenant dans le navigateur avec un code de salon, à…",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "Mode sombre adaptatif, onglets verticaux, Siri AI : Apple sort Safari de sa torpeur",
+   "lien": "https://next.ink/265755/mode-sombre-adaptatif-onglets-verticaux-siri-ai-apple-sort-safari-de-sa-torpeur/",
+   "date": "2026-11-05T07:30:46+00:00",
+   "resume": "Avec les prochaines versions d’iOS et de macOS, Safari s’offrira plusieurs nouvelles fonctions importantes : les onglets verticaux, un mode sombre adaptatif qui va mettre à la retraite plusieurs extensions, et une…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Linux : une faille dans APT permet de remplacer un paquet vérifié et de l’exécuter en root",
+   "lien": "https://www.it-connect.fr/faille-apt-cve-2026-109518-debian-ubuntu-root/",
+   "date": "2026-11-05T07:12:12+00:00",
+   "resume": "Une faille dans APT permet de remplacer un paquet déjà vérifié et de l'exécuter en root. Debian, Ubuntu et leurs dérivées sont concernées. Voici l'essentiel.",
+   "source": "itconnect",
+   "sujet": false
+  },
   {
    "titre": "SpaceX s’allie à Qualcomm pour bâtir le réseau 5G terrestre de Starlink Mobile",
    "lien": "https://next.ink/265775/spacex-sallie-a-qualcomm-pour-batir-le-reseau-5g-terrestre-de-starlink-mobile/",
@@ -104,6 +344,70 @@
    "date": "2026-11-05T05:56:09+00:00",
    "resume": "Dans les prochaines versions 27.3 de ses systèmes d’exploitation, Apple vérifiera le contenu des liens partagés via iCloud quand l’option « Toute personne disposant du lien » est sélectionnée. Les partages limités à des…",
    "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Multiples vulnérabilités dans Microsoft Edge (05 novembre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1466/",
+   "date": "2026-11-05T00:00:00+00:00",
+   "resume": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un problème de sécurité non spécifié par l'éditeur.",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
+   "titre": "Multiples vulnérabilités dans les produits Siemens (05 novembre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1464/",
+   "date": "2026-11-05T00:00:00+00:00",
+   "resume": "De multiples vulnérabilités ont été découvertes dans les produits Siemens. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une…",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
+   "titre": "Vulnérabilité dans OpenSSH (05 novembre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1468/",
+   "date": "2026-11-05T00:00:00+00:00",
+   "resume": "Une vulnérabilité a été découverte dans OpenSSH. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
+   "titre": "Multiples vulnérabilités dans les produits Cisco (05 novembre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1467/",
+   "date": "2026-11-05T00:00:00+00:00",
+   "resume": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un contournement de la politique de sécurité et un…",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
+   "titre": "Multiples vulnérabilités dans OpenOffice (05 novembre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1463/",
+   "date": "2026-11-05T00:00:00+00:00",
+   "resume": "De multiples vulnérabilités ont été découvertes dans OpenOffice. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données…",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
+   "titre": "Multiples vulnérabilités dans SPIP (05 novembre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1465/",
+   "date": "2026-11-05T00:00:00+00:00",
+   "resume": "De multiples vulnérabilités ont été découvertes dans SPIP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à…",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
+   "titre": "Multiples vulnérabilités dans MongoDB (05 novembre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1462/",
+   "date": "2026-11-05T00:00:00+00:00",
+   "resume": "De multiples vulnérabilités ont été découvertes dans MongoDB. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à…",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
+   "titre": "Vulnérabilité dans OpenSSH (05 novembre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-015/",
+   "date": "2026-11-05T00:00:00+00:00",
+   "resume": "Le 5 novembre 2026, OpenSSH a publié un avis de sécurité concernant une vulnérabilité qui permet à un attaquant de contourner l’authentification d'un service SSH. En effet, sur les systèmes Linux qui utilisent la…",
+   "source": "certfr",
    "sujet": false
   },
   {
@@ -211,14 +515,6 @@
    "sujet": false
   },
   {
-   "titre": "Le NYTimes attaque Brave pour ses accords avec les entreprises d’IA et son option anti-paywall",
-   "lien": "https://next.ink/265628/le-nytimes-attaque-brave-pour-ses-accords-avec-les-entreprises-dia-et-son-option-anti-paywall/",
-   "date": "2026-11-04T12:41:38+00:00",
-   "resume": "Le journal américain vient de déposer plainte contre Brave, l’accusant de passer outre son paywall pour vendre l’accès à ses contenus aux entreprises d’IA générative comme Anthropic, Perplexity, Mistral, xAI et Cohere.…",
-   "source": "next",
-   "sujet": false
-  },
-  {
    "titre": "OpenAI recrute Jill Hazelbaker, présidente d'Uber, pour renforcer sa stratégie de communication",
    "lien": "https://www.lemondeinformatique.fr/actualites/lire-openai-recrute-jill-hazelbaker-presidente-d-uber-pour-renforcer-sa-strategie-de-communication-100907.html",
    "date": "2026-11-04T12:27:30+00:00",
@@ -235,27 +531,11 @@
    "sujet": false
   },
   {
-   "titre": "Une faille critique dans le noyau Linux permet de faire planter un serveur via TCP",
-   "lien": "https://next.ink/265616/une-faille-critique-dans-le-noyau-linux-permet-de-faire-planter-un-serveur-via-tcp/",
-   "date": "2026-11-04T10:07:00+00:00",
-   "resume": "Une nouvelle faille critique a été découverte dans le noyau Linux. Avec un score CVSS de 9,8 sur 10, sa dangerosité frôle la note maximale, permettant une exploitation à distance. Selon la distribution utilisée, le…",
-   "source": "next",
-   "sujet": false
-  },
-  {
    "titre": "Bull et Schwarz Digits s'allient pour développer un cloud souverain européen dédié à l'IA",
    "lien": "https://www.lemondeinformatique.fr/actualites/lire-bull-et-schwarz-digits-s-allient-pour-developper-un-cloud-souverain-europeen-dedie-a-l-ia-100903.html",
    "date": "2026-11-04T09:53:56+00:00",
    "resume": "La souveraineté numérique européenne continue de susciter des rapprochements industriels. Dernier en date, celui de Bull et Schwarz (...)",
    "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "☕️ L’Établissement français du sang touché par le piratage de certaines chambres froides",
-   "lien": "https://next.ink/brief-article/letablissement-francais-du-sang-touche-par-le-piratage-de-certaines-chambres-froides/",
-   "date": "2026-11-04T09:42:14+00:00",
-   "resume": "Après les frigos de plusieurs enseignes de supermarché en France puis en Europe, c’est maintenant les chambres froides de l’Établissement français du sang (EFS) qui ont été visées par un piratage. Selon le Canard…",
-   "source": "next",
    "sujet": false
   },
   {
@@ -275,14 +555,6 @@
    "sujet": false
   },
   {
-   "titre": "Le C++26 refusé à l’ISO, une première dans l’histoire du langage",
-   "lien": "https://next.ink/265495/le-c26-refuse-a-liso-une-premiere-dans-lhistoire-du-langage/",
-   "date": "2026-11-04T09:05:00+00:00",
-   "resume": "Pour la première fois de son histoire, le langage C++ a échoué à réunir assez de votes au sein de l’ISO pour une nouvelle version. Le C++ 26 n’a pas été ratifié, faute d’un accord sur plusieurs points, dont le principal…",
-   "source": "next",
-   "sujet": false
-  },
-  {
    "titre": "Cloudflare security-audit : prendre en main la skill d’audit de sécurité pour agents IA",
    "lien": "https://www.it-connect.fr/cloudflare-security-audit-skill-audit-de-securite-agents-ia/",
    "date": "2026-11-04T08:45:00+00:00",
@@ -291,35 +563,11 @@
    "sujet": false
   },
   {
-   "titre": "Chatbots IA : le droit européen interdirait la reprise d’articles de presse sous paywall",
-   "lien": "https://next.ink/265451/chatbots-ia-le-droit-europeen-interdirait-la-reprise-darticles-de-presse-sous-paywall/",
-   "date": "2026-11-04T08:37:00+00:00",
-   "resume": "Selon l’avocat général de la CJUE, le scraping et la réutilisation de publications de presse en ligne par les chatbots IA pour générer des réponses doivent respecter certains critères, et notamment qu’elles aient été…",
-   "source": "next",
-   "sujet": false
-  },
-  {
    "titre": "IA : Amazon, Alphabet, Microsoft et Meta ont engagé plus de 200 Md$ en un trimestre",
    "lien": "https://www.lemondeinformatique.fr/actualites/lire-ia-amazon-alphabet-microsoft-et-meta-ont-engage-plus-de-200-md$-en-un-trimestre-100901.html",
    "date": "2026-11-04T08:12:28+00:00",
    "resume": "Au troisième trimestre 2026, Amazon a engagé 75,9 Md$ de dépenses d’investissement cash, Alphabet 51,4 Md$ de CapEx, (...)",
    "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "Les géants de la tech veulent encadrer la collecte des données sur le web",
-   "lien": "https://www.lemondeinformatique.fr/actualites/lire-les-geants-de-la-tech-veulent-encadrer-la-collecte-des-donnees-sur-le-web-100900.html",
-   "date": "2026-11-04T08:12:26+00:00",
-   "resume": "Les éditeurs de sites web pourraient bientôt disposer d’un moyen plus simple de s’opposer à l’utilisation de leurs (...)",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "Google : pas de recherche sans IA dans l’éducation aux États-Unis",
-   "lien": "https://next.ink/265590/google-pas-de-recherche-sans-ia-dans-leducation-aux-etats-unis/",
-   "date": "2026-11-04T08:08:43+00:00",
-   "resume": "Google a annoncé mardi 3 novembre que ses outils d’IA seraient maintenant coupés par défaut pour les comptes élèves de son programme commercial dédié aux acteurs de l’éducation aux États-Unis (K12), à moins que…",
-   "source": "next",
    "sujet": false
   },
   {
@@ -360,30 +608,6 @@
    "date": "2026-11-04T07:20:41+00:00",
    "resume": "TPM et Shared Support transforment la maintenance IT multi-constructeurs : coût maîtrisé, SLA simplifiés et gouvernance centralisée.",
    "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "[MàJ] Fedora 45 est disponible en version finale",
-   "lien": "https://next.ink/256563/fedora-45-debarque-en-beta-le-plein-de-nouveautes-surtout-pour-la-securite/",
-   "date": "2026-11-04T07:19:30+00:00",
-   "resume": "Fedora 45 est maintenant téléchargeable en version finale. Les nouveautés sont assez nombreuses, notamment sur la sécurité et les paquets reproductibles. Mise à jour du 4 novembre La version finale est désormais…",
-   "source": "next",
-   "sujet": false
-  },
-  {
-   "titre": "Gears of War: E-Day : 500 millions de dollars, mais pour quoi faire ?",
-   "lien": "https://next.ink/265584/gears-of-war-e-day-500-millions-de-dollars-mais-pour-quoi-faire/",
-   "date": "2026-11-04T07:08:00+00:00",
-   "resume": "Le développement d’un jeu peut-il réellement coûter 500 millions de dollars ? Pour GTA 6 sans doute, mais le monstre de Rockstar reste une anomalie dans le paysage. C’est en tout cas le chiffre qui circule pour Gears of…",
-   "source": "next",
-   "sujet": false
-  },
-  {
-   "titre": "Crise de la mémoire : si Apple doit augmenter ses prix, ce sera « à contrecœur »",
-   "lien": "https://next.ink/265578/crise-de-la-memoire-si-apple-doit-augmenter-ses-prix-ce-sera-a-contrecoeur/",
-   "date": "2026-11-04T06:43:34+00:00",
-   "resume": "Apple, grand consommateur de RAM et de SSD pour ses appareils, n’est évidemment pas immunisée face à la crise de la mémoire. Si les résultats du trimestre montrent une entreprise en pleine forme, les dirigeants n’ont…",
-   "source": "next",
    "sujet": false
   },
   {
@@ -459,86 +683,6 @@
    "sujet": false
   },
   {
-   "titre": "Multiples vulnérabilités dans Google Chrome (04 novembre 2026)",
-   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1450/",
-   "date": "2026-11-04T00:00:00+00:00",
-   "resume": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-   "source": "certfr",
-   "sujet": false
-  },
-  {
-   "titre": "Vulnérabilité dans Mozilla Firefox (04 novembre 2026)",
-   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1455/",
-   "date": "2026-11-04T00:00:00+00:00",
-   "resume": "Une vulnérabilité a été découverte dans Mozilla Firefox. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-   "source": "certfr",
-   "sujet": false
-  },
-  {
-   "titre": "Multiples vulnérabilités dans les produits Citrix (04 novembre 2026)",
-   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1449/",
-   "date": "2026-11-04T00:00:00+00:00",
-   "resume": "De multiples vulnérabilités ont été découvertes dans les produits Citrix. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et une élévation de privilèges.",
-   "source": "certfr",
-   "sujet": false
-  },
-  {
-   "titre": "Multiples vulnérabilités dans NetApp StorageGRID (04 novembre 2026)",
-   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1453/",
-   "date": "2026-11-04T00:00:00+00:00",
-   "resume": "De multiples vulnérabilités ont été découvertes dans NetApp StorageGRID. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-   "source": "certfr",
-   "sujet": false
-  },
-  {
-   "titre": "Multiples vulnérabilités dans les produits Elastic (04 novembre 2026)",
-   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1461/",
-   "date": "2026-11-04T00:00:00+00:00",
-   "resume": "De multiples vulnérabilités ont été découvertes dans les produits Elastic. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une…",
-   "source": "certfr",
-   "sujet": false
-  },
-  {
-   "titre": "Multiples vulnérabilités dans SolarWinds Dameware (04 novembre 2026)",
-   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1459/",
-   "date": "2026-11-04T00:00:00+00:00",
-   "resume": "De multiples vulnérabilités ont été découvertes dans SolarWinds Dameware. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un contournement de la politique de sécurité.",
-   "source": "certfr",
-   "sujet": false
-  },
-  {
-   "titre": "Multiples vulnérabilités dans Ruby on Rails (04 novembre 2026)",
-   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1452/",
-   "date": "2026-11-04T00:00:00+00:00",
-   "resume": "De multiples vulnérabilités ont été découvertes dans Ruby on Rails. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une…",
-   "source": "certfr",
-   "sujet": false
-  },
-  {
-   "titre": "BlackLine se déploie sur S3NS",
-   "lien": "https://www.lemondeinformatique.fr/actualites/lire-blackline-se-deploie-sur-s3ns-100897.html",
-   "date": "2026-11-03T17:10:25+00:00",
-   "resume": "Le cloud de confiance français continue d'attirer les éditeurs américains. BlackLine, spécialiste des logiciels d'automatisation (...)",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "Avant son entrée en bourse, Anthropic dévoile ses résultats trimestriels",
-   "lien": "https://www.lemondeinformatique.fr/actualites/lire-avant-son-entree-en-bourse-anthropic-devoile-ses-resultats-trimestriels-100902.html",
-   "date": "2026-11-03T17:01:15+00:00",
-   "resume": "En préparation de son introduction en Bourse, Anthropic a actualisé son dossier financier auprès de la Securities and Exchange Commission (...)",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "Les frigos des supermarchés européens victimes d'une nouvelle vague de cyberattaques",
-   "lien": "https://www.lemondeinformatique.fr/actualites/lire-les-frigos-des-supermarches-europeens-victimes-d-une-nouvelle-vague-de-cyberattaques-100899.html",
-   "date": "2026-11-03T16:53:40+00:00",
-   "resume": "Lundi 2 novembre, les installations frigorifiques de plusieurs supermarchés européens ont été manipulées à distance, (...)",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
    "titre": "Test du télémètre laser de poche HOTO - précis à 2 mm",
    "lien": "https://korben.info/test-du-telemetre-laser-de-poche-hoto-precis-a-2-mm.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
    "date": "2026-11-03T16:11:37+00:00",
@@ -552,22 +696,6 @@
    "date": "2026-11-03T16:00:45+00:00",
    "resume": "Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a material will…",
    "source": "nvidia",
-   "sujet": false
-  },
-  {
-   "titre": "OpenAI fusionne ChatGPT et Work autour d'un quota commun de tokens",
-   "lien": "https://www.lemondeinformatique.fr/actualites/lire-openai-fusionne-chatgpt-et-work-autour-d-un-quota-commun-de-tokens-100896.html",
-   "date": "2026-11-03T10:04:04+00:00",
-   "resume": "OpenAI poursuit la transformation de ChatGPT en plateforme de travail intégrant des capacités agentiques. L'entreprise prévoit de (...)",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "Les députés votent une taxe sur les gigaoctets: qui devra payer?",
-   "lien": "https://www.lemondeinformatique.fr/actualites/lire-les-deputes-votent-une-taxe-sur-les-gigaoctets-qui-devra-payer-100898.html",
-   "date": "2026-11-03T10:02:35+00:00",
-   "resume": "Google, Netflix, Meta ou encore Amazon pourraient bientôt devoir contribuer davantage aux finances publiques françaises en fonction des volumes (...)",
-   "source": "lmi",
    "sujet": false
   },
   {
@@ -595,38 +723,6 @@
    "sujet": true
   },
   {
-   "titre": "Après la France, des pirates font chauffer les frigos de supermarchés en Belgique et en Suède",
-   "lien": "https://www.it-connect.fr/cyberattaque-frigos-supermarches-belgique-suede/",
-   "date": "2026-11-03T06:35:10+00:00",
-   "resume": "Delhaize, Carrefour, ICA, Coop : des pirates ont activé à distance le dégivrage des frigos de supermarchés en Belgique et en Suède. Voici ce que l'on sait.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "SMS of Death : un SMS invisible coupe les appels téléphoniques sur Android",
-   "lien": "https://www.it-connect.fr/sms-of-death-android-faille-appels/",
-   "date": "2026-11-03T06:03:31+00:00",
-   "resume": "Un SMS invisible suffit à faire planter la téléphonie d'Android et à couper les appels, même les appels d'urgence. Voici la faille SMS of Death.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "Multiples vulnérabilités dans NetApp ONTAP 9 (03 novembre 2026)",
-   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1446/",
-   "date": "2026-11-03T00:00:00+00:00",
-   "resume": "De multiples vulnérabilités ont été découvertes dans NetApp ONTAP 9. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
-   "source": "certfr",
-   "sujet": false
-  },
-  {
-   "titre": "NetBird : un VPN mesh open source et auto-hébergé pour accéder à son réseau à distance",
-   "lien": "https://www.it-connect.fr/tuto-netbird-vpn-maille-auto-heberge/",
-   "date": "2026-11-02T17:00:00+00:00",
-   "resume": "Tutoriel NetBird : installez un VPN maillé WireGuard auto-hébergé avec Docker, déployez un routing peer LXC sur Proxmox et publiez vos services.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
    "titre": "HackerBooks - Les bouquins préférés des geeks, triés par Claude",
    "lien": "https://korben.info/hackerbooks-hackertube-hacker-news.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
    "date": "2026-11-02T14:06:23+00:00",
@@ -640,38 +736,6 @@
    "date": "2026-11-02T12:57:53+00:00",
    "resume": "Les applis d'alerte ukrainienne et russe ont diffusé de fausses alertes nucléaires dans la même nuit. FR-Alert passe par les antennes, sans appli, mais le Brésil a montré en juin qu'un compte d'émission détourné suffit.",
    "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "Oracle veut facturer l'IA à la tâche",
-   "lien": "https://www.lemondeinformatique.fr/actualites/lire-oracle-veut-facturer-l-ia-a-la-tache-100892.html",
-   "date": "2026-11-02T11:11:31+00:00",
-   "resume": "La facturation des logiciels d'entreprise pourrait connaître une nouvelle évolution, Oracle ne veut plus seulement faire payer ses clients (...)",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "Binance victime d'un vol de cryptomonnaies de 6,3 Md$",
-   "lien": "https://www.lemondeinformatique.fr/actualites/lire-binance-victime-d-un-vol-de-cryptomonnaies-de-6-3-md$-100895.html",
-   "date": "2026-11-02T11:11:20+00:00",
-   "resume": "Le secteur des cryptomonnaies fait face à l'une des plus importantes crises de sécurité de son histoire. Binance, l'une des principales (...)",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "Cloud & Cyber Security Expo Paris 2026 : les grands enjeux cyber au cœur du programme",
-   "lien": "https://www.it-connect.fr/cloud-cyber-security-expo-paris-2026-programme/",
-   "date": "2026-11-02T10:00:00+00:00",
-   "resume": "IA, gestion des incidents, NIS2, CRA et géopolitique : découvrez les thèmes des conférences de Cloud & Cyber Security Expo Paris, les 18 et 19 novembre 2026.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "CVE-2026-98432 : la faille critique du noyau Linux qui peut offrir un accès root à distance",
-   "lien": "https://www.it-connect.fr/cve-2026-98432-faille-noyau-linux-tcp-root-distance/",
-   "date": "2026-11-02T08:29:17+00:00",
-   "resume": "Une nouvelle faille critique dans le noyau Linux (CVE-2026-98432) : RHEL, Debian, SUSE et Proxmox sont patchés, pas Ubuntu. Quel noyau installer ?",
-   "source": "itconnect",
    "sujet": false
   },
   {
@@ -697,14 +761,6 @@
    "resume": "UGREEN propose le Nexode Pro 160W, un chargeur au nitrure de gallium doté d'un câble USB-C rétractable de 70 cm (jusqu'à 140 W) et d'un écran couleur affichant puissance, tension et température par port. Lancé à 130…",
    "source": "korben",
    "sujet": false
-  },
-  {
-   "titre": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-   "lien": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-   "date": "2026-10-29T16:00:35+00:00",
-   "resume": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA…",
-   "source": "nvidia",
-   "sujet": true
   },
   {
    "titre": "Slice Into GFN Thursday: ‘Phantom Blade Zero’ Launches on GeForce NOW",
@@ -817,38 +873,6 @@
    "resume": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos…",
    "source": "nvidia",
    "sujet": true
-  },
-  {
-   "titre": "How Companies Are Using NVIDIA DSX to Break the Power Bottleneck",
-   "lien": "https://blogs.nvidia.com/blog/dsx-power/",
-   "date": "2026-10-22T05:00:25+00:00",
-   "resume": "Companies around the world are building on the NVIDIA DSX AI Factory Platform to plan, simulate and run the grid and the AI factory as one system, from the substation to the rack. Their adoption of the platform responds…",
-   "source": "nvidia",
-   "sujet": true
-  },
-  {
-   "titre": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
-   "lien": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
-   "date": "2026-10-22T05:00:23+00:00",
-   "resume": "European retailers are using open models and physical intelligence across use cases — from a commerce platform cutting inference costs by 90% to to a fulfillment center where collaboration of different robotic fleets is…",
-   "source": "nvidia",
-   "sujet": true
-  },
-  {
-   "titre": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
-   "lien": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
-   "date": "2026-10-22T05:00:19+00:00",
-   "resume": "Weather forecasts shape more than daily plans; timely weather information is crucial for energy producers, insurers and transport operators to plan around changing conditions. A global forecast can show a storm taking…",
-   "source": "nvidia",
-   "sujet": true
-  },
-  {
-   "titre": "Arrêtée pour avoir bloqué un robot de livraison Uber",
-   "lien": "https://www.zataz.com/arretee-pour-avoir-bloque-un-robot-de-livraison-uber/",
-   "date": "2026-10-21T18:04:11+00:00",
-   "resume": "Une manifestante arrêtée pour avoir bloqué un robot Uber et dénoncé l'automatisation des emplois.",
-   "source": "zataz",
-   "sujet": false
   }
  ]
 }
