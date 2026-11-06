@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-05T20:00:45+00:00",
+ "miseAJour": "2026-11-06T06:54:51+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -82,6 +82,38 @@
   }
  ],
  "articles": [
+  {
+   "titre": "Après la claque électorale, des promesses pour amadouer les réfractaires aux datacenters",
+   "lien": "https://next.ink/266033/apres-la-claque-electorale-des-promesses-pour-amadouer-les-refractaires-aux-datacenters/",
+   "date": "2026-11-06T06:47:42+00:00",
+   "resume": "La victoire écrasante des démocrates aux midterms repose en grande partie sur le ras-le-bol général des Américains devant le coût de la vie. Mais la question de l’IA a aussi pesé lourd dans les décisions des électeurs.…",
+   "source": "next",
+   "sujet": true
+  },
+  {
+   "titre": "OpenAI lance GPT-6 Cyber : son modèle IA taillé pour trouver et exploiter des failles",
+   "lien": "https://www.it-connect.fr/openai-gpt-6-cyber-exploits-linux-firefox-daybreak-red/",
+   "date": "2026-11-06T06:05:44+00:00",
+   "resume": "OpenAI lance GPT-6 Cyber, réservé à Daybreak Red : 948 exploits Linux, 81 failles graves dans Firefox et un modèle entraîné à rester dans son périmètre.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "[MàJ] La taxe au gigaoctet emportée par le rejet du projet de loi de finances 2027",
+   "lien": "https://next.ink/264997/le-parti-socialiste-a-fait-passer-sa-taxe-au-gigaoctet-a-lassemblee-nationale/",
+   "date": "2026-11-05T20:04:26+00:00",
+   "resume": "Le Parti socialiste avait réussi à faire passer sa « taxe au gigaoctet » censée faire contribuer les géants du numérique à l’infrastructure française. Une taxe finalement rejetée lors du vote lapidaire du volet recettes…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+   "lien": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
+   "date": "2026-11-05T20:00:41+00:00",
+   "resume": "AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution…",
+   "source": "nvidia",
+   "sujet": true
+  },
   {
    "titre": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
    "lien": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
@@ -451,14 +483,6 @@
    "sujet": false
   },
   {
-   "titre": "☕️ Meta réduit la voilure en France : un tiers des effectifs visé par un plan de départs",
-   "lien": "https://next.ink/brief-article/meta-reduit-la-voilure-en-france-un-tiers-des-effectifs-vise-par-un-plan-de-departs/",
-   "date": "2026-11-04T15:50:12+00:00",
-   "resume": "Meta voudrait se séparer d’un tiers de ses effectifs en France. Le géant des réseaux sociaux s’apprêterait en effet à lancer un plan de départs volontaires dans le cadre d’une rupture conventionnelle collective négociée…",
-   "source": "next",
-   "sujet": false
-  },
-  {
    "titre": "Crédit Mutuel Arkéa : 133 millions de dollars détournés ?",
    "lien": "https://www.zataz.com/credit-mutuel-arkea-133-millions-de-dollars-detournes/",
    "date": "2026-11-04T14:53:45+00:00",
@@ -472,14 +496,6 @@
    "date": "2026-11-04T14:17:55+00:00",
    "resume": "À peine deux semaines après avoir rendu Gemini 4 Argon accessible aux abonnés payants de Gemini et aux développeurs, Google a (...)",
    "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "☕️ [MàJ] Le Crédit Mutuel Arkéa victime d’une cyberattaque",
-   "lien": "https://next.ink/brief-article/la-banque-en-ligne-fortuneo-victime-dune-cyberattaque/",
-   "date": "2026-11-04T14:07:11+00:00",
-   "resume": "Mise à jour 20h – Le Crédit Mutuel Arkéa a publié de nouveaux détails sur la cyberattaque dont l’établissement a été victime. D’abord, l’entreprise dément que les pirates soient passés par Fortuneo : « Les attaquants…",
-   "source": "next",
    "sujet": false
   },
   {
@@ -707,14 +723,6 @@
    "sujet": false
   },
   {
-   "titre": "GPT-6 Astra a touché 0,016 % des poids de Qwen : son score en maths est multiplié par 6",
-   "lien": "https://www.it-connect.fr/gpt-6-astra-weight-space-programming-poids-ia/",
-   "date": "2026-11-03T08:09:45+00:00",
-   "resume": "GPT-6 Astra a modifié 0,016 % des poids de Qwen3.5-0.8B, sans entraînement : son score MATH-500 passe de 7,9 % à 48,1 %. Quand un LLM en améliore un autre.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
    "titre": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
    "lien": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
    "date": "2026-11-03T07:00:12+00:00",
@@ -863,14 +871,6 @@
    "lien": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/",
    "date": "2026-10-22T05:00:56+00:00",
    "resume": "At GTC Berlin, banks, payment companies and financial data providers are showing what production-scale intelligence looks like — built on NVIDIA accelerated computing, powered by open weight models and running on their…",
-   "source": "nvidia",
-   "sujet": true
-  },
-  {
-   "titre": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
-   "lien": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
-   "date": "2026-10-22T05:00:27+00:00",
-   "resume": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos…",
    "source": "nvidia",
    "sujet": true
   }
