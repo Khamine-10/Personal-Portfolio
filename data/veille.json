@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-07T06:06:09+00:00",
+ "miseAJour": "2026-11-07T13:11:33+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -82,6 +82,38 @@
   }
  ],
  "articles": [
+  {
+   "titre": "Flock : sale temps pour les gros bros",
+   "lien": "https://next.ink/266278/flock-sale-temps-pour-les-gros-bros/",
+   "date": "2026-11-07T12:37:00+00:00",
+   "resume": "Ah, j’avoue avoir eu une semaine compliquée, mais je ne suis pas le seul : ça chiale outre-Atlantique ! Rien ne va pour les tech bros : on peut refuser d’utiliser l’ia, ce qui malheureusement n’empêche pas les…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Firefox cache un jeu Snake dans sa barre d’adresse : voici comment le lancer",
+   "lien": "https://www.it-connect.fr/firefox-jeu-snake-cache-barre-adresse/",
+   "date": "2026-11-07T10:00:00+00:00",
+   "resume": "Un calcul égal à 150 dans la barre d'adresse de Firefox débloque un jeu Snake caché. Voici comment lancer cet easter egg dans le navigateur Firefox.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "LiberNT : ni Windows, ni Linux, qu’est-ce que cet OS open source ?",
+   "lien": "https://www.it-connect.fr/libernt-test-os-libre-windows-11/",
+   "date": "2026-11-07T07:30:00+00:00",
+   "resume": "J'ai testé LiberNT dans une machine virtuelle, un OS libre basé sur ReactOS qui veut ressembler à Windows 11 : bureau, applications et même un terminal Linux.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Test Reolink OMVI 3i WiFi : une caméra triple objectif avec suivi automatique",
+   "lien": "https://www.it-connect.fr/test-reolink-omvi-3i-wifi/",
+   "date": "2026-11-07T07:00:00+00:00",
+   "resume": "Test de la Reolink OMVI 3i WiFi : une caméra triple objectif avec vue panoramique à 180°, caméra PT 4K, suivi automatique, IA locale et Wi-Fi 6.",
+   "source": "itconnect",
+   "sujet": false
+  },
   {
    "titre": "NIKKE : la version PC du jeu piégée pour installer un redoutable malware",
    "lien": "https://www.it-connect.fr/nikke-lanceur-pc-pirate-malware-k2f/",
@@ -435,14 +467,6 @@
    "sujet": false
   },
   {
-   "titre": "[MàJ] La taxe au gigaoctet emportée par le rejet du projet de loi de finances 2027",
-   "lien": "https://next.ink/264997/le-parti-socialiste-a-fait-passer-sa-taxe-au-gigaoctet-a-lassemblee-nationale/",
-   "date": "2026-11-05T20:04:26+00:00",
-   "resume": "Le Parti socialiste avait réussi à faire passer sa « taxe au gigaoctet » censée faire contribuer les géants du numérique à l’infrastructure française. Une taxe finalement rejetée lors du vote lapidaire du volet recettes…",
-   "source": "next",
-   "sujet": false
-  },
-  {
    "titre": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
    "lien": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
    "date": "2026-11-05T20:00:41+00:00",
@@ -659,27 +683,11 @@
    "sujet": false
   },
   {
-   "titre": "Braquage numérique au Crédit Mutuel Arkéa : la banque confirme l’attaque, 133 millions de dollars en jeu",
-   "lien": "https://www.it-connect.fr/cyberattaque-credit-mutuel-arkea-fortuneo-133-millions/",
-   "date": "2026-11-04T14:06:26+00:00",
-   "resume": "Plus de 133 millions de dollars auraient été détournés au Crédit Mutuel Arkéa, maison mère de Fortuneo. La banque confirme une attaque. Voici ce que l'on sait.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
    "titre": "TikTok, une passerelle vers les casinos illégaux ?",
    "lien": "https://www.zataz.com/tiktok-une-passerelle-vers-les-casinos-illegaux/",
    "date": "2026-11-04T13:58:13+00:00",
    "resume": "Sur TikTok, des jeux vidéo peuvent mener à des casinos illégaux. Analyse des redirections, risques et sanctions.",
    "source": "zataz",
-   "sujet": false
-  },
-  {
-   "titre": "Cyberattaque contre un prestataire de l’EFS : des congélateurs de plasma réglés à 110 °C",
-   "lien": "https://www.it-connect.fr/cyberattaque-efs-coolworld-congelateurs-plasma/",
-   "date": "2026-11-04T13:41:51+00:00",
-   "resume": "Un prestataire de l'EFS piraté, des congélateurs de plasma réglés à 110 °C au lieu de -30 °C. Ce que l'on sait de l'attaque qui touche le secteur de la santé.",
-   "source": "itconnect",
    "sujet": false
   },
   {
@@ -697,14 +705,6 @@
    "resume": "Revolut affirme avoir réduit d'environ 90 % sa facture d'IA de codage en un an, en remplaçant Claude Code par GLM, un modèle ouvert du chinois Z.ai auto-hébergé sur 56 cartes Nvidia B200. Le coût tombe à 0,30 dollar le…",
    "source": "korben",
    "sujet": true
-  },
-  {
-   "titre": "Pas d’IA, pas de recherche Google : c’est ce que veut imposer Google aux écoles",
-   "lien": "https://www.it-connect.fr/google-ecoles-ia-gemini-recherche-desactivee/",
-   "date": "2026-11-04T09:32:03+00:00",
-   "resume": "Gemini et Google Search seront désactivés par défaut sur les comptes élèves. Une école qui refuse l'IA de Google perdra aussi l'accès au moteur de recherche.",
-   "source": "itconnect",
-   "sujet": false
   },
   {
    "titre": "Google coupe la recherche aux écoles qui refusent son IA",
