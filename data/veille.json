@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-07T21:55:49+00:00",
+ "miseAJour": "2026-11-08T06:10:25+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -68,7 +68,7 @@
   {
    "id": "lmi",
    "ok": true,
-   "nombre": 15
+   "nombre": 2
   },
   {
    "id": "next",
@@ -123,10 +123,10 @@
    "sujet": false
   },
   {
-   "titre": "SpaceX équipe son réseau 5G terrestre de Starlink Mobile avec Qualcomm",
-   "lien": "https://www.lemondeinformatique.fr/actualites/lire-spacex-equipe-son-reseau-5g-terrestre-de-starlink-mobile-avec-qualcomm-100925.html",
-   "date": "2026-11-06T17:06:11+00:00",
-   "resume": "SpaceX franchit une nouvelle étape dans ses ambitions sur le marché des télécommunications mobiles. Le 4 novembre 2026, Qualcomm (...)",
+   "titre": "Projet informatique qui dérape : cinq réflexes juridiques pour la DSI",
+   "lien": "https://www.lemondeinformatique.fr/articles/projet-informatique-qui-derape-cinq-reflexes-jurid",
+   "date": "2026-11-06T17:02:09+00:00",
+   "resume": "Retards qui s’accumulent, livrables non conformes, périmètre qui glisse. Quand un projet informatique dérape, les premières semaines pèsent lourd sur la suite. Les conseils de Maître François-Xavier Langlais, avocat…",
    "source": "lmi",
    "sujet": false
   },
@@ -136,30 +136,6 @@
    "date": "2026-11-06T16:51:00+00:00",
    "resume": "La Commission européenne a lancé une plateforme destinée à réunir les outils, les services et les financements susceptibles de servir aux entreprises qui conçoivent des puces électroniques. L’initiative est accompagnée…",
    "source": "next",
-   "sujet": false
-  },
-  {
-   "titre": "Mistral rachète SkipLabs et crée une équipe dédiée aux langages",
-   "lien": "https://www.lemondeinformatique.fr/actualites/lire-mistral-rachete-skiplabs-et-cree-une-equipe-dediee-aux-langages-100926.html",
-   "date": "2026-11-06T16:37:32+00:00",
-   "resume": "Les six ingénieurs de SkipLabs rejoignent Mistral AI pour former une nouvelle équipe baptisée « Language ». L'entreprise (...)",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "Claude se dote d'un outil d'analyse des finances personnelles",
-   "lien": "https://www.lemondeinformatique.fr/actualites/lire-claude-se-dote-d-un-outil-d-analyse-des-finances-personnelles-100923.html",
-   "date": "2026-11-06T16:37:22+00:00",
-   "resume": "Anthropic étend les fonctionnalités de Claude aux finances personnelles. Présenté le 5 novembre 2026, Personal Finance permet (...)",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "L'Établissement français du sang touché par une cyberattaque",
-   "lien": "https://www.lemondeinformatique.fr/actualites/lire-l-etablissement-francais-du-sang-touche-par-une-cyberattaque-100924.html",
-   "date": "2026-11-06T16:37:19+00:00",
-   "resume": "Les systèmes industriels connectés constituent une nouvelle fois une porte d'entrée vers des infrastructures sensibles. Dans la nuit (...)",
-   "source": "lmi",
    "sujet": false
   },
   {
@@ -235,14 +211,6 @@
    "sujet": false
   },
   {
-   "titre": "OpenAI dévoile GPT-6 Cyber",
-   "lien": "https://www.lemondeinformatique.fr/actualites/lire-openai-devoile-gpt-6-cyber-100921.html",
-   "date": "2026-11-06T11:11:26+00:00",
-   "resume": "Quelques jours après avoir dévoilé Image 2.6, la nouvelle version de son générateur d'images, OpenAI annonce GPT-6 Cyber, (...)",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
    "titre": "Une faille dans Alpine Linux permet de se connecter avec un mot de passe trop long",
    "lien": "https://next.ink/266066/une-faille-dans-alpine-linux-permet-de-se-connecter-avec-un-mot-de-passe-trop-long/",
    "date": "2026-11-06T11:10:47+00:00",
@@ -267,27 +235,11 @@
    "sujet": false
   },
   {
-   "titre": "Le chiffre d'affaires mondial de la DRAM bondit de 369 % au troisième trimestre",
-   "lien": "https://www.lemondeinformatique.fr/actualites/lire-le-chiffre-d-affaires-mondial-de-la-dram-bondit-de-369-au-troisieme-trimestre-100922.html",
-   "date": "2026-11-06T10:31:09+00:00",
-   "resume": "Les revenus mondiaux de la DRAM ont été multipliés par près de cinq en un an, selon l’étude publiée le (...)",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
    "titre": "War.app - Le jeu de conquête où personne n'attend son tour",
    "lien": "https://korben.info/war-app-warzone-risk-navigateur.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
    "date": "2026-11-06T09:58:12+00:00",
    "resume": "Warzone s'appelle War.app depuis avril, après un accord avec Activision. Le jeu ne change pas : une carte du monde, des ordres donnés par tous en même temps, pas de dés par défaut, et c'est gratuit dans le navigateur,…",
    "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "Zoom mise sur ses agents IA pour automatiser les interactions dans le monde physique",
-   "lien": "https://www.lemondeinformatique.fr/actualites/lire-zoom-mise-sur-ses-agents-ia-pour-automatiser-les-interactions-dans-le-monde-physique-100920.html",
-   "date": "2026-11-06T09:56:07+00:00",
-   "resume": "De la visioconférence aux agents capables d’effectuer des opérations, Zoom poursuit l’élargissement de son périmètre (...)",
-   "source": "lmi",
    "sujet": false
   },
   {
@@ -328,14 +280,6 @@
    "date": "2026-11-06T08:16:33+00:00",
    "resume": "Nouvelle version pour le navigateur alternatif basé sur Chromium et orienté vers les « power users ». L’ajout majeur de cette mouture est l’arrivée d’un nouveau sélecteur pour le niveau de blocage que l’on souhaite…",
    "source": "next",
-   "sujet": false
-  },
-  {
-   "titre": "IA : les éditeurs de logiciels repensent leur modèle de facturation",
-   "lien": "https://www.lemondeinformatique.fr/actualites/lire-ia-les-editeurs-de-logiciels-repensent-leur-modele-de-facturation-100917.html",
-   "date": "2026-11-06T07:56:26+00:00",
-   "resume": "L’essor de l’IA générative et des agents autonomes bouleverse le modèle économique de l’industrie du logiciel. (...)",
-   "source": "lmi",
    "sujet": false
   },
   {
@@ -499,14 +443,6 @@
    "sujet": false
   },
   {
-   "titre": "Pangram étend sa technologie de détection de l'IA aux images et aux vidéos",
-   "lien": "https://www.lemondeinformatique.fr/actualites/lire-pangram-etend-sa-technologie-de-detection-de-l-ia-aux-images-et-aux-videos-100918.html",
-   "date": "2026-11-05T16:18:41+00:00",
-   "resume": "Pangram a annoncé le 4 novembre 2026 le lancement de deux nouveaux modèles de détection, Pangram Image 1.0 et Pangram Image Flash (...)",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
    "titre": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
    "lien": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
    "date": "2026-11-05T16:00:05+00:00",
@@ -523,52 +459,12 @@
    "sujet": true
   },
   {
-   "titre": "AMD pourrait dépasser Intel pour la première fois avec 17 Md$ de revenus attendus",
-   "lien": "https://www.lemondeinformatique.fr/actualites/lire-amd-pourrait-depasser-intel-pour-la-premiere-fois-avec-17-md$-de-revenus-attendus-100916.html",
-   "date": "2026-11-05T15:20:33+00:00",
-   "resume": "AMD a annoncé le 3 novembre un chiffre d’affaires record de 13,4 Md$ pour le troisième trimestre 2026, en hausse de 45 % sur un an. (...)",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "Le Parlement européen met en garde contre les dérives de l'IA",
-   "lien": "https://www.lemondeinformatique.fr/actualites/lire-le-parlement-europeen-met-en-garde-contre-les-derives-de-l-ia-100915.html",
-   "date": "2026-11-05T14:38:32+00:00",
-   "resume": "La présidente du Parlement européen, Roberta Metsola, a mis en garde ce mercredi les eurodéputés contre un recours excessif (...)",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
    "titre": "‘Hogwarts Legacy’ Gets a Magical NVIDIA DLSS 5 Upgrade on GeForce NOW",
    "lien": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/",
    "date": "2026-11-05T14:00:34+00:00",
    "resume": "Hogwarts Legacy receives an NVIDIA DLSS 5 upgrade with 3D-Guided Neural Rendering today, bringing lifelike lighting and materials to the wizarding world on GeForce NOW. Blizzard Entertainment’s World of Warcraft:…",
    "source": "nvidia",
    "sujet": true
-  },
-  {
-   "titre": "Les éditeurs français accélèrent l'adoption de l'IA",
-   "lien": "https://www.lemondeinformatique.fr/actualites/lire-les-editeurs-francais-accelerent-l-adoption-de-l-ia-100914.html",
-   "date": "2026-11-05T12:19:06+00:00",
-   "resume": "L’IA n’est plus un simple sujet d’expérimentation pour les éditeurs français de logiciels. Elle s’impose désormais (...)",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "Google victime de sa propre IA : quand les résumés intelligents fragilisent le modèle publicitaire du géant",
-   "lien": "https://www.lemondeinformatique.fr/actualites/lire-google-victime-de-sa-propre-ia-quand-les-resumes-intelligents-fragilisent-le-modele-publicitaire-du-geant-100909.html",
-   "date": "2026-11-05T10:45:46+00:00",
-   "resume": "Google se retrouve face à un défi qu’il a lui-même créé. Depuis plusieurs années, le groupe accélère (...)",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "Apple réduit les budgets consacrés à l'IA de ses salariés pour limiter ses dépenses",
-   "lien": "https://www.lemondeinformatique.fr/actualites/lire-apple-reduit-les-budgets-consacres-a-l-ia-de-ses-salaries-pour-limiter-ses-depenses-100913.html",
-   "date": "2026-11-05T09:35:22+00:00",
-   "resume": "Apple a discrètement abaissé en octobre le plafond de dépenses quotidiennes de certains ingénieurs utilisant des modèles (...)",
-   "source": "lmi",
-   "sujet": false
   },
   {
    "titre": "Sync-in 2.4 à 2.6 : Euro-Office, favoris, draw.io et un serveur plus robuste",
@@ -608,14 +504,6 @@
    "date": "2026-11-05T08:05:01+00:00",
    "resume": "Starlink fournit environ 150 Mbps, mais reste un FAI américain qui voit votre navigation, utilise du CGNAT (IP partagée, CAPTCHAs, blocages) et ne gère pas le VPN sur son routeur. Selon l'article, sponsorisé par…",
    "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "Élections américaines de 2026 : la victoire démocrate bouscule la tech et ses ambitions dans l'IA",
-   "lien": "https://www.lemondeinformatique.fr/actualites/lire-elections-americaines-de-2026-la-victoire-democrate-bouscule-la-tech-et-ses-ambitions-dans-l-ia-100911.html",
-   "date": "2026-11-05T07:59:51+00:00",
-   "resume": "Les élections américaines de mi-mandat du 3 novembre 2026 ont modifié l’équilibre politique à Washington. En remportant (...)",
-   "source": "lmi",
    "sujet": false
   },
   {
@@ -792,6 +680,14 @@
    "date": "2026-10-29T13:00:16+00:00",
    "resume": "This Halloween week, GFN Thursday is delivering a fresh batch of gaming treats. Something wicked this blade comes. S-GAME’s Phantom Blade Zero launches on GeForce NOW today, bringing a scarily good blend of martial arts…",
    "source": "nvidia",
+   "sujet": false
+  },
+  {
+   "titre": "IA générative : du POC à la production, les choix structurants pour la DSI",
+   "lien": "https://www.lemondeinformatique.fr/articles/ia-generative-du-poc-a-la-production-les-choix-str",
+   "date": "2026-10-28T16:24:57+00:00",
+   "resume": "Passer une IA générative du POC à la production revient à trancher cinq décisions : l’architecture en couches, le type de modèle, la méthode d’adaptation (RAG, fine-tuning ou agents), l’hébergement et le cadre…",
+   "source": "lmi",
    "sujet": false
   },
   {
