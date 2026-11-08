@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-08T13:32:00+00:00",
+ "miseAJour": "2026-11-08T22:12:10+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -82,6 +82,14 @@
   }
  ],
  "articles": [
+  {
+   "titre": "DataSuckers : trois suspects arrêtés après une fuite",
+   "lien": "https://www.zataz.com/datasuckers-trois-suspects-arretes-apres-une-fuite/",
+   "date": "2026-11-08T14:16:04+00:00",
+   "resume": "Trois suspects liés à DataSuckers arrêtés après le piratage de Dodo Pizza et le vol de millions de données.",
+   "source": "zataz",
+   "sujet": false
+  },
   {
    "titre": "Flock : sale temps pour les gros bros",
    "lien": "https://next.ink/266278/flock-sale-temps-pour-les-gros-bros/",
@@ -743,14 +751,6 @@
    "lien": "https://www.zataz.com/piratage-de-la-fftir-la-federation-confirme-le-vol/",
    "date": "2026-10-23T10:41:26+00:00",
    "resume": "FFTir : la Fédération confirme une cyberattaque, le vol de 64 000 photos et de milliers de documents personnels.",
-   "source": "zataz",
-   "sujet": false
-  },
-  {
-   "titre": "Fraude bancaire : deux mails pour installer la peur",
-   "lien": "https://www.zataz.com/fraude-bancaire-deux-mails-pour-installer-la-peur/",
-   "date": "2026-10-23T10:27:14+00:00",
-   "resume": "Alerte ZATAZ : deux faux mails bancaires, des milliers d'euros en jeu et une fraude téléphonique décryptée.",
    "source": "zataz",
    "sujet": false
   },
