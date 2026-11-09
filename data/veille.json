@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-08T22:12:10+00:00",
+ "miseAJour": "2026-11-09T06:44:30+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -82,6 +82,78 @@
   }
  ],
  "articles": [
+  {
+   "titre": "Phishing : 7,3 milliards de menaces par e-mail au troisième trimestre 2026, voici ce que révèle Microsoft",
+   "lien": "https://www.it-connect.fr/microsoft-rapport-menaces-email-phishing-exceptions/",
+   "date": "2026-11-09T06:29:48+00:00",
+   "resume": "Microsoft a détecté 7,3 milliards e-mails de phishing au troisième trimestre 2026. Faux DocuSign, SVG, code d'appareil : voici ce qu'il faut retenir.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Korea Advances Physical AI Across Industries With NVIDIA",
+   "lien": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
+   "date": "2026-11-09T05:00:40+00:00",
+   "resume": "Tapping into the country’s strengths in manufacturing and engineering, NVIDIA is helping advance Korea’s physical AI ecosystem. The country’s industry leaders are applying accelerated computing, AI and simulation to…",
+   "source": "nvidia",
+   "sujet": true
+  },
+  {
+   "titre": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
+   "lien": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/",
+   "date": "2026-11-09T05:00:39+00:00",
+   "resume": "As AI agents take on more work, they need capable open models and security that advances alongside them. Hyundai Motor Group is exploring NVIDIA NemoClaw blueprints and the NVIDIA OpenShell runtime, while AIM…",
+   "source": "nvidia",
+   "sujet": true
+  },
+  {
+   "titre": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
+   "lien": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
+   "date": "2026-11-09T05:00:04+00:00",
+   "resume": "NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI ecosystem, from AI semiconductors and data center infrastructure to talent, startups, models,…",
+   "source": "nvidia",
+   "sujet": true
+  },
+  {
+   "titre": "NVIDIA Dynamo Recipes Bring Korea’s Leading Open Models to Production",
+   "lien": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
+   "date": "2026-11-09T05:00:00+00:00",
+   "resume": "NVIDIA is releasing Dynamo-optimized deployment recipes for Korea’s leading open models: A.X K2 from SK Telecom, K-EXAONE 2.0 from LG AI Research, Solar Open 2 from Upstage and Motif-3 from Motif Technologies. As models…",
+   "source": "nvidia",
+   "sujet": true
+  },
+  {
+   "titre": "Un pirate revendique le vol de millions de données d’automobilistes français",
+   "lien": "https://www.zataz.com/sgs-un-pirate-revendique-259-millions-de-lignes-volees/",
+   "date": "2026-11-09T00:30:00+00:00",
+   "resume": "Un pirate revendique une base SGS concernant 22 millions d'automobilistes : des données voitures et clients volées ?",
+   "source": "zataz",
+   "sujet": false
+  },
+  {
+   "titre": "NoName vise Free, La Poste Mobile et Danfoss",
+   "lien": "https://www.zataz.com/noname-vise-free-la-poste-mobile-et-danfoss/",
+   "date": "2026-11-09T00:08:10+00:00",
+   "resume": "NoName vise Free, La Poste Mobile et Danfoss. ZATAZ distingue données volées, DDoS et revendications industrielles.",
+   "source": "zataz",
+   "sujet": false
+  },
+  {
+   "titre": "Un géant de l’informatique visé par une revendication de vol de données",
+   "lien": "https://www.zataz.com/un-geant-de-linformatique-vise-par-une-revendication-de-vol-de-donnees/",
+   "date": "2026-11-08T23:36:38+00:00",
+   "resume": "Kensium visé par une revendication de vol de 18 To : code source et sauvegardes annoncés par un pirate informatique.",
+   "source": "zataz",
+   "sujet": false
+  },
+  {
+   "titre": "Alain Afflelou : des données clients et bancaires exposées ?",
+   "lien": "https://www.zataz.com/alain-afflelou-des-donnees-clients-et-bancaires-exposees/",
+   "date": "2026-11-08T23:03:54+00:00",
+   "resume": "Alain Afflelou visé par Emperador : les pirates mettent à execution leur menace aprés une demande de rançon qui a échouée.",
+   "source": "zataz",
+   "sujet": false
+  },
   {
    "titre": "DataSuckers : trois suspects arrêtés après une fuite",
    "lien": "https://www.zataz.com/datasuckers-trois-suspects-arretes-apres-une-fuite/",
@@ -523,14 +595,6 @@
    "sujet": false
   },
   {
-   "titre": "Linux : une faille dans APT permet de remplacer un paquet vérifié et de l’exécuter en root",
-   "lien": "https://www.it-connect.fr/faille-apt-cve-2026-109518-debian-ubuntu-root/",
-   "date": "2026-11-05T07:12:12+00:00",
-   "resume": "Une faille dans APT permet de remplacer un paquet déjà vérifié et de l'exécuter en root. Debian, Ubuntu et leurs dérivées sont concernées. Voici l'essentiel.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
    "titre": "HatchZip - Décompresser une archive énorme sur un disque plein",
    "lien": "https://korben.info/hatchzip.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
    "date": "2026-11-05T06:24:56+00:00",
@@ -707,75 +771,11 @@
    "sujet": true
   },
   {
-   "titre": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
-   "lien": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia/",
-   "date": "2026-10-27T15:00:20+00:00",
-   "resume": "There are 57 million people worldwide living with dementia today. For the researchers working to help them, the obstacle isn’t a lack of effort — it’s too much data, too few experts to synthesize it and a pace of…",
-   "source": "nvidia",
-   "sujet": false
-  },
-  {
    "titre": "Chimeraz revendique des fuites visant trois partis français, dont celui du groupe présidentiel",
    "lien": "https://www.zataz.com/chimeraz-revendique-des-fuites-visant-trois-partis-francais/",
    "date": "2026-10-24T23:00:29+00:00",
    "resume": "Chimeraz revendique des données annoncées comme volées aux partis politiques de Renaissance, LFI et du PCF.",
    "source": "zataz",
-   "sujet": false
-  },
-  {
-   "titre": "DeepSeek banni des agences fédérales US",
-   "lien": "https://www.zataz.com/deepseek-banni-des-agences-federales-civiles-americaines/",
-   "date": "2026-10-24T10:46:39+00:00",
-   "resume": "DeepSeek banni des agences fédérales civiles américaines : portée, calendrier et risques pour les données.",
-   "source": "zataz",
-   "sujet": false
-  },
-  {
-   "titre": "Point Vision : des données de patients dérobées",
-   "lien": "https://www.zataz.com/point-vision-des-donnees-de-patients-derobees/",
-   "date": "2026-10-24T09:29:23+00:00",
-   "resume": "Cyberattaque chez Point Vision : données de patients volées, exposition possible des motifs de rendez-vous.",
-   "source": "zataz",
-   "sujet": false
-  },
-  {
-   "titre": "Technostress : une faille pour l’ingénierie sociale",
-   "lien": "https://www.zataz.com/technostress-une-faille-pour-lingenierie-sociale/",
-   "date": "2026-10-23T12:56:16+00:00",
-   "resume": "Technostress et ingénierie sociale : comment la surcharge numérique peut fragiliser la vigilance face aux manipulations.",
-   "source": "zataz",
-   "sujet": false
-  },
-  {
-   "titre": "Piratage de la FFTir : la Fédération confirme le vol",
-   "lien": "https://www.zataz.com/piratage-de-la-fftir-la-federation-confirme-le-vol/",
-   "date": "2026-10-23T10:41:26+00:00",
-   "resume": "FFTir : la Fédération confirme une cyberattaque, le vol de 64 000 photos et de milliers de documents personnels.",
-   "source": "zataz",
-   "sujet": false
-  },
-  {
-   "titre": "Kazakhstan Expands Compute for Its AI Future",
-   "lien": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
-   "date": "2026-10-23T02:00:13+00:00",
-   "resume": "Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment. The shift is visible across the full AI stack — from infrastructure to models to applications. The announcements below — coinciding with a…",
-   "source": "nvidia",
-   "sujet": false
-  },
-  {
-   "titre": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
-   "lien": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
-   "date": "2026-10-22T15:00:02+00:00",
-   "resume": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies…",
-   "source": "nvidia",
-   "sujet": true
-  },
-  {
-   "titre": "Cloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW",
-   "lien": "https://blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4/",
-   "date": "2026-10-22T13:00:20+00:00",
-   "resume": "Lock in and load out this GFN Thursday. Call of Duty: Modern Warfare 4 arrives on GeForce NOW at launch, bringing a new campaign, multiplayer action and DMZ, high-stakes extraction mode to supported devices. The…",
-   "source": "nvidia",
    "sujet": false
   }
  ]
