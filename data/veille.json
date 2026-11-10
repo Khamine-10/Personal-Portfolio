@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-09T22:26:33+00:00",
+ "miseAJour": "2026-11-10T07:25:57+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -68,7 +68,7 @@
   {
    "id": "lmi",
    "ok": true,
-   "nombre": 5
+   "nombre": 11
   },
   {
    "id": "next",
@@ -82,6 +82,110 @@
   }
  ],
  "articles": [
+  {
+   "titre": "Frigos piratés : la France accuse les Gardiens de la révolution iraniens",
+   "lien": "https://www.it-connect.fr/frigos-supermarches-france-impute-iran-cgri-shahid-kaveh/",
+   "date": "2026-11-10T07:16:26+00:00",
+   "resume": "Frigos réglés à haute température dans 700 supermarchés : la France attribue cette attaque, et d'autres incidents, aux Gardiens de la révolution iraniens.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Sony ajoute du stockage au PlayStation Portal, sans dire pourquoi",
+   "lien": "https://next.ink/266533/sony-ajoute-du-stockage-au-playstation-portal-sans-dire-pourquoi/",
+   "date": "2026-11-10T06:59:00+00:00",
+   "resume": "Sony a dévoilé au Japon un nouveau PlayStation Portal doté de stockage pour de « futures fonctionnalités » encore bien mystérieuses. L’appareil conserve son écran LCD et son prix, mais le constructeur reste muet sur…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Platypus - L'ornithorynque qui vous fait cligner des yeux",
+   "lien": "https://korben.info/platypus-cligner-des-yeux-ecran.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-10T06:49:52+00:00",
+   "resume": "Platypus Companion fait passer quelques secondes un ornithorynque en bas de l'écran, sur Mac et Windows, pour vous rappeler de cligner des yeux, de vous étirer ou de faire une pause. Version gratuite, complète à…",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "☕️ Apple commence à facturer les dépassements de quota de son IA",
+   "lien": "https://next.ink/brief-article/apple-commence-a-facturer-les-depassements-de-quota-de-son-ia/",
+   "date": "2026-11-10T06:32:00+00:00",
+   "resume": "Apple entend bien facturer l’usage de ses fonctions d’intelligence artificielle. John Ternus, le nouveau directeur général de l’entreprise, n’a pas dit autre chose durant les derniers résultats trimestriels : les…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Anthropic dévoile Claude Fable 5.2 et Mythos 5.2, plus rapides et plus performants en code",
+   "lien": "https://www.lemondeinformatique.fr/donnees-ia/anthropic-devoile-claude-fable-5-2-et-mythos-5-2-p",
+   "date": "2026-11-10T06:31:53+00:00",
+   "resume": "Anthropic a présenté le 9 novembre les versions 5.2 de Claude Fable et Claude Mythos, ses modèles destinés aux travaux techniques les plus exigeants. L'éditeur revendique des progrès en programmation, en raisonnement et…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "OccupySaaS : licenciés par la tech, ils retournent l’IA contre les géants du logiciel",
+   "lien": "https://www.lemondeinformatique.fr/donnees-ia/occupysaas-des-ingenieurs-qui-se-disent-licencies-",
+   "date": "2026-11-10T06:31:27+00:00",
+   "resume": "Lancé en octobre 2026, OccupySaaS rassemble des développeurs qui affirment avoir été licenciés par l’industrie technologique. Avec l’aide d’agents d’IA, ils reconstruisent des alternatives open source aux logiciels…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Google présente deux nouveaux systèmes TPU pour l’inférence et les traitements à long contexte",
+   "lien": "https://www.lemondeinformatique.fr/donnees-ia/google-presente-deux-nouveaux-systemes-tpu-pour-l-",
+   "date": "2026-11-10T06:31:00+00:00",
+   "resume": "Le TPU 8tx vise l’inférence confidentielle, tandis que le TPU 8i Max associe deux puces pour augmenter les capacités de calcul et la bande passante mémoire.",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "OpenAI lève 11 Md$ pour une valorisation de 1 250 Md$",
+   "lien": "https://www.lemondeinformatique.fr/donnees-ia/openai-leve-11-md-pour-une-valorisation-de-1-250-m",
+   "date": "2026-11-10T06:30:32+00:00",
+   "resume": "L’entreprise américaine a déjà réuni 11 Md$ dans le cadre d’un tour de table qui pourrait atteindre 20 Md$. Sa valorisation grimpe à 1 250 Md$.",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "NIS 2 : la loi Résilience arrive enfin à l’Assemblée",
+   "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/nis-2-la-loi-resilience-arrive-enfin-a-l-assemblee",
+   "date": "2026-11-10T06:30:04+00:00",
+   "resume": "Le projet de loi Résilience est examiné en séance publique après plusieurs reports. Son adoption doit permettre de préciser le cadre réglementaire applicable aux milliers d’organisations concernées.",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Ray-Ban Meta piratées : une chercheuse obtient un shell, puis contourne le correctif de Meta",
+   "lien": "https://www.it-connect.fr/lunettes-ray-ban-meta-piratees-shell/",
+   "date": "2026-11-10T06:30:00+00:00",
+   "resume": "Une chercheuse a obtenu un shell sur des lunettes Ray-Ban Meta en détournant le Device Access Toolkit, puis a contourné le correctif de Meta. Voici comment.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "L’Europe lance un plan de 525 M€ pour aider les start-up qui conçoivent des puces",
+   "lien": "https://www.lemondeinformatique.fr/infrastructure-cloud/l-europe-lance-un-plan-de-525-m-pour-aider-les-sta",
+   "date": "2026-11-10T06:29:40+00:00",
+   "resume": "Baptisée European Chip Design Platform, cette initiative mobilisera 525 M€ afin de faciliter l’accès aux outils de conception, aux financements et aux capacités de fabrication.",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Nylon - Le VPN WireGuard qui trouve seul son chemin",
+   "lien": "https://korben.info/nylon-vpn-mesh-wireguard.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-10T06:21:51+00:00",
+   "resume": "Nylon relie vos machines en WireGuard sans serveur de coordination : chaque nœud relaie pour les autres et le trafic suit la route de plus faible latence. À condition d'avoir un bout joignable par lien et des machines…",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "DockEcho - Un Dock sur chacun de vos écrans Mac",
+   "lien": "https://korben.info/dockecho-dock-macos-chaque-ecran.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-10T05:44:55+00:00",
+   "resume": "DockEcho pose une copie synchronisée du Dock de macOS sur chaque écran externe, avec vos réglages. Open source, sous licence MIT, à compiler soi-même.",
+   "source": "korben",
+   "sujet": false
+  },
   {
    "titre": "Discord abandonne Electron et réécrit son client en Rust : 290 Mo de RAM avec deux comptes actifs",
    "lien": "https://www.it-connect.fr/discord-client-rust-gpui-fin-electron/",
@@ -302,7 +406,7 @@
    "titre": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
    "lien": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
    "date": "2026-11-09T08:00:53+00:00",
-   "resume": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI Startup Partnership Forum at COEX. Ryu Je-myung, vice minister of science and ICT, joined NVIDIA leaders to meet with over 20 Korean startups…",
+   "resume": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI Startup Partnership Forum at COEX. Representatives from the Ministry of Science and ICT and NVIDIA met with over 20 Korean startups across…",
    "source": "nvidia",
    "sujet": true
   },
@@ -523,35 +627,11 @@
    "sujet": false
   },
   {
-   "titre": "NIKKE : la version PC du jeu piégée pour installer un redoutable malware",
-   "lien": "https://www.it-connect.fr/nikke-lanceur-pc-pirate-malware-k2f/",
-   "date": "2026-11-06T18:32:19+00:00",
-   "resume": "Le lanceur PC de NIKKE a chargé un malware depuis le CDN de Level Infinite : contrôle à distance, vol de secrets et de cryptos. Voici ce qu'il faut vérifier.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
    "titre": "Projet informatique qui dérape : cinq réflexes juridiques pour la DSI",
    "lien": "https://www.lemondeinformatique.fr/articles/projet-informatique-qui-derape-cinq-reflexes-jurid",
    "date": "2026-11-06T17:02:09+00:00",
    "resume": "Retards qui s’accumulent, livrables non conformes, périmètre qui glisse. Quand un projet informatique dérape, les premières semaines pèsent lourd sur la suite. Les conseils de Maître François-Xavier Langlais, avocat…",
    "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "L’Europe dédie une plateforme et 525 millions d’euros aux concepteurs de puces",
-   "lien": "https://next.ink/266258/leurope-dedie-une-plateforme-et-525-millions-deuros-aux-concepteurs-de-puces/",
-   "date": "2026-11-06T16:51:00+00:00",
-   "resume": "La Commission européenne a lancé une plateforme destinée à réunir les outils, les services et les financements susceptibles de servir aux entreprises qui conçoivent des puces électroniques. L’initiative est accompagnée…",
-   "source": "next",
-   "sujet": false
-  },
-  {
-   "titre": "Google, Microsoft, Anthropic et OpenAI veulent changer robots.txt pour refuser les IA",
-   "lien": "https://next.ink/266259/google-microsoft-anthropic-et-openai-veulent-changer-robots-txt-pour-refuser-les-ia/",
-   "date": "2026-11-06T16:32:31+00:00",
-   "resume": "Quatre entreprises de la tech souhaitent ajouter une ligne dans le fichier robots.txt pour que les données des sites concernés ne soient pas utilisées dans l’entrainement des IA. S’agissant d’une démarche déclarative,…",
-   "source": "next",
    "sujet": false
   },
   {
@@ -561,14 +641,6 @@
    "resume": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation…",
    "source": "nvidia",
    "sujet": true
-  },
-  {
-   "titre": "Deep-Live-Cam : cet outil open source de deepfake change votre visage à partir d’une photo",
-   "lien": "https://www.it-connect.fr/deep-live-cam-deepfake-temps-reel-open-source/",
-   "date": "2026-11-06T15:00:00+00:00",
-   "resume": "Deep-Live-Cam est un outil open source capable de remplacer un visage en direct lors d'une visio (Teams, Zoom, etc.) à partir d'une seule photo.",
-   "source": "itconnect",
-   "sujet": false
   },
   {
    "titre": "War.app - Le jeu de conquête où personne n'attend son tour",
@@ -745,30 +817,6 @@
    "resume": "Revolut affirme avoir réduit d'environ 90 % sa facture d'IA de codage en un an, en remplaçant Claude Code par GLM, un modèle ouvert du chinois Z.ai auto-hébergé sur 56 cartes Nvidia B200. Le coût tombe à 0,30 dollar le…",
    "source": "korben",
    "sujet": true
-  },
-  {
-   "titre": "Google coupe la recherche aux écoles qui refusent son IA",
-   "lien": "https://korben.info/google-coupe-la-recherche-aux-ecoles-qui-refusent-son-ia.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-11-04T08:05:09+00:00",
-   "resume": "Google désactivera par défaut Gemini, Gemini Notebook et Search sur les comptes d'élèves américains, de la maternelle au lycée, avec une bascule début 2027. Un responsable a confirmé qu'une école refusant l'IA perdra…",
-   "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "Astra a retouché les poids de Qwen pour qu'il puisse aller jusqu'au bout de sa réflexion",
-   "lien": "https://korben.info/gpt-6-astra-poids-qwen.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-11-04T04:44:37+00:00",
-   "resume": "GPT-6 Astra a modifié 0,016 % des poids de Qwen3.5-0.8B et fait passer MATH-500 de 7,9 % à 48,1 %. Sauf que la retouche répare surtout des boucles de réflexion : réflexion coupée, son réglage par défaut, le modèle…",
-   "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "DiscImageStudio - Un dessin gravé dans les données du disque",
-   "lien": "https://korben.info/discimagestudio-graver-image-cd-dvd-blu-ray.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-11-04T04:25:15+00:00",
-   "resume": "DiscImageStudio convertit une image en données qui, une fois gravées sur un CD, un DVD ou un BD-R, font apparaître ce dessin à la surface du disque. Héritier de CDImage, il calibre les disques par photo sous Windows, et…",
-   "source": "korben",
-   "sujet": false
   },
   {
    "titre": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
