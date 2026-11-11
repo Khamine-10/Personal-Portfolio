@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-11T06:34:53+00:00",
+ "miseAJour": "2026-11-11T19:40:17+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -82,6 +82,70 @@
   }
  ],
  "articles": [
+  {
+   "titre": "Kudu : découverte de l’alternative gratuite et open source à CCleaner pour Windows, macOS et Linux",
+   "lien": "https://www.it-connect.fr/kudu-alternative-open-source-ccleaner/",
+   "date": "2026-11-11T17:06:37+00:00",
+   "resume": "Kudu est un logiciel de nettoyage et d'optimisation gratuit et open source pour Windows, macOS et Linux. Voici les fonctionnalités de cette alternative à CCleaner.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "pfSense 26.10 : Netgate fusionne CE et Plus, toutes les fonctionnalités deviennent gratuites",
+   "lien": "https://www.it-connect.fr/pfsense-26-10-fusion-ce-plus-edition-unique-gratuite/",
+   "date": "2026-11-11T16:00:00+00:00",
+   "resume": "Vous utilisez pfSense CE sur votre propre matériel ? Avec la version 26.10, Netgate fusionne CE et Plus en une seule édition gratuite. Voici ce qui change.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Outlook et Hotmail : les e-mails rejetés faute de DMARC, c’était un bug de Microsoft",
+   "lien": "https://www.it-connect.fr/outlook-hotmail-bug-rejet-emails-dmarc/",
+   "date": "2026-11-11T10:30:00+00:00",
+   "resume": "Du 6 au 9 novembre, Outlook.com a rejeté à tort des e-mails, surtout issus de domaines sans DMARC. Microsoft reconnaît un bug. Voici ce qu'il faut vérifier.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Firefox 160 : Mini Window, vitesse de lecture en Picture-in-Picture et reconnaissance vocale locale",
+   "lien": "https://www.it-connect.fr/firefox-160-mini-window-nouveautes/",
+   "date": "2026-11-11T08:45:00+00:00",
+   "resume": "Un onglet qui reste au premier plan pendant que vous travaillez ailleurs : c'est Mini Window, la nouveauté phare de Firefox 160. Voici ce qui change.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Synctrain - Vos fichiers Syncthing à la demande sur iPhone",
+   "lien": "https://korben.info/synctrain-syncthing-iphone-ipad-mac.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-11T08:00:00+00:00",
+   "resume": "Synctrain est un client Syncthing gratuit et open source pour iPhone, iPad et Mac qui ne garde que les fichiers choisis et streame le reste depuis vos machines.",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "Patch Tuesday – Novembre 2026 : 1 093 failles corrigées, dont une faille zero-day dans Outlook",
+   "lien": "https://www.it-connect.fr/patch-tuesday-novembre-2026-recapitulatif/",
+   "date": "2026-11-11T07:16:01+00:00",
+   "resume": "Microsoft a corrigé 1 093 failles avec le Patch Tuesday de novembre 2026. Une faille zero-day est déjà exploitée dans Outlook : voici le récapitulatif complet.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Windows 11 KB5132061 : voici l’essentiel à savoir sur la mise à jour de novembre 2026",
+   "lien": "https://www.it-connect.fr/windows-11-kb5132061-kb5131087-nouveautes-correctifs/",
+   "date": "2026-11-11T07:15:41+00:00",
+   "resume": "KB5132061 : menu contextuel personnalisable, signature NTLM par défaut, audio USB corrigé. Voici le récapitulatif de la mise à jour Windows 11 de novembre 2026.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Windows 10 – KB5131096 : voici la mise à jour de sécurité de novembre 2026",
+   "lien": "https://www.it-connect.fr/windows-10-kb5131096-mise-a-jour-esu/",
+   "date": "2026-11-11T07:15:22+00:00",
+   "resume": "KB5131096 pour Windows 10 : le bug audio USB est corrigé, l'ESU entre dans sa deuxième année et la signature des scripts PowerShell devient plus stricte.",
+   "source": "itconnect",
+   "sujet": false
+  },
   {
    "titre": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
    "lien": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
@@ -491,22 +555,6 @@
    "sujet": false
   },
   {
-   "titre": "Plex2Shell : QNAP fait état de NAS compromis, vous devez patcher !",
-   "lien": "https://www.it-connect.fr/qnap-plex2shell-nas-compromis/",
-   "date": "2026-11-09T17:06:39+00:00",
-   "resume": "QNAP fait état de NAS compromis via Plex2Shell. Si Plex Media Server était exposé sur Internet, la mise à jour ne suffit pas : voici comment vérifier votre NAS.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "SonicWall : une faille dans le VPN SSL permet de contourner le MFA et elle est exploitée",
-   "lien": "https://www.it-connect.fr/sonicwall-vpn-ssl-faille-saml-mfa-cve-2026-19868/",
-   "date": "2026-11-09T16:49:22+00:00",
-   "resume": "Une faille exploitée dans le VPN SSL des firewalls SonicWall peut permettre de contourner SAML et le MFA associé. Qui est affecté ? Comment se protoéger ?",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
    "titre": "Cyberattaque des frigos : la piste iranienne se précise",
    "lien": "https://www.zataz.com/cyberattaque-des-frigos-la-piste-iranienne-se-precise/",
    "date": "2026-11-09T16:28:21+00:00",
@@ -595,52 +643,12 @@
    "sujet": true
   },
   {
-   "titre": "VMware vSphere Express : Broadcom revient vers les PME avec une nouvelle offre !",
-   "lien": "https://www.it-connect.fr/vmware-vsphere-express-128-coeurs-pme/",
-   "date": "2026-11-09T10:45:00+00:00",
-   "resume": "128 cœurs, pas un de plus : avec vSphere Express, Broadcom veut séduire à nouveau les PME, dont beaucoup lorgnent vers Proxmox. Voici ce qu'il faut savoir.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "Bon plan : les serrures connectées WELOCK aux prix les plus bas de l’année pour le 11.11",
-   "lien": "https://www.it-connect.fr/bon-plan-welock-novembre-2026-single-day/",
-   "date": "2026-11-09T10:36:03+00:00",
-   "resume": "Profitez du 11.11 pour équiper votre porte d’une serrure connectée WELOCK à prix réduit : déverrouillage par empreinte, code ou smartphone. Notre sélection d'offres.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "Moins d’un PC Windows sur deux patché en 2 semaines, et c’est risqué avec l’IA !",
-   "lien": "https://www.it-connect.fr/microsoft-windows-mises-a-jour-securite-patch-gap-ia/",
-   "date": "2026-11-09T08:43:15+00:00",
-   "resume": "Selon Microsoft, moins d'un appareil Windows sur deux en entreprise installe le patch de sécurité en deux semaines. Un délai risqué face à l'IA. Voici pourquoi.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
    "titre": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
    "lien": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
    "date": "2026-11-09T08:00:53+00:00",
    "resume": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI Startup Partnership Forum at COEX. Representatives from the Ministry of Science and ICT and NVIDIA met with over 20 Korean startups across…",
    "source": "nvidia",
    "sujet": true
-  },
-  {
-   "titre": "Infomaniak lance un service de stockage objet S3 souverain en Suisse",
-   "lien": "https://www.it-connect.fr/infomaniak-stockage-objet-s3/",
-   "date": "2026-11-09T07:40:36+00:00",
-   "resume": "Infomaniak lance un stockage objet compatible S3 hébergé en Suisse : Object Lock, réplication, 10 To de trafic sortant inclus et aucun frais de requêtes.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "Bon plan VZMORE AX9 MAX : ce mini-PC Ryzen AI 9 HX 470 à son prix le plus bas sur le Web",
-   "lien": "https://www.it-connect.fr/bon-plan-vzmore-ax9-max-novembre-2026/",
-   "date": "2026-11-09T06:45:00+00:00",
-   "resume": "Jusqu'au 22 novembre 2026, le mini PC VZMORE AX9 MAX (Ryzen AI 9 HX 470) passe à 1 310 € au lieu de 1 549 € grâce au code réservé aux lecteurs d'IT-Connect.",
-   "source": "itconnect",
-   "sujet": false
   },
   {
    "titre": "Korea Advances Physical AI Across Industries With NVIDIA",
@@ -865,14 +873,6 @@
    "resume": "Google et ses partenaires ont coupé les serveurs du botnet XCPE et banni Videostrong, qui avait piégé le firmware de plus de 1,3 million d'appareils Android. Mais l'implant reste dans les box déjà vendues, et les…",
    "source": "korben",
    "sujet": false
-  },
-  {
-   "titre": "Revolut vire Claude Code pour une IA chinoise et divise ses coûts par dix",
-   "lien": "https://korben.info/revolut-vire-claude-code-pour-une-ia-chinoise-et-divise-ses-couts-par-dix.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-11-04T09:39:50+00:00",
-   "resume": "Revolut affirme avoir réduit d'environ 90 % sa facture d'IA de codage en un an, en remplaçant Claude Code par GLM, un modèle ouvert du chinois Z.ai auto-hébergé sur 56 cartes Nvidia B200. Le coût tombe à 0,30 dollar le…",
-   "source": "korben",
-   "sujet": true
   },
   {
    "titre": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
