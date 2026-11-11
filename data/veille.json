@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-10T19:48:37+00:00",
+ "miseAJour": "2026-11-11T06:34:53+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -82,6 +82,22 @@
   }
  ],
  "articles": [
+  {
+   "titre": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
+   "lien": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
+   "date": "2026-11-11T03:00:20+00:00",
+   "resume": "Vision AI and robotics pick what’s worth recovering out of conveyor belts of used clothing, bottles and mixed recyclables, diverting thousands of tons of materials from landfills.",
+   "source": "nvidia",
+   "sujet": false
+  },
+  {
+   "titre": "Claude Fable 5.2 a codé un système d’exploitation en 8 jours avec plus de 1 000 sous-agents",
+   "lien": "https://www.it-connect.fr/claude-fable-5-2-systeme-exploitation-1000-sous-agents/",
+   "date": "2026-11-10T20:18:00+00:00",
+   "resume": "Anthropic a dévoilé Claude Fable 5.2 (et Mythos 5.2), et à cette occasion, l'IA a créée un système d'exploitation en huit jours avec plus de 1 000 sous-agents.",
+   "source": "itconnect",
+   "sujet": false
+  },
   {
    "titre": "ONLYOFFICE 10.0 : l'IA et la sécurité au service d'une bureautique souveraine",
    "lien": "https://www.lemondeinformatique.fr/articles/onlyoffice-10-0-l-ia-et-la-securite-au-service-d-u",
@@ -627,14 +643,6 @@
    "sujet": false
   },
   {
-   "titre": "Phishing : 7,3 milliards de menaces par e-mail au troisième trimestre 2026, voici ce que révèle Microsoft",
-   "lien": "https://www.it-connect.fr/microsoft-rapport-menaces-email-phishing-exceptions/",
-   "date": "2026-11-09T06:29:48+00:00",
-   "resume": "Microsoft a détecté 7,3 milliards e-mails de phishing au troisième trimestre 2026. Faux DocuSign, SVG, code d'appareil : voici ce qu'il faut retenir.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
    "titre": "Korea Advances Physical AI Across Industries With NVIDIA",
    "lien": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
    "date": "2026-11-09T05:00:40+00:00",
@@ -873,14 +881,6 @@
    "resume": "Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a material will…",
    "source": "nvidia",
    "sujet": false
-  },
-  {
-   "titre": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
-   "lien": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
-   "date": "2026-11-03T07:00:12+00:00",
-   "resume": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physical and agentic AI…",
-   "source": "nvidia",
-   "sujet": true
   }
  ]
 }
