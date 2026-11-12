@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-11T19:40:17+00:00",
+ "miseAJour": "2026-11-12T07:18:41+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -82,6 +82,70 @@
   }
  ],
  "articles": [
+  {
+   "titre": "Dix lignes de code IA dans Big Walk pourraient le priver d’un titre de jeu de l’année",
+   "lien": "https://next.ink/266858/dix-lignes-de-code-ia-dans-big-walk-pourraient-le-priver-dun-titre-de-jeu-de-lannee/",
+   "date": "2026-11-12T06:55:00+00:00",
+   "resume": "L’utilisation de l’IA générative dans le développement du jeu vidéo devient de plus en plus difficile à éviter, ce qui n’est pas sans poser un sérieux problème de conscience aux développeurs adeptes du 100 % fait main.…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Nvidia : le conseil d’administration envisage d’évincer Jensen Huang",
+   "lien": "https://www.lemondeinformatique.fr/donnees-ia/nvidia-le-conseil-d-administration-envisage-d-evin",
+   "date": "2026-11-12T06:47:50+00:00",
+   "resume": "Le conseil d’administration de Nvidia s’est réuni mercredi 11 novembre 2026 pour décider de l’avenir de Jensen Huang, son cofondateur et directeur général, selon le Wall Street Journal. Le dirigeant, qui a reconnu une…",
+   "source": "lmi",
+   "sujet": true
+  },
+  {
+   "titre": "GTA 6 : Logitech offre à ses 7 000 salariés une journée de congé pour jouer aux jeux vidéo",
+   "lien": "https://www.it-connect.fr/logitech-jour-conge-jeux-video-gta-6/",
+   "date": "2026-11-12T06:29:57+00:00",
+   "resume": "Logitech offre à ses 7 000 salariés, stagiaires compris, un jour de congé pour jouer au jeu de leur choix, à neuf jours de la sortie de GTA 6. Explications.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "IA : Google accélère l’inférence en supprimant Python de l’exécution des modèles",
+   "lien": "https://www.lemondeinformatique.fr/applications-developpement/ia-google-accelere-l-inference-en-supprimant-pytho",
+   "date": "2026-11-12T06:26:54+00:00",
+   "resume": "Google a dévoilé XLA Serving Engine (XSE), un moteur d’inférence destiné à exécuter des modèles d’intelligence artificielle sans interpréteur Python en production. Déjà utilisé à grande échelle dans plusieurs de ses…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Informatique quantique : IBM prépare un système Nighthawk de 1 040 qubits pour 2027",
+   "lien": "https://www.lemondeinformatique.fr/donnees-ia/informatique-quantique-ibm-prepare-un-systeme-nigh",
+   "date": "2026-11-12T06:26:33+00:00",
+   "resume": "IBM prévoit de franchir le seuil des 1 000 qubits en 2027 grâce à l'interconnexion de deux processeurs quantiques Nighthawk r3. Chaque puce devrait intégrer 520 qubits et prendre en charge jusqu'à 10 000 opérations…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "OpenAI lance Businesses in ChatGPT pour renforcer la visibilité des entreprises",
+   "lien": "https://www.lemondeinformatique.fr/donnees-ia/openai-lance-businesses-in-chatgpt-pour-renforcer-",
+   "date": "2026-11-12T06:26:18+00:00",
+   "resume": "OpenAI dévoile Businesses in ChatGPT, une offre permettant aux entreprises de gérer leurs informations, de mesurer leur visibilité dans l'assistant et, pour certaines, de déployer des agents conversationnels dédiés.…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "☕️ Compte Nintendo : les connexions Apple et Google, c’est bientôt fini",
+   "lien": "https://next.ink/brief-article/compte-nintendo-les-connexions-apple-et-google-cest-bientot-fini/",
+   "date": "2026-11-12T06:21:00+00:00",
+   "resume": "Nintendo fait le ménage dans les services externes qui permettent de se connecter à un compte. À compter du 26 janvier 2027, les options de connexion avec Google ou avec Apple disparaitront. Cela signifie qu’il ne sera…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Claude Whiteboards, Sheets et Data : Anthropic ajoute un tableur et un tableau blanc à Claude",
+   "lien": "https://www.it-connect.fr/claude-whiteboards-sheets-data-anthropic/",
+   "date": "2026-11-12T06:18:45+00:00",
+   "resume": "Anthropic déploie Claude Sheets et Claude Whiteboards en bêta, et Claude Data en version finale. Fonctions, limites et réglages admin : voici l'essentiel.",
+   "source": "itconnect",
+   "sujet": false
+  },
   {
    "titre": "Kudu : découverte de l’alternative gratuite et open source à CCleaner pour Windows, macOS et Linux",
    "lien": "https://www.it-connect.fr/kudu-alternative-open-source-ccleaner/",
@@ -411,14 +475,6 @@
    "sujet": false
   },
   {
-   "titre": "L’Europe lance un plan de 525 M€ pour aider les start-up qui conçoivent des puces",
-   "lien": "https://www.lemondeinformatique.fr/infrastructure-cloud/l-europe-lance-un-plan-de-525-m-pour-aider-les-sta",
-   "date": "2026-11-10T06:29:40+00:00",
-   "resume": "Baptisée European Chip Design Platform, cette initiative mobilisera 525 M€ afin de faciliter l’accès aux outils de conception, aux financements et aux capacités de fabrication.",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
    "titre": "Nylon - Le VPN WireGuard qui trouve seul son chemin",
    "lien": "https://korben.info/nylon-vpn-mesh-wireguard.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
    "date": "2026-11-10T06:21:51+00:00",
@@ -523,35 +579,11 @@
    "sujet": false
   },
   {
-   "titre": "Discord abandonne Electron et réécrit son client en Rust : 290 Mo de RAM avec deux comptes actifs",
-   "lien": "https://www.it-connect.fr/discord-client-rust-gpui-fin-electron/",
-   "date": "2026-11-09T22:00:00+00:00",
-   "resume": "290 Mo de RAM avec deux comptes connectés : c'est ce qu'affiche une première version du futur client Discord, réécrit en Rust pour Windows, mais pas seulement.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
    "titre": "Cybersécurité : la CNIL sanctionne dix collectivités",
    "lien": "https://www.zataz.com/cybersecurite-la-cnil-sanctionne-dix-collectivites/",
    "date": "2026-11-09T21:50:33+00:00",
    "resume": "La CNIL sanctionne dix collectivités pour des failles de cybersécurité. Amendes, RGPD, accès sensibles et NIS2.",
    "source": "zataz",
-   "sujet": false
-  },
-  {
-   "titre": "Cyberattaque contre les frigos de 700 supermarchés : pourquoi la France accuse l’Iran",
-   "lien": "https://next.ink/266516/cyberattaque-contre-les-frigos-de-700-supermarches-pourquoi-la-france-accuse-liran/",
-   "date": "2026-11-09T18:48:37+00:00",
-   "resume": "L’attaque perpétrée contre des frigos de supermarchés dans la nuit du 11 au 12 octobre est officiellement attribuée à l’Iran, annonce ce lundi 9 novembre le ministère des Affaires étrangères. Une première. L’enquête a…",
-   "source": "next",
-   "sujet": false
-  },
-  {
-   "titre": "Sniffnet : un moniteur réseau gratuit et open source pour Windows, Linux et macOS",
-   "lien": "https://www.it-connect.fr/sniffnet-moniteur-trafic-reseau/",
-   "date": "2026-11-09T17:15:00+00:00",
-   "resume": "Découvrez Sniffnet, l'analyseur réseau gratuit et open source : installation avec Npcap, trafic par programme, export PCAP, filtres BPF et blacklist d'IP.",
-   "source": "itconnect",
    "sujet": false
   },
   {
@@ -563,44 +595,12 @@
    "sujet": false
   },
   {
-   "titre": "Airbnb accélère sa croissance et renforce ses investissements dans l’IA",
-   "lien": "https://www.lemondeinformatique.fr/applications-developpement/airbnb-accelere-sa-croissance-et-renforce-ses-inve",
-   "date": "2026-11-09T16:23:10+00:00",
-   "resume": "Au troisième trimestre 2026, Airbnb a enregistré une hausse de 19 % de son chiffre d’affaires, à 4,9 Md$. Le groupe attribue notamment l’accélération de son développement produit à l’utilisation de l’IA.",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "☕️ Manquements relatifs à la cybersécurité : des services publics sanctionnés par la CNIL",
-   "lien": "https://next.ink/brief-article/manquements-relatifs-a-la-cybersecurite-des-services-publics-sanctionnes-par-la-cnil/",
-   "date": "2026-11-09T15:46:07+00:00",
-   "resume": "La CNIL a annoncé avoir prononcé dix sanctions simplifiées contre des collectivités territoriales et un établissement public, pour des manquements relatifs à la cybersécurité en ce mois de novembre. L’autorité de…",
-   "source": "next",
-   "sujet": false
-  },
-  {
    "titre": "Test du câble UGREEN Nexode 240W - avec un écran qui révèle la puissance en temps réel",
    "lien": "https://korben.info/test-du-cable-ugreen-nexode-240w-avec-un-ecran-qui-revele-la-puissance-en-temps-reel.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
    "date": "2026-11-09T15:43:45+00:00",
    "resume": "Korben teste depuis trois semaines le câble USB-C UGREEN Nexode 240W, qui intègre un écran LCD affichant la puissance réelle en watts. Compatible USB PD 3.1 (48 V, 5 A) avec puce E-Mark, il existe en 1, 2 ou 3 mètres,…",
    "source": "korben",
    "sujet": false
-  },
-  {
-   "titre": "Omnissa veut étendre la gestion des terminaux aux agents IA",
-   "lien": "https://www.lemondeinformatique.fr/applications-developpement/omnissa-veut-etendre-la-gestion-des-terminaux-aux-",
-   "date": "2026-11-09T15:12:03+00:00",
-   "resume": "Nommé CEO d’Omnissa en septembre dernier, Amit Singh entend positionner l’éditeur sur la sécurisation des environnements de travail à l’heure des agents IA. Pour lui, les outils de gestion des terminaux doivent…",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "Nvidia ébranlé par une enquête visant Jensen Huang, l’industrie des semi-conducteurs sous surveillance",
-   "lien": "https://www.lemondeinformatique.fr/donnees-ia/nvidia-ebranle-par-une-enquete-visant-jensen-huang",
-   "date": "2026-11-09T15:04:04+00:00",
-   "resume": "Nvidia a ouvert une enquête indépendante pour déterminer si son PDG Jensen Huang a été la cible d’une opération de renseignement étrangère. Alors que Donald Trump défend le dirigeant, l’affaire inquiète les…",
-   "source": "lmi",
-   "sujet": true
   },
   {
    "titre": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
