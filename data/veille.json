@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-12T19:59:51+00:00",
+ "miseAJour": "2026-11-13T06:52:02+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -82,6 +82,62 @@
   }
  ],
  "articles": [
+  {
+   "titre": "Nvidia : Hugging Face défend l’IA open source après le départ de Jensen Huang",
+   "lien": "https://www.lemondeinformatique.fr/donnees-ia/nvidia-hugging-face-defend-l-ia-open-source-apres-",
+   "date": "2026-11-13T06:38:16+00:00",
+   "resume": "Le départ de Jensen Huang de la direction de Nvidia fait réagir Clément Delangue, cofondateur français et directeur général de Hugging Face. Alors que le fabricant américain doit racheter la plateforme de modèles…",
+   "source": "lmi",
+   "sujet": true
+  },
+  {
+   "titre": "AMD EPYC Venice : jusqu’à 256 cœurs pour les serveurs et l’IA agentique",
+   "lien": "https://www.lemondeinformatique.fr/infrastructure-cloud/amd-epyc-venice-jusqu-a-256-c-urs-pour-les-serveur",
+   "date": "2026-11-13T06:37:59+00:00",
+   "resume": "AMD commercialise ses processeurs EPYC de 6e génération, connus sous le nom de code Venice. Fondées sur l’architecture Zen 6 et gravées en 2 nm, ces puces destinées aux datacenters embarquent jusqu’à 256 cœurs et…",
+   "source": "lmi",
+   "sujet": true
+  },
+  {
+   "titre": "Cybersécurité : OpenAI enrichit Daybreak de deux outils d’IA pour traquer les failles",
+   "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cybersecurite-openai-enrichit-daybreak-de-deux-out",
+   "date": "2026-11-13T06:37:37+00:00",
+   "resume": "OpenAI étoffe sa plateforme de cybersécurité Daybreak avec deux solutions reposant sur des agents d’intelligence artificielle. Présentés le 12 novembre 2026, Daybreak Red Team et Daybreak Defense Factory visent…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "☕️ [MàJ] Outlook, Teams : plusieurs services de Microsoft sont toujours en panne après 12h",
+   "lien": "https://next.ink/brief-article/outlook-teams-plusieurs-services-de-microsoft-sont-en-panne/",
+   "date": "2026-11-13T06:25:38+00:00",
+   "resume": "Mise à jour, 13 novembre, 7h25. Petite panne est devenue grosse. Environ 12 heures après les premiers signalements, les services liés à Exchange Online souffrent toujours de dysfonctionnements sensibles à grande…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Panne mondiale de Microsoft 365 : Outlook, Teams et Copilot perturbés depuis plus de 11 heures",
+   "lien": "https://www.it-connect.fr/panne-mondiale-microsoft-365-exchange-online-outlook-teams/",
+   "date": "2026-11-13T06:24:51+00:00",
+   "resume": "Depuis jeudi soir, une panne mondiale de Microsoft 365 perturbe Outlook, Teams et Copilot. Le service n'est pas rétabli en ce vendredi 13 novembre 2026.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Panne mondiale de Microsoft 365 : Outlook perturbé pendant des heures",
+   "lien": "https://www.lemondeinformatique.fr/applications-developpement/panne-mondiale-de-microsoft-365-outlook-perturbe-p",
+   "date": "2026-11-13T06:01:17+00:00",
+   "resume": "Une panne majeure a frappé Microsoft 365 jeudi 12 novembre 2026, perturbant principalement Outlook et Exchange Online, avec des répercussions sur Copilot et certaines fonctionnalités de Teams. Des incidents ont été…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "SignDrop : cette faille zero-day détourne la protection CLFS de Windows pour obtenir les droits SYSTEM",
+   "lien": "https://www.it-connect.fr/signdrop-zero-day-windows-clfs-system/",
+   "date": "2026-11-13T05:56:31+00:00",
+   "resume": "SignDrop, nouvelle zero-day publiée par Nightmare Eclipse, détourne l'authentification CLFS de Windows pour obtenir les droits SYSTEM. Voici ce que l'on sait.",
+   "source": "itconnect",
+   "sujet": false
+  },
   {
    "titre": "Serveurs Apache : cette faille critique dans HTTP/2 permet d’exécuter du code à distance",
    "lien": "https://www.it-connect.fr/faille-apache-http2-cve-2026-119618-rce/",
@@ -347,14 +403,6 @@
    "sujet": true
   },
   {
-   "titre": "Abonnements, jeux, IA : l’Europe veut déjouer les arnaques du numérique avec le DFA",
-   "lien": "https://next.ink/266856/abonnements-jeux-ia-leurope-veut-dejouer-les-arnaques-du-numerique-avec-le-dfa/",
-   "date": "2026-11-12T07:32:00+00:00",
-   "resume": "Vous avez aimé le règlement sur les marchés numériques (DMA) et le règlement sur les services numériques (DSA) ? Vous allez adorer le règlement sur l’équité numérique (DFA) ! Ce nouveau texte fait un sort aux pratiques…",
-   "source": "next",
-   "sujet": false
-  },
-  {
    "titre": "Digital Fairness Act : l’UE veut encadrer les dark patterns et les abonnements numériques",
    "lien": "https://www.lemondeinformatique.fr/applications-developpement/digital-fairness-act-l-ue-veut-encadrer-les-dark-p",
    "date": "2026-11-12T07:18:22+00:00",
@@ -383,22 +431,6 @@
    "lien": "https://www.lemondeinformatique.fr/applications-developpement/ia-google-accelere-l-inference-en-supprimant-pytho",
    "date": "2026-11-12T06:26:54+00:00",
    "resume": "Google a dévoilé XLA Serving Engine (XSE), un moteur d’inférence destiné à exécuter des modèles d’intelligence artificielle sans interpréteur Python en production. Déjà utilisé à grande échelle dans plusieurs de ses…",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "Informatique quantique : IBM prépare un système Nighthawk de 1 040 qubits pour 2027",
-   "lien": "https://www.lemondeinformatique.fr/donnees-ia/informatique-quantique-ibm-prepare-un-systeme-nigh",
-   "date": "2026-11-12T06:26:33+00:00",
-   "resume": "IBM prévoit de franchir le seuil des 1 000 qubits en 2027 grâce à l'interconnexion de deux processeurs quantiques Nighthawk r3. Chaque puce devrait intégrer 520 qubits et prendre en charge jusqu'à 10 000 opérations…",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "OpenAI lance Businesses in ChatGPT pour renforcer la visibilité des entreprises",
-   "lien": "https://www.lemondeinformatique.fr/donnees-ia/openai-lance-businesses-in-chatgpt-pour-renforcer-",
-   "date": "2026-11-12T06:26:18+00:00",
-   "resume": "OpenAI dévoile Businesses in ChatGPT, une offre permettant aux entreprises de gérer leurs informations, de mesurer leur visibilité dans l'assistant et, pour certaines, de déployer des agents conversationnels dédiés.…",
    "source": "lmi",
    "sujet": false
   },
@@ -547,22 +579,6 @@
    "sujet": false
   },
   {
-   "titre": "Outlook et Hotmail : les e-mails rejetés faute de DMARC, c’était un bug de Microsoft",
-   "lien": "https://www.it-connect.fr/outlook-hotmail-bug-rejet-emails-dmarc/",
-   "date": "2026-11-11T10:30:00+00:00",
-   "resume": "Du 6 au 9 novembre, Outlook.com a rejeté à tort des e-mails, surtout issus de domaines sans DMARC. Microsoft reconnaît un bug. Voici ce qu'il faut vérifier.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "Firefox 160 : Mini Window, vitesse de lecture en Picture-in-Picture et reconnaissance vocale locale",
-   "lien": "https://www.it-connect.fr/firefox-160-mini-window-nouveautes/",
-   "date": "2026-11-11T08:45:00+00:00",
-   "resume": "Un onglet qui reste au premier plan pendant que vous travaillez ailleurs : c'est Mini Window, la nouveauté phare de Firefox 160. Voici ce qui change.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
    "titre": "Synctrain - Vos fichiers Syncthing à la demande sur iPhone",
    "lien": "https://korben.info/synctrain-syncthing-iphone-ipad-mac.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
    "date": "2026-11-11T08:00:00+00:00",
@@ -579,28 +595,12 @@
    "sujet": false
   },
   {
-   "titre": "ONLYOFFICE 10.0 : l'IA et la sécurité au service d'une bureautique souveraine",
-   "lien": "https://www.lemondeinformatique.fr/articles/onlyoffice-10-0-l-ia-et-la-securite-au-service-d-u",
-   "date": "2026-11-10T16:44:25+00:00",
-   "resume": "Avec sa version 10.0, ONLYOFFICE intègre une IA contextuelle dans tous ses éditeurs, laisse aux organisations le choix du modèle, jusqu'à l'IA hébergée en local, et corrige 35 vulnérabilités. De quoi muscler…",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
    "titre": "NVIDIA Expands Open Source Commitment With OpenShell Contribution and New AI Infrastructure",
    "lien": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
    "date": "2026-11-10T16:00:03+00:00",
    "resume": "Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVIDIA is deepening its…",
    "source": "nvidia",
    "sujet": true
-  },
-  {
-   "titre": "Scality devient autorité de numérotation CVE sous l’égide de l’ENISA",
-   "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/scality-devient-autorite-de-numerotation-cve-sous-",
-   "date": "2026-11-10T14:56:07+00:00",
-   "resume": "Scality a annoncé le 10 novembre 2026 son entrée dans le programme CVE en tant qu’autorité de numérotation, ou CNA (CVE Numbering Authority). L’éditeur peut désormais attribuer directement des identifiants aux…",
-   "source": "lmi",
-   "sujet": false
   },
   {
    "titre": "Platypus - L'ornithorynque qui vous fait cligner des yeux",
