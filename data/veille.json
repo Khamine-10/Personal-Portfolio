@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-13T19:48:09+00:00",
+ "miseAJour": "2026-11-14T06:33:57+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -82,6 +82,30 @@
   }
  ],
  "articles": [
+  {
+   "titre": "Passerelles Check Point piratées via PHP2Shell : une porte dérobée et un wiper pour VMware ESXi",
+   "lien": "https://www.it-connect.fr/check-point-php2shell-wiper-esxi-tsga/",
+   "date": "2026-11-14T05:00:00+00:00",
+   "resume": "PHP2Shell et une faille zero-day de Gaia OS ont permis de pirater des passerelles Check Point, avant le déploiement d'un wiper sur un hôte VMware ESXi.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Stela - Le retour du Hackintosh ?",
+   "lien": "https://korben.info/stela-macos-pc-x86-hackintosh.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-14T01:03:37+00:00",
+   "resume": "Stela démarre macOS 27 pour Apple Silicon, sans le modifier, sur un PC x86 équipé d'une carte NVIDIA, en lui faisant croire qu'il tourne sur un Mac mini M2. Ce qu'il faut comme matériel, comment fabriquer la clé, et…",
+   "source": "korben",
+   "sujet": true
+  },
+  {
+   "titre": "Une alerte rarissime cloue tous les avions au sol aux États-Unis",
+   "lien": "https://next.ink/267641/une-alerte-rarissime-cloue-tous-les-avions-au-sol-aux-etats-unis/",
+   "date": "2026-11-14T00:01:27+00:00",
+   "resume": "Un problème de communication touchant le contrôle aérien a entraîné la suspension des décollages dans tous les aéroports américains ce vendredi. Une mesure exceptionnelle dont la FAA cherche encore à déterminer la…",
+   "source": "next",
+   "sujet": false
+  },
   {
    "titre": "☕️ [MàJ] Outlook, Teams : les services Microsoft reviennent au bout de 20 heures",
    "lien": "https://next.ink/brief-article/outlook-teams-plusieurs-services-de-microsoft-sont-en-panne/",
@@ -475,14 +499,6 @@
    "sujet": false
   },
   {
-   "titre": "United Airlines ferme ses réservations aux agents IA",
-   "lien": "https://next.ink/267253/united-airlines-ferme-ses-reservations-aux-agents-ia/",
-   "date": "2026-11-12T15:50:39+00:00",
-   "resume": "Invoquant la sécurité des données et le respect des règles aériennes, United Airlines bloque les réservations par des agents IA. Mais ces nouveaux intermédiaires génèrent encore très peu de transactions. La compagnie…",
-   "source": "next",
-   "sujet": false
-  },
-  {
    "titre": "Nvidia : Jensen Huang démissionne, Colette Kress prend la direction par intérim",
    "lien": "https://www.lemondeinformatique.fr/donnees-ia/nvidia-jensen-huang-demissionne-colette-kress-pren",
    "date": "2026-11-12T14:05:53+00:00",
@@ -576,14 +592,6 @@
    "date": "2026-11-12T08:00:00+00:00",
    "resume": "Modern Web Guidance glisse dans votre agent de code des guides sur les fonctionnalités natives du navigateur. Installation, scan, télémétrie et limites.",
    "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "GTA 6 : Logitech offre à ses 7 000 salariés une journée de congé pour jouer aux jeux vidéo",
-   "lien": "https://www.it-connect.fr/logitech-jour-conge-jeux-video-gta-6/",
-   "date": "2026-11-12T06:29:57+00:00",
-   "resume": "Logitech offre à ses 7 000 salariés, stagiaires compris, un jour de congé pour jouer au jeu de leur choix, à neuf jours de la sortie de GTA 6. Explications.",
-   "source": "itconnect",
    "sujet": false
   },
   {
@@ -863,14 +871,6 @@
    "lien": "https://korben.info/pourquoi-utiliser-un-vpn-avec-starlink.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
    "date": "2026-11-05T08:05:01+00:00",
    "resume": "Starlink fournit environ 150 Mbps, mais reste un FAI américain qui voit votre navigation, utilise du CGNAT (IP partagée, CAPTCHAs, blocages) et ne gère pas le VPN sur son routeur. Selon l'article, sponsorisé par…",
-   "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "Wing Commander - Volez en coop dans votre navigateur",
-   "lien": "https://korben.info/wing-commander-coop-navigateur.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-11-05T07:33:13+00:00",
-   "resume": "Deux frères ont greffé une vraie coop sur le premier Wing Commander sous DOS à coups de dumps mémoire et de code détourné. Le projet a dormi six ans, et il se joue maintenant dans le navigateur avec un code de salon, à…",
    "source": "korben",
    "sujet": false
   },
