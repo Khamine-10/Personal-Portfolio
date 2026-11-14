@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-14T06:33:57+00:00",
+ "miseAJour": "2026-11-14T18:11:39+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -83,6 +83,22 @@
  ],
  "articles": [
   {
+   "titre": "Flock : bons baisers de Chine",
+   "lien": "https://next.ink/267610/flock-bons-baisers-de-chine/",
+   "date": "2026-11-14T12:37:00+00:00",
+   "resume": "Amour, trahison, espionnage… dans quel drôle de film Jensen a-t-il décroché le premier rôle ? Va-t-on entendre le vacarme du silencieux ? Quelle pilule va-t-il être obligé de gober après ça ? Nul ne le sait pour le…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "[MàJ] Une alerte rarissime a cloué tous les avions au sol aux États-Unis",
+   "lien": "https://next.ink/267641/une-alerte-rarissime-cloue-tous-les-avions-au-sol-aux-etats-unis/",
+   "date": "2026-11-14T07:17:14+00:00",
+   "resume": "Un problème de communication touchant le contrôle aérien a entraîné la suspension des décollages dans tous les aéroports américains ce vendredi pendant plus de quatre heures. Une mesure exceptionnelle qui aurait été…",
+   "source": "next",
+   "sujet": false
+  },
+  {
    "titre": "Passerelles Check Point piratées via PHP2Shell : une porte dérobée et un wiper pour VMware ESXi",
    "lien": "https://www.it-connect.fr/check-point-php2shell-wiper-esxi-tsga/",
    "date": "2026-11-14T05:00:00+00:00",
@@ -97,14 +113,6 @@
    "resume": "Stela démarre macOS 27 pour Apple Silicon, sans le modifier, sur un PC x86 équipé d'une carte NVIDIA, en lui faisant croire qu'il tourne sur un Mac mini M2. Ce qu'il faut comme matériel, comment fabriquer la clé, et…",
    "source": "korben",
    "sujet": true
-  },
-  {
-   "titre": "Une alerte rarissime cloue tous les avions au sol aux États-Unis",
-   "lien": "https://next.ink/267641/une-alerte-rarissime-cloue-tous-les-avions-au-sol-aux-etats-unis/",
-   "date": "2026-11-14T00:01:27+00:00",
-   "resume": "Un problème de communication touchant le contrôle aérien a entraîné la suspension des décollages dans tous les aéroports américains ce vendredi. Une mesure exceptionnelle dont la FAA cherche encore à déterminer la…",
-   "source": "next",
-   "sujet": false
   },
   {
    "titre": "☕️ [MàJ] Outlook, Teams : les services Microsoft reviennent au bout de 20 heures",
@@ -472,14 +480,6 @@
    "date": "2026-11-12T16:51:27+00:00",
    "resume": "64 violations de données signalées depuis fin septembre : l'ANSSI publie son 2e point REACTIV. CAF, France Travail, OFB... avec toujours les mêmes failles.",
    "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "☕️ La PS5 passe les 100 millions, mais les ventes ralentissent",
-   "lien": "https://next.ink/brief-article/la-ps5-passe-les-100-millions-mais-les-ventes-ralentissent/",
-   "date": "2026-11-12T16:26:51+00:00",
-   "resume": "Sony a vendu 100 millions de PS5, un seuil atteint le 10 novembre selon le constructeur. Une habitude : plusieurs PlayStation (PS1, PS2 et PS4) font déjà partie de ce club très fermé. La PS2 est même la console la plus…",
-   "source": "next",
    "sujet": false
   },
   {
