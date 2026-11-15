@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-15T06:40:58+00:00",
+ "miseAJour": "2026-11-15T18:55:04+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -82,6 +82,78 @@
   }
  ],
  "articles": [
+  {
+   "titre": "Aréas Assurances visé par une vente de données",
+   "lien": "https://www.zataz.com/areas-assurances-vise-par-une-vente-de-donnees/",
+   "date": "2026-11-15T14:58:23+00:00",
+   "resume": "Un pirate informatique affirme détenir les données de plus de 21 000 assurés d’Aréas Assurances, dont leurs numéros de Sécurité sociale.",
+   "source": "zataz",
+   "sujet": false
+  },
+  {
+   "titre": "Techfive cité dans une annonce de vente de données",
+   "lien": "https://www.zataz.com/techfive-cite-dans-une-annonce-de-vente-de-donnees/",
+   "date": "2026-11-15T14:54:01+00:00",
+   "resume": "Un pirate informatique annonce la vente de 400 entreprises retrouvées chez chez un professionnel de l'encaissement et du paiement.",
+   "source": "zataz",
+   "sujet": false
+  },
+  {
+   "titre": "Entre Bièvre et Rhône visée par une revendication cyber",
+   "lien": "https://www.zataz.com/entre-bievre-et-rhone-visee-par-une-revendication-cyber/",
+   "date": "2026-11-15T14:45:47+00:00",
+   "resume": "Entre Bièvre et Rhône, en Isère, fait l’objet d’une revendication cyber portant sur des données d’usagers.",
+   "source": "zataz",
+   "sujet": false
+  },
+  {
+   "titre": "Métaux précieux et données clients mises en vente",
+   "lien": "https://www.zataz.com/metaux-precieux-et-donnees-clients-mises-en-vente/",
+   "date": "2026-11-15T12:42:32+00:00",
+   "resume": "Un vendeur affirme détenir quatre bases clients et 30 000 documents d’une entreprise française de métaux précieux.",
+   "source": "zataz",
+   "sujet": false
+  },
+  {
+   "titre": "Le pirate qui « audite » la France",
+   "lien": "https://www.zataz.com/le-pirate-qui-audite-la-france/",
+   "date": "2026-11-15T12:37:12+00:00",
+   "resume": "La FFTT confirme un vol de données. ZATAZ retrace les annonces de Chimera et les fichiers attribués à 33 autres fédération sportives.",
+   "source": "zataz",
+   "sujet": false
+  },
+  {
+   "titre": "Opsysweb, une fuite présumée de 4,3 millions de commandes",
+   "lien": "https://www.zataz.com/opsysweb-une-fuite-presumee-de-43-millions-de-commandes/",
+   "date": "2026-11-15T12:19:51+00:00",
+   "resume": "Sur un forum pirate, un internaute revendique une fuite de 4,3 millions de commandes de verres attribuées à Opsysweb.",
+   "source": "zataz",
+   "sujet": false
+  },
+  {
+   "titre": "Cyberattaque Maileva, 22 millions de personnes touchées",
+   "lien": "https://www.zataz.com/cyberattaque-maileva-22-millions-de-personnes-touchees/",
+   "date": "2026-11-15T11:47:49+00:00",
+   "resume": "Cyberattaque Maileva, 22 millions de personnes touchées par le vol de données. Des relances de paiement ont été exposées.",
+   "source": "zataz",
+   "sujet": false
+  },
+  {
+   "titre": "OpenAI lance Daybreak, des agents IA qui piratent vos applis pour les sécuriser",
+   "lien": "https://korben.info/openai-lance-daybreak-des-agents-ia-qui-piratent-vos-applis-pour-les-securiser.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-15T09:26:21+00:00",
+   "resume": "Lors de l'événement Cyber at the Frontier, OpenAI a présenté Daybreak Red Team, des agents IA qui testent l'intrusion sur vos applis web, et Daybreak Defense Factory, qui propose des correctifs en pull request. Le tout…",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "Vectors - Aiguilleur du ciel ze game !",
+   "lien": "https://korben.info/vectors-jeu-controle-aerien-navigateur.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-15T06:54:41+00:00",
+   "resume": "Vectors est un jeu de contrôle aérien gratuit qui tourne dans le navigateur, sans compte. Joli mais un peu austère et tout en anglais : voici les gestes du premier service, les deux pièges de la fin du tuto, l'ATC…",
+   "source": "korben",
+   "sujet": false
+  },
   {
    "titre": "Flock : bons baisers de Chine",
    "lien": "https://next.ink/267610/flock-bons-baisers-de-chine/",
@@ -755,46 +827,6 @@
    "sujet": true
   },
   {
-   "titre": "Un pirate revendique le vol de millions de données d’automobilistes français",
-   "lien": "https://www.zataz.com/sgs-un-pirate-revendique-259-millions-de-lignes-volees/",
-   "date": "2026-11-09T00:30:00+00:00",
-   "resume": "Un pirate revendique une base SGS concernant 22 millions d'automobilistes : des données voitures et clients volées ?",
-   "source": "zataz",
-   "sujet": false
-  },
-  {
-   "titre": "NoName vise Free, La Poste Mobile et Danfoss",
-   "lien": "https://www.zataz.com/noname-vise-free-la-poste-mobile-et-danfoss/",
-   "date": "2026-11-09T00:08:10+00:00",
-   "resume": "NoName vise Free, La Poste Mobile et Danfoss. ZATAZ distingue données volées, DDoS et revendications industrielles.",
-   "source": "zataz",
-   "sujet": false
-  },
-  {
-   "titre": "Un géant de l’informatique visé par une revendication de vol de données",
-   "lien": "https://www.zataz.com/un-geant-de-linformatique-vise-par-une-revendication-de-vol-de-donnees/",
-   "date": "2026-11-08T23:36:38+00:00",
-   "resume": "Kensium visé par une revendication de vol de 18 To : code source et sauvegardes annoncés par un pirate informatique.",
-   "source": "zataz",
-   "sujet": false
-  },
-  {
-   "titre": "Alain Afflelou : des données clients et bancaires exposées ?",
-   "lien": "https://www.zataz.com/alain-afflelou-des-donnees-clients-et-bancaires-exposees/",
-   "date": "2026-11-08T23:03:54+00:00",
-   "resume": "Alain Afflelou visé par Emperador : les pirates mettent à execution leur menace aprés une demande de rançon qui a échouée.",
-   "source": "zataz",
-   "sujet": false
-  },
-  {
-   "titre": "DataSuckers : trois suspects arrêtés après une fuite",
-   "lien": "https://www.zataz.com/datasuckers-trois-suspects-arretes-apres-une-fuite/",
-   "date": "2026-11-08T14:16:04+00:00",
-   "resume": "Trois suspects liés à DataSuckers arrêtés après le piratage de Dodo Pizza et le vol de millions de données.",
-   "source": "zataz",
-   "sujet": false
-  },
-  {
    "titre": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
    "lien": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
    "date": "2026-11-06T16:00:35+00:00",
@@ -835,14 +867,6 @@
    "sujet": true
   },
   {
-   "titre": "Cyberattaque contre les frigos de l’EFS : le plasma visé",
-   "lien": "https://www.zataz.com/cyberattaque-contre-les-frigos-de-lefs-le-plasma-vise/",
-   "date": "2026-11-05T16:36:51+00:00",
-   "resume": "Cyberattaque EFS : trois sites touchés, du plasma menacé. ZATAZ revient sur les précédents et les risques industriels.",
-   "source": "zataz",
-   "sujet": false
-  },
-  {
    "titre": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
    "lien": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
    "date": "2026-11-05T16:00:05+00:00",
@@ -857,30 +881,6 @@
    "resume": "Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works closely with memory…",
    "source": "nvidia",
    "sujet": true
-  },
-  {
-   "titre": "J'ai testé CottageCore, le jeu cosy d'une vieille connaissance",
-   "lien": "https://korben.info/cottagecore-village-david.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-11-05T08:27:13+00:00",
-   "resume": "David Catuhe, le créateur de Babylon.js, sort CottageCore, un jeu de construction de village tout doux. J'y ai joué en bêta : c'est très chill, joli et ultra personnalisable, avec quelques accrocs à corriger avant la…",
-   "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "Pourquoi utiliser un VPN avec Starlink #sponso",
-   "lien": "https://korben.info/pourquoi-utiliser-un-vpn-avec-starlink.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-11-05T08:05:01+00:00",
-   "resume": "Starlink fournit environ 150 Mbps, mais reste un FAI américain qui voit votre navigation, utilise du CGNAT (IP partagée, CAPTCHAs, blocages) et ne gère pas le VPN sur son routeur. Selon l'article, sponsorisé par…",
-   "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "CTF Social Engineering : trois jours pour piéger l’humain",
-   "lien": "https://www.zataz.com/ctf-social-engineering-trois-jours-pour-pieger-lhumain/",
-   "date": "2026-11-04T17:35:25+00:00",
-   "resume": "Hackfest Québec 2026 : deuxième place au CTF de Social Engineering, 43 appels et trois outils de renseignement.",
-   "source": "zataz",
-   "sujet": false
   }
  ]
 }
