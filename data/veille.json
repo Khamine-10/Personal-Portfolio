@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-16T22:12:35+00:00",
+ "miseAJour": "2026-11-17T08:00:22+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -82,6 +82,94 @@
   }
  ],
  "articles": [
+  {
+   "titre": "NoisyTCP : cette faille du noyau Linux vieille de 11 ans permet de faire planter un serveur à distance",
+   "lien": "https://www.it-connect.fr/noisytcp-cve-2026-99288-faille-noyau-linux-tcp/",
+   "date": "2026-11-17T07:58:23+00:00",
+   "resume": "Des paquets TCP bien synchronisés, et tout le serveur tombe. NoisyTCP (CVE-2026-99288), une faille Linux vieille de 11 ans menace les serveurs Linux.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Cyberattaque : 765 000 euros d’or dérobés à des clients",
+   "lien": "https://www.zataz.com/cyberattaque-765-000-euros-dor-derobes-a-des-clients/",
+   "date": "2026-11-17T07:47:16+00:00",
+   "resume": "Cyberattaque et vol de données clients : de faux policiers dérobent au moins 765 000 euros d'or en France.",
+   "source": "zataz",
+   "sujet": false
+  },
+  {
+   "titre": "Alibaba Qwen4-Max : 2 400 milliards de paramètres et une table n-gram de 328 milliards",
+   "lien": "https://next.ink/267802/alibaba-qwen4-max-2-400-milliards-de-parametres-et-une-table-n-gram-de-328-milliards/",
+   "date": "2026-11-17T07:43:00+00:00",
+   "resume": "Alibaba présente sa nouvelle famille de grands modèles de langage : Qwen4-Max, avec 2 400 milliards de paramètres. Elle utilise un mélange d’experts pour ne pas activer tous ses neurones à la fois et une table n-gram…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "macOS 27.3 : Apple encadre davantage l’accès des applications aux données",
+   "lien": "https://next.ink/267871/macos-27-3-apple-encadre-davantage-lacces-des-applications-aux-donnees/",
+   "date": "2026-11-17T07:22:00+00:00",
+   "resume": "Début octobre, Apple avait annoncé un renforcement des autorisations d’accès complet au disque dans macOS. L’idée étant de prévenir les risques qu’un tel accès peut représenter sur les données de l’utilisateur. Des…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Avec ChatGPT Wallet, OpenAI donne une carte bancaire à ses agents Dots",
+   "lien": "https://next.ink/267861/avec-chatgpt-wallet-openai-donne-une-carte-bancaire-a-ses-agents-dots/",
+   "date": "2026-11-17T06:41:00+00:00",
+   "resume": "Donner sa carte bancaire à un agent IA, qu’est-ce qui pourrait mal se passer ? Certains utilisateurs parmi les plus téméraires de ChatGPT peuvent désormais confier leurs informations de paiement à un Wallet. Chaque…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Rassemblement National : une seconde fuite de données ?",
+   "lien": "https://www.zataz.com/rassemblement-national-une-seconde-fuite-de-donnees/",
+   "date": "2026-11-17T06:29:20+00:00",
+   "resume": "Un pirate revendique 500 782 nouvelles données du RN à vendre. Il affiche aussi un accés informatique interne.",
+   "source": "zataz",
+   "sujet": false
+  },
+  {
+   "titre": "GTA 6 : la Nouvelle-Zélande jouera 12 heures avant la France, attention aux arnaques",
+   "lien": "https://www.it-connect.fr/gta-6-heure-sortie-nouvelle-zelande-arnaques/",
+   "date": "2026-11-17T06:25:23+00:00",
+   "resume": "Envie de jouer à GTA 6 dès mercredi midi grâce à la Nouvelle-Zélande ? L’astuce a ses limites sur Xbox et PS5. Et les faux GTA 6 PC, eux, volent vos données.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "☕️ L’iPhone Duo se déverrouille maintenant avec le visage, mais sans Face ID",
+   "lien": "https://next.ink/brief-article/liphone-duo-se-deverrouille-maintenant-avec-le-visage-mais-sans-face-id/",
+   "date": "2026-11-17T06:16:00+00:00",
+   "resume": "C’est l’un des principaux défauts relevés par les testeurs (et de nombreux utilisateurs) de l’iPhone Duo : l’absence de Face ID. Le smartphone pliant à deux écrans se contente en effet de Touch ID comme technologie de…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Intune : Microsoft permet enfin de verrouiller à distance un PC Windows perdu ou volé",
+   "lien": "https://www.it-connect.fr/intune-remote-lock-verrouiller-pc-windows-distance/",
+   "date": "2026-11-17T06:00:00+00:00",
+   "resume": "Remote Lock arrive en préversion dans Intune : verrouillez un PC Windows perdu ou volé sans effacer ses données. Fonctionnement, configuration et limites.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "PostgreSQL a corrigé 52 failles de sécurité, dont une vieille de 22 ans (CVE-2026-6460)",
+   "lien": "https://www.it-connect.fr/postgresql-52-failles-cve-2026-6460-mise-a-jour/",
+   "date": "2026-11-17T05:00:00+00:00",
+   "resume": "PostgreSQL corrige 52 failles, dont la CVE-2026-6460 vieille de 22 ans. Le correctif impose de mettre à jour serveur et extensions en même temps. Explications.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
+   "lien": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
+   "date": "2026-11-16T23:00:05+00:00",
+   "resume": "At SC26, an annual supercomputing conference taking place this week in Chicago, NVIDIA is introducing the DGX Spark HPC Developer Kit for researchers, academics and developers. The kit is a four-node cluster of NVIDIA…",
+   "source": "nvidia",
+   "sujet": true
+  },
   {
    "titre": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
    "lien": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
@@ -275,14 +363,6 @@
    "sujet": false
   },
   {
-   "titre": "Je s’appelle GRU : Ingérence russe soupçonnée d’agir dans les manifestations en France",
-   "lien": "https://www.zataz.com/je-sappelle-gru-ingerence-russe-soupconnee-dagir-dans-les-manifestations-en-france/",
-   "date": "2026-11-16T15:32:06+00:00",
-   "resume": "Le GRU russe soupçonné d'ingérence dans les manifestations françaises. InformNapalm dévoile ses accusations.",
-   "source": "zataz",
-   "sujet": false
-  },
-  {
    "titre": "Erreur 0x80041008 : Microsoft corrige l’activation de Windows avec des mises à jour hors bande",
    "lien": "https://www.it-connect.fr/windows-mise-a-jour-hors-bande-activation-slmgr-080041008/",
    "date": "2026-11-16T13:56:55+00:00",
@@ -419,14 +499,6 @@
    "sujet": false
   },
   {
-   "titre": "[MàJ] Une alerte rarissime a cloué tous les avions au sol aux États-Unis",
-   "lien": "https://next.ink/267641/une-alerte-rarissime-cloue-tous-les-avions-au-sol-aux-etats-unis/",
-   "date": "2026-11-16T06:45:30+00:00",
-   "resume": "Un problème de communication touchant le contrôle aérien a entraîné la suspension des décollages dans tous les aéroports américains ce vendredi pendant plus de quatre heures. Une mesure exceptionnelle qui aurait été…",
-   "source": "next",
-   "sujet": false
-  },
-  {
    "titre": "Nextcloud Office Desktop : l’application de bureau basée sur Euro-Office est disponible",
    "lien": "https://www.it-connect.fr/nextcloud-office-desktop-euro-office-disponible/",
    "date": "2026-11-16T06:25:59+00:00",
@@ -515,14 +587,6 @@
    "sujet": false
   },
   {
-   "titre": "Stripe va masquer ses clés API secrètes le 20 novembre",
-   "lien": "https://www.zataz.com/stripe-va-masquer-ses-cles-api-secretes-le-20-novembre/",
-   "date": "2026-11-15T19:44:34+00:00",
-   "resume": "Stripe masquera ses anciennes clés API secrètes le 20 novembre 2026. ZATAZ analyse les risques et les conséquences.",
-   "source": "zataz",
-   "sujet": false
-  },
-  {
    "titre": "OpenAI lance Daybreak, des agents IA qui piratent vos applis pour les sécuriser",
    "lien": "https://korben.info/openai-lance-daybreak-des-agents-ia-qui-piratent-vos-applis-pour-les-securiser.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
    "date": "2026-11-15T09:26:21+00:00",
@@ -536,14 +600,6 @@
    "date": "2026-11-15T06:54:41+00:00",
    "resume": "Vectors est un jeu de contrôle aérien gratuit qui tourne dans le navigateur, sans compte. Joli mais un peu austère et tout en anglais : voici les gestes du premier service, les deux pièges de la fin du tuto, l'ATC…",
    "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "Flock : bons baisers de Chine",
-   "lien": "https://next.ink/267610/flock-bons-baisers-de-chine/",
-   "date": "2026-11-14T12:37:00+00:00",
-   "resume": "Amour, trahison, espionnage… dans quel drôle de film Jensen a-t-il décroché le premier rôle ? Va-t-on entendre le vacarme du silencieux ? Quelle pilule va-t-il être obligé de gober après ça ? Nul ne le sait pour le…",
-   "source": "next",
    "sujet": false
   },
   {
@@ -561,22 +617,6 @@
    "resume": "Stela démarre macOS 27 pour Apple Silicon, sans le modifier, sur un PC x86 équipé d'une carte NVIDIA, en lui faisant croire qu'il tourne sur un Mac mini M2. Ce qu'il faut comme matériel, comment fabriquer la clé, et…",
    "source": "korben",
    "sujet": true
-  },
-  {
-   "titre": "☕️ [MàJ] Outlook, Teams : les services Microsoft reviennent au bout de 20 heures",
-   "lien": "https://next.ink/brief-article/outlook-teams-plusieurs-services-de-microsoft-sont-en-panne/",
-   "date": "2026-11-13T17:35:35+00:00",
-   "resume": "Mise à jour, 13 novembre, 18h20 : Microsoft présente de profondes excuses pour les perturbations des deux derniers jours. Fort heureusement, l’entreprise constate un « rétablissement généralisé et une stabilisation » de…",
-   "source": "next",
-   "sujet": false
-  },
-  {
-   "titre": "Xbox, 25 ans et une crise d’identité",
-   "lien": "https://next.ink/267583/xbox-25-ans-et-une-crise-didentite/",
-   "date": "2026-11-13T16:35:54+00:00",
-   "resume": "25 ans plus tard, Xbox est devenu un empire du divertissement, mais les consoles sont à la peine. Entre des rachats à coups de milliards, des paris contrariés et la promesse ou le mirage de l’IA, la marque fête cet…",
-   "source": "next",
-   "sujet": false
   },
   {
    "titre": "Rennes va accueillir un centre international dédié à l’IA de défense",
@@ -643,14 +683,6 @@
    "sujet": false
   },
   {
-   "titre": "Claude Meetings : Anthropic envoie son IA dans vos réunions Google Meet",
-   "lien": "https://www.it-connect.fr/claude-meetings-anthropic-google-meet/",
-   "date": "2026-11-13T09:45:00+00:00",
-   "resume": "Anthropic lance Claude Meetings en bêta : l'IA rejoint vos réunions Google Meet, prend des notes et crée des documents. Disponibilité, réglages et limites.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
    "titre": "Panne Microsoft 365 : 5 mesures concrètes pour maintenir l’activité et rétablir les services",
    "lien": "https://www.lemondeinformatique.fr/applications-developpement/panne-microsoft-365-5-mesures-concretes-pour-maint",
    "date": "2026-11-13T09:18:59+00:00",
@@ -673,22 +705,6 @@
    "resume": "AMD commercialise ses processeurs EPYC de 6e génération, connus sous le nom de code Venice. Fondées sur l’architecture Zen 6 et gravées en 2 nm, ces puces destinées aux datacenters embarquent jusqu’à 256 cœurs et…",
    "source": "lmi",
    "sujet": true
-  },
-  {
-   "titre": "Panne mondiale de Microsoft 365 : Outlook, Teams et Copilot perturbés depuis plus de 11 heures",
-   "lien": "https://www.it-connect.fr/panne-mondiale-microsoft-365-exchange-online-outlook-teams/",
-   "date": "2026-11-13T06:24:51+00:00",
-   "resume": "Depuis jeudi soir, une panne mondiale de Microsoft 365 perturbe Outlook, Teams et Copilot. Le service n'est pas rétabli en ce vendredi 13 novembre 2026.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "SignDrop : cette faille zero-day détourne la protection CLFS de Windows pour obtenir les droits SYSTEM",
-   "lien": "https://www.it-connect.fr/signdrop-zero-day-windows-clfs-system/",
-   "date": "2026-11-13T05:56:31+00:00",
-   "resume": "SignDrop, nouvelle zero-day publiée par Nightmare Eclipse, détourne l'authentification CLFS de Windows pour obtenir les droits SYSTEM. Voici ce que l'on sait.",
-   "source": "itconnect",
-   "sujet": false
   },
   {
    "titre": "Multiples vulnérabilités dans Progress Telerik (13 novembre 2026)",
@@ -744,14 +760,6 @@
    "date": "2026-11-13T00:00:00+00:00",
    "resume": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et…",
    "source": "certfr",
-   "sujet": false
-  },
-  {
-   "titre": "Serveurs Apache : cette faille critique dans HTTP/2 permet d’exécuter du code à distance",
-   "lien": "https://www.it-connect.fr/faille-apache-http2-cve-2026-119618-rce/",
-   "date": "2026-11-12T19:40:50+00:00",
-   "resume": "CVE-2026-119618 : une faille critique dans le module HTTP/2 d'Apache permet d'exécuter du code à distance. Voici comment protéger votre serveur Web.",
-   "source": "itconnect",
    "sujet": false
   },
   {
@@ -863,14 +871,6 @@
    "lien": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
    "date": "2026-11-09T08:00:53+00:00",
    "resume": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI Startup Partnership Forum at COEX. Representatives from the Ministry of Science and ICT and NVIDIA met with over 20 Korean startups across…",
-   "source": "nvidia",
-   "sujet": true
-  },
-  {
-   "titre": "Korea Advances Physical AI Across Industries With NVIDIA",
-   "lien": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
-   "date": "2026-11-09T05:00:40+00:00",
-   "resume": "Tapping into the country’s strengths in manufacturing and engineering, NVIDIA is helping advance Korea’s physical AI ecosystem. The country’s industry leaders are applying accelerated computing, AI and simulation to…",
    "source": "nvidia",
    "sujet": true
   }
