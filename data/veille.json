@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-17T20:59:45+00:00",
+ "miseAJour": "2026-11-18T07:37:10+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -82,6 +82,46 @@
   }
  ],
  "articles": [
+  {
+   "titre": "☕️ Avec GPT-6.2 Sol et Astra, OpenAI promet de la qualité et des économies",
+   "lien": "https://next.ink/brief-article/avec-gpt-6-2-sol-et-astra-openai-promet-de-la-qualite-et-des-economies/",
+   "date": "2026-11-18T07:08:00+00:00",
+   "resume": "OpenAI a dévoilé sa nouvelle famille de modèles GPT-6.2, avec les variantes Astra (le modèle frontière) et Sol (le modèle des travaux du quotidien). Commençons par celui-ci, puisque c’est la mouture qui servira à une…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Microsoft, Apple, NSA : pas besoin de cyberattaque pour tout mettre en panne",
+   "lien": "https://next.ink/268124/microsoft-apple-nsa-pas-besoin-de-cyberattaque-pour-tout-mettre-en-panne/",
+   "date": "2026-11-18T06:30:00+00:00",
+   "resume": "Une épidémie de pannes informatiques, mais pas de cyberattaques. Les infrastructures sont régulièrement mises à rude épreuve, mais les derniers jours ont été particulièrement éprouvants entre la grosse panne chez…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Windows Server 2028 arrive en préversion : quelles sont les nouveautés ?",
+   "lien": "https://www.it-connect.fr/windows-server-2028-preversion-publique-nouveautes/",
+   "date": "2026-11-18T06:12:31+00:00",
+   "resume": "Windows Server 2028 est en préversion publique : Server Core durci, NVMe natif par défaut, Intune pour les serveurs et IA locale. Voici ce qu'il faut retenir.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Intune : Microsoft ouvre la gestion des machines Windows Server, en préversion",
+   "lien": "https://www.it-connect.fr/intune-gerer-serveurs-windows-server-preversion/",
+   "date": "2026-11-18T06:12:16+00:00",
+   "resume": "Microsoft ouvre l'inscription des serveurs Windows Server dans Intune en préversion : stratégies, mises à jour, accès conditionnel. Voici comment ça marche.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Le Flipper One est en précommande à 399 dollars sur Kickstarter",
+   "lien": "https://www.it-connect.fr/flipper-one-kickstarter-399-dollars/",
+   "date": "2026-11-17T21:00:45+00:00",
+   "resume": "Le Flipper One, ordinateur Linux de poche de Flipper Devices, est sur Kickstarter à 399 dollars jusqu'au 17 décembre. Livraison prévue en juillet 2027.",
+   "source": "itconnect",
+   "sujet": false
+  },
   {
    "titre": "Cyberattaque : Air France, IKEA, HSBC, Zoom… De nombreux sites ont servi du code malveillant à leurs visiteurs",
    "lien": "https://www.it-connect.fr/optimizely-pirate-scripts-malveillants-cnn-bbc-zoom/",
@@ -239,22 +279,6 @@
    "lien": "https://next.ink/267802/alibaba-qwen4-max-2-400-milliards-de-parametres-et-une-table-n-gram-de-328-milliards/",
    "date": "2026-11-17T07:43:00+00:00",
    "resume": "Alibaba présente sa nouvelle famille de grands modèles de langage : Qwen4-Max, avec 2 400 milliards de paramètres. Elle utilise un mélange d’experts pour ne pas activer tous ses neurones à la fois et une table n-gram…",
-   "source": "next",
-   "sujet": false
-  },
-  {
-   "titre": "macOS 27.3 : Apple encadre davantage l’accès des applications aux données",
-   "lien": "https://next.ink/267871/macos-27-3-apple-encadre-davantage-lacces-des-applications-aux-donnees/",
-   "date": "2026-11-17T07:22:00+00:00",
-   "resume": "Début octobre, Apple avait annoncé un renforcement des autorisations d’accès complet au disque dans macOS. L’idée étant de prévenir les risques qu’un tel accès peut représenter sur les données de l’utilisateur. Des…",
-   "source": "next",
-   "sujet": false
-  },
-  {
-   "titre": "Avec ChatGPT Wallet, OpenAI donne une carte bancaire à ses agents Dots",
-   "lien": "https://next.ink/267861/avec-chatgpt-wallet-openai-donne-une-carte-bancaire-a-ses-agents-dots/",
-   "date": "2026-11-17T06:41:00+00:00",
-   "resume": "Donner sa carte bancaire à un agent IA, qu’est-ce qui pourrait mal se passer ? Certains utilisateurs parmi les plus téméraires de ChatGPT peuvent désormais confier leurs informations de paiement à un Wallet. Chaque…",
    "source": "next",
    "sujet": false
   },
@@ -592,30 +616,6 @@
    "date": "2026-11-16T07:38:50+00:00",
    "resume": "Le PostgreSQL Global Development Group a publié, le 12 novembre 2026, des mises à jour corrigeant 52 vulnérabilités de sécurité, dont 32 affichent un score CVSS de 8,8. Parmi elles, CVE-2026-6460 permet une exécution de…",
    "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "Bon plan Geekom : les meilleures offres sur les mini-PC avant même le Black Friday",
-   "lien": "https://www.it-connect.fr/bon-plan-geekom-les-meilleures-offres-sur-les-mini-pc-avant-meme-le-black-friday/",
-   "date": "2026-11-16T07:00:00+00:00",
-   "resume": "Vente flash Geekom : économisez jusqu’à 200€ sur l’IT13 Max et l’A5 Pro jusqu'au 3 décembre 2026. Codes promo exclusifs et livraisons gratuites.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "Nextcloud Office Desktop : l’application de bureau basée sur Euro-Office est disponible",
-   "lien": "https://www.it-connect.fr/nextcloud-office-desktop-euro-office-disponible/",
-   "date": "2026-11-16T06:25:59+00:00",
-   "resume": "Nextcloud Office Desktop, l'application de bureau gratuite basée sur Euro-Office, est disponible pour Windows, Linux et macOS. Voici ce qu'il faut retenir.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "Linux 7.4 : pour Linus Torvalds, les correctifs assistés par l’IA sont devenus la norme",
-   "lien": "https://www.it-connect.fr/linux-7-4-correctifs-ia-norme-torvalds/",
-   "date": "2026-11-16T05:58:44+00:00",
-   "resume": "Dans l'annonce de Linux 7.4-rc2, Linus Torvalds tient les correctifs issus de l'IA pour acquis. Sur BPF, ils arriveraient plus vite que les rapports de bugs.",
-   "source": "itconnect",
    "sujet": false
   },
   {
