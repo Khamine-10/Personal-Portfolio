@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-18T20:37:47+00:00",
+ "miseAJour": "2026-11-19T07:38:20+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -82,6 +82,54 @@
   }
  ],
  "articles": [
+  {
+   "titre": "nginx2root - Votre nginx est-il vraiment exposé ?",
+   "lien": "https://korben.info/nginx2root-faille-http2.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-19T06:57:06+00:00",
+   "resume": "nginx 1.31.9 et 1.30.7 corrigent cinq failles d'exécution de code à distance, et un PoC est déjà public. Mais c'est HTTP/2 activé, plus que le numéro de version, qui ouvre la porte : voici comment vérifier votre…",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "Panne Microsoft 365 du 12 novembre 2026 : comment bénéficier d’un crédit de service ?",
+   "lien": "https://www.it-connect.fr/panne-microsoft-365-credit-sla/",
+   "date": "2026-11-19T06:45:00+00:00",
+   "resume": "Panne Microsoft 365 du 12 novembre : le crédit SLA n'est pas automatique. Calcul, infos à fournir et démarche pour client direct ou CSP : agissez maintenant.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "De sérieux ratés pour Muse, qui hallucine et prend des libertés avec les autorisations",
+   "lien": "https://next.ink/268379/de-serieux-rates-pour-muse-qui-hallucine-et-prend-des-libertes-avec-les-autorisations/",
+   "date": "2026-11-19T06:41:53+00:00",
+   "resume": "Hallucinations, transactions fantômes, interprétation très généreuse des autorisations d’accès : Muse, l’assistant IA censé simplifier le quotidien des utilisateurs de Meta, prend parfois des libertés avec leurs…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "OVHcloud : infrastructure IA et modèles souverains avec Qwant, Shadow et Staan",
+   "lien": "https://next.ink/268119/ovhcloud-des-modeles-et-une-infrastructure-ia-souverains-avec-qwant-shadow-et-staan/",
+   "date": "2026-11-19T06:00:00+00:00",
+   "resume": "Les entreprises de la galaxie d’Octave Klaba s’allient pour une IA « européenne et souveraine » : le moteur de recherche Qwant, le service de cloud computing Shadow, European Search Perspective (EUSP) et OVHcloud sont…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Ubuntu - Les futurs correctifs seront écrits par une IA",
+   "lien": "https://korben.info/canonical-surge-agents-correctifs-ubuntu.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-19T05:56:20+00:00",
+   "resume": "Canonical lance Surge, des agents IA qui écrivent des correctifs de sécurité pour les paquets Ubuntu, que son équipe qualifie ensuite pour tout le monde. L'archive Edge permet de les recevoir avant cette qualification…",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "PHP va corriger au moins une faille critique ce jeudi : préparez-vous à mettre à jour PHP 8.2 à 8.5",
+   "lien": "https://www.it-connect.fr/mise-a-jour-php-faille-critique-19-novembre-2026/",
+   "date": "2026-11-19T05:55:10+00:00",
+   "resume": "Ce 19 novembre 2026, au moins une faille de sécurité critique sera corrigée dans les branches 8.2 à 8.5 de PHP, et sans doute la CVE-2026-115560.",
+   "source": "itconnect",
+   "sujet": false
+  },
   {
    "titre": "NGINX2Root : deux failles critiques permettent de prendre le contrôle d’un serveur NGINX",
    "lien": "https://www.it-connect.fr/nginx2root-failles-cve-2026-123007-rce/",
@@ -355,14 +403,6 @@
    "sujet": false
   },
   {
-   "titre": "[MàJ] Microsoft, Apple, NSA : pas besoin de cyberattaque pour tout mettre en panne",
-   "lien": "https://next.ink/268124/microsoft-apple-nsa-pas-besoin-de-cyberattaque-pour-tout-mettre-en-panne/",
-   "date": "2026-11-18T06:30:00+00:00",
-   "resume": "Une épidémie de pannes informatiques, mais pas de cyberattaques. Les infrastructures sont régulièrement mises à rude épreuve, mais les derniers jours ont été particulièrement éprouvants entre la grosse panne chez…",
-   "source": "next",
-   "sujet": false
-  },
-  {
    "titre": "Windows Server 2028 arrive en préversion : quelles sont les nouveautés ?",
    "lien": "https://www.it-connect.fr/windows-server-2028-preversion-publique-nouveautes/",
    "date": "2026-11-18T06:12:31+00:00",
@@ -507,14 +547,6 @@
    "sujet": false
   },
   {
-   "titre": "Dernière ligne droite pour le PJL Résilience, qui passe le vote solennel à l’Assemblée",
-   "lien": "https://next.ink/268104/derniere-ligne-droite-pour-le-pjl-resilience-qui-passe-le-vote-solennel-a-lassemblee/",
-   "date": "2026-11-17T16:33:54+00:00",
-   "resume": "Après bien des pérégrinations, le projet de loi Résilience a finalement été voté solennellement par l’Assemblée nationale. Le parcours législatif du texte n’est pas encore terminé, mais il est désormais dans sa dernière…",
-   "source": "next",
-   "sujet": false
-  },
-  {
    "titre": "IA sur Windows 11 : Microsoft sait si vous codez avec Claude, Codex ou Cursor",
    "lien": "https://www.it-connect.fr/windows-11-telemetrie-agents-ia-codage/",
    "date": "2026-11-17T15:48:40+00:00",
@@ -543,22 +575,6 @@
    "lien": "https://www.it-connect.fr/claude-code-mode-headless/",
    "date": "2026-11-17T08:45:00+00:00",
    "resume": "Apprenez à utiliser Claude Code en mode headless avec la commande claude -p pour automatiser vos tâches dans des scripts, des tâches planifiées ou en CI/CD.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "NoisyTCP : cette faille du noyau Linux vieille de 11 ans permet de faire planter un serveur à distance",
-   "lien": "https://www.it-connect.fr/noisytcp-cve-2026-99288-faille-noyau-linux-tcp/",
-   "date": "2026-11-17T07:58:23+00:00",
-   "resume": "Des paquets TCP bien synchronisés, et tout le serveur tombe. NoisyTCP (CVE-2026-99288), une faille Linux vieille de 11 ans menace les serveurs Linux.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "GTA 6 : la Nouvelle-Zélande jouera 12 heures avant la France, attention aux arnaques",
-   "lien": "https://www.it-connect.fr/gta-6-heure-sortie-nouvelle-zelande-arnaques/",
-   "date": "2026-11-17T06:25:23+00:00",
-   "resume": "Envie de jouer à GTA 6 dès mercredi midi grâce à la Nouvelle-Zélande ? L’astuce a ses limites sur Xbox et PS5. Et les faux GTA 6 PC, eux, volent vos données.",
    "source": "itconnect",
    "sujet": false
   },
@@ -863,22 +879,6 @@
    "lien": "https://korben.info/test-du-cable-ugreen-nexode-240w-avec-un-ecran-qui-revele-la-puissance-en-temps-reel.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
    "date": "2026-11-09T15:43:45+00:00",
    "resume": "Korben teste depuis trois semaines le câble USB-C UGREEN Nexode 240W, qui intègre un écran LCD affichant la puissance réelle en watts. Compatible USB PD 3.1 (48 V, 5 A) avec puce E-Mark, il existe en 1, 2 ou 3 mètres,…",
-   "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "NomadNet - Votre site et vos fichiers sur Reticulum",
-   "lien": "https://korben.info/reticulum-nomadnet-site-fichiers.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-11-09T13:18:03+00:00",
-   "resume": "Installer NomadNet, activer un nœud, écrire sa page index.mu et proposer des fichiers sur Reticulum, tuto testé sur deux machines Ubuntu 24.04. Avec ce qu'il faut savoir avant d'allumer le nœud : il annonce son nom,…",
-   "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "Chicago95 - Votre Xubuntu déguisé en Windows 95",
-   "lien": "https://korben.info/chicago95-xfce-windows-95.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-11-09T13:16:31+00:00",
-   "resume": "Le thème Chicago95 habille XFCE en Windows 95, des fenêtres à l'invite MS-DOS. Le tuto, testé sur une Xubuntu 26.04, signale ce qui coince : greffon du tableau de bord, fond d'écran, polices bitmap, paquet des sons, et…",
    "source": "korben",
    "sujet": false
   }
