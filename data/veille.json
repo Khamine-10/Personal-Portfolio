@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-19T20:42:55+00:00",
+ "miseAJour": "2026-11-20T07:24:18+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -82,6 +82,22 @@
   }
  ],
  "articles": [
+  {
+   "titre": "Windows Server 2028 va durcir sa base et activer Trusted Launch pour les VM",
+   "lien": "https://next.ink/268563/windows-server-2028-va-durcir-sa-base-et-activer-trusted-launch-pour-les-vm/",
+   "date": "2026-11-20T06:37:00+00:00",
+   "resume": "Lors de sa conférence Ignite, Microsoft a lancé la première préversion de Windows Server 2028. Il devrait sortir dans le courant de l’année prochaine et se présente déjà comme un nouveau palier pour la sécurité. Si le…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "NAS Synology : une mise à jour DSM corrige deux failles critiques, dont NGINX2Root",
+   "lien": "https://www.it-connect.fr/nginx2root-synology-dsm-faille-oauth-cve-2026-120382/",
+   "date": "2026-11-20T06:04:17+00:00",
+   "resume": "Synology a publié deux bulletins critiques pour DSM : la faille NGINX2Root et une faille notée 9,8 sur 10 dans OAuth Service. Voici comment protéger votre NAS.",
+   "source": "itconnect",
+   "sujet": false
+  },
   {
    "titre": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
    "lien": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
@@ -403,14 +419,6 @@
    "sujet": false
   },
   {
-   "titre": "OVHcloud : infrastructure IA et modèles souverains avec Qwant, Shadow et Staan",
-   "lien": "https://next.ink/268119/ovhcloud-des-modeles-et-une-infrastructure-ia-souverains-avec-qwant-shadow-et-staan/",
-   "date": "2026-11-19T06:00:00+00:00",
-   "resume": "Les entreprises de la galaxie d’Octave Klaba s’allient pour une IA « européenne et souveraine » : le moteur de recherche Qwant, le service de cloud computing Shadow, European Search Perspective (EUSP) et OVHcloud sont…",
-   "source": "next",
-   "sujet": false
-  },
-  {
    "titre": "Ubuntu - Les futurs correctifs seront écrits par une IA",
    "lien": "https://korben.info/canonical-surge-agents-correctifs-ubuntu.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
    "date": "2026-11-19T05:56:20+00:00",
@@ -631,14 +639,6 @@
    "lien": "https://www.it-connect.fr/java4shell-faille-critique-java-openjdk/",
    "date": "2026-11-18T08:44:52+00:00",
    "resume": "La faille Java4Shell (CVE-2026-114938) menace Java 17 à 27 sur certains CPU, et elle permet une exécution de code à distance sans authentification.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "Microsoft Perception : les agents IA spécialisés dans la cybersécurité sont disponibles !",
-   "lien": "https://www.it-connect.fr/microsoft-perception-disponibilite-generale-ignite/",
-   "date": "2026-11-18T07:53:56+00:00",
-   "resume": "Project Perception devient Microsoft Perception et passe en disponibilité générale : triage des alertes, pentest web, Intune, MCP. Voici l'essentiel à retenir.",
    "source": "itconnect",
    "sujet": false
   },
