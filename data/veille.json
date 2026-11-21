@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-21T07:17:08+00:00",
+ "miseAJour": "2026-11-21T19:22:44+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -82,6 +82,54 @@
   }
  ],
  "articles": [
+  {
+   "titre": "Windows NT 4.0 sur un Raspberry Pi, c'est inutile donc indispensable",
+   "lien": "https://korben.info/pint-windows-nt-raspberry-pi.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-21T18:34:10+00:00",
+   "resume": "PINT fait démarrer Windows NT 4.0 sur les Raspberry Pi 2, 3, 4 et Zero 2 W, avec Wi-Fi, son et Pinball rangé à sa place. Mais aucune image n'est fournie : il faut compiler avec des sources Windows que le dépôt ne…",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "Plex lâche TheTVDB",
+   "lien": "https://korben.info/plex-abandonne-thetvdb.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-21T18:19:38+00:00",
+   "resume": "Le 3 décembre, Plex ne récupère plus rien chez TheTVDB. Rien n'est effacé, mais l'ancien agent cesse de fonctionner, et les séries en cours suivies en ordre DVD ou absolu risquent de mal ranger leurs nouveaux épisodes.…",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "J'ai testé l'API d'ibou",
+   "lien": "https://korben.info/ibou-api-recherche-tuto.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-21T16:52:08+00:00",
+   "resume": "L'API de recherche du moteur français ibou se branche en quelques lignes de Python sur un agent IA ou sur une veille de nom. Coût mesuré, opérateurs qui marchent, et un index qui ne voit pas encore l'actu des derniers…",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "Cyberattaques : la boîte de Pandora est-elle ouverte avec l’IA ARTEX",
+   "lien": "https://www.zataz.com/cyberattaques-la-boite-de-pandora-est-elle-ouverte-avec-lia-artex/",
+   "date": "2026-11-21T13:39:38+00:00",
+   "resume": "ARTEX révèle comment l'IA accélère les cyberattaques, le vol de données et les intrusions. La boîte de Pandore 2.0 a-t-elle été ouverte ?",
+   "source": "zataz",
+   "sujet": false
+  },
+  {
+   "titre": "Flock : le nouveau monde immonde inonde",
+   "lien": "https://next.ink/268952/flock-le-nouveau-monde-immonde-inonde/",
+   "date": "2026-11-21T12:37:00+00:00",
+   "resume": "Que voulez-vous ! Le progrès c’est comme ça ! Une bonne idée sur le papier et il y aura toujours des génies du business pour la saloper de leur avidité nauséabonde. Et que ça vient fièrement poser sa pêche pour se…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Sysinternals : Autoruns arrive sur Linux et Process Explorer sur macOS",
+   "lien": "https://www.it-connect.fr/sysinternals-autoruns-linux-process-explorer-macos/",
+   "date": "2026-11-21T12:00:00+00:00",
+   "resume": "Vous utilisez Autoruns sous Windows ? L'outil Sysinternals a désormais une version Linux, et Process Explorer débarque sur macOS. Voici ce qu'il faut retenir.",
+   "source": "itconnect",
+   "sujet": false
+  },
   {
    "titre": "Présidentielle 2027 : l’Arcom s’impose auprès des créateurs de contenus et influenceurs",
    "lien": "https://next.ink/268809/presidentielle-2027-larcom-simpose-aupres-des-createurs-de-contenus-et-influenceurs/",
@@ -555,14 +603,6 @@
    "sujet": false
   },
   {
-   "titre": "Luxor : des récompenses Bitcoin détournées",
-   "lien": "https://www.zataz.com/luxor-des-recompenses-bitcoin-detournees/",
-   "date": "2026-11-19T16:19:45+00:00",
-   "resume": "Luxor confirme le détournement de puissance de calcul Bitcoin après une compromission de sa plateforme Commander.",
-   "source": "zataz",
-   "sujet": false
-  },
-  {
    "titre": "Cyberattaque à la Commission européenne : une plateforme agentique de pentest mise en cause",
    "lien": "https://next.ink/268532/cyberattaque-a-la-commission-europeenne-une-plateforme-agentique-de-pentest-mise-en-cause/",
    "date": "2026-11-19T16:06:59+00:00",
@@ -591,14 +631,6 @@
    "lien": "https://next.ink/268491/pour-une-conseillere-de-la-cjue-facebook-nest-plus-gratuit-car-on-paie-avec-ses-donnees/",
    "date": "2026-11-19T14:55:28+00:00",
    "resume": "Dans un avis, l’avocate générale à la CJUE Laila Medina affirme qu’un service ne peut être qualifié de « gratuit » lorsque les consommateurs sont tenus de fournir des données personnelles à des fins commerciales. Après…",
-   "source": "next",
-   "sujet": false
-  },
-  {
-   "titre": "[MàJ] L’équipe PHP a publié de nouveaux correctifs critiques ce 19 novembre",
-   "lien": "https://next.ink/268437/lequipe-php-previent-de-nouveaux-correctifs-critiques-pour-ce-19-novembre/",
-   "date": "2026-11-19T14:41:12+00:00",
-   "resume": "Dans un contexte sensible marqué par les failles PHP2Shell, PHP a publié aujourd’hui plusieurs correctifs pour des failles dont au moins une est critique. Mise à jour du 19 novembre à 15h30 : L’équipe de PHP vient de…",
    "source": "next",
    "sujet": false
   },
@@ -683,43 +715,11 @@
    "sujet": false
   },
   {
-   "titre": "Ubuntu - Les futurs correctifs seront écrits par une IA",
-   "lien": "https://korben.info/canonical-surge-agents-correctifs-ubuntu.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-11-19T05:56:20+00:00",
-   "resume": "Canonical lance Surge, des agents IA qui écrivent des correctifs de sécurité pour les paquets Ubuntu, que son équipe qualifie ensuite pour tout le monde. L'archive Edge permet de les recevoir avant cette qualification…",
-   "source": "korben",
-   "sujet": false
-  },
-  {
    "titre": "PHP va corriger au moins une faille critique ce jeudi : préparez-vous à mettre à jour PHP 8.2 à 8.5",
    "lien": "https://www.it-connect.fr/mise-a-jour-php-faille-critique-19-novembre-2026/",
    "date": "2026-11-19T05:55:10+00:00",
    "resume": "Ce 19 novembre 2026, au moins une faille de sécurité critique sera corrigée dans les branches 8.2 à 8.5 de PHP, et sans doute la CVE-2026-115560.",
    "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "NGINX2Root : deux failles critiques permettent de prendre le contrôle d’un serveur NGINX",
-   "lien": "https://www.it-connect.fr/nginx2root-failles-cve-2026-123007-rce/",
-   "date": "2026-11-18T19:59:23+00:00",
-   "resume": "Failles NGINX : CVE-2026-123007 et CVE-2026-123633 permettent d'exécuter du code à distance via HTTP/2. Voici les versions à installer et comment vous protéger.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "SkillEvaluator - Vos skills IA ont peut-être un YAML pété ?",
-   "lien": "https://korben.info/skillevaluator-nvidia-skills-agents.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-11-18T15:10:16+00:00",
-   "resume": "SkillEvaluator, l'outil open source de NVIDIA, évalue les skills d'agents IA en trois étages. Testé sur mes douze skills : un YAML cassé noté A, et des skills que l'agent oublie souvent de charger.",
-   "source": "korben",
-   "sujet": true
-  },
-  {
-   "titre": "Nextcloud Office - La suite libre qui se passe du cloud",
-   "lien": "https://korben.info/nextcloud-office-desktop.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-11-18T14:50:03+00:00",
-   "resume": "Nextcloud Office, la distribution signée d'Euro-Office, est prête à télécharger en appli de bureau gratuite sous AGPL v3 : édition hors ligne, signature numérique, dépôts APT et DNF, mais rien pour les Mac Intel.",
-   "source": "korben",
    "sujet": false
   },
   {
