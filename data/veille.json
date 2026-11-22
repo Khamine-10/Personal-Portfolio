@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-21T19:22:44+00:00",
+ "miseAJour": "2026-11-22T06:58:09+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -82,6 +82,14 @@
   }
  ],
  "articles": [
+  {
+   "titre": "Apple - Londres ne peut plus cacher son injonction sur iCloud",
+   "lien": "https://korben.info/apple-porte-derobee-icloud-royaume-uni.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-21T19:40:41+00:00",
+   "resume": "Le tribunal britannique des pouvoirs d'enquête confirme que le Home Office a remis à Apple une injonction technique, secret que même le chatbot de Google connaissait. Son contenu reste caché, la Protection avancée des…",
+   "source": "korben",
+   "sujet": false
+  },
   {
    "titre": "Windows NT 4.0 sur un Raspberry Pi, c'est inutile donc indispensable",
    "lien": "https://korben.info/pint-windows-nt-raspberry-pi.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
@@ -695,14 +703,6 @@
    "lien": "https://korben.info/dreamcast-cartouches-n64.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
    "date": "2026-11-19T08:29:34+00:00",
    "resume": "Throaty Mumbo branche de vraies cartouches N64 sur le port manette d'une Dreamcast et les fait tourner grâce à un recompilateur, sauvegardes comprises. Les jeux qui passent, et ce qu'il faut réunir pour essayer.",
-   "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "nginx2root - Votre nginx est-il vraiment exposé ?",
-   "lien": "https://korben.info/nginx2root-faille-http2.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-11-19T06:57:06+00:00",
-   "resume": "nginx 1.31.9 et 1.30.7 corrigent cinq failles d'exécution de code à distance, et un PoC est déjà public. Mais c'est HTTP/2 activé, plus que le numéro de version, qui ouvre la porte : voici comment vérifier votre…",
    "source": "korben",
    "sujet": false
   },
