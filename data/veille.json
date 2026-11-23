@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-22T19:46:29+00:00",
+ "miseAJour": "2026-11-23T07:46:29+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -82,6 +82,54 @@
   }
  ],
  "articles": [
+  {
+   "titre": "[MàJ] À cause d’un bug, les pilotes AMD et NVIDIA écrivent constamment sur le disque",
+   "lien": "https://next.ink/268322/a-cause-dun-bug-les-pilotes-amd-et-nvidia-ecrivent-constamment-sur-le-disque/",
+   "date": "2026-11-23T07:31:51+00:00",
+   "resume": "Des utilisateurs ont noté des comportements étranges provenant des pilotes graphiques d’AMD et NVIDIA : des écritures constantes sur le disque, parfois dans de vastes proportions. Pour les SSD, cela peut signifier une…",
+   "source": "next",
+   "sujet": true
+  },
+  {
+   "titre": "Près d’un Français sur deux habite à moins de 10 km d’un datacenter",
+   "lien": "https://next.ink/268395/pres-dun-francais-sur-deux-habite-a-moins-de-10-km-dun-datacenter/",
+   "date": "2026-11-23T06:58:00+00:00",
+   "resume": "Les datacenters sont largement implantés en France, avec une moyenne d’âge de 15 ans selon l’Arcep. Ces voisins sont de moins en moins discrets, surtout avec l’arrivée de l’IA générative. Savez-vous où se trouve le plus…",
+   "source": "next",
+   "sujet": true
+  },
+  {
+   "titre": "Morfo sème des forêts par drone sur d'anciennes mines",
+   "lien": "https://korben.info/morfo-drones-restauration-forets.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-23T05:40:12+00:00",
+   "resume": "Morfo largue par drone des capsules de graines sur des sols ravagés par les mines. En Guyane, le couvert végétal est passé de 0 à 81 % en quatre ans, mais sur une mine de bauxite au Brésil, le premier semis a buté sur…",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "On a trouvé l'adresse de 8 chefs d'entreprise sur 10 en moins de 10 minutes. Sans pirater quoi que ce soit. #sponso",
+   "lien": "https://korben.info/incogni-adresses.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-23T05:07:10+00:00",
+   "resume": "Incogni a localisé en moins de 10 minutes l'adresse de 80 % des CEO testés dans la finance, via Google et des sites de recherche de personnes. Le rapport couvre plus de 2 400 entreprises cotées et environ 700 dirigeants…",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "Ledger : un pirate piège d’autres pirates avec un faux fichier",
+   "lien": "https://www.zataz.com/ledger-un-pirate-piege-dautres-pirates-avec-un-faux-fichier/",
+   "date": "2026-11-23T01:31:54+00:00",
+   "resume": "Sur un forum pirate, une prétendue nouvelle fuite de données Ledger dissimule un piège. ZATAZ a suivi la manœuvre.",
+   "source": "zataz",
+   "sujet": false
+  },
+  {
+   "titre": "Cyberattaque à Chambourcy : INC Ransom revendique l’attaque",
+   "lien": "https://www.zataz.com/cyberattaque-a-chambourcy-inc-ransom-revendique-lattaque/",
+   "date": "2026-11-23T00:36:24+00:00",
+   "resume": "Cyberattaque à Chambourcy : INC Ransom revendique l'intrusion. ZATAZ révèle des documents de police municipale exposés.",
+   "source": "zataz",
+   "sujet": false
+  },
   {
    "titre": "Apple - Londres ne peut plus cacher son injonction sur iCloud",
    "lien": "https://korben.info/apple-porte-derobee-icloud-royaume-uni.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
@@ -587,27 +635,11 @@
    "sujet": false
   },
   {
-   "titre": "Un SMS blaster aurait perturbé 10 000 mobiles",
-   "lien": "https://www.zataz.com/un-sms-blaster-aurait-perturbe-10-000-mobiles/",
-   "date": "2026-11-19T16:43:51+00:00",
-   "resume": "À Tokyo, un suspect est arrêté après une opération de SMS blaster ayant perturbé plus de 10 000 téléphones.",
-   "source": "zataz",
-   "sujet": false
-  },
-  {
    "titre": "Cyberattaque contre la Commission européenne : les pirates auraient utilisé l’outil ARTEX",
    "lien": "https://www.it-connect.fr/commission-europeenne-cyberattaque-artex/",
    "date": "2026-11-19T16:40:11+00:00",
    "resume": "La Commission européenne confirme une cyberattaque qui a perturbé ses applications internes. Selon POLITICO, les pirates auraient utilisé ARTEX.",
    "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "Un SMS blaster découvert dans une voiture",
-   "lien": "https://www.zataz.com/un-sms-blaster-decouvert-dans-une-voiture/",
-   "date": "2026-11-19T16:33:54+00:00",
-   "resume": "Un SMS blaster découvert dans une voiture est associé à neuf victimes et à des SMS frauduleux se faisant passer pour la police.",
-   "source": "zataz",
    "sujet": false
   },
   {
@@ -624,22 +656,6 @@
    "date": "2026-11-19T16:05:31+00:00",
    "resume": "phpAfterShell (CVE-2026-126714) et six autres failles critiques sont corrigées dans PHP 8.5.13, 8.4.28, 8.3.37 et 8.2.36. Voici l'essentiel à savoir.",
    "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "☕️ Flock : élections, piège à désinformations",
-   "lien": "https://next.ink/brief-article/flock-elections-piege-a-desinformations/",
-   "date": "2026-11-19T15:49:55+00:00",
-   "resume": "La désinformation en période électorale, les fake news, les bobards, les conneries pour berner le peuple, c’est mal, m’voyez ?",
-   "source": "next",
-   "sujet": false
-  },
-  {
-   "titre": "Pour une conseillère de la CJUE, Facebook n’est plus gratuit car on paie avec ses données",
-   "lien": "https://next.ink/268491/pour-une-conseillere-de-la-cjue-facebook-nest-plus-gratuit-car-on-paie-avec-ses-donnees/",
-   "date": "2026-11-19T14:55:28+00:00",
-   "resume": "Dans un avis, l’avocate générale à la CJUE Laila Medina affirme qu’un service ne peut être qualifié de « gratuit » lorsque les consommateurs sont tenus de fournir des données personnelles à des fins commerciales. Après…",
-   "source": "next",
    "sujet": false
   },
   {
@@ -688,22 +704,6 @@
    "date": "2026-11-19T09:27:33+00:00",
    "resume": "À l’approche de l’élection présidentielle de 2027, Numeum présente cinq propositions pour faire de la France et de l’Europe une puissance industrielle numérique. Le syndicat professionnel appelle notamment à porter les…",
    "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "Unreal Tournament 2004 est de retour !",
-   "lien": "https://korben.info/unreal-tournament-2004-navigateur.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-11-19T08:47:16+00:00",
-   "resume": "Unreal Tournament 2004 se lance maintenant dans un onglet sur ut2004.dev, sans rien installer : 2 Go stockés une fois, une dizaine de cartes et du multi en WebRTC. Les navigateurs qu'il faut, et où récupérer le jeu…",
-   "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "Dreamcart - Vos cartouches N64 sur la Dreamcast",
-   "lien": "https://korben.info/dreamcast-cartouches-n64.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-11-19T08:29:34+00:00",
-   "resume": "Throaty Mumbo branche de vraies cartouches N64 sur le port manette d'une Dreamcast et les fait tourner grâce à un recompilateur, sauvegardes comprises. Les jeux qui passent, et ce qu'il faut réunir pour essayer.",
-   "source": "korben",
    "sujet": false
   },
   {
