@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-23T23:58:12+00:00",
+ "miseAJour": "2026-11-24T09:59:32+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -82,6 +82,158 @@
   }
  ],
  "articles": [
+  {
+   "titre": "Associations et experts exhortent Amazon et eBay à retirer les jouets dotés de chatbots IA",
+   "lien": "https://next.ink/269533/associations-et-experts-exhortent-amazon-et-ebay-a-retirer-les-jouets-dotes-de-chatbots-ia/",
+   "date": "2026-11-24T09:40:00+00:00",
+   "resume": "Une coalition d’associations et d’experts appelle Amazon et eBay à retirer de leurs étals virtuels les jouets pour enfants intégrant des mécaniques de conversation avec un chatbot IA, au nom du principe de précaution.…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Règlementation : les entreprises doivent intégrer les contraintes dès la conception de leurs systèmes IT",
+   "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/reglementation-les-entreprises-doivent-integrer-les-contraintes-des-la-conception-de-leurs-systemes-it",
+   "date": "2026-11-24T09:30:57+00:00",
+   "resume": "Avec l'accumulation des réglementations européennes, de l'IA Act à NIS 2 en passant par le RGPD et DORA, la conformité devient un enjeu structurant pour les directions IT. Lors d'une conférence organisée au TechShow…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "dumbtv - Le Fire TV sans pub ni mouchard (et sans root)",
+   "lien": "https://korben.info/dumbtv.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-24T09:21:56+00:00",
+   "resume": "dumbtv désactive par ADB les pubs, la télémétrie et l'empreinte d'écran d'un Fire TV sous Fire OS, pose un filtre DNS local et un accueil sans pub, et tout s'annule d'une commande. Les nouveaux sticks sous Vega OS…",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "[Màj] Hypothèse de Riemann : le chercheur d’Anthropic reconnaît une « blague »",
+   "lien": "https://next.ink/269118/hypothese-de-riemann-une-preuve-generee-par-ia-est-elle-utile-aux-mathematiciens/",
+   "date": "2026-11-24T09:04:45+00:00",
+   "resume": "Deux mathématiciens ont publié des propositions de preuve d’une conjecture des plus classiques des mathématiques : l’hypothèse de Riemann. L’un, Alessandro Maria Masullo, sans l’aide de l’IA, a mis en ligne un manuscrit…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Ladybird - Vous pouvez enfin installer ce navigateur indépendant",
+   "lien": "https://korben.info/ladybird-premiere-alpha.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-24T09:04:43+00:00",
+   "resume": "La première alpha de Ladybird s'installe sans compiler sur Mac Apple Silicon et Linux. Essai sur Mac mini, ce qui marche, ce qui casse, le bond d'octobre, et pourquoi le garder à l'écart de vos comptes.",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "Black Friday 2026 chez UGREEN : notre sélection de chargeurs, batteries et NAS en promotion",
+   "lien": "https://www.it-connect.fr/black-friday-2026-chez-ugreen-notre-selection-de-chargeurs-batteries-et-nas-en-promotion/",
+   "date": "2026-11-24T08:55:00+00:00",
+   "resume": "Black Friday UGREEN : chargeurs Nexode, batterie externe, traceurs, webcam et NAS en promotion. Notre sélection des meilleures offres jusqu'au 30 novembre.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "privacyIDEA : un serveur MFA open source pour sécuriser Windows et l’Active Directory",
+   "lien": "https://www.it-connect.fr/tuto-privacyidea-serveur-mfa-open-source/",
+   "date": "2026-11-24T08:45:00+00:00",
+   "resume": "Tuto privacyIDEA : installez un serveur MFA open source, connectez-le à l’Active Directory et ajoutez le MFA à l’ouverture de session Windows.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "RDMA over USB4 : Windows va permettre de relier plusieurs PC pour faire tourner de gros modèles d’IA",
+   "lien": "https://www.it-connect.fr/rdma-over-usb4-windows-cluster-ia-locale/",
+   "date": "2026-11-24T08:20:00+00:00",
+   "resume": "Microsoft prépare RDMA over USB4, une nouveauté Windows permettant de relier plusieurs PC en USB4 pour y répartir un gros modèle d'IA.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Stalwart - Lâcher Exchange sans toucher à Outlook",
+   "lien": "https://korben.info/stalwart-remplace-exchange.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-24T08:12:14+00:00",
+   "resume": "Stalwart 1.2.0, serveur mail libre, parle désormais MAPI over HTTP, EWS et ActiveSync : Outlook classique, Apple Mail et les apps mail des smartphones s'y branchent comme sur un Exchange. Voici ce qui marche, ce qui…",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "Avec Olala, OVH vise un « Mythos européen » et un modèle à 3 000 milliards de paramètres",
+   "lien": "https://next.ink/269175/avec-olala-ovh-vise-un-mythos-europeen-et-un-modele-a-3-000-milliards-de-parametres/",
+   "date": "2026-11-24T08:09:00+00:00",
+   "resume": "Dans la première partie de notre dossier sur Olala, le modèle « souverain » d’OVHai LLM, nous avons détaillé son architecture, son entrainement, ses galères… Dans cette seconde partie, nous parlons de la suite des…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Neutralisé en 2019 par la gendarmerie, le ver USB Retadup revient pour distribuer CoffeeLoader",
+   "lien": "https://www.it-connect.fr/retadup-ver-usb-coffeeloader/",
+   "date": "2026-11-24T08:00:00+00:00",
+   "resume": "Démantelé en 2019 par la gendarmerie, le botnet du ver USB Retadup a été réactivé via ses anciens domaines. Il distribue désormais le loader CoffeeLoader.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "GLM-5.4 avec Loop Transformer : Z.ai propose un modèle pour le code plus généraliste",
+   "lien": "https://next.ink/269432/glm-5-4-avec-loop-transformer-z-ai-propose-un-modele-pour-le-code-plus-generaliste/",
+   "date": "2026-11-24T07:45:00+00:00",
+   "resume": "Après avoir titillé les plates-bandes de Mythos du côté de la cybersécurité avec son modèle GLM-5.2, l’entreprise chinoise Z.ai propose un nouveau modèle, GLM-5.4, annoncé comme étant plus généraliste concernant le…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Shirudo - Quand l'IA fabrique des boucliers pour Linux",
+   "lien": "https://korben.info/shirudo-openai-cisco-ebpf.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-24T07:38:51+00:00",
+   "resume": "OpenAI et Cisco publient Shirudo, qui pose des boucliers signés sur un Linux en marche le temps du vrai correctif. La démo Java4Shell sur Elasticsearch passe pourtant par un agent Java injecté à chaud, et le reste exige…",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "SpaceX gagne plus en louant ses GPU à Anthropic qu’avec Grok, « incapable de rivaliser »",
+   "lien": "https://next.ink/269521/spacex-gagne-plus-en-louant-ses-gpu-a-anthropic-quavec-grok-incapable-de-rivaliser/",
+   "date": "2026-11-24T07:20:00+00:00",
+   "resume": "L’IA développée par xAI, devenue SpaceXAI puis maintenant SpaceXSI, n’est toujours pas en mesure de concurrencer sérieusement les modèles d’OpenAI et d’Anthropic. À tel point que la filiale de SpaceX spécialisée dans…",
+   "source": "next",
+   "sujet": true
+  },
+  {
+   "titre": "Malgré le DMA, WebKit reste le seul moteur des rivaux de Safari en Europe",
+   "lien": "https://next.ink/269516/malgre-le-dma-webkit-reste-le-seul-moteur-des-rivaux-de-safari-en-europe/",
+   "date": "2026-11-24T06:44:45+00:00",
+   "resume": "S’il est possible de changer de navigateur web par défaut sur un iPhone ou un iPad, les rivaux de Safari doivent toujours composer avec WebKit d’Apple alors que le règlement sur les marchés numériques rend possible…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "J'ai testé la migration de VMware vers Vates VMS #sponso",
+   "lien": "https://korben.info/migration-vmware-vates-vms-v2v.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-24T06:23:35+00:00",
+   "resume": "J'ai déménagé une VM Ubuntu d'un ESXi 7 vers XCP-ng avec l'import V2V de Xen Orchestra 6.10, en deux passes et chrono en main. Résultat : à peine plus de deux minutes de coupure, un piège réseau à connaître et une…",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "☕️ Xavier Niel reprend 60 Millions de consommateurs",
+   "lien": "https://next.ink/brief-article/xavier-niel-reprend-60-millions-de-consommateurs/",
+   "date": "2026-11-24T06:02:00+00:00",
+   "resume": "Xavier Niel va bel et bien reprendre le magazine 60 Millions de consommateurs, sept mois après la liquidation de l’INC (Institut national de la consommation), l’organisme public qui publiait le mensuel. Trois…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "rust-anything : cet outil open source aide les agents IA à réécrire vos applications en Rust",
+   "lien": "https://www.it-connect.fr/rust-anything-reecrire-application-rust-agents-ia/",
+   "date": "2026-11-24T03:00:00+00:00",
+   "resume": "Grâce à rust-anything, vous pouvez piloter un agent IA pour réécrire en Rust une application, tout en vérifiant chaque étape pour vous assurer du résultat.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Entra Connect Health : une faille exploitée a exposé les e-mails des admins de tenants Microsoft",
+   "lien": "https://www.it-connect.fr/entra-connect-health-faille-exploitee-metadonnees-tenants/",
+   "date": "2026-11-24T02:00:00+00:00",
+   "resume": "Une faille dans l'API d'Entra Connect Health a été exploitée pour lire les métadonnées de tenants, dont les e-mails des admins. Voici ce qu'il faut savoir.",
+   "source": "itconnect",
+   "sujet": false
+  },
   {
    "titre": "Merry Making: Play, Build and Create With NVIDIA Technologies This Holiday Season",
    "lien": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026/",
@@ -184,14 +336,6 @@
    "date": "2026-11-23T13:51:39+00:00",
    "resume": "Korben teste depuis deux mois et demi la Ring Pro d'Ultrahuman, une bague en titane à 499 euros avec boîtier de charge. Elle offre environ deux semaines d'autonomie, suit sommeil et récupération sans abonnement…",
    "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "Hypothèse de Riemann : une preuve générée par IA est-elle utile aux mathématiciens ?",
-   "lien": "https://next.ink/269118/hypothese-de-riemann-une-preuve-generee-par-ia-est-elle-utile-aux-mathematiciens/",
-   "date": "2026-11-23T13:22:36+00:00",
-   "resume": "Deux mathématiciens ont publié des propositions de preuve d’une conjecture des plus classiques des mathématiques : l’hypothèse de Riemann. L’un, Alessandro Maria Masullo, sans l’aide de l’IA, a mis en ligne un manuscrit…",
-   "source": "next",
    "sujet": false
   },
   {
@@ -339,14 +483,6 @@
    "sujet": false
   },
   {
-   "titre": "Verisign recule sur le .name, OVHcloud garde le .ovh pour son propre usage",
-   "lien": "https://next.ink/269107/verisign-recule-sur-le-name-ovhcloud-garde-le-ovh-pour-son-propre-usage/",
-   "date": "2026-11-23T09:10:19+00:00",
-   "resume": "Pour commencer la semaine, deux nouvelles sur des extensions de premier niveau. Verisign, tout d’abord, fait machine arrière et va laisser les anciens clients utiliser et renouveler leur domaine de troisième niveau en…",
-   "source": "next",
-   "sujet": false
-  },
-  {
    "titre": "Comment La Poste, AXA et Keolis intègrent l’IA dans leurs organisations",
    "lien": "https://www.lemondeinformatique.fr/donnees-ia/comment-la-poste-axa-et-keolis-integrent-l-ia-dans-leurs-organisations",
    "date": "2026-11-23T08:58:21+00:00",
@@ -387,14 +523,6 @@
    "sujet": false
   },
   {
-   "titre": "☕️ Le CHU de Guadeloupe est paralysé par une cyberattaque",
-   "lien": "https://next.ink/brief-article/le-chu-de-guadeloupe-est-paralyse-par-une-cyberattaque/",
-   "date": "2026-11-23T08:44:14+00:00",
-   "resume": "Le centre hospitalier universitaire (CHU) de Guadeloupe a activé dimanche 22 novembre son dispositif de gestion de crise, le « plan blanc », suite à une cyberattaque survenue la veille, dans la soirée. « Depuis hier…",
-   "source": "next",
-   "sujet": false
-  },
-  {
    "titre": "J’ai testé ARTEX, ce framework offensif IA redouté par le FBI",
    "lien": "https://www.it-connect.fr/artex-framework-offensif-ia-cest-quoi/",
    "date": "2026-11-23T08:24:44+00:00",
@@ -417,22 +545,6 @@
    "resume": "GL.iNet confirme qu'une faille de son cloud GoodCloud a servi à installer un malware sur des routeurs et des KVM. Voici ce qu'il faut savoir.",
    "source": "itconnect",
    "sujet": false
-  },
-  {
-   "titre": "[MàJ] À cause d’un bug, les pilotes AMD et NVIDIA écrivent constamment sur le disque",
-   "lien": "https://next.ink/268322/a-cause-dun-bug-les-pilotes-amd-et-nvidia-ecrivent-constamment-sur-le-disque/",
-   "date": "2026-11-23T07:31:51+00:00",
-   "resume": "Des utilisateurs ont noté des comportements étranges provenant des pilotes graphiques d’AMD et NVIDIA : des écritures constantes sur le disque, parfois dans de vastes proportions. Pour les SSD, cela peut signifier une…",
-   "source": "next",
-   "sujet": true
-  },
-  {
-   "titre": "Près d’un Français sur deux habite à moins de 10 km d’un datacenter",
-   "lien": "https://next.ink/268395/pres-dun-francais-sur-deux-habite-a-moins-de-10-km-dun-datacenter/",
-   "date": "2026-11-23T06:58:00+00:00",
-   "resume": "Les datacenters sont largement implantés en France, avec une moyenne d’âge de 15 ans selon l’Arcep. Ces voisins sont de moins en moins discrets, surtout avec l’arrivée de l’IA générative. Savez-vous où se trouve le plus…",
-   "source": "next",
-   "sujet": true
   },
   {
    "titre": "Morfo sème des forêts par drone sur d'anciennes mines",
@@ -587,30 +699,6 @@
    "sujet": false
   },
   {
-   "titre": "Flock : le nouveau monde immonde inonde",
-   "lien": "https://next.ink/268952/flock-le-nouveau-monde-immonde-inonde/",
-   "date": "2026-11-21T12:37:00+00:00",
-   "resume": "Que voulez-vous ! Le progrès c’est comme ça ! Une bonne idée sur le papier et il y aura toujours des génies du business pour la saloper de leur avidité nauséabonde. Et que ça vient fièrement poser sa pêche pour se…",
-   "source": "next",
-   "sujet": false
-  },
-  {
-   "titre": "Sysinternals : Autoruns arrive sur Linux et Process Explorer sur macOS",
-   "lien": "https://www.it-connect.fr/sysinternals-autoruns-linux-process-explorer-macos/",
-   "date": "2026-11-21T12:00:00+00:00",
-   "resume": "Vous utilisez Autoruns sous Windows ? L'outil Sysinternals a désormais une version Linux, et Process Explorer débarque sur macOS. Voici ce qu'il faut retenir.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "Présidentielle 2027 : l’Arcom s’impose auprès des créateurs de contenus et influenceurs",
-   "lien": "https://next.ink/268809/presidentielle-2027-larcom-simpose-aupres-des-createurs-de-contenus-et-influenceurs/",
-   "date": "2026-11-20T16:58:50+00:00",
-   "resume": "Dans une note, l’Arcom annonce que certains créateurs de contenus publiant sur le web vont devoir respecter les règles de pluralisme politique. L’un des lobbys du secteur revendique d’avoir été entendu au moins…",
-   "source": "next",
-   "sujet": false
-  },
-  {
    "titre": "IA au travail : l’usage fait l’adhésion, pas la confiance",
    "lien": "https://www.lemondeinformatique.fr/donnees-ia/ia-au-travail-l-usage-fait-l-adhesion-pas-la-confiance",
    "date": "2026-11-20T15:53:21+00:00",
@@ -627,22 +715,6 @@
    "sujet": false
   },
   {
-   "titre": "Windows 11 KB5132057 : la nouvelle fonction de recherche exécute des actions !",
-   "lien": "https://www.it-connect.fr/windows-11-kb5132057-nouvelle-recherche-connexion-web/",
-   "date": "2026-11-20T15:34:06+00:00",
-   "resume": "KB5132057 : nouvelle recherche Windows 11, boîte Exécuter modernisée et connexion web sur les postes hybrides. Voici l'essentiel à savoir sur cette mise à jour.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "Intune : les fenêtres de maintenance pour Windows Update arrivent enfin !",
-   "lien": "https://www.it-connect.fr/intune-fenetres-de-maintenance-windows-update/",
-   "date": "2026-11-20T15:30:00+00:00",
-   "resume": "Intune prend enfin en charge les fenêtres de maintenance pour Windows Update, un an après leur annonce à Ignite 2025. Voici ce qu'il faut savoir.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
    "titre": "Sébastien Genesca, directeur général de DEEP: “L’Europe doit se donner les moyens de faire émerger un véritable hyperscaler cloud européen”",
    "lien": "https://www.lemondeinformatique.fr/infrastructure-cloud/titre-sebastien-genesca-directeur-general-de-deep-l-europe-doit-se-donner-les-moyens-de-faire-emerger-un-veritable-hyperscaler-cloud-europeen",
    "date": "2026-11-20T15:27:36+00:00",
@@ -656,78 +728,6 @@
    "date": "2026-11-20T15:03:18+00:00",
    "resume": "Installé en Seine-et-Marne, GAIA Labs, laboratoire d’intelligence artificielle du Groupe Accelis, conçoit des collègues IA pour les entreprises. Sa particularité : une console qui donne aux prestataires informatiques et…",
    "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "Black Friday 2026 : Office 2024 Pro Plus à 21.27€ et Windows 11 Pro à 12.25€",
-   "lien": "https://www.it-connect.fr/bon-plan-les-licences-office-2021-et-windows-11-en-promotion/",
-   "date": "2026-11-20T15:00:19+00:00",
-   "resume": "Pour le Black Friday 2026, notre partenaire GoDeal24 propose une nouvelle salve de promotions sur les licences de produits Microsoft (Windows, Office, etc.) et d'autres logiciels.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "ARTEX, l'IA de piratage open source qui a figé la Commission européenne",
-   "lien": "https://korben.info/artex-lia-de-piratage-open-source-qui-a-fige-la-commission-europeenne.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-11-20T14:50:58+00:00",
-   "resume": "La Commission européenne a reconnu le 19 novembre une campagne de piratage débutée le 22 octobre, qui a paralysé Sysper et MyPMO pendant plus de dix jours. Le CERT-EU pointe ARTEX, un outil open source chinois d'agents…",
-   "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "Mon top 5 des commandes Nmap que vous devez connaître",
-   "lien": "https://www.it-connect.fr/mon-top-5-des-commandes-nmap-que-vous-devez-connaitre/",
-   "date": "2026-11-20T14:00:00+00:00",
-   "resume": "Découverte d’hôtes, détection de versions, audit SMB et HTTP, scan complet : 5 commandes Nmap pour cartographier et auditer un réseau comme un pentester.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "Comment digitaliser la gestion des objets publicitaires dans les entreprises ?",
-   "lien": "https://www.lemondeinformatique.fr/applications-developpement/comment-digitaliser-la-gestion-des-objets-publicitaires-dans-les-entreprises",
-   "date": "2026-11-20T13:16:26+00:00",
-   "resume": "Commander des goodies, des cadeaux d'affaires ou des textiles personnalisés peut vite devenir compliqué, surtout lorsqu'une entreprise compte plusieurs établissements. Entre les demandes de devis, les validations et le…",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "FastUnlock : une faille zero-day Windows 11 contourne l’écran de verrouillage et menace BitLocker",
-   "lien": "https://www.it-connect.fr/fastunlock-zero-day-windows-11-bitlocker-narrateur/",
-   "date": "2026-11-20T11:06:58+00:00",
-   "resume": "FastUnlock, nouvelle zero-day publiée par Nightmare Eclipse, contourne l'écran de verrouillage de Windows 11 via le Narrateur et menace BitLocker.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "Signal bloque les captures pour tenir Gemini et Siri à distance",
-   "lien": "https://korben.info/signal-bloque-captures-ecran-ia.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-11-20T10:36:02+00:00",
-   "resume": "Signal bloque les captures d'écran sur iOS 27 et active sa protection sur Android quand un assistant IA lit l'écran. Ce n'est pas une faille, la parade a des trous, et Signal réclame aux éditeurs d'OS un vrai droit de…",
-   "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "Black Friday pCloud - Plans à vie, Photos AI, Docs et NAS #sponso",
-   "lien": "https://korben.info/pcloud-black-friday-2026.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-11-20T09:09:51+00:00",
-   "resume": "Du 13 au 28 novembre, pCloud met ses plans de stockage à vie en promo et pousse trois fonctions : Photos AI, Docs et la sauvegarde de NAS. Ce que chacune demande, et ce que « à vie » veut dire dans ses CGU.",
-   "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "Youtubeurs engagés - L'Arcom impose un temps de parole",
-   "lien": "https://korben.info/arcom-pluralisme-createurs-presidentielle.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-11-20T08:56:52+00:00",
-   "resume": "Pour la présidentielle 2027, l'Arcom applique aux grosses chaînes vidéo qui parlent de politique l'équité puis l'égalité du temps de parole des télés. Qui est visé, ce que ça impose aux chaînes engagées, ce qu'elles…",
-   "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "Farcall - Un PC de 1981 qui s'ouvre dans votre terminal",
-   "lien": "https://korben.info/farcall-emulateur-dos-ssh.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-11-20T08:10:36+00:00",
-   "resume": "Farcall émule le premier IBM PC et son 8088, écrit en Rust par un développeur qui voulait comprendre la machine. Son serveur SSH public sert FreeDOS, Zork ou NetHack dans le terminal. Ce que l'auteur annonce, et ce qui…",
-   "source": "korben",
    "sujet": false
   },
   {
