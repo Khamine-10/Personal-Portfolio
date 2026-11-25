@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-25T08:43:44+00:00",
+ "miseAJour": "2026-11-25T21:46:09+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -82,6 +82,198 @@
   }
  ],
  "articles": [
+  {
+   "titre": "Proxmox VE 9.3 est disponible : le SAN se gère désormais depuis l’interface web",
+   "lien": "https://www.it-connect.fr/proxmox-ve-9-3-nouveautes/",
+   "date": "2026-11-25T19:24:23+00:00",
+   "resume": "Proxmox VE 9.3 est disponible : multipath et LVM partagé sur SAN se configurent depuis l'interface web, et les snapshots LVM passent en production.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Dernière ligne droite pour La Presse Libre à 4 euros en plus de votre abo Next",
+   "lien": "https://next.ink/270008/derniere-ligne-droite-pour-la-presse-libre-a-4-euros-en-plus-de-votre-abo-next/",
+   "date": "2026-11-25T16:39:00+00:00",
+   "resume": "Pour fêter l’arrivée de son nouveau site et de trois nouveaux médias indépendants, La Presse Libre vous propose jusqu’à vendredi de profiter de l’ensemble de son bouquet pour seulement 4 euros en complément de votre…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Huawei : HarmonyOS dépasse les 100 millions d’appareils et devance iOS en Chine",
+   "lien": "https://next.ink/270049/huawei-harmonyos-depasse-les-100-millions-dappareils-et-devance-ios-en-chine/",
+   "date": "2026-11-25T16:21:00+00:00",
+   "resume": "Huawei revendique plus de 100 millions d’appareils sous HarmonyOS 5, 6 ou 7. Le système devance iOS dans les ventes de smartphones en Chine, et le constructeur veut le déployer plus largement à l’international. Hasard…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "« Eau chaude, GPU froids » : OVH ne veut plus consommer d’eau dans ses datacenters",
+   "lien": "https://next.ink/269774/eau-chaude-gpu-froids-ovh-ne-veut-plus-consommer-deau-dans-ses-datacenters/",
+   "date": "2026-11-25T15:48:53+00:00",
+   "resume": "OVHcloud continue de faire monter la température dans ses datacenters, enfin plus précisément celle de son système de refroidissement. Avec de nouveaux waterblocks imprimés en cuivre pour les GPU de 1 000 watts et plus,…",
+   "source": "next",
+   "sujet": true
+  },
+  {
+   "titre": "Black Friday : les cybermenaces dopées à l'IA mettent les distributeurs sous pression",
+   "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/black-friday-les-cybermenaces-dopees-a-l-ia-mettent-les-distributeurs-sous-pression",
+   "date": "2026-11-25T15:40:12+00:00",
+   "resume": "À l'approche du Black Friday, les enseignes doivent se préparer à une hausse des attaques visant leurs sites, leurs comptes clients et leurs infrastructures de paiement. L'IA accélère les capacités des attaquants,…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "L’IA générative, pompier-pyromane de l’infobésité au travail",
+   "lien": "https://next.ink/269823/lia-generative-pompier-pyromane-de-linfobesite-au-travail/",
+   "date": "2026-11-25T15:16:36+00:00",
+   "resume": "Pour l’Observatoire de l’infobésité et de la collaboration numérique, qui publie son quatrième panorama sur le sujet de l’infobésité en entreprise, l’utilisation de l’IA générative en entreprise a des « effets complexes…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "ETIX investit 100 M€ dans ses data centers de proximité en France",
+   "lien": "https://www.lemondeinformatique.fr/infrastructure-cloud/etix-investit-100-m-dans-ses-data-centers-de-proximite-en-france",
+   "date": "2026-11-25T15:07:31+00:00",
+   "resume": "À l'occasion du sommet Choose France – Édition France, organisé le 23 novembre 2026, l'opérateur français ETIX a annoncé un programme d'investissement de 100 millions d'euros pour développer ses centres de données de…",
+   "source": "lmi",
+   "sujet": true
+  },
+  {
+   "titre": "CrowdStrike et Zscaler veulent un kill switch unifié pour les agents IA",
+   "lien": "https://www.lemondeinformatique.fr/donnees-ia/crowdstrike-et-zscaler-veulent-un-kill-switch-unifie-pour-les-agents-ia",
+   "date": "2026-11-25T14:37:21+00:00",
+   "resume": "Le rachat de Zscaler par CrowdStrike doit permettre d'étendre au réseau le dispositif de coupure des agents IA malveillants ou incontrôlés, aujourd'hui limité aux terminaux. Annoncé le 23 novembre 2026, cet accord, qui…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "☕️ La panne de Microsoft a déclenché un « code rouge » en interne",
+   "lien": "https://next.ink/brief-article/la-panne-de-microsoft-a-declenche-un-code-rouge-en-interne/",
+   "date": "2026-11-25T14:27:56+00:00",
+   "resume": "La panne historique qui s’est étalée sur les 12 et 13 novembre a déclenché autant un vent de panique qu’une brutale prise de conscience chez Microsoft, selon Reuters. Nos confrères citent des mémos internes qu’ils ont…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Test du mini PC VZMORE iX9 Max sous Ubuntu Server",
+   "lien": "https://korben.info/test-du-mini-pc-vzmore-ix9-max-sous-ubuntu-server.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-25T14:12:02+00:00",
+   "resume": "Korben a migré son installation Plex du Mac mini M4 vers le mini PC VZMORE iX9 Max sous Ubuntu Server, avec un Core Ultra 9 185H, 24 Go de RAM soudée et un SSD de 1 To. Le ventilateur reste discret, même avec plusieurs…",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "☕️ Bruxelles pourrait sanctionner quatre géants du porno pour avoir mal protégé les mineurs",
+   "lien": "https://next.ink/brief-article/bruxelles-pourrait-sanctionner-quatre-geants-du-porno-pour-avoir-mal-protege-les-mineurs/",
+   "date": "2026-11-25T14:03:40+00:00",
+   "resume": "La Commission européenne pourrait serrer la vis sur quatre sites pornographiques, qui n’en feraient pas suffisamment pour empêcher les internautes mineurs d’accéder à leurs contenus. Au mois de mars, Bruxelles avait…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Yann LeCun accuse le patron d’Anthropic de vouloir freiner les modèles d’IA ouverts",
+   "lien": "https://www.lemondeinformatique.fr/donnees-ia/yann-lecun-accuse-le-patron-d-anthropic-de-vouloir-freiner-les-modeles-d-ia-ouverts",
+   "date": "2026-11-25T12:36:13+00:00",
+   "resume": "Yann LeCun, pionnier de l’intelligence artificielle, professeur à l’université de New York et cofondateur d’Advanced Machine Intelligence Labs, s’en prend à Dario Amodei, directeur général d’Anthropic, qu’il accuse…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "L'IA générative risque d'amplifier l'infobésité au travail",
+   "lien": "https://www.lemondeinformatique.fr/donnees-ia/l-ia-generative-risque-d-amplifier-l-infobesite-au-travail",
+   "date": "2026-11-25T11:45:32+00:00",
+   "resume": "Capable de synthétiser des documents et d'accélérer la rédaction, l'IA générative est présentée comme un moyen de réduire la surcharge informationnelle. Mais ces gains peuvent aussi alimenter une intensification du…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Skimming en Alsace, des cartes bancaires piégées à la pompe",
+   "lien": "https://www.zataz.com/skimming-en-alsace-des-cartes-bancaires-piegees-a-la-pompe/",
+   "date": "2026-11-25T11:40:44+00:00",
+   "resume": "Skimming ? En Alsace, des retraits de 500 à 1 000 euros après un plein alertent les gendarmes. Comment réagir face à la fraude.",
+   "source": "zataz",
+   "sujet": false
+  },
+  {
+   "titre": "GrapheneOS accuse Google de vouloir sa disparition",
+   "lien": "https://next.ink/269832/grapheneos-accuse-directement-google-de-vouloir-sa-disparition/",
+   "date": "2026-11-25T11:02:55+00:00",
+   "resume": "GrapheneOS, un Android alternatif (basé sur AOSP) très axé sur la sécurité, a accusé Google le 19 novembre de vouloir le faire disparaitre par différents moyens détournés. L’équipe fustige l’entreprise pour un travail…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Black Friday : le mini-PC VZMORE iX9 Max profite de 26 % de remise et atteint son prix le plus bas",
+   "lien": "https://www.it-connect.fr/bon-plan-vzmore-ix9-max-black-friday-2026/",
+   "date": "2026-11-25T11:00:00+00:00",
+   "resume": "Black Friday : le mini PC VZMORE iX9 Max (Core Ultra 9 185H, 24 Go, 1 To) passe à 839,16 € avec un code promo, soit jusqu'à 26 % de réduction sur Amazon.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Faux jeu Ducros sur TikTok, le piège du coffret de Noël",
+   "lien": "https://www.zataz.com/faux-jeu-ducros-sur-tiktok-le-piege-du-coffret-de-noel/",
+   "date": "2026-11-25T10:46:52+00:00",
+   "resume": "ZATAZ retrace le faux jeu Ducros sur TikTok, du coffret d’épices de Noël au formulaire de carte bancaire.",
+   "source": "zataz",
+   "sujet": false
+  },
+  {
+   "titre": "Panne Microsoft 365 : des e-mails jamais remis, Microsoft promet des changements",
+   "lien": "https://www.it-connect.fr/panne-microsoft-365-rapport-final/",
+   "date": "2026-11-25T10:38:32+00:00",
+   "resume": "Panne Microsoft 365 : le rapport reconnaît que certains e-mails n'ont jamais été remis et Microsoft dévoile sa feuille de route pour éviter de futurs incidents.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "☕️ Le gouvernement veut précipiter le rattachement de l’IRD au CNRS pour fin mars 2027",
+   "lien": "https://next.ink/brief-article/le-gouvernement-veut-precipiter-le-rattachement-de-lird-au-cnrs-pour-fin-mars-2027/",
+   "date": "2026-11-25T10:03:08+00:00",
+   "resume": "Après avoir siphonné sa trésorerie puis imposé un plan de redressement au CNRS qui met l’organisme quasiment sous tutelle de Bercy, le gouvernement veut maintenant imposer « le rattachement » de l’IRD (Institut de…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Quantum Act : l’UE veut soutenir son industrie quantique avec un fonds souverain",
+   "lien": "https://www.lemondeinformatique.fr/it-direction/quantum-act-l-ue-veut-soutenir-son-industrie-quantique-avec-un-fonds-souverain",
+   "date": "2026-11-25T09:38:28+00:00",
+   "resume": "La Commission européenne a présenté le 25 novembre 2026 son projet de Quantum Act, destiné à renforcer la recherche, la production et la sécurité des technologies quantiques dans l’Union européenne. Bruxelles souhaite…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Pop!_OS 26.04 dégaine ses Constellations et bon nombre de nouveautés",
+   "lien": "https://next.ink/269780/pop_os-26-04-degaine-ses-constellations-et-bon-nombre-de-nouveautes/",
+   "date": "2026-11-25T09:35:53+00:00",
+   "resume": "L’entreprise américaine System76 a enfin publié la version 26.04 de son système Pop!_OS. Comme son numéro de version le laisse supposer, elle est basée sur Ubuntu 26.04 LTS. C’est aussi la première fois qu’une version…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "LinuxPDF - Quand Linux se lance dans un PDF",
+   "lien": "https://korben.info/linuxpdf-linux-dans-un-pdf.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-25T09:25:14+00:00",
+   "resume": "LinuxPDF fait démarrer un vrai Linux RISC-V dans un fichier PDF ouvert dans Chrome, avec le JavaScript prévu par la norme PDF. Ça marche encore, mais comptez une bonne quarantaine de secondes de boot, et voici pourquoi.",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "☕️ Firefox 161 active son VPN site par site et simplifie l’effacement de l’historique",
+   "lien": "https://next.ink/brief-article/firefox-161-active-son-vpn-site-par-site-et-simplifie-leffacement-de-lhistorique/",
+   "date": "2026-11-25T08:55:25+00:00",
+   "resume": "Mozilla tient la cadence et livre cette semaine la version 161 de Firefox, datée du 24 novembre. Après l’apparition de la mini-fenêtre dans Firefox 160, cette nouvelle mouture signe, entre autres ajouts mineurs,…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Votre vieux clavier Logitech G15 a encore des choses à afficher",
+   "lien": "https://korben.info/g15-retro-hud.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-25T08:42:17+00:00",
+   "resume": "G15-Retro-HUD rallume l'écran LCD du Logitech G15 sous Windows 10 et 11 en lui parlant directement en USB, sans les vieux pilotes Logitech qui bloquent l'intégrité de la mémoire. Monitoring, Spotify, météo, visualiseurs…",
+   "source": "korben",
+   "sujet": false
+  },
   {
    "titre": "Avec Shirudo, OpenAI et Cisco veulent protéger Linux en attendant les correctifs",
    "lien": "https://next.ink/269700/avec-shirudo-openai-et-cisco-veulent-proteger-linux-en-attendant-les-correctifs/",
@@ -235,6 +427,78 @@
    "sujet": false
   },
   {
+   "titre": "Recommandations de sécurisation des liaisons inter-sites (25 novembre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/dur/CERTFR-2026-DUR-001/",
+   "date": "2026-11-25T00:00:00+00:00",
+   "resume": "Objet : Recommandations de sécurisation des liaisons inter-sites, à destination des clients de ces offres. Annexe : Liens et références Depuis plusieurs années, l’Agence nationale de la sécurité des systèmes…",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
+   "titre": "Multiples vulnérabilités dans les produits Mozilla (25 novembre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1616/",
+   "date": "2026-11-25T00:00:00+00:00",
+   "resume": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à…",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
+   "titre": "Vulnérabilité dans Microsoft Office (25 novembre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1620/",
+   "date": "2026-11-25T00:00:00+00:00",
+   "resume": "Une vulnérabilité a été découverte dans Microsoft Office. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
+   "titre": "Multiples vulnérabilités dans les produits VMware (25 novembre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1622/",
+   "date": "2026-11-25T00:00:00+00:00",
+   "resume": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un…",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
+   "titre": "Vulnérabilité dans les produits Schneider Electric (25 novembre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1618/",
+   "date": "2026-11-25T00:00:00+00:00",
+   "resume": "Une vulnérabilité a été découverte dans les produits Schneider Electric. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
+   "titre": "Multiples vulnérabilités dans Symfony (25 novembre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1619/",
+   "date": "2026-11-25T00:00:00+00:00",
+   "resume": "De multiples vulnérabilités ont été découvertes dans Symfony. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un…",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
+   "titre": "Vulnérabilité dans Palo Alto Networks PAN-OS (25 novembre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1621/",
+   "date": "2026-11-25T00:00:00+00:00",
+   "resume": "Une vulnérabilité a été découverte dans Palo Alto Networks PAN-OS. Elle permet à un attaquant de provoquer une élévation de privilèges. Palo Alto Networks indique que la vulnérabilité CVE-2026-43600 est activement…",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
+   "titre": "Multiples vulnérabilités dans Tenable Enclave Security (25 novembre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1615/",
+   "date": "2026-11-25T00:00:00+00:00",
+   "resume": "De multiples vulnérabilités ont été découvertes dans Tenable Enclave Security. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et…",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
+   "titre": "Vulnérabilité dans Laravel (25 novembre 2026)",
+   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1617/",
+   "date": "2026-11-25T00:00:00+00:00",
+   "resume": "Une vulnérabilité a été découverte dans Laravel. Elle permet à un attaquant de provoquer un déni de service à distance.",
+   "source": "certfr",
+   "sujet": false
+  },
+  {
    "titre": "ElixirOffice : une suite bureautique open source qui s’adresse aux habitués de Microsoft Office",
    "lien": "https://www.it-connect.fr/elixiroffice-suite-bureautique-libre-microsoft-office/",
    "date": "2026-11-24T17:00:00+00:00",
@@ -251,83 +515,11 @@
    "sujet": false
   },
   {
-   "titre": "☕️ Avec Claude Ship, Anthropic s’attaque à la correction automatique des pull requests",
-   "lien": "https://next.ink/brief-article/avec-claude-ship-anthropic-sattaque-a-la-correction-automatique-des-pull-requests/",
-   "date": "2026-11-24T16:21:00+00:00",
-   "resume": "Anthropic a annoncé ce 23 novembre un nouvel outil dans sa flotte de services Claude : Ship. Il est chargé de prendre en charge ce qui se passe après l’ouverture d’une demande de fusion (pull request) sur GitHub. Sa…",
-   "source": "next",
-   "sujet": false
-  },
-  {
-   "titre": "La Virginie et l’Oregon attaquent SpaceXSI pour la génération de contenus pédocriminels",
-   "lien": "https://next.ink/269655/la-virginie-et-loregon-attaquent-spacexsi-pour-la-generation-de-contenus-pedocriminels/",
-   "date": "2026-11-24T16:03:00+00:00",
-   "resume": "Les deux États américains ont réagi face à la vague de génération de contenus pédocriminels qui a déferlé sur X via Grok en portant plainte contre SpaceXSI ce lundi 23 novembre. Dans sa plainte, le procureur général de…",
-   "source": "next",
-   "sujet": false
-  },
-  {
-   "titre": "☕️ Quad9 confirme la désactivation de son service en France aujourd’hui",
-   "lien": "https://next.ink/brief-article/quad9-confirme-la-desactivation-de-son-service-en-france-aujourdhui/",
-   "date": "2026-11-24T15:39:18+00:00",
-   "resume": "« Aujourd’hui, 24 novembre 2026, Quad9 désactivera ses services pour les utilisateurs français. Toute requête adressée à l’une des adresses de service de Quad9 sera donc refusée, et aucune résolution DNS n’aboutira »,…",
-   "source": "next",
-   "sujet": false
-  },
-  {
-   "titre": "[Tuto] Quad9 quitte la France, comment installer et utiliser son propre résolveur DNS",
-   "lien": "https://next.ink/260020/tuto-installer-facilement-son-propre-resolveur-dns-sur-raspberry-pi-vm-freebox-vps/",
-   "date": "2026-11-24T15:25:27+00:00",
-   "resume": "Vous n’avez plus envie de dépendre d’un résolveur DNS externe, que ce soit celui de votre FAI ou d’un géant du numérique ? Alors Next vous propose un petit tuto avec unbound. Quelques lignes suffisent pour le mettre en…",
-   "source": "next",
-   "sujet": false
-  },
-  {
    "titre": "Free intègre la traduction des appels téléphoniques à son réseau mobile",
    "lien": "https://www.lemondeinformatique.fr/applications-developpement/free-integre-la-traduction-des-appels-telephoniques-a-son-reseau-mobile",
    "date": "2026-11-24T15:04:57+00:00",
    "resume": "Avec Traduction Live, Free propose à ses abonnés haut de gamme de traduire en temps réel leurs conversations téléphoniques dans dix langues. Intégrée directement à son réseau mobile, cette solution s'appuie sur l'IA et…",
    "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "☕️ Le lancement de tous les records pour GTA VI",
-   "lien": "https://next.ink/brief-article/le-lancement-de-tous-les-records-pour-gta-vi/",
-   "date": "2026-11-24T14:21:48+00:00",
-   "resume": "Il va être compliqué d’aller chercher GTA VI, qui fait tomber les records depuis son lancement jeudi 19 novembre. Le lendemain, l’éditeur Take-Two annonçait ainsi que le jeu avait enregistré 32,5 millions de…",
-   "source": "next",
-   "sujet": false
-  },
-  {
-   "titre": "Cybersécurité : des failles Bluetooth permettent de contrôler à distance les freins de remorques",
-   "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cybersecurite-des-failles-bluetooth-permettent-de-controler-a-distance-les-freins-de-remorques",
-   "date": "2026-11-24T11:45:01+00:00",
-   "resume": "Des chercheurs en cybersécurité ont découvert plusieurs vulnérabilités critiques dans les contrôleurs de freinage Bluetooth du fabricant australien Elecbrakes. Ces failles permettent à une personne située à portée du…",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "IA et Cybersécurité : les entreprises contraintes de revoir leur priorités",
-   "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/la-bataille-des-priorites-dans-les-budgets-it",
-   "date": "2026-11-24T11:25:03+00:00",
-   "resume": "Face au renchérissement des infrastructures et à la multiplication des projets d'IA, les entreprises doivent revoir leurs arbitrages numériques. Lors d'une table ronde organisée au TechShow Paris le 18 novembre, trois…",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "ISAGRI déploie Claude auprès de ses 3 300 collaborateurs",
-   "lien": "https://www.lemondeinformatique.fr/applications-developpement/isagri-deploie-claude-aupres-de-ses-3-300-collaborateurs",
-   "date": "2026-11-24T11:16:32+00:00",
-   "resume": "L'éditeur français de logiciels ISAGRI annonce la généralisation de Claude, l'assistant IA d'Anthropic, auprès de ses 3 300 salariés. Le groupe prévoit d'utiliser l'outil dans plusieurs fonctions, notamment le…",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "Panne Microsoft : plus précis, le rapport final nie toute cyberattaque ou usage de l’IA",
-   "lien": "https://next.ink/269535/panne-microsoft-plus-precis-le-rapport-final-nie-toute-cyberattaque-ou-usage-de-lia/",
-   "date": "2026-11-24T10:55:24+00:00",
-   "resume": "Même si Microsoft a publié un rapport préliminaire le 15 novembre, la version définitive pousse plus loin dans les détails et répond à plusieurs éléments laissés en suspens, en particulier l’absence apparente de…",
-   "source": "next",
    "sujet": false
   },
   {
@@ -347,51 +539,11 @@
    "sujet": false
   },
   {
-   "titre": "On a testé Free Traduction Live : des appels traduits en direct dans 10 langues",
-   "lien": "https://next.ink/269559/on-a-teste-free-traduction-live-des-appels-traduits-en-direct-dans-10-langues/",
-   "date": "2026-11-24T10:17:19+00:00",
-   "resume": "Traduire automatiquement ses conversations téléphoniques, c’est déjà possible. Free Mobile saute le pas pour ses clients d’un forfait Max, avec un service conçu, développé et opéré en interne. Nous l’avons rapidement…",
-   "source": "next",
-   "sujet": false
-  },
-  {
-   "titre": "Puces IA : Washington place Megaspeed et une filiale d'Alibaba sur liste noire",
-   "lien": "https://www.lemondeinformatique.fr/donnees-ia/puces-ia-washington-place-megaspeed-et-une-filiale-d-alibaba-sur-liste-noire",
-   "date": "2026-11-24T09:59:35+00:00",
-   "resume": "Le département américain du Commerce a inscrit Megaspeed, partenaire cloud de Nvidia basé à Singapour, ainsi qu'Apex Enterprise Solutions, une filiale d'Alibaba, sur sa liste noire commerciale le 23 novembre 2026. Cette…",
-   "source": "lmi",
-   "sujet": true
-  },
-  {
-   "titre": "Associations et experts exhortent Amazon et eBay à retirer les jouets dotés de chatbots IA",
-   "lien": "https://next.ink/269533/associations-et-experts-exhortent-amazon-et-ebay-a-retirer-les-jouets-dotes-de-chatbots-ia/",
-   "date": "2026-11-24T09:40:00+00:00",
-   "resume": "Une coalition d’associations et d’experts appelle Amazon et eBay à retirer de leurs étals virtuels les jouets pour enfants intégrant des mécaniques de conversation avec un chatbot IA, au nom du principe de précaution.…",
-   "source": "next",
-   "sujet": false
-  },
-  {
-   "titre": "Règlementation : les entreprises doivent intégrer les contraintes dès la conception de leurs systèmes IT",
-   "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/reglementation-les-entreprises-doivent-integrer-les-contraintes-des-la-conception-de-leurs-systemes-it",
-   "date": "2026-11-24T09:30:57+00:00",
-   "resume": "Avec l'accumulation des réglementations européennes, de l'IA Act à NIS 2 en passant par le RGPD et DORA, la conformité devient un enjeu structurant pour les directions IT. Lors d'une conférence organisée au TechShow…",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
    "titre": "dumbtv - Le Fire TV sans pub ni mouchard (et sans root)",
    "lien": "https://korben.info/dumbtv.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
    "date": "2026-11-24T09:21:56+00:00",
    "resume": "dumbtv désactive par ADB les pubs, la télémétrie et l'empreinte d'écran d'un Fire TV sous Fire OS, pose un filtre DNS local et un accueil sans pub, et tout s'annule d'une commande. Les nouveaux sticks sous Vega OS…",
    "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "[Màj] Hypothèse de Riemann : le chercheur d’Anthropic reconnaît une « blague »",
-   "lien": "https://next.ink/269118/hypothese-de-riemann-une-preuve-generee-par-ia-est-elle-utile-aux-mathematiciens/",
-   "date": "2026-11-24T09:04:45+00:00",
-   "resume": "Deux mathématiciens ont publié des propositions de preuve d’une conjecture des plus classiques des mathématiques : l’hypothèse de Riemann. L’un, Alessandro Maria Masullo, sans l’aide de l’IA, a mis en ligne un manuscrit…",
-   "source": "next",
    "sujet": false
   },
   {
@@ -435,14 +587,6 @@
    "sujet": false
   },
   {
-   "titre": "Avec Olala, OVH vise un « Mythos européen » et un modèle à 3 000 milliards de paramètres",
-   "lien": "https://next.ink/269175/avec-olala-ovh-vise-un-mythos-europeen-et-un-modele-a-3-000-milliards-de-parametres/",
-   "date": "2026-11-24T08:09:00+00:00",
-   "resume": "Dans la première partie de notre dossier sur Olala, le modèle « souverain » d’OVHai LLM, nous avons détaillé son architecture, son entrainement, ses galères… Dans cette seconde partie, nous parlons de la suite des…",
-   "source": "next",
-   "sujet": false
-  },
-  {
    "titre": "Neutralisé en 2019 par la gendarmerie, le ver USB Retadup revient pour distribuer CoffeeLoader",
    "lien": "https://www.it-connect.fr/retadup-ver-usb-coffeeloader/",
    "date": "2026-11-24T08:00:00+00:00",
@@ -471,14 +615,6 @@
    "lien": "https://www.it-connect.fr/rust-anything-reecrire-application-rust-agents-ia/",
    "date": "2026-11-24T03:00:00+00:00",
    "resume": "Grâce à rust-anything, vous pouvez piloter un agent IA pour réécrire en Rust une application, tout en vérifiant chaque étape pour vous assurer du résultat.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "Entra Connect Health : une faille exploitée a exposé les e-mails des admins de tenants Microsoft",
-   "lien": "https://www.it-connect.fr/entra-connect-health-faille-exploitee-metadonnees-tenants/",
-   "date": "2026-11-24T02:00:00+00:00",
-   "resume": "Une faille dans l'API d'Entra Connect Health a été exploitée pour lire les métadonnées de tenants, dont les e-mails des admins. Voici ce qu'il faut savoir.",
    "source": "itconnect",
    "sujet": false
   },
@@ -531,43 +667,11 @@
    "sujet": false
   },
   {
-   "titre": "Multiples vulnérabilités dans Traefik (24 novembre 2026)",
-   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1611/",
-   "date": "2026-11-24T00:00:00+00:00",
-   "resume": "De multiples vulnérabilités ont été découvertes dans Traefik. Elle permet à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la politique de…",
-   "source": "certfr",
-   "sujet": false
-  },
-  {
    "titre": "Merry Making: Play, Build and Create With NVIDIA Technologies This Holiday Season",
    "lien": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026/",
    "date": "2026-11-23T17:00:08+00:00",
    "resume": "The elves don’t have to be the only ones busy in the workshop this holiday season. With the lights twinkling and the gift wrap out, it’s the perfect time to give someone — or yourself — a spark to take a hobby to the…",
    "source": "nvidia",
-   "sujet": true
-  },
-  {
-   "titre": "Kudu, FluentCleaner, BleachBit, etc… Lequel choisir pour remplacer CCleaner ?",
-   "lien": "https://www.it-connect.fr/alternative-ccleaner-logiciels-nettoyage/",
-   "date": "2026-11-23T17:00:00+00:00",
-   "resume": "Par quoi remplacer CCleaner ? Kudu, FluentCleaner, BleachBit, PrivaZer, Glary Utilities et PC Manager comparés, avec la vidéo de démonstration.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "Windows Admin Center vMode : la migration de VMware ESXi vers Hyper-V arrive en préversion privée",
-   "lien": "https://www.it-connect.fr/windows-admin-center-vmode-vm-conversion-vmware-hyper-v/",
-   "date": "2026-11-23T16:30:00+00:00",
-   "resume": "Microsoft intègre VM Conversion à Windows Admin Center vMode pour migrer des VM VMware ESXi vers Hyper-V. Une préversion privée qui change l'architecture.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "Nvidia réinstalle Jensen Huang au poste de CEO",
-   "lien": "https://www.lemondeinformatique.fr/it-direction/nvidia-reinstalle-jensen-huang-au-poste-de-ceo",
-   "date": "2026-11-23T15:03:43+00:00",
-   "resume": "Après avoir accepté sa démission, le conseil d’administration de Nvidia revient sur sa décision et réinstalle son cofondateur Jensen Huang à la tête du groupe.",
-   "source": "lmi",
    "sujet": true
   },
   {
@@ -663,110 +767,6 @@
    "lien": "https://korben.info/morfo-drones-restauration-forets.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
    "date": "2026-11-23T05:40:12+00:00",
    "resume": "Morfo largue par drone des capsules de graines sur des sols ravagés par les mines. En Guyane, le couvert végétal est passé de 0 à 81 % en quatre ans, mais sur une mine de bauxite au Brésil, le premier semis a buté sur…",
-   "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "On a trouvé l'adresse de 8 chefs d'entreprise sur 10 en moins de 10 minutes. Sans pirater quoi que ce soit. #sponso",
-   "lien": "https://korben.info/incogni-adresses.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-11-23T05:07:10+00:00",
-   "resume": "Incogni a localisé en moins de 10 minutes l'adresse de 80 % des CEO testés dans la finance, via Google et des sites de recherche de personnes. Le rapport couvre plus de 2 400 entreprises cotées et environ 700 dirigeants…",
-   "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "Ledger : un pirate piège d’autres pirates avec un faux fichier",
-   "lien": "https://www.zataz.com/ledger-un-pirate-piege-dautres-pirates-avec-un-faux-fichier/",
-   "date": "2026-11-23T01:31:54+00:00",
-   "resume": "Sur un forum pirate, une prétendue nouvelle fuite de données Ledger dissimule un piège. ZATAZ a suivi la manœuvre.",
-   "source": "zataz",
-   "sujet": false
-  },
-  {
-   "titre": "Cyberattaque à Chambourcy : INC Ransom revendique l’attaque",
-   "lien": "https://www.zataz.com/cyberattaque-a-chambourcy-inc-ransom-revendique-lattaque/",
-   "date": "2026-11-23T00:36:24+00:00",
-   "resume": "Cyberattaque à Chambourcy : INC Ransom revendique l'intrusion. ZATAZ révèle des documents de police municipale exposés.",
-   "source": "zataz",
-   "sujet": false
-  },
-  {
-   "titre": "Bulletin d'actualité CERTFR-2026-ACT-049 (23 novembre 2026)",
-   "lien": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-049/",
-   "date": "2026-11-23T00:00:00+00:00",
-   "resume": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le…",
-   "source": "certfr",
-   "sujet": false
-  },
-  {
-   "titre": "Multiples vulnérabilités dans SPIP (23 novembre 2026)",
-   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1599/",
-   "date": "2026-11-23T00:00:00+00:00",
-   "resume": "De multiples vulnérabilités ont été découvertes dans SPIP. Elles permettent à un attaquant de provoquer une injection de code indirecte à distance (XSS) et une injection de requêtes illégitimes par rebond (CSRF).",
-   "source": "certfr",
-   "sujet": false
-  },
-  {
-   "titre": "Multiples vulnérabilités dans MongoDB (23 novembre 2026)",
-   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1606/",
-   "date": "2026-11-23T00:00:00+00:00",
-   "resume": "De multiples vulnérabilités ont été découvertes dans MongoDB. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la confidentialité des données et une…",
-   "source": "certfr",
-   "sujet": false
-  },
-  {
-   "titre": "Vulnérabilité dans Microsoft Office (23 novembre 2026)",
-   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1604/",
-   "date": "2026-11-23T00:00:00+00:00",
-   "resume": "Une vulnérabilité a été découverte dans Microsoft Office. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-   "source": "certfr",
-   "sujet": false
-  },
-  {
-   "titre": "Multiples vulnérabilités dans les produits Palo Alto Networks (23 novembre 2026)",
-   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1600/",
-   "date": "2026-11-23T00:00:00+00:00",
-   "resume": "De multiples vulnérabilités ont été découvertes dans les produits Palo Alto Networks. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
-   "source": "certfr",
-   "sujet": false
-  },
-  {
-   "titre": "Multiples vulnérabilités dans Microsoft Edge (23 novembre 2026)",
-   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1603/",
-   "date": "2026-11-23T00:00:00+00:00",
-   "resume": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-   "source": "certfr",
-   "sujet": false
-  },
-  {
-   "titre": "Multiples vulnérabilités dans Roundcube Webmail (23 novembre 2026)",
-   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1602/",
-   "date": "2026-11-23T00:00:00+00:00",
-   "resume": "De multiples vulnérabilités ont été découvertes dans Roundcube Webmail. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une…",
-   "source": "certfr",
-   "sujet": false
-  },
-  {
-   "titre": "Multiples vulnérabilités dans les produits Synology (23 novembre 2026)",
-   "lien": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1607/",
-   "date": "2026-11-23T00:00:00+00:00",
-   "resume": "De multiples vulnérabilités ont été découvertes dans les produits Synology. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et…",
-   "source": "certfr",
-   "sujet": false
-  },
-  {
-   "titre": "Apple - Londres ne peut plus cacher son injonction sur iCloud",
-   "lien": "https://korben.info/apple-porte-derobee-icloud-royaume-uni.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-11-21T19:40:41+00:00",
-   "resume": "Le tribunal britannique des pouvoirs d'enquête confirme que le Home Office a remis à Apple une injonction technique, secret que même le chatbot de Google connaissait. Son contenu reste caché, la Protection avancée des…",
-   "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "Windows NT 4.0 sur un Raspberry Pi, c'est inutile donc indispensable",
-   "lien": "https://korben.info/pint-windows-nt-raspberry-pi.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-11-21T18:34:10+00:00",
-   "resume": "PINT fait démarrer Windows NT 4.0 sur les Raspberry Pi 2, 3, 4 et Zero 2 W, avec Wi-Fi, son et Pinball rangé à sa place. Mais aucune image n'est fournie : il faut compiler avec des sources Windows que le dépôt ne…",
    "source": "korben",
    "sujet": false
   },
