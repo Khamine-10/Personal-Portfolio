@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-24T22:31:41+00:00",
+ "miseAJour": "2026-11-25T08:43:44+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -82,6 +82,158 @@
   }
  ],
  "articles": [
+  {
+   "titre": "Avec Shirudo, OpenAI et Cisco veulent protéger Linux en attendant les correctifs",
+   "lien": "https://next.ink/269700/avec-shirudo-openai-et-cisco-veulent-proteger-linux-en-attendant-les-correctifs/",
+   "date": "2026-11-25T08:19:00+00:00",
+   "resume": "Le 23 novembre, OpenAI et Cisco ont présenté Shirudo, un outil libre qui confie à des agents d’IA l’écriture de protections temporaires pour des serveurs Linux en production, le temps que les correctifs soient déployés.…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Rudder : une solution de gestion de configuration open source contre la dérive de vos serveurs",
+   "lien": "https://www.it-connect.fr/tuto-rudder-gestion-de-configuration/",
+   "date": "2026-11-25T08:15:00+00:00",
+   "resume": "Rudder, outil open source de gestion de configuration : installation sur Linux, Audit puis Enforce, correction de la dérive et comparaison avec Ansible.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Trois cofondateurs de xAI lancent Epochal, une start-up spécialisée dans l’IA prédictive",
+   "lien": "https://www.lemondeinformatique.fr/donnees-ia/trois-cofondateurs-de-xai-lancent-epochal-une-start-up-specialisee-dans-l-ia-predictive",
+   "date": "2026-11-25T08:00:00+00:00",
+   "resume": "Guodong Zhang, Zihang Dai et Manuel Kroiss, trois cofondateurs de xAI, ont annoncé le 24 novembre 2026 le lancement d’Epochal, une start-up spécialisée dans les modèles d’intelligence artificielle capables d’anticiper…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Oracle envisage jusqu’à 1 390 suppressions de postes supplémentaires en Europe",
+   "lien": "https://www.lemondeinformatique.fr/it-direction/oracle-envisage-jusqu-a-1-390-suppressions-de-postes-supplementaires-en-europe",
+   "date": "2026-11-25T08:00:00+00:00",
+   "resume": "Oracle préparerait une troisième vague de suppressions de postes en Europe en douze mois. Selon une note attribuée à son comité d’entreprise européen, révélée le 24 novembre 2026, l’éditeur américain envisagerait de…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "SpaceX-Tesla : cinq administrateurs négocient une fusion potentielle à 3 500 milliards de dollars",
+   "lien": "https://www.lemondeinformatique.fr/it-direction/spacex-tesla-cinq-administrateurs-negocient-une-fusion-potentielle-a-3-500-milliards-de-dollars",
+   "date": "2026-11-25T08:00:00+00:00",
+   "resume": "SpaceX et Tesla ont désigné cinq administrateurs pour négocier les conditions d'une éventuelle fusion qui pourrait valoriser l'ensemble à 3 500 milliards de dollars. Selon le Financial Times, les deux entreprises…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Tidal interdit les morceaux entièrement générés par IA",
+   "lien": "https://next.ink/269736/tidal-interdit-les-morceaux-entierement-generes-par-ia/",
+   "date": "2026-11-25T07:53:00+00:00",
+   "resume": "La plateforme de streaming Tidal, noyée comme les autres par le slop IA, prend une décision radicale : interdire la musique entièrement générée par IA. Du contenu qui ne manquera pas à grand monde, puisque personne ne…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "CHU de Bordeaux et SIG Sauer ciblés par ScarlettGroup",
+   "lien": "https://www.zataz.com/chu-de-bordeaux-et-sig-sauer-cibles-par-scarlettgroup/",
+   "date": "2026-11-25T07:40:26+00:00",
+   "resume": "Le CHU de Bordeaux confirme une intrusion. ScarlettGroup menace de publier des données et revendique aussi SIG Sauer.",
+   "source": "zataz",
+   "sujet": false
+  },
+  {
+   "titre": "Cyberattaques dopées à l’IA : IBM appelle les entreprises à anticiper les défaillances",
+   "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaques-dopees-a-l-ia-ibm-appelle-les-entreprises-a-anticiper-les-defaillances",
+   "date": "2026-11-25T07:30:00+00:00",
+   "resume": "Face à l’accélération des cyberattaques liée à l’intelligence artificielle, les entreprises doivent revoir leurs stratégies de cybersécurité. Pour Mark Hughes, responsable mondial des services de cybersécurité d’IBM…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Microsoft déclenche un « Code Red » après une panne majeure de Microsoft 365",
+   "lien": "https://www.lemondeinformatique.fr/applications-developpement/microsoft-declenche-un-code-red-apres-une-panne-majeure-de-microsoft-365",
+   "date": "2026-11-25T07:30:00+00:00",
+   "resume": "Microsoft a déclenché une procédure d’urgence baptisée « Code Red » après la panne mondiale qui a affecté Exchange Online, Outlook, Teams et Copilot les 12 et 13 novembre 2026. Selon des notes internes consultées par…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "☕️ Un système de la CIA et du renseignement américain victime d’une intrusion",
+   "lien": "https://next.ink/brief-article/un-systeme-de-la-cia-et-du-renseignement-americain-victime-dune-intrusion/",
+   "date": "2026-11-25T07:13:49+00:00",
+   "resume": "Un système informatique utilisé par la CIA et le Bureau du directeur du renseignement national (ODNI) a été victime d’une intrusion. Selon les sources du New York Times, une brèche de sécurité a exposé des informations…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Cyberattaque contre Ipsos : le groupe Qilin revendique un vol de données sensibles",
+   "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaque-contre-ipsos-le-groupe-qilin-revendique-un-vol-de-donnees-sensibles",
+   "date": "2026-11-25T07:00:00+00:00",
+   "resume": "Le groupe de cybercriminels Qilin revendique une attaque contre Ipsos et affirme détenir des documents commerciaux appartenant au spécialiste français des études de marché. Plusieurs extraits de fichiers, qui…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Collectivités territoriales : la cybersécurité passe par la mutualisation des moyens",
+   "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/collectivites-territoriales-la-cybersecurite-passe-par-la-mutualisation-des-moyens",
+   "date": "2026-11-25T07:00:00+00:00",
+   "resume": "Les petites communes peinent encore à disposer des compétences et des ressources nécessaires pour protéger leurs systèmes d'information. Devant une commission du Sénat, l'ANSSI et le GIP ACYMA ont plaidé pour un…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Anthropic lance Claude Ship pour automatiser la revue et la validation du code",
+   "lien": "https://www.lemondeinformatique.fr/donnees-ia/anthropic-lance-claude-ship-pour-automatiser-la-revue-et-la-validation-du-code",
+   "date": "2026-11-25T07:00:00+00:00",
+   "resume": "Anthropic a dévoilé le 23 novembre 2026 Claude Ship, une suite d’agents d’intelligence artificielle destinée à automatiser la revue, la correction et l’approbation des modifications de code sur GitHub. Disponible en…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Bon plan IA : Mistral Vibe Pro est gratuit pendant 1 mois avec ce code promo",
+   "lien": "https://www.it-connect.fr/bon-plan-mistral-vibe-pro-gratuit-1-mois/",
+   "date": "2026-11-25T06:49:00+00:00",
+   "resume": "Mistral offre un mois de Vibe Pro aux Européens avec le code MISTRALVIBE. Une formule à 17,99 € par mois pour coder avec l'IA dans le terminal et VS Code.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Ubuntu - Le nouveau lanceur sera boosté à l'IA",
+   "lien": "https://korben.info/ubuntu-lanceur-ia-local.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-25T06:42:17+00:00",
+   "resume": "Canonical montre son futur lanceur Ubuntu en train de tourner : un point d'entrée pour les applis et les fichiers, avec une IA en opt-in et locale d'abord. Ce qui est promis, ce qui ne l'est pas, et pourquoi il faudra…",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "Signal veut empêcher les agents IA de lire les messages",
+   "lien": "https://next.ink/269751/signal-veut-empecher-les-agents-ia-de-lire-les-messages/",
+   "date": "2026-11-25T06:37:27+00:00",
+   "resume": "La capacité des agents IA à lire l’écran de l’utilisateur pose problème à Signal. La messagerie a bâti sa réputation sur la confidentialité des échanges, mais l’IA agentique menace cette protection. C’est pourquoi un…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Cyberattaque Commission européenne : les noms et adresses e-mail des utilisateurs d’EU Academy ont fuité",
+   "lien": "https://www.it-connect.fr/eu-academy-fuite-donnees-cyberattaque-commission-europeenne/",
+   "date": "2026-11-25T06:31:00+00:00",
+   "resume": "La Commission européenne confirme que la cyberattaque assistée par l'IA a touché EU Academy : noms et e-mails des utilisateurs ont fuité.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "FF8 Reborn - Le mod qui passe Final Fantasy VIII en 16:9",
+   "lien": "https://korben.info/ff8-reborn-final-fantasy-viii-remastered.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-25T06:19:03+00:00",
+   "resume": "FF8 Reborn, un mod gratuit de fan, fait viser 60 ou 120 FPS à Final Fantasy VIII Remastered sur PC et élargit combats et carte du monde. Ce que valent ces images calculées, ce qui reste en 4:3, et pour quelles copies du…",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "VMware vCenter et ESX : trois nouvelles failles critiques, cinq jours après la faille zero-day",
+   "lien": "https://www.it-connect.fr/vmware-vcenter-esx-cve-2026-123903-failles-novembre/",
+   "date": "2026-11-25T06:05:00+00:00",
+   "resume": "Cinq jours après la zero-day CVE-2026-123890, Broadcom corrige 23 failles VMware, dont la CVE-2026-123903 dans vCenter et deux failles critiques dans ESX.",
+   "source": "itconnect",
+   "sujet": false
+  },
   {
    "titre": "ElixirOffice : une suite bureautique open source qui s’adresse aux habitués de Microsoft Office",
    "lien": "https://www.it-connect.fr/elixiroffice-suite-bureautique-libre-microsoft-office/",
@@ -299,14 +451,6 @@
    "sujet": false
   },
   {
-   "titre": "GLM-5.4 avec Loop Transformer : Z.ai propose un modèle pour le code plus généraliste",
-   "lien": "https://next.ink/269432/glm-5-4-avec-loop-transformer-z-ai-propose-un-modele-pour-le-code-plus-generaliste/",
-   "date": "2026-11-24T07:45:00+00:00",
-   "resume": "Après avoir titillé les plates-bandes de Mythos du côté de la cybersécurité avec son modèle GLM-5.2, l’entreprise chinoise Z.ai propose un nouveau modèle, GLM-5.4, annoncé comme étant plus généraliste concernant le…",
-   "source": "next",
-   "sujet": false
-  },
-  {
    "titre": "Shirudo - Quand l'IA fabrique des boucliers pour Linux",
    "lien": "https://korben.info/shirudo-openai-cisco-ebpf.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
    "date": "2026-11-24T07:38:51+00:00",
@@ -315,35 +459,11 @@
    "sujet": false
   },
   {
-   "titre": "SpaceX gagne plus en louant ses GPU à Anthropic qu’avec Grok, « incapable de rivaliser »",
-   "lien": "https://next.ink/269521/spacex-gagne-plus-en-louant-ses-gpu-a-anthropic-quavec-grok-incapable-de-rivaliser/",
-   "date": "2026-11-24T07:20:00+00:00",
-   "resume": "L’IA développée par xAI, devenue SpaceXAI puis maintenant SpaceXSI, n’est toujours pas en mesure de concurrencer sérieusement les modèles d’OpenAI et d’Anthropic. À tel point que la filiale de SpaceX spécialisée dans…",
-   "source": "next",
-   "sujet": true
-  },
-  {
-   "titre": "Malgré le DMA, WebKit reste le seul moteur des rivaux de Safari en Europe",
-   "lien": "https://next.ink/269516/malgre-le-dma-webkit-reste-le-seul-moteur-des-rivaux-de-safari-en-europe/",
-   "date": "2026-11-24T06:44:45+00:00",
-   "resume": "S’il est possible de changer de navigateur web par défaut sur un iPhone ou un iPad, les rivaux de Safari doivent toujours composer avec WebKit d’Apple alors que le règlement sur les marchés numériques rend possible…",
-   "source": "next",
-   "sujet": false
-  },
-  {
    "titre": "J'ai testé la migration de VMware vers Vates VMS #sponso",
    "lien": "https://korben.info/migration-vmware-vates-vms-v2v.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
    "date": "2026-11-24T06:23:35+00:00",
    "resume": "J'ai déménagé une VM Ubuntu d'un ESXi 7 vers XCP-ng avec l'import V2V de Xen Orchestra 6.10, en deux passes et chrono en main. Résultat : à peine plus de deux minutes de coupure, un piège réseau à connaître et une…",
    "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "☕️ Xavier Niel reprend 60 Millions de consommateurs",
-   "lien": "https://next.ink/brief-article/xavier-niel-reprend-60-millions-de-consommateurs/",
-   "date": "2026-11-24T06:02:00+00:00",
-   "resume": "Xavier Niel va bel et bien reprendre le magazine 60 Millions de consommateurs, sept mois après la liquidation de l’INC (Institut national de la consommation), l’organisme public qui publiait le mensuel. Trois…",
-   "source": "next",
    "sujet": false
   },
   {
@@ -451,22 +571,6 @@
    "sujet": true
   },
   {
-   "titre": "Amazon proche d'un accord pour acquérir la start-up israélienne Decart",
-   "lien": "https://www.lemondeinformatique.fr/donnees-ia/amazon-proche-d-un-accord-pour-acquerir-la-start-up-israelienne-decart",
-   "date": "2026-11-23T14:23:37+00:00",
-   "resume": "Amazon serait proche d'un accord pour acquérir Decart, une jeune pousse spécialisée dans l'optimisation de l'exécution des modèles IA. Estimée à environ 7,5 Md$, l'opération permettrait à AWS de renforcer son offre de…",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "Cloud souverain : l’Europe cherche à réduire sa dépendance aux géants américains",
-   "lien": "https://www.lemondeinformatique.fr/infrastructure-cloud/cloud-souverain-l-europe-cherche-a-reduire-sa-dependance-aux-geants-americains",
-   "date": "2026-11-23T14:05:25+00:00",
-   "resume": "Face aux enjeux de souveraineté numérique, les entreprises et administrations européennes se tournent davantage vers les fournisseurs locaux de cloud. Mais AWS, Microsoft et Google restent largement dominants sur le…",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
    "titre": "Ultrahuman Ring Pro - cette bague connectée a (presque) remplacé mon Apple Watch",
    "lien": "https://korben.info/ultrahuman-ring-pro-cette-bague-connectee-a-presque-remplace-mon-apple-watch.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
    "date": "2026-11-23T13:51:39+00:00",
@@ -491,14 +595,6 @@
    "sujet": false
   },
   {
-   "titre": "OpenAI propose des limites communes pour encadrer le développement des modèles d’IA",
-   "lien": "https://www.lemondeinformatique.fr/donnees-ia/openai-propose-des-limites-communes-pour-encadrer-le-developpement-des-modeles-d-ia",
-   "date": "2026-11-23T11:47:08+00:00",
-   "resume": "Jakub Pachocki, directeur scientifique d’OpenAI, appelle les principaux laboratoires d’intelligence artificielle à définir des limites communes au développement de leurs modèles les plus puissants. Dans un essai publié…",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
    "titre": "Spelunkr - La télé où l'on ne choisit plus ce qui passe",
    "lien": "https://korben.info/spelunkr-tv-internet-archive.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
    "date": "2026-11-23T11:39:38+00:00",
@@ -512,14 +608,6 @@
    "date": "2026-11-23T11:23:25+00:00",
    "resume": "Microsoft prépare le RDMA sur USB4 dans Windows 11 pour faire tourner un gros modèle d'IA sur plusieurs PC reliés par câble. Mais la préversion exige test signing, Secure Boot coupé et une réinstallation pour en sortir.",
    "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "Cyberattaque : la Banque Delubac & Cie déjoue une tentative de fraude mais subit une fuite de données",
-   "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaque-la-banque-delubac-cie-dejoue-une-tentative-de-fraude-mais-subit-une-fuite-de-donnees",
-   "date": "2026-11-23T11:16:34+00:00",
-   "resume": "La Banque Delubac & Cie a été victime d'une intrusion dans ses systèmes d'information, détectée le vendredi 20 novembre. Selon l'établissement ardéchois, les attaquants ont tenté de réaliser des opérations financières…",
-   "source": "lmi",
    "sujet": false
   },
   {
@@ -539,27 +627,11 @@
    "sujet": false
   },
   {
-   "titre": "Microsoft Edge : avec le Lockdown Mode, Microsoft veut bloquer les attaques",
-   "lien": "https://www.it-connect.fr/edge-lockdown-mode-webgl-webgpu/",
-   "date": "2026-11-23T10:30:00+00:00",
-   "resume": "Microsoft teste dans Edge Canary un Lockdown Mode qui bloque WebGL et WebGPU pour contrer les attaques ciblées. Voici ce qu'il faut savoir sur ce mode.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
    "titre": "BlackHat Sector : une IA offensive à louer pour 500 €",
    "lien": "https://www.zataz.com/blackhat-sector-une-ia-offensive-a-louer-pour-500-e/",
    "date": "2026-11-23T10:29:10+00:00",
    "resume": "BlackHat Sector commercialise une IA offensive après des cyberattaques revendiquées contre des sociétés françaises.",
    "source": "zataz",
-   "sujet": false
-  },
-  {
-   "titre": "Black Friday GEEKOM : notre sélection d’offres sur les mini-PC, jusqu’à 30 % de réduction",
-   "lien": "https://www.it-connect.fr/black-friday-geekom-notre-selection-doffres-sur-les-mini-pc-jusqua-30-de-reduction/",
-   "date": "2026-11-23T10:20:00+00:00",
-   "resume": "GEEKOM profite du Black Friday 2026 pour proposer des offres sur sa gamme de mini PC, des modèles du quotidien jusqu'aux machines les plus performantes.",
-   "source": "itconnect",
    "sujet": false
   },
   {
@@ -585,54 +657,6 @@
    "resume": "BlackHatSect0r associe phishing bancaire, extorsion, destruction de sauvegardes et interfaces industrielles exposées.",
    "source": "zataz",
    "sujet": false
-  },
-  {
-   "titre": "GTA 6 sur PC : le projet Leonida tente de recompiler la version Xbox qui a fuité",
-   "lien": "https://www.it-connect.fr/gta-6-pc-leonida-fuite-xbox-cyberleek/",
-   "date": "2026-11-23T09:23:56+00:00",
-   "resume": "Le projet open source Leonida veut faire tourner sous Windows la version Xbox de GTA 6 diffusée par Cyberleek. Mais le jeu ne démarre pas encore.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "Black Friday Week : Mac mini M6, AirPods Pro 3, Alienware 15… le top des offres sur Amazon",
-   "lien": "https://www.it-connect.fr/bon-plan-black-friday-week-amazon-2026/",
-   "date": "2026-11-23T09:17:30+00:00",
-   "resume": "Black Friday Week sur Amazon : Mac mini M6 à 889 €, Alienware 15 à 969 €, AirPods Pro 3 à 188 €... Voici les bons plans du lundi 23 novembre 2026.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
-   "titre": "Comment La Poste, AXA et Keolis intègrent l’IA dans leurs organisations",
-   "lien": "https://www.lemondeinformatique.fr/donnees-ia/comment-la-poste-axa-et-keolis-integrent-l-ia-dans-leurs-organisations",
-   "date": "2026-11-23T08:58:21+00:00",
-   "resume": "Lors du Tech Show, Fatiha Gas (La Poste), Sandrine Girszyn (AXA) et Myriem Remal (Keolis) ont partagé leurs expériences sur l’intégration de l’IA en entreprise. Pour elles, l’enjeu est de faire évoluer les métiers sans…",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "Mourad Jaakou (Axway) : « L’API Management ne suffit plus à sécuriser les agents IA »",
-   "lien": "https://www.lemondeinformatique.fr/donnees-ia/mourad-jaakou-axway-l-api-management-ne-suffit-plus-a-securiser-les-agents-ia",
-   "date": "2026-11-23T08:57:54+00:00",
-   "resume": "Avec la montée en puissance des agents IA autonomes dans les entreprises, les DSI font face à de nouveaux défis en matière de sécurité, de gouvernance et de maîtrise des coûts. Les dispositifs traditionnels d’API…",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "Anthropic atteint 1 600 Md$ de valorisation après son introduction en Bourse",
-   "lien": "https://www.lemondeinformatique.fr/donnees-ia/anthropic-atteint-1-600-md-de-valorisation-apres-son-introduction-en-bourse",
-   "date": "2026-11-23T08:57:33+00:00",
-   "resume": "Une semaine après son arrivée sur le Nasdaq, Anthropic affiche une valorisation de 1 600 milliards de dollars, sur une base entièrement diluée. L'éditeur du modèle Claude a réalisé une introduction en Bourse historique,…",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "Trump menace de taxer les datacenters américains construits à l'étranger",
-   "lien": "https://www.lemondeinformatique.fr/donnees-ia/trump-menace-de-taxer-les-datacenters-americains-construits-a-l-etranger",
-   "date": "2026-11-23T08:57:10+00:00",
-   "resume": "Donald Trump veut dissuader les entreprises américaines de construire des datacenters hors des États-Unis. Lors d'une conférence de presse à la Maison-Blanche, le 20 novembre 2026, le président américain a évoqué de…",
-   "source": "lmi",
-   "sujet": true
   },
   {
    "titre": "Morfo sème des forêts par drone sur d'anciennes mines",
@@ -744,30 +768,6 @@
    "date": "2026-11-21T18:34:10+00:00",
    "resume": "PINT fait démarrer Windows NT 4.0 sur les Raspberry Pi 2, 3, 4 et Zero 2 W, avec Wi-Fi, son et Pinball rangé à sa place. Mais aucune image n'est fournie : il faut compiler avec des sources Windows que le dépôt ne…",
    "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "Plex lâche TheTVDB",
-   "lien": "https://korben.info/plex-abandonne-thetvdb.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-11-21T18:19:38+00:00",
-   "resume": "Le 3 décembre, Plex ne récupère plus rien chez TheTVDB. Rien n'est effacé, mais l'ancien agent cesse de fonctionner, et les séries en cours suivies en ordre DVD ou absolu risquent de mal ranger leurs nouveaux épisodes.…",
-   "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "J'ai testé l'API d'ibou",
-   "lien": "https://korben.info/ibou-api-recherche-tuto.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-11-21T16:52:08+00:00",
-   "resume": "L'API de recherche du moteur français ibou se branche en quelques lignes de Python sur un agent IA ou sur une veille de nom. Coût mesuré, opérateurs qui marchent, et un index qui ne voit pas encore l'actu des derniers…",
-   "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "Cyberattaques : la boîte de Pandora est-elle ouverte avec l’IA ARTEX",
-   "lien": "https://www.zataz.com/cyberattaques-la-boite-de-pandora-est-elle-ouverte-avec-lia-artex/",
-   "date": "2026-11-21T13:39:38+00:00",
-   "resume": "ARTEX révèle comment l'IA accélère les cyberattaques, le vol de données et les intrusions. La boîte de Pandore 2.0 a-t-elle été ouverte ?",
-   "source": "zataz",
    "sujet": false
   },
   {
