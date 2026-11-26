@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-25T21:46:09+00:00",
+ "miseAJour": "2026-11-26T08:28:44+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -82,6 +82,102 @@
   }
  ],
  "articles": [
+  {
+   "titre": "Claude sait maintenant produire des applications à partir d’artefacts",
+   "lien": "https://next.ink/270124/claude-sait-maintenant-produire-des-applications-a-partir-dartefacts/",
+   "date": "2026-11-26T08:20:00+00:00",
+   "resume": "Dans un élan ressemblant à celui des Progressive Web Apps en son temps, Claude peut maintenant produire des applications à partir des artefacts, sur Windows et macOS pour l’instant. Elles peuvent se comporter comme des…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "De faux tests de recrutement ciblent les développeurs .NET via NuGet",
+   "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/de-faux-tests-de-recrutement-ciblent-les-developpeurs-net-via-nuget",
+   "date": "2026-11-26T08:15:00+00:00",
+   "resume": "Une campagne malveillante cible les développeurs .NET en diffusant de faux exercices techniques de recrutement contenant des dépendances NuGet compromises. Dans un rapport publié le 23 novembre 2026, Socket indique…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Agents IA : Anthropic mesure les risques de sortie des sandbox avec Siren",
+   "lien": "https://www.lemondeinformatique.fr/donnees-ia/agents-ia-anthropic-mesure-les-risques-de-sortie-des-sandbox-avec-siren",
+   "date": "2026-11-26T08:00:00+00:00",
+   "resume": "Dans une étude publiée le 24 novembre 2026, l’équipe Safeguards d’Anthropic révèle que ses modèles d’intelligence artificielle les plus récents ont tenté d’accéder à des ressources situées hors de leur environnement…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Dell défend la solidité de ses 132,3 milliards de dollars de commandes de serveurs IA",
+   "lien": "https://www.lemondeinformatique.fr/infrastructure-cloud/dell-defend-la-solidite-de-ses-132-3-milliards-de-dollars-de-commandes-de-serveurs-ia",
+   "date": "2026-11-26T08:00:00+00:00",
+   "resume": "Dell Technologies a terminé son troisième trimestre fiscal 2027 avec un carnet de commandes record de 132,3 milliards de dollars pour ses serveurs destinés à l'intelligence artificielle, contre 95 milliards au trimestre…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "☕️ L’Australie impose un devoir de vigilance numérique aux grandes plateformes",
+   "lien": "https://next.ink/brief-article/laustralie-impose-un-devoir-de-vigilance-numerique-aux-grandes-plateformes/",
+   "date": "2026-11-26T07:56:54+00:00",
+   "resume": "Le parlement australien a voté le Digital Duty of Care Act (loi sur le devoir de vigilance numérique), équivalent local du règlement européen sur les services numériques (DSA). Comme dans l’UE, il s’agit de mettre les…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Google imagine une chaîne TV générée par IA où le téléspectateur devient acteur",
+   "lien": "https://www.lemondeinformatique.fr/applications-developpement/google-imagine-une-chaine-tv-generee-par-ia-ou-le-telespectateur-devient-acteur",
+   "date": "2026-11-26T07:30:00+00:00",
+   "resume": "Dans une demande de brevet publiée le 19 novembre, Google détaille My Channel, une chaîne de télévision qui produirait des vidéos adaptées aux goûts de chaque utilisateur, jusqu'à le mettre en scène à partir de son…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Artex : les cyberattaquants intensifient l'utilisation d'agents IA offensifs",
+   "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/artex-les-cyberattaquants-intensifient-l-utilisation-d-agents-ia-offensifs",
+   "date": "2026-11-26T07:30:00+00:00",
+   "resume": "L’utilisation d’Artex, un framework de tests d’intrusion piloté par des agents d’intelligence artificielle, progresse dans les campagnes malveillantes. Selon Microsoft Threat Intelligence, plusieurs groupes liés à des…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Datacenter spatial : SpaceX veut multiplier par 50 le nombre de satellites en orbite",
+   "lien": "https://next.ink/270110/datacenter-spatial-spacex-veut-multiplier-par-50-le-nombre-de-satellites-en-orbite/",
+   "date": "2026-11-26T07:17:00+00:00",
+   "resume": "Elon Musk va passer un très bon Thanksgiving. La FCC, le régulateur américain des communications, a donné son feu vert à un projet gigantesque de SpaceX visant à déployer autour de la Terre une constellation allant…",
+   "source": "next",
+   "sujet": true
+  },
+  {
+   "titre": "☕️ Kagi lance son propre service d’email",
+   "lien": "https://next.ink/brief-article/kagi-lance-son-propre-service-demail/",
+   "date": "2026-11-26T06:50:00+00:00",
+   "resume": "Après le moteur de recherche et le navigateur web Orion, la société californienne Kagi lance un nouveau service : le courriel. Disponibles en bêta publique, ces fonctions d’e-mail et de calendrier peuvent être testées…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "☕️ Un compte GitHub compromis chez 1Password expose des données clients",
+   "lien": "https://next.ink/brief-article/un-compte-github-compromis-chez-1password-expose-des-donnees-clients/",
+   "date": "2026-11-26T06:18:38+00:00",
+   "resume": "L’adage selon lequel les cordonniers sont les plus mal chaussés pourrait bien s’appliquer à 1Password. L’éditeur du gestionnaire de mots de passe du même nom a été victime d’une brèche de sécurité. Le 19 novembre, une…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Cyberattaque 1Password : devez-vous vous inquiéter pour vos mots de passe ?",
+   "lien": "https://www.it-connect.fr/cyberattaque-1password-novembre-2026/",
+   "date": "2026-11-26T05:51:00+00:00",
+   "resume": "1Password confirme une cyberattaque : des données clients volées sur des serveurs suite à la compromission du compte GitHub d'un salarié.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Signature NTLM : les mises à jour de novembre 2026 perturbent l’authentification sur Windows",
+   "lien": "https://www.it-connect.fr/windows-novembre-2026-echec-authentification-ntlm-proxy-sso/",
+   "date": "2026-11-26T05:17:49+00:00",
+   "resume": "Depuis les mises à jour Windows de novembre 2026, l'authentification NTLM peut échouer dans certains cas, notamment avec les proxys et certains SSO.",
+   "source": "itconnect",
+   "sujet": false
+  },
   {
    "titre": "Proxmox VE 9.3 est disponible : le SAN se gère désormais depuis l’interface web",
    "lien": "https://www.it-connect.fr/proxmox-ve-9-3-nouveautes/",
@@ -275,14 +371,6 @@
    "sujet": false
   },
   {
-   "titre": "Avec Shirudo, OpenAI et Cisco veulent protéger Linux en attendant les correctifs",
-   "lien": "https://next.ink/269700/avec-shirudo-openai-et-cisco-veulent-proteger-linux-en-attendant-les-correctifs/",
-   "date": "2026-11-25T08:19:00+00:00",
-   "resume": "Le 23 novembre, OpenAI et Cisco ont présenté Shirudo, un outil libre qui confie à des agents d’IA l’écriture de protections temporaires pour des serveurs Linux en production, le temps que les correctifs soient déployés.…",
-   "source": "next",
-   "sujet": false
-  },
-  {
    "titre": "Rudder : une solution de gestion de configuration open source contre la dérive de vos serveurs",
    "lien": "https://www.it-connect.fr/tuto-rudder-gestion-de-configuration/",
    "date": "2026-11-25T08:15:00+00:00",
@@ -315,14 +403,6 @@
    "sujet": false
   },
   {
-   "titre": "Tidal interdit les morceaux entièrement générés par IA",
-   "lien": "https://next.ink/269736/tidal-interdit-les-morceaux-entierement-generes-par-ia/",
-   "date": "2026-11-25T07:53:00+00:00",
-   "resume": "La plateforme de streaming Tidal, noyée comme les autres par le slop IA, prend une décision radicale : interdire la musique entièrement générée par IA. Du contenu qui ne manquera pas à grand monde, puisque personne ne…",
-   "source": "next",
-   "sujet": false
-  },
-  {
    "titre": "CHU de Bordeaux et SIG Sauer ciblés par ScarlettGroup",
    "lien": "https://www.zataz.com/chu-de-bordeaux-et-sig-sauer-cibles-par-scarlettgroup/",
    "date": "2026-11-25T07:40:26+00:00",
@@ -335,46 +415,6 @@
    "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaques-dopees-a-l-ia-ibm-appelle-les-entreprises-a-anticiper-les-defaillances",
    "date": "2026-11-25T07:30:00+00:00",
    "resume": "Face à l’accélération des cyberattaques liée à l’intelligence artificielle, les entreprises doivent revoir leurs stratégies de cybersécurité. Pour Mark Hughes, responsable mondial des services de cybersécurité d’IBM…",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "Microsoft déclenche un « Code Red » après une panne majeure de Microsoft 365",
-   "lien": "https://www.lemondeinformatique.fr/applications-developpement/microsoft-declenche-un-code-red-apres-une-panne-majeure-de-microsoft-365",
-   "date": "2026-11-25T07:30:00+00:00",
-   "resume": "Microsoft a déclenché une procédure d’urgence baptisée « Code Red » après la panne mondiale qui a affecté Exchange Online, Outlook, Teams et Copilot les 12 et 13 novembre 2026. Selon des notes internes consultées par…",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "☕️ Un système de la CIA et du renseignement américain victime d’une intrusion",
-   "lien": "https://next.ink/brief-article/un-systeme-de-la-cia-et-du-renseignement-americain-victime-dune-intrusion/",
-   "date": "2026-11-25T07:13:49+00:00",
-   "resume": "Un système informatique utilisé par la CIA et le Bureau du directeur du renseignement national (ODNI) a été victime d’une intrusion. Selon les sources du New York Times, une brèche de sécurité a exposé des informations…",
-   "source": "next",
-   "sujet": false
-  },
-  {
-   "titre": "Cyberattaque contre Ipsos : le groupe Qilin revendique un vol de données sensibles",
-   "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaque-contre-ipsos-le-groupe-qilin-revendique-un-vol-de-donnees-sensibles",
-   "date": "2026-11-25T07:00:00+00:00",
-   "resume": "Le groupe de cybercriminels Qilin revendique une attaque contre Ipsos et affirme détenir des documents commerciaux appartenant au spécialiste français des études de marché. Plusieurs extraits de fichiers, qui…",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "Collectivités territoriales : la cybersécurité passe par la mutualisation des moyens",
-   "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/collectivites-territoriales-la-cybersecurite-passe-par-la-mutualisation-des-moyens",
-   "date": "2026-11-25T07:00:00+00:00",
-   "resume": "Les petites communes peinent encore à disposer des compétences et des ressources nécessaires pour protéger leurs systèmes d'information. Devant une commission du Sénat, l'ANSSI et le GIP ACYMA ont plaidé pour un…",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "Anthropic lance Claude Ship pour automatiser la revue et la validation du code",
-   "lien": "https://www.lemondeinformatique.fr/donnees-ia/anthropic-lance-claude-ship-pour-automatiser-la-revue-et-la-validation-du-code",
-   "date": "2026-11-25T07:00:00+00:00",
-   "resume": "Anthropic a dévoilé le 23 novembre 2026 Claude Ship, une suite d’agents d’intelligence artificielle destinée à automatiser la revue, la correction et l’approbation des modifications de code sur GitHub. Disponible en…",
    "source": "lmi",
    "sujet": false
   },
@@ -392,14 +432,6 @@
    "date": "2026-11-25T06:42:17+00:00",
    "resume": "Canonical montre son futur lanceur Ubuntu en train de tourner : un point d'entrée pour les applis et les fichiers, avec une IA en opt-in et locale d'abord. Ce qui est promis, ce qui ne l'est pas, et pourquoi il faudra…",
    "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "Signal veut empêcher les agents IA de lire les messages",
-   "lien": "https://next.ink/269751/signal-veut-empecher-les-agents-ia-de-lire-les-messages/",
-   "date": "2026-11-25T06:37:27+00:00",
-   "resume": "La capacité des agents IA à lire l’écran de l’utilisateur pose problème à Signal. La messagerie a bâti sa réputation sur la confidentialité des échanges, mais l’IA agentique menace cette protection. C’est pourquoi un…",
-   "source": "next",
    "sujet": false
   },
   {
@@ -507,22 +539,6 @@
    "sujet": false
   },
   {
-   "titre": "GTA VI démarre sur PC avant même l’annonce d’un portage officiel",
-   "lien": "https://next.ink/269712/gta-vi-demarre-sur-pc-avant-meme-lannonce-dun-portage-officiel/",
-   "date": "2026-11-24T16:42:58+00:00",
-   "resume": "GTA VI sur les consoles fait saliver d’envie tous les joueurs PC. Rockstar n’a encore rien annoncé sur cette version, mais le studio serait bien avisé de ne pas trop traîner : il est d’ores et déjà possible de démarrer…",
-   "source": "next",
-   "sujet": false
-  },
-  {
-   "titre": "Free intègre la traduction des appels téléphoniques à son réseau mobile",
-   "lien": "https://www.lemondeinformatique.fr/applications-developpement/free-integre-la-traduction-des-appels-telephoniques-a-son-reseau-mobile",
-   "date": "2026-11-24T15:04:57+00:00",
-   "resume": "Avec Traduction Live, Free propose à ses abonnés haut de gamme de traduire en temps réel leurs conversations téléphoniques dans dix langues. Intégrée directement à son réseau mobile, cette solution s'appuie sur l'IA et…",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
    "titre": "Free lance Traduction Live : vos appels traduits en direct dans 10 langues, sans application",
    "lien": "https://www.it-connect.fr/free-traduction-live-appels-traduits-direct/",
    "date": "2026-11-24T10:47:59+00:00",
@@ -587,14 +603,6 @@
    "sujet": false
   },
   {
-   "titre": "Neutralisé en 2019 par la gendarmerie, le ver USB Retadup revient pour distribuer CoffeeLoader",
-   "lien": "https://www.it-connect.fr/retadup-ver-usb-coffeeloader/",
-   "date": "2026-11-24T08:00:00+00:00",
-   "resume": "Démantelé en 2019 par la gendarmerie, le botnet du ver USB Retadup a été réactivé via ses anciens domaines. Il distribue désormais le loader CoffeeLoader.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
    "titre": "Shirudo - Quand l'IA fabrique des boucliers pour Linux",
    "lien": "https://korben.info/shirudo-openai-cisco-ebpf.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
    "date": "2026-11-24T07:38:51+00:00",
@@ -608,14 +616,6 @@
    "date": "2026-11-24T06:23:35+00:00",
    "resume": "J'ai déménagé une VM Ubuntu d'un ESXi 7 vers XCP-ng avec l'import V2V de Xen Orchestra 6.10, en deux passes et chrono en main. Résultat : à peine plus de deux minutes de coupure, un piège réseau à connaître et une…",
    "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "rust-anything : cet outil open source aide les agents IA à réécrire vos applications en Rust",
-   "lien": "https://www.it-connect.fr/rust-anything-reecrire-application-rust-agents-ia/",
-   "date": "2026-11-24T03:00:00+00:00",
-   "resume": "Grâce à rust-anything, vous pouvez piloter un agent IA pour réécrire en Rust une application, tout en vérifiant chaque étape pour vous assurer du résultat.",
-   "source": "itconnect",
    "sujet": false
   },
   {
