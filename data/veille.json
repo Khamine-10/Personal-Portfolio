@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-26T21:39:08+00:00",
+ "miseAJour": "2026-11-27T08:42:45+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -82,6 +82,142 @@
   }
  ],
  "articles": [
+  {
+   "titre": "GLPI AI : découvrez comment l’IA peut aider vos techniciens au quotidien",
+   "lien": "https://www.it-connect.fr/tuto-glpi-ai/",
+   "date": "2026-11-27T08:31:20+00:00",
+   "resume": "Tutoriel GLPI AI : installez le plugin, choisissez votre fournisseur d'IA, résumez vos tickets et branchez un client IA sur GLPI via le protocole MCP.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Black Friday 2026 : Office 2024 Pro Plus à 21.27€ et Windows 11 Pro à 12.25€",
+   "lien": "https://www.it-connect.fr/bon-plan-les-licences-office-2021-et-windows-11-en-promotion/",
+   "date": "2026-11-27T08:30:31+00:00",
+   "resume": "Pour le Black Friday 2026, notre partenaire GoDeal24 propose une nouvelle salve de promotions sur les licences de produits Microsoft (Windows, Office, etc.) et d'autres logiciels.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "Cyberattaque contre l'AFP : la plateforme AFP Forum mise hors ligne",
+   "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaque-contre-l-afp-la-plateforme-afp-forum-mise-hors-ligne",
+   "date": "2026-11-27T08:27:48+00:00",
+   "resume": "L'Agence France-Presse (AFP) a été victime d'une cyberattaque dans la nuit du 25 au 26 novembre 2026. L'intrusion a conduit l'agence à suspendre temporairement l'accès à AFP Forum, une plateforme utilisée par ses…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Volvo veut des humanoïdes sur ses chaînes de production dès mi-2027",
+   "lien": "https://korben.info/volvo-robots-humanoides-aeon-gand.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-27T08:12:53+00:00",
+   "resume": "Volvo entraîne des robots AEON d'Hexagon dans son usine de Gand, par imitation, avant un pilote en 2027. Ce qu'ils savent faire, et pourquoi Leipzig dira vite ce que vaut le calendrier.",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "GLPI 12 : voici les nouveautés de cette nouvelle version majeure",
+   "lien": "https://www.it-connect.fr/glpi-12-nouveautes/",
+   "date": "2026-11-27T08:00:00+00:00",
+   "resume": "GLPI 12 refond la base de connaissances, contrôle les sessions et crée des OLA par groupe. Voici nos tests et les points à vérifier avant de migrer.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "IA : de 5 milliards de tokens par seconde en 2026 à 317 milliards en 2030, selon Sandisk",
+   "lien": "https://www.lemondeinformatique.fr/donnees-ia/ia-de-5-milliards-de-tokens-par-seconde-en-2026-a-317-milliards-en-2030-selon-sandisk",
+   "date": "2026-11-27T08:00:00+00:00",
+   "resume": "Selon une étude prospective publiée par Sandisk, les infrastructures mondiales d'intelligence artificielle pourraient produire jusqu'à 317 milliards de tokens par seconde en 2030, contre environ 5 milliards en 2026.…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "MiniMax visé par des soupçons d'exposition de données, Apple retire Talkie de l'App Store",
+   "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/minimax-vise-par-des-soupcons-d-exposition-de-donnees-apple-retire-talkie-de-l-app-store",
+   "date": "2026-11-27T08:00:00+00:00",
+   "resume": "Le groupe chinois MiniMax fait face à deux affaires distinctes. Selon une enquête de Dragos révélée par Reuters le 26 novembre 2026, des liens confidentiels transmis à ses modèles d'intelligence artificielle auraient…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Drupal : après Fail2Install, une nouvelle faille critique déjà exploitée (CVE-2026-136716)",
+   "lien": "https://www.it-connect.fr/drupal-fail2install-cve-2026-136716-faille-exploitee/",
+   "date": "2026-11-27T07:52:44+00:00",
+   "resume": "Une semaine après Fail2Install, Drupal a corrigé la CVE-2026-136716, une faille critique de son installeur déjà exploitée. Voici ce qu'il faut savoir.",
+   "source": "itconnect",
+   "sujet": false
+  },
+  {
+   "titre": "XL Office - Une suite Office pour Atari XL",
+   "lien": "https://korben.info/xl-office-atari-xl-xe.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-27T07:47:43+00:00",
+   "resume": "XL Office apporte un traitement de texte 80 colonnes, un tableur et un logiciel de présentation gratuits aux Atari XL et XE de 64 Ko. Essai dans l'émulateur atari800, export RTF vers le Mac, et la limite des accents…",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "Messages sexuels et chantage affectif : Apple retire le chatbot Talkie de l’App Store",
+   "lien": "https://next.ink/270438/messages-sexuels-et-chantage-affectif-apple-retire-le-chatbot-talkie-de-lapp-store/",
+   "date": "2026-11-27T07:45:00+00:00",
+   "resume": "Apple a retiré Talkie de l’App Store après une enquête révélant des échanges à caractère sexuel ou abusif entre ses chatbots et des mineurs. Les documents de MiniMax, l’entreprise qui développe l’application, montrent…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "OpenAI fusionne Chat et Work, avec des quotas partagés dès décembre",
+   "lien": "https://www.lemondeinformatique.fr/donnees-ia/openai-fusionne-chat-et-work-avec-des-quotas-partages-des-decembre",
+   "date": "2026-11-27T07:30:00+00:00",
+   "resume": "OpenAI commence à réunir les fonctions conversationnelles de ChatGPT et les capacités agentiques de Work dans une même interface. À partir de décembre 2026, les conversations avec les modèles avancés partageront leurs…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Perplexity lance Time Machine pour faire explorer le Web passé aux agents IA",
+   "lien": "https://www.lemondeinformatique.fr/donnees-ia/perplexity-lance-time-machine-pour-faire-explorer-le-web-passe-aux-agents-ia",
+   "date": "2026-11-27T07:30:00+00:00",
+   "resume": "Perplexity a lancé le 25 novembre 2026 Time Machine, une fonction de ses API Search et Context permettant aux agents d'intelligence artificielle d'interroger le Web tel qu'il existait à une date donnée. Le service vise…",
+   "source": "lmi",
+   "sujet": false
+  },
+  {
+   "titre": "Musique IA - Tidal passe du tag à la poubelle",
+   "lien": "https://korben.info/tidal-supprime-musique-ia.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-27T07:29:43+00:00",
+   "resume": "À partir du 9 décembre, Tidal supprime les morceaux entièrement générés par IA, environ 27 millions de titres, et refuse les nouvelles livraisons. Ce qui part, ce qui reste autorisé, comment c'est détecté et où en sont…",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "☕️ SAP envisage jusqu’à 10 000 suppressions de postes au nom de la transformation par l’IA",
+   "lien": "https://next.ink/brief-article/sap-envisage-jusqua-10-000-suppressions-de-postes-au-nom-de-la-transformation-par-lia/",
+   "date": "2026-11-27T07:14:07+00:00",
+   "resume": "Le géant allemand du logiciel SAP envisage une restructuration qui pourrait conduire à la suppression de 10 000 postes, soit environ 9 % de son effectif global (plus de 110 000 salariés dans le monde). L’information,…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Ubisoft mise sur l’IA pour tester plus vite ses idées de jeux",
+   "lien": "https://next.ink/270479/ubisoft-mise-sur-lia-pour-tester-plus-vite-ses-idees-de-jeux/",
+   "date": "2026-11-27T06:42:00+00:00",
+   "resume": "Chez Ubisoft, les équipes qui présentent un nouveau jeu seraient invitées à expliquer comment l’IA générative pourrait accélérer le développement. Si elles veulent s’en passer, elles doivent aussi s’en expliquer.…",
+   "source": "next",
+   "sujet": false
+  },
+  {
+   "titre": "Il a greffé un cerveau de drone sur sa tondeuse RC",
+   "lien": "https://korben.info/tondeuse-autonome-pixhawk.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+   "date": "2026-11-27T06:15:00+00:00",
+   "resume": "Jakkuh a remplacé le récepteur d'une tondeuse radiocommandée par un contrôleur de vol de drone sous ArduPilot, avec un GPS RTK et une appli de tonte vibe-codée. Ce qu'il y a dedans, et ce qu'il faut pour s'en inspirer.",
+   "source": "korben",
+   "sujet": false
+  },
+  {
+   "titre": "☕️ WhatsApp va vendre des forfaits de données pour les voyages à l’étranger",
+   "lien": "https://next.ink/brief-article/whatsapp-va-vendre-des-forfaits-de-donnees-pour-les-voyages-a-letranger/",
+   "date": "2026-11-27T06:09:00+00:00",
+   "resume": "Kunal Shah, responsable de WhatsApp depuis le mois de juin, a de la suite dans les idées. L’entrepreneur indien a fondé la société de services financiers CRED, pour laquelle Meta a procédé à une levée de fonds. Son…",
+   "source": "next",
+   "sujet": false
+  },
   {
    "titre": "Données de santé : la Cour des comptes déplore l’absence de stratégie nationale",
    "lien": "https://next.ink/270315/donnees-de-sante-la-cour-des-comptes-deplore-labsence-de-strategie-nationale/",
@@ -291,35 +427,11 @@
    "sujet": false
   },
   {
-   "titre": "Dell défend la solidité de ses 132,3 milliards de dollars de commandes de serveurs IA",
-   "lien": "https://www.lemondeinformatique.fr/infrastructure-cloud/dell-defend-la-solidite-de-ses-132-3-milliards-de-dollars-de-commandes-de-serveurs-ia",
-   "date": "2026-11-26T08:00:00+00:00",
-   "resume": "Dell Technologies a terminé son troisième trimestre fiscal 2027 avec un carnet de commandes record de 132,3 milliards de dollars pour ses serveurs destinés à l'intelligence artificielle, contre 95 milliards au trimestre…",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
    "titre": "☕️ L’Australie impose un devoir de vigilance numérique aux grandes plateformes",
    "lien": "https://next.ink/brief-article/laustralie-impose-un-devoir-de-vigilance-numerique-aux-grandes-plateformes/",
    "date": "2026-11-26T07:56:54+00:00",
    "resume": "Le parlement australien a voté le Digital Duty of Care Act (loi sur le devoir de vigilance numérique), équivalent local du règlement européen sur les services numériques (DSA). Comme dans l’UE, il s’agit de mettre les…",
    "source": "next",
-   "sujet": false
-  },
-  {
-   "titre": "Google imagine une chaîne TV générée par IA où le téléspectateur devient acteur",
-   "lien": "https://www.lemondeinformatique.fr/applications-developpement/google-imagine-une-chaine-tv-generee-par-ia-ou-le-telespectateur-devient-acteur",
-   "date": "2026-11-26T07:30:00+00:00",
-   "resume": "Dans une demande de brevet publiée le 19 novembre, Google détaille My Channel, une chaîne de télévision qui produirait des vidéos adaptées aux goûts de chaque utilisateur, jusqu'à le mettre en scène à partir de son…",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "Artex : les cyberattaquants intensifient l'utilisation d'agents IA offensifs",
-   "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/artex-les-cyberattaquants-intensifient-l-utilisation-d-agents-ia-offensifs",
-   "date": "2026-11-26T07:30:00+00:00",
-   "resume": "L’utilisation d’Artex, un framework de tests d’intrusion piloté par des agents d’intelligence artificielle, progresse dans les campagnes malveillantes. Selon Microsoft Threat Intelligence, plusieurs groupes liés à des…",
-   "source": "lmi",
    "sujet": false
   },
   {
@@ -329,22 +441,6 @@
    "resume": "Elon Musk va passer un très bon Thanksgiving. La FCC, le régulateur américain des communications, a donné son feu vert à un projet gigantesque de SpaceX visant à déployer autour de la Terre une constellation allant…",
    "source": "next",
    "sujet": true
-  },
-  {
-   "titre": "☕️ Kagi lance son propre service d’email",
-   "lien": "https://next.ink/brief-article/kagi-lance-son-propre-service-demail/",
-   "date": "2026-11-26T06:50:00+00:00",
-   "resume": "Après le moteur de recherche et le navigateur web Orion, la société californienne Kagi lance un nouveau service : le courriel. Disponibles en bêta publique, ces fonctions d’e-mail et de calendrier peuvent être testées…",
-   "source": "next",
-   "sujet": false
-  },
-  {
-   "titre": "☕️ Un compte GitHub compromis chez 1Password expose des données clients",
-   "lien": "https://next.ink/brief-article/un-compte-github-compromis-chez-1password-expose-des-donnees-clients/",
-   "date": "2026-11-26T06:18:38+00:00",
-   "resume": "L’adage selon lequel les cordonniers sont les plus mal chaussés pourrait bien s’appliquer à 1Password. L’éditeur du gestionnaire de mots de passe du même nom a été victime d’une brèche de sécurité. Le 19 novembre, une…",
-   "source": "next",
-   "sujet": false
   },
   {
    "titre": "Cyberattaque 1Password : devez-vous vous inquiéter pour vos mots de passe ?",
@@ -427,38 +523,6 @@
    "sujet": false
   },
   {
-   "titre": "Dernière ligne droite pour La Presse Libre à 4 euros en plus de votre abo Next",
-   "lien": "https://next.ink/270008/derniere-ligne-droite-pour-la-presse-libre-a-4-euros-en-plus-de-votre-abo-next/",
-   "date": "2026-11-25T16:39:00+00:00",
-   "resume": "Pour fêter l’arrivée de son nouveau site et de trois nouveaux médias indépendants, La Presse Libre vous propose jusqu’à vendredi de profiter de l’ensemble de son bouquet pour seulement 4 euros en complément de votre…",
-   "source": "next",
-   "sujet": false
-  },
-  {
-   "titre": "Huawei : HarmonyOS dépasse les 100 millions d’appareils et devance iOS en Chine",
-   "lien": "https://next.ink/270049/huawei-harmonyos-depasse-les-100-millions-dappareils-et-devance-ios-en-chine/",
-   "date": "2026-11-25T16:21:00+00:00",
-   "resume": "Huawei revendique plus de 100 millions d’appareils sous HarmonyOS 5, 6 ou 7. Le système devance iOS dans les ventes de smartphones en Chine, et le constructeur veut le déployer plus largement à l’international. Hasard…",
-   "source": "next",
-   "sujet": false
-  },
-  {
-   "titre": "Black Friday : les cybermenaces dopées à l'IA mettent les distributeurs sous pression",
-   "lien": "https://www.lemondeinformatique.fr/cybersecurite-conformite/black-friday-les-cybermenaces-dopees-a-l-ia-mettent-les-distributeurs-sous-pression",
-   "date": "2026-11-25T15:40:12+00:00",
-   "resume": "À l'approche du Black Friday, les enseignes doivent se préparer à une hausse des attaques visant leurs sites, leurs comptes clients et leurs infrastructures de paiement. L'IA accélère les capacités des attaquants,…",
-   "source": "lmi",
-   "sujet": false
-  },
-  {
-   "titre": "ETIX investit 100 M€ dans ses data centers de proximité en France",
-   "lien": "https://www.lemondeinformatique.fr/infrastructure-cloud/etix-investit-100-m-dans-ses-data-centers-de-proximite-en-france",
-   "date": "2026-11-25T15:07:31+00:00",
-   "resume": "À l'occasion du sommet Choose France – Édition France, organisé le 23 novembre 2026, l'opérateur français ETIX a annoncé un programme d'investissement de 100 millions d'euros pour développer ses centres de données de…",
-   "source": "lmi",
-   "sujet": true
-  },
-  {
    "titre": "Test du mini PC VZMORE iX9 Max sous Ubuntu Server",
    "lien": "https://korben.info/test-du-mini-pc-vzmore-ix9-max-sous-ubuntu-server.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
    "date": "2026-11-25T14:12:02+00:00",
@@ -531,14 +595,6 @@
    "sujet": false
   },
   {
-   "titre": "Bon plan IA : Mistral Vibe Pro est gratuit pendant 1 mois avec ce code promo",
-   "lien": "https://www.it-connect.fr/bon-plan-mistral-vibe-pro-gratuit-1-mois/",
-   "date": "2026-11-25T06:49:00+00:00",
-   "resume": "Mistral offre un mois de Vibe Pro aux Européens avec le code MISTRALVIBE. Une formule à 17,99 € par mois pour coder avec l'IA dans le terminal et VS Code.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
    "titre": "Ubuntu - Le nouveau lanceur sera boosté à l'IA",
    "lien": "https://korben.info/ubuntu-lanceur-ia-local.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
    "date": "2026-11-25T06:42:17+00:00",
@@ -547,27 +603,11 @@
    "sujet": false
   },
   {
-   "titre": "Cyberattaque Commission européenne : les noms et adresses e-mail des utilisateurs d’EU Academy ont fuité",
-   "lien": "https://www.it-connect.fr/eu-academy-fuite-donnees-cyberattaque-commission-europeenne/",
-   "date": "2026-11-25T06:31:00+00:00",
-   "resume": "La Commission européenne confirme que la cyberattaque assistée par l'IA a touché EU Academy : noms et e-mails des utilisateurs ont fuité.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
    "titre": "FF8 Reborn - Le mod qui passe Final Fantasy VIII en 16:9",
    "lien": "https://korben.info/ff8-reborn-final-fantasy-viii-remastered.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
    "date": "2026-11-25T06:19:03+00:00",
    "resume": "FF8 Reborn, un mod gratuit de fan, fait viser 60 ou 120 FPS à Final Fantasy VIII Remastered sur PC et élargit combats et carte du monde. Ce que valent ces images calculées, ce qui reste en 4:3, et pour quelles copies du…",
    "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "VMware vCenter et ESX : trois nouvelles failles critiques, cinq jours après la faille zero-day",
-   "lien": "https://www.it-connect.fr/vmware-vcenter-esx-cve-2026-123903-failles-novembre/",
-   "date": "2026-11-25T06:05:00+00:00",
-   "resume": "Cinq jours après la zero-day CVE-2026-123890, Broadcom corrige 23 failles VMware, dont la CVE-2026-123903 dans vCenter et deux failles critiques dans ESX.",
-   "source": "itconnect",
    "sujet": false
   },
   {
@@ -635,14 +675,6 @@
    "sujet": false
   },
   {
-   "titre": "ElixirOffice : une suite bureautique open source qui s’adresse aux habitués de Microsoft Office",
-   "lien": "https://www.it-connect.fr/elixiroffice-suite-bureautique-libre-microsoft-office/",
-   "date": "2026-11-24T17:00:00+00:00",
-   "resume": "ElixirOffice, la suite libre de Gaël Duval basée sur Euro-Office, reprend le ruban, les menus et les raccourcis de Microsoft Office. Voici ce qu'il faut savoir.",
-   "source": "itconnect",
-   "sujet": false
-  },
-  {
    "titre": "dumbtv - Le Fire TV sans pub ni mouchard (et sans root)",
    "lien": "https://korben.info/dumbtv.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
    "date": "2026-11-24T09:21:56+00:00",
@@ -691,14 +723,6 @@
    "sujet": true
   },
   {
-   "titre": "Ultrahuman Ring Pro - cette bague connectée a (presque) remplacé mon Apple Watch",
-   "lien": "https://korben.info/ultrahuman-ring-pro-cette-bague-connectee-a-presque-remplace-mon-apple-watch.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-11-23T13:51:39+00:00",
-   "resume": "Korben teste depuis deux mois et demi la Ring Pro d'Ultrahuman, une bague en titane à 499 euros avec boîtier de charge. Elle offre environ deux semaines d'autonomie, suit sommeil et récupération sans abonnement…",
-   "source": "korben",
-   "sujet": false
-  },
-  {
    "titre": "Courtiers en or piratés, dix personnes mises en examen",
    "lien": "https://www.zataz.com/courtiers-en-or-pirates-dix-personnes-mises-en-examen/",
    "date": "2026-11-23T12:05:22+00:00",
@@ -712,22 +736,6 @@
    "date": "2026-11-23T11:53:31+00:00",
    "resume": "Un poney sous le sapin pour comprendre comment les algorithmes et l’IA donnent du crédit aux fausses informations.",
    "source": "zataz",
-   "sujet": false
-  },
-  {
-   "titre": "Spelunkr - La télé où l'on ne choisit plus ce qui passe",
-   "lien": "https://korben.info/spelunkr-tv-internet-archive.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-11-23T11:39:38+00:00",
-   "resume": "Spelunkr propose une trentaine de chaînes qui diffusent en continu des vidéos tirées de l'Internet Archive, avec films de monstres, dessins animés et VHS d'époque pubs comprises. Tous les spectateurs d'une chaîne voient…",
-   "source": "korben",
-   "sujet": false
-  },
-  {
-   "titre": "RDMA sur USB4 - Le cluster d'IA de Windows enfin possible",
-   "lien": "https://korben.info/rdma-usb4-windows-ia-locale.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-11-23T11:23:25+00:00",
-   "resume": "Microsoft prépare le RDMA sur USB4 dans Windows 11 pour faire tourner un gros modèle d'IA sur plusieurs PC reliés par câble. Mais la préversion exige test signing, Secure Boot coupé et une réinstallation pour en sortir.",
-   "source": "korben",
    "sujet": false
   },
   {
@@ -760,14 +768,6 @@
    "date": "2026-11-23T10:19:58+00:00",
    "resume": "AAAEP visée par BlackHatSect0r : 585 000 personnes potentiellement concernées, données psychotechniques et appels exposés.",
    "source": "zataz",
-   "sujet": false
-  },
-  {
-   "titre": "Cambodge - Mon premier voyage en Asie",
-   "lien": "https://korben.info/cambodge-voyage-phnom-penh-francophonie.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-   "date": "2026-11-23T10:13:38+00:00",
-   "resume": "Invité à Phnom Penh pour le Sommet de la Francophonie et FrancoTech, j'ai découvert un Cambodge facile à vivre, des gens adorables, et un sommet secoué par la lettre de Macron à Kagame. Premier épisode d'une série de…",
-   "source": "korben",
    "sujet": false
   },
   {
