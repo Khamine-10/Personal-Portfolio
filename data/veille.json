@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-11-27T21:23:32+00:00",
+ "miseAJour": "2026-11-28T07:56:14+00:00",
  "sources": [
   {
    "id": "nvidia",
@@ -662,7 +662,7 @@
    "titre": "Test du mini PC VZMORE iX9 Max sous Ubuntu Server",
    "lien": "https://korben.info/test-du-mini-pc-vzmore-ix9-max-sous-ubuntu-server.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
    "date": "2026-11-25T14:12:02+00:00",
-   "resume": "Korben a migré son installation Plex du Mac mini M4 vers le mini PC VZMORE iX9 Max sous Ubuntu Server, avec un Core Ultra 9 185H, 24 Go de RAM soudée et un SSD de 1 To. Le ventilateur reste discret, même avec plusieurs…",
+   "resume": "Le mini PC VZMORE iX9 Max reprend, sous Ubuntu Server, une installation Plex qui tournait sur un Mac mini M4, avec un Core Ultra 9 185H, 24 Go de RAM soudée et un SSD de 1 To. Le ventilateur reste discret, même avec…",
    "source": "korben",
    "sujet": false
   },
